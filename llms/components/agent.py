@@ -8,6 +8,8 @@ import nltk
 from huggingface_hub import login
 
 nltk.download("punkt")
+nltk.download('punkt_tab')
+
 import torch
 from tqdm import tqdm
 from transformers import (
@@ -51,37 +53,25 @@ class AgentAnswer:
     notes: str = ""
 
 
-@dataclass
-class StackAgentAnswer:
-    agent_name: str
-    answers: dict[str, list[str]]
-    notes: str = ""
-
-    def update(self, agent_answer: AgentAnswer):
-        if self.notes != agent_answer.notes:
-            self.notes = agent_answer.notes
-
-        for key, value in agent_answer.answers.items():
-            self.answers.get(key, []).append(value)
-
-
 class Model(abc.ABC):
     @abc.abstractmethod
     def generate(self, prompt: str, **kwargs): ...
 
 
 class HFModel(Model):
-    def __init__(self, model_name: str, hf_token: str):
+    def __init__(self, model_name: str, hf_token: str, quantize: bool = True):
         login(hf_token)
 
         self.model_name = model_name
 
-        quantization_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_use_double_quant=True,
-        )
+        quantization_config = None
+        if quantize:
+            quantization_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_compute_dtype=torch.float16,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_use_double_quant=True,
+            )
 
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(
@@ -102,8 +92,8 @@ class HFModel(Model):
             return_full_text=False,
         )
 
-    def generate(self, prompt: str):
-        return self.model(prompt, return_full_text=False)[0]["generated_text"]
+    def generate(self, prompt: str, **kwargs):
+        return self.model(prompt, return_full_text=False, **kwargs)[0]["generated_text"]
 
 
 class OpenAIModel(Model):
@@ -119,12 +109,13 @@ class OpenAIModel(Model):
         self.model_name = model_name
         self.client = OpenAI(api_key=api_key, base_url=base_url)
 
-    def generate(self, prompt: str):
+    def generate(self, prompt: str, **kwargs):
         return (
             self.client.chat.completions.create(
                 model=self.model_name,
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.9,
+                **kwargs
             )
             .choices[0]
             .message.content
@@ -149,9 +140,8 @@ class LLMGeneratorAgent:
     # TODO: support multiple_rounds
     def build_prompt(
         self,
-        game_round: "components.game.GameRound",
-        slot: str,
-        previous_words: list[str] | None = None,
+        game_round: "components.game.GameRound",  # noqa: F821
+        slot: str
     ) -> str:
         strategy_instruction = ""
         if self.strategy is not None:
@@ -170,18 +160,19 @@ class LLMGeneratorAgent:
     # Only take the first word
     def parse_output(self, text: str) -> str:
         words = nltk.word_tokenize(text.strip())
-        generated_word = words[0].strip().lower()
-        generated_word = "".join(ch for ch in generated_word if ch.isalpha())
+        generated_word = ''
+        if len(words):
+            generated_word = words[0].strip().lower()
+            generated_word = "".join(ch for ch in generated_word if ch.isalpha())
         return generated_word
 
     def play(
-        self, game_round: "components.game.GameRound", agent_status: StackAgentAnswer
+        self, game_round: "components.game.GameRound"  # noqa: F821
     ) -> AgentAnswer:
         generated_answers = {}
         for slot in tqdm(self.slots, desc=f"Agent {self.name} is generating..."):
-            previous_words = agent_status.answers.get(slot, None)
             prompt = self.build_prompt(
-                game_round=game_round, slot=slot, previous_words=previous_words
+                game_round=game_round, slot=slot
             )
 
             output = self.llm.generate(prompt)

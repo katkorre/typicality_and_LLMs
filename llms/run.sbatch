@@ -22,6 +22,8 @@
 export APPTAINER_CACHEDIR=/scratch.hpc/username/
 
 # Make sure to create these folders
+# Replace python-repo with your python repository
+export PYTHONPATH="$PYTHONPATH:/scratch.hpc/username/python-repo"
 export HF_HUB_CACHE=/scratch.hpc/username/hf_hub_cache
 export HF_HOME=/scratch.hpc/username/hf_home
 export NLTK_DATA=/scratch.hpc/username/nltk_data
@@ -31,6 +33,7 @@ echo "Starting execution..."
 
 # Use --nv for NVIDIA GPUs (or --rocm for AMD GPUs)
 
-apptainer run --nv env.sif runnables/scattergories.py --args
+apptainer run --nv my_env.sif llmprototypes/runnables/scattergories.py --model gemma --language english --strategy 0 --letters c -t HF-KEY
+
 
 echo "Execution finished!"

@@ -10,13 +10,14 @@ from components.agent import AgentAnswer
 
 def normalize_answer(value: str) -> str:
     """Normalize answers before comparing duplicates."""
-    return str(value).strip().lower()
+    return value.strip().lower()
 
 
 def score_answers(
         agent_answers: list[AgentAnswer],
         slots: list[str],
-        instances: list[str]
+        instances: list[str],
+        round_letter: str
 ) -> pd.DataFrame:
     """
     Score a round according to the rules.
@@ -44,7 +45,7 @@ def score_answers(
                 if normalize_answer(a.answers.get(slot, ""))
             ]
 
-            if not value:
+            if not value or not value.startswith(round_letter):
                 points = 0
             elif filled_values.count(value) > 1:
                 points = 5
@@ -72,7 +73,7 @@ def normalize_text(value: str) -> str:
     """
     Normalize text for matching model answers against the gold dataset.
     """
-    value = str(value).strip().lower()
+    value = value.strip().lower()
     value = value.replace("_", " ")
     value = re.sub(r"\s+", " ", value)
     value = re.sub(r"^[\"']|[\"']$", "", value)

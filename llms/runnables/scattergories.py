@@ -15,7 +15,7 @@ if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument('--model',
                         '-m',
-                        default='gemma',
+                        default='qwen',
                         type=str,
                         nargs='?',
                         choices=['mistral', 'llama', 'phi', 'qwen', 'gemma', 'gpt'])
@@ -51,8 +51,17 @@ if __name__ == "__main__":
     parser.add_argument('--hf_token',
                         '-t',
                         type=str)
+    parser.add_argument('--letters',
+                        '-lt',
+                        default='c',
+                        type=str)
+    parser.add_argument('--quantize',
+                        '-q',
+                        default=1,
+                        type=int)
     args = parser.parse_args()
     args.strategy = bool(args.strategy)
+    args.quantize = bool(args.quantize)
 
     seed_everything(args.seed)
 
@@ -75,7 +84,7 @@ if __name__ == "__main__":
         'gpt': "gpt-5.4"
     }
     if args.model != 'gpt':
-        llm = HFModel(model_map[args.model], hf_token=args.hf_token)
+        llm = HFModel(model_map[args.model], hf_token=args.hf_token, quantize=args.quantize)
     else:
         llm = OpenAIModel(model_name=model_map[args.model],
                           api_key=args.api_key,
@@ -89,7 +98,8 @@ if __name__ == "__main__":
                 use_strategies=args.strategy,
                 num_agents=args.num_agents,
                 rounds=args.rounds,
-                language=args.language)
+                language=args.language,
+                letters=list(args.letters.strip().lower()) if len(args.letters) else None)
     save_path = base_path.joinpath("results",
                                    args.model,
                                    args.language,

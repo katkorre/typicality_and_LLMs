@@ -1,6 +1,6 @@
 
 PROMPTS = {
-    "English": f"""
+    "English": """
 You are an agent playing Scattergories.
 Given category {0}, you have to generate one word that fits {0} and starts with letter {1}.
 Other agents are playing with you.
@@ -32,7 +32,7 @@ The category is {0}
 Word starting with {1} for {0}: 
 """.strip(),
 
-    "German": f"""Du bist ein Agent, der Scattergories spielt.
+    "German": """Du bist ein Agent, der Scattergories spielt.
 Gegeben die Kategorie {0}, musst du ein Wort generieren, das zu {0} passt und mit dem Buchstaben {1} beginnt.
 Andere Agenten spielen mit dir.
 Du bekommst 0 Punkte, wenn du kein Wort kennst.
@@ -62,7 +62,7 @@ Pflanze: Bambus
 Die Kategorie ist {0}
 Wort beginnend mit {1} für {0}:""",
 
-    "Spanish": f"""Eres un agente que juega a Scattergories.
+    "Spanish": """Eres un agente que juega a Scattergories.
 Dada la categoría {0}, debes generar una palabra que encaje con {0} y que empiece por la letra {1}.
 Otros agentes están jugando contigo.
 Obtienes 0 puntos si no conoces ninguna palabra.
