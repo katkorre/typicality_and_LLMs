@@ -1,0 +1,8 @@
+Game starts!
+                Rounds: 1
+                Language: spanish
+                Agents: 4
+                Strategies enabled: False
+                Categories: 53
+                Valid words: 139
+        
