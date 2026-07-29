@@ -1,4 +1,4 @@
-category,concept_en,instance_English,instance_German,instance_Spanish,norm_rating_English,norm_rating_German,norm_rating_Spanish,n_languages,in_multiple_languages,llama_typicality
+category,concept_en,instance_English,instance_German,instance_Spanish,norm_rating_English,norm_rating_German,norm_rating_Spanish,n_languages,in_multiple_languages,gemma_typicality
 animal,ANT,ant,Ameise,Hormiga,0.3086615877209107,0.6305555555555556,0.5211267605633804,3,True,6
 animal,BEE,bee,Biene,Abeja,0.3094220418614702,0.711111111111111,0.5211267605633804,3,True,6
 animal,BUTTERFLY,butterfly,Schmetterling,Mariposa,0.2981724771757512,0.7466666666666667,0.5070422535211268,3,True,6
