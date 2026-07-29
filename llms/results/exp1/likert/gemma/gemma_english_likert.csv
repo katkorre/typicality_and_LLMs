@@ -1,0 +1,2356 @@
+category,concept_en,instance_English,instance_German,instance_Spanish,norm_rating_English,norm_rating_German,norm_rating_Spanish,n_languages,in_multiple_languages,llama_typicality
+animal,ANT,ant,Ameise,Hormiga,0.3086615877209107,0.6305555555555556,0.5211267605633804,3,True,6
+animal,BEE,bee,Biene,Abeja,0.3094220418614702,0.711111111111111,0.5211267605633804,3,True,6
+animal,BUTTERFLY,butterfly,Schmetterling,Mariposa,0.2981724771757512,0.7466666666666667,0.5070422535211268,3,True,6
+animal,CROW,crow,Krähe,Cuervo,0.4993096416301263,0.8205555555555556,0.3943661971830986,3,True,6
+animal,DUCK,duck,Ente,Pato,0.7726080064800518,0.9366666666666666,0.8309859154929577,3,True,5
+animal,EAGLE,eagle,Adler,Águila,0.6442874070257191,0.8522222222222222,0.619718309859155,3,True,7
+animal,FROG,frog,Frosch,Rana,0.6440383543921642,0.7572222222222224,0.6126760563380281,3,True,6
+animal,HUMMINGBIRD,hummingbird,Kolibri,Colibrí,0.400380752329934,0.5777777777777781,0.1760563380281689,3,True,6
+animal,IGUANA,iguana,Leguan,Iguana,0.4025416104143378,0.4604938271604931,0.4225352112676057,3,True,4
+animal,LIZARD,lizard,Eidechse,Lagartija,0.5412056386874524,0.5355555555555557,0.4788732394366197,3,True,5
+animal,OWL,owl,Eule,Búho,0.625006727446907,0.7255555555555556,0.4577464788732394,3,True,6
+animal,PARROT,parrot,Papagei,Loro,0.58589066015091,0.7361111111111112,0.6901408450704225,3,True,5
+animal,SEAGULL,seagull,Möwe,Gaviota,0.4028067610490418,0.883888888888889,0.528169014084507,3,True,5
+animal,SNAKE,snake,Schlange,Culebra,0.5795917765283662,0.7255555555555556,0.4436619718309859,3,True,6
+animal,SPIDER,spider,Spinne,Araña,0.3400951890262395,0.6833333333333335,0.4647887323943662,3,True,5
+animal,VULTURE,vulture,Geier,Buitre,0.3543436981862005,0.6666666666666675,0.4014084507042254,3,True,6
+animal,WASP,wasp,Wespe,Avispa,0.1982953071016291,0.5333333333333343,0.4014084507042254,3,True,4
+animal,WORM,worm,Wurm,Gusano,0.2463476808767339,0.4666666666666678,0.3169014084507042,3,True,4
+animal,BEETLE,beetle,Käfer,,0.2304961936513124,0.5555555555555552,,2,True,6
+animal,BIRD,bird,,Pájaro,0.8294408879850962,,0.8450704225352114,2,True,6
+animal,COCKROACH,cockroach,,Cucaracha,0.2016698341359546,,0.2605633802816901,2,True,3
+animal,DRAGONFLY,dragonfly,Libelle,,0.1598341719220484,0.4555555555555563,,2,True,6
+animal,FLAMINGO,flamingo,Flamingo,,0.4640633290407787,0.5461111111111112,,2,True,4
+animal,GRASSHOPPER,grasshopper,,Saltamontes,0.2536875378979509,,0.380281690140845,2,True,3
+animal,HAWK,hawk,Falke,,0.5278401486855465,0.693888888888889,,2,True,6
+animal,LADYBUG,ladybug,Marienkäfer,,0.2090474961506486,0.6411111111111112,,2,True,7
+animal,MOSQUITO,mosquito,,Mosquito,0.1362392949171315,,0.3661971830985915,2,True,6
+animal,OSTRICH,ostrich,,Avestruz,0.462633539233187,,0.4154929577464789,2,True,4
+animal,PEACOCK,peacock,Pfau,,0.5145250164472218,0.5777777777777781,,2,True,6
+animal,PELICAN,pelican,Pelikan,,0.3889153686574386,0.5777777777777781,,2,True,4
+animal,PENGUIN,penguin,Pinguin,,0.600325857838086,0.7044444444444447,,2,True,3
+animal,PHEASANT,pheasant,Fasan,,0.2462350385108288,0.5672222222222225,,2,True,4
+animal,ROOSTER,rooster,,Gallo,0.6638270210771497,,0.7464788732394365,2,True,6
+animal,SEAHORSE,seahorse,Seepferdchen,,0.2216935531530991,0.4194444444444448,,2,True,3
+animal,STARFISH,starfish,Seestern,,0.2614136369235773,0.1027777777777781,,2,True,4
+animal,SWAN,swan,Schwan,,0.5030094941044942,0.7150000000000002,,2,True,3
+animal,TARANTULA,tarantula,Tarantel,,0.2114535232087948,0.2444444444444452,,2,True,3
+animal,TICK,tick,Zecke,,0.0785856505885623,0.0666666666666665,,2,True,1
+animal,TOAD,toad,,Sapo,0.4439212337500938,,0.4929577464788732,2,True,4
+animal,TURTLE,turtle,,Tortuga,0.7002447926903184,,0.7464788732394365,2,True,6
+animal,AARDVARK,aardvark,,,0.2387899457023065,,,1,False,3
+animal,ALLIGATOR,alligator,,,0.5903227837180454,,,1,False,4
+animal,ALPACA,alpaca,,,0.4163705230947409,,,1,False,6
+animal,ANTEATER,anteater,,,0.4279146588975119,,,1,False,5
+animal,ANTELOPE,antelope,,,0.5446520155597816,,,1,False,6
+animal,BADGER,badger,,,0.5358701137365919,,,1,False,6
+animal,BARNACLE,barnacle,,,0.0071195911063046,,,1,False,4
+animal,BAT,bat,,,0.5085403692660724,,,1,False,6
+animal,BEAR,bear,,,0.8620143369828525,,,1,False,7
+animal,BEAVER,beaver,,,0.6317465329230288,,,1,False,6
+animal,BISON,bison,,,0.4633157692262349,,,1,False,6
+animal,BLOWFISH,blowfish,,,0.1536656100296262,,,1,False,5
+animal,BOAR,boar,,,0.4551082578670242,,,1,False,6
+animal,BUG,bug,,,0.3661855993965828,,,1,False,4
+animal,BULL,bull,,,0.6921719973785968,,,1,False,7
+animal,CALF,calf,,,0.7126745897054715,,,1,False,6
+animal,CAMEL,camel,,,0.6317659141034059,,,1,False,6
+animal,CARDINAL,cardinal,,,0.4434011234690313,,,1,False,2
+animal,CAT,cat,,,0.9475461903375588,,,1,False,7
+animal,CATERPILLAR,caterpillar,,,0.238051078443746,,,1,False,5
+animal,CATFISH,catfish,,,0.3210855926591693,,,1,False,2
+animal,CHEETAH,cheetah,,,0.7192418209483684,,,1,False,6
+animal,CHICK,chick,,,0.5833173184821944,,,1,False,1
+animal,CHICKEN,chicken,,,0.8443220880386527,,,1,False,6
+animal,CHIHUAHUA,chihuahua,,,0.6190153775541697,,,1,False,3
+animal,CHINCHILLA,chinchilla,,,0.3591308497393339,,,1,False,3
+animal,CHIPMUNK,chipmunk,,,0.6324061463540638,,,1,False,6
+animal,CLAM,clam,,,0.1346386374318733,,,1,False,5
+animal,COBRA,cobra,,,0.3280172943572803,,,1,False,6
+animal,COCKATOO,cockatoo,,,0.310051686175541,,,1,False,3
+animal,CORAL,coral,,,0.0351310970983227,,,1,False,1
+animal,COUGAR,cougar,,,0.5837776710084386,,,1,False,6
+animal,COW,cow,,,0.9380898747765264,,,1,False,7
+animal,COYOTE,coyote,,,0.669496016337439,,,1,False,6
+animal,CRAB,crab,,,0.3884057960497721,,,1,False,4
+animal,CRAYFISH,crayfish,,,0.1614375241168778,,,1,False,5
+animal,DALMATIAN,dalmatian,,,0.5899417623818585,,,1,False,3
+animal,DEER,deer,,,0.8539406909857811,,,1,False,6
+animal,DOG,dog,,,1.0,,,1,False,7
+animal,DOLPHIN,dolphin,,,0.632812497843767,,,1,False,6
+animal,DONKEY,donkey,,,0.7671651203563995,,,1,False,5
+animal,DUCKLING,duckling,,,0.5288440067226495,,,1,False,6
+animal,EARWIG,earwig,,,0.0912224298286813,,,1,False,4
+animal,EEL,eel,,,0.1911240615783177,,,1,False,4
+animal,ELEPHANT,elephant,,,0.8675848633428391,,,1,False,7
+animal,FERRET,ferret,,,0.4489746504851617,,,1,False,5
+animal,FISH,fish,,,0.5463579558538557,,,1,False,6
+animal,FLY,fly,,,0.2916908024206316,,,1,False,6
+animal,FOX,fox,,,0.7803240138689289,,,1,False,6
+animal,GAZELLE,gazelle,,,0.4920901235215194,,,1,False,6
+animal,GIRAFFE,giraffe,,,0.7884283999048862,,,1,False,6
+animal,GOAT,goat,,,0.797493367445502,,,1,False,6
+animal,GOLDFISH,goldfish,,,0.561949042958618,,,1,False,4
+animal,GOOSE,goose,,,0.5830291673052401,,,1,False,5
+animal,GOPHER,gopher,,,0.4058302251878629,,,1,False,4
+animal,GORILLA,gorilla,,,0.7508452385154242,,,1,False,6
+animal,GROUNDHOG,groundhog,,,0.5368796193096806,,,1,False,6
+animal,GUINEA PIG,guinea pig,,,0.6187578004875764,,,1,False,3
+animal,HAMSTER,hamster,,,0.6845311776799458,,,1,False,5
+animal,HEDGEHOG,hedgehog,,,0.4791097202144026,,,1,False,5
+animal,HIPPOPOTAMUS,hippopotamus,,,0.6116252618906425,,,1,False,4
+animal,HORSE,horse,,,0.9055113782895684,,,1,False,7
+animal,HYENA,hyena,,,0.4893917630535392,,,1,False,5
+animal,JELLYFISH,jellyfish,,,0.2311227136266028,,,1,False,5
+animal,KANGAROO,kangaroo,,,0.7091817525758108,,,1,False,3
+animal,KITTEN,kitten,,,0.8978195047310492,,,1,False,7
+animal,KOALA,koala,,,0.5347599803193965,,,1,False,6
+animal,LAMB,lamb,,,0.6415297746079943,,,1,False,5
+animal,LEECH,leech,,,0.0756810867248634,,,1,False,3
+animal,LEOPARD,leopard,,,0.6795416125632116,,,1,False,6
+animal,LIGHTNING BUG,lightning bug,,,0.1142302544948314,,,1,False,4
+animal,LION,lion,,,0.8840258204110825,,,1,False,7
+animal,LLAMA,llama,,,0.5704345029584889,,,1,False,5
+animal,LOBSTER,lobster,,,0.3171631060396761,,,1,False,3
+animal,MAGGOT,maggot,,,0.0734134886207478,,,1,False,3
+animal,MANATEE,manatee,,,0.2872556334279792,,,1,False,4
+animal,MEERKAT,meerkat,,,0.3411813081200079,,,1,False,3
+animal,MOLE,mole,,,0.4046410163405409,,,1,False,4
+animal,MONGOOSE,mongoose,,,0.3315884502949614,,,1,False,4
+animal,MONKEY,monkey,,,0.8646792492846979,,,1,False,6
+animal,MOOSE,moose,,,0.7010452073512236,,,1,False,5
+animal,MOTH,moth,,,0.1425488633764632,,,1,False,4
+animal,MOUSE,mouse,,,0.7758102173057649,,,1,False,6
+animal,MUSSEL,mussel,,,0.0269277274863746,,,1,False,4
+animal,OCTOPUS,octopus,,,0.359313300161504,,,1,False,5
+animal,ORANGUTAN,orangutan,,,0.5370357060152834,,,1,False,3
+animal,OTTER,otter,,,0.5225033829149299,,,1,False,6
+animal,OYSTER,oyster,,,0.1375390536115562,,,1,False,3
+animal,PANDA,panda,,,0.76137755787498,,,1,False,4
+animal,PANTHER,panther,,,0.6424311007908954,,,1,False,6
+animal,PIG,pig,,,0.8740728018174481,,,1,False,7
+animal,PIGEON,pigeon,,,0.5551092220567428,,,1,False,5
+animal,PIGLET,piglet,,,0.6434468861868371,,,1,False,6
+animal,PLATYPUS,platypus,,,0.3094408738926232,,,1,False,3
+animal,POLAR BEAR,polar bear,,,0.6924677710443509,,,1,False,7
+animal,PONY,pony,,,0.8030327268795125,,,1,False,5
+animal,POODLE,poodle,,,0.6635730739903909,,,1,False,3
+animal,PORCUPINE,porcupine,,,0.4551428219004899,,,1,False,5
+animal,POSSUM,possum,,,0.5923063035674327,,,1,False,5
+animal,PRAYING MANTIS,praying mantis,,,0.1281809123962393,,,1,False,6
+animal,PUFFIN,puffin,,,0.216641313057455,,,1,False,4
+animal,PUG,pug,,,0.6399890720633861,,,1,False,3
+animal,PUPPY,puppy,,,0.9337334150208324,,,1,False,7
+animal,RABBIT,rabbit,,,0.8272419714063616,,,1,False,6
+animal,RACCOON,raccoon,,,0.7842032300328143,,,1,False,6
+animal,RAM,ram,,,0.4523630154683233,,,1,False,6
+animal,RAT,rat,,,0.6879325748361194,,,1,False,5
+animal,RATTLESNAKE,rattlesnake,,,0.4124446007205443,,,1,False,3
+animal,REINDEER,reindeer,,,0.4849138294236945,,,1,False,5
+animal,RHINOCEROS,rhinoceros,,,0.5964727846367837,,,1,False,6
+animal,SARDINE,sardine,,,0.1321797961141574,,,1,False,3
+animal,SCALLOP,scallop,,,0.0268640309104162,,,1,False,3
+animal,SCORPION,scorpion,,,0.2412157483253141,,,1,False,6
+animal,SEA URCHIN,sea urchin,,,0.0596745118722816,,,1,False,3
+animal,SEAL,seal,,,0.5084101451552243,,,1,False,6
+animal,SHARK,shark,,,0.5665130036248299,,,1,False,6
+animal,SHEEP,sheep,,,0.8018547317624569,,,1,False,6
+animal,SHRIMP,shrimp,,,0.1968064955671818,,,1,False,5
+animal,SKUNK,skunk,,,0.62712735159983,,,1,False,5
+animal,SLOTH,sloth,,,0.4770974874739016,,,1,False,3
+animal,SLUG,slug,,,0.1210330488071788,,,1,False,4
+animal,SNAIL,snail,,,0.3387224668022919,,,1,False,4
+animal,SQUID,squid,,,0.2498430468593638,,,1,False,5
+animal,SQUIRREL,squirrel,,,0.767107265266571,,,1,False,6
+animal,STINGRAY,stingray,,,0.2788476854014825,,,1,False,6
+animal,SWORDFISH,swordfish,,,0.2528056941907947,,,1,False,6
+animal,TADPOLE,tadpole,,,0.1519155753679934,,,1,False,4
+animal,TIGER,tiger,,,0.8588262416938626,,,1,False,7
+animal,TOUCAN,toucan,,,0.3009291650670293,,,1,False,3
+animal,TURKEY,turkey,,,0.6237421054273039,,,1,False,6
+animal,WALRUS,walrus,,,0.3926855609255532,,,1,False,4
+animal,WARTHOG,warthog,,,0.3189469019408172,,,1,False,3
+animal,WEASEL,weasel,,,0.4510597981671073,,,1,False,5
+animal,WHALE,whale,,,0.5452981622211895,,,1,False,6
+animal,WOLF,wolf,,,0.8514081531006488,,,1,False,6
+animal,YAK,yak,,,0.3057883038615631,,,1,False,4
+animal,ZEBRA,zebra,,,0.7566914653338128,,,1,False,7
+arts and crafts supply,BEAD,bead,,,0.5894766292457908,,,1,False,7
+arts and crafts supply,BUTTON,button,,,0.3525513794826949,,,1,False,2
+arts and crafts supply,CANVAS,canvas,,,0.7130884759012539,,,1,False,7
+arts and crafts supply,CARDBOARD,cardboard,,,0.5000531543894944,,,1,False,6
+arts and crafts supply,CHALK,chalk,,,0.4915349012884868,,,1,False,3
+arts and crafts supply,CHARCOAL,charcoal,,,0.3400256841035078,,,1,False,2
+arts and crafts supply,CHISEL,chisel,,,0.1938329654509595,,,1,False,2
+arts and crafts supply,CLAY,clay,,,0.6185750360371409,,,1,False,7
+arts and crafts supply,CRAYON,crayon,,,0.8014804502718421,,,1,False,7
+arts and crafts supply,EASEL,easel,,,0.6256909165300454,,,1,False,6
+arts and crafts supply,ERASER,eraser,,,0.4327762518025481,,,1,False,5
+arts and crafts supply,FOUNTAIN PEN,fountain pen,,,0.3092521843255815,,,1,False,2
+arts and crafts supply,GLUE,glue,,,0.7828796560592088,,,1,False,6
+arts and crafts supply,INK,ink,,,0.5373016196156181,,,1,False,6
+arts and crafts supply,KNITTING NEEDLE,knitting needle,,,0.4650224077175769,,,1,False,7
+arts and crafts supply,LOOM,loom,,,0.2115284582036146,,,1,False,2
+arts and crafts supply,MARBLE,marble,,,0.1428125375746161,,,1,False,4
+arts and crafts supply,MARKER,marker,,,0.7128761539813927,,,1,False,6
+arts and crafts supply,MOLD,mold,,,0.3096044456926236,,,1,False,1
+arts and crafts supply,NEEDLE,needle,,,0.4270533231835454,,,1,False,1
+arts and crafts supply,PAINT,paint,,,0.8861854376530975,,,1,False,7
+arts and crafts supply,PAINTBRUSH,paintbrush,,,0.8109359451666915,,,1,False,7
+arts and crafts supply,PALETTE,palette,,,0.4832476953658147,,,1,False,3
+arts and crafts supply,PAPER,paper,,,0.8103254649114309,,,1,False,7
+arts and crafts supply,PATCH,patch,,,0.2472454978294402,,,1,False,3
+arts and crafts supply,PEN,pen,,,0.5653982920989009,,,1,False,1
+arts and crafts supply,PENCIL,pencil,,,0.7364438870859666,,,1,False,3
+arts and crafts supply,PENCIL SHARPENER,pencil sharpener,,,0.3845297698693692,,,1,False,3
+arts and crafts supply,PIN,pin,,,0.3637715156268266,,,1,False,3
+arts and crafts supply,PINCUSHION,pincushion,,,0.26109057876727,,,1,False,2
+arts and crafts supply,POM-POM,pom-pom,,,0.279983479767968,,,1,False,6
+arts and crafts supply,RIBBON,ribbon,,,0.6051652440358941,,,1,False,4
+arts and crafts supply,SCISSORS,scissors,,,0.7918076818583725,,,1,False,7
+arts and crafts supply,SEQUIN,sequin,,,0.4357960485627532,,,1,False,7
+arts and crafts supply,SEWING KIT,sewing kit,,,0.4645201711496663,,,1,False,7
+arts and crafts supply,SEWING MACHINE,sewing machine,,,0.472735022889485,,,1,False,6
+arts and crafts supply,STAMP,stamp,,,0.3822909247577745,,,1,False,3
+arts and crafts supply,TAPE,tape,,,0.5484752914330001,,,1,False,4
+arts and crafts supply,THIMBLE,thimble,,,0.2075625310074144,,,1,False,2
+arts and crafts supply,THREAD,thread,,,0.5190995887205913,,,1,False,6
+arts and crafts supply,WIRE,wire,,,0.3241264330286733,,,1,False,3
+arts and crafts supply,WIRE CUTTERS,wire cutters,,,0.2504296596091262,,,1,False,2
+arts and crafts supply,WRAPPING PAPER,wrapping paper,,,0.3292741413684762,,,1,False,6
+arts and crafts supply,YARN,yarn,,,0.6528847175487518,,,1,False,7
+bird,BIRD,bird,,,0.8288463866094854,,,1,False,7
+bird,CARDINAL,cardinal,,,0.4907849279018195,,,1,False,3
+bird,CHICK,chick,,,0.4541875196900255,,,1,False,3
+bird,COCKATOO,cockatoo,,,0.2614055675896702,,,1,False,6
+bird,CROW,crow,,,0.7161572997229542,,,1,False,6
+bird,DUCK,duck,,,0.7107667603961687,,,1,False,7
+bird,DUCKLING,duckling,,,0.3952366366064174,,,1,False,7
+bird,EAGLE,eagle,,,0.8078806952400358,,,1,False,7
+bird,FLAMINGO,flamingo,,,0.3650898866175915,,,1,False,6
+bird,GOOSE,goose,,,0.5150012241817673,,,1,False,6
+bird,HAWK,hawk,,,0.6211702678637809,,,1,False,7
+bird,HUMMINGBIRD,hummingbird,,,0.6454711773700396,,,1,False,7
+bird,OSTRICH,ostrich,,,0.3253836544251404,,,1,False,7
+bird,OWL,owl,,,0.5746729210449435,,,1,False,7
+bird,PARROT,parrot,,,0.6852318400154872,,,1,False,7
+bird,PEACOCK,peacock,,,0.4209429062950541,,,1,False,7
+bird,PELICAN,pelican,,,0.2840939670213213,,,1,False,6
+bird,PENGUIN,penguin,,,0.258600667123535,,,1,False,6
+bird,PHEASANT,pheasant,,,0.2499309747736627,,,1,False,6
+bird,PIGEON,pigeon,,,0.7679120938495201,,,1,False,6
+bird,PUFFIN,puffin,,,0.0832041769055769,,,1,False,6
+bird,ROOSTER,rooster,,,0.573225295130361,,,1,False,7
+bird,SEAGULL,seagull,,,0.5805811621510294,,,1,False,6
+bird,SWAN,swan,,,0.4362888589135885,,,1,False,7
+bird,TOUCAN,toucan,,,0.1963383997996743,,,1,False,6
+bird,TURKEY,turkey,,,0.503896374158906,,,1,False,7
+bird,VULTURE,vulture,,,0.3209508258467801,,,1,False,6
+body part,ANKLE,ankle,,Tobillo,0.4409009837829298,,0.7112676056338029,2,True,6
+body part,ARM,arm,,Brazo,0.8754762768588701,,1.0,2,True,7
+body part,BEARD,beard,,Barba,0.039836644404383,,0.3873239436619718,2,True,6
+body part,BONE,bone,,Hueso,0.270958197876972,,0.6408450704225352,2,True,7
+body part,CHEST,chest,,Arcón,0.5582793185302064,,0.3661971830985915,2,True,6
+body part,CHIN,chin,,Barbilla,0.4377129223103578,,0.6549295774647887,2,True,7
+body part,EAR,ear,,Oído,0.683814408164277,,0.7323943661971831,2,True,7
+body part,ELBOW,elbow,,Codo,0.5125716547845004,,0.6971830985915494,2,True,7
+body part,EYE,eye,,Ojo,0.7021680518230683,,0.9366197183098592,2,True,7
+body part,FACE,face,,Cara,0.620593522275922,,0.9471830985915494,2,True,7
+body part,FINGER,finger,,Dedo,0.7453614077201299,,0.8873239436619719,2,True,7
+body part,FOOT,foot,,Pie,0.7290732832965053,,0.9295774647887324,2,True,7
+body part,HAIR,hair,,Cabello,0.2658535839059877,,0.7183098591549296,2,True,7
+body part,HAND,hand,,Mano,0.8772087153820712,,0.9859154929577464,2,True,7
+body part,HIP,hip,,Cadera,0.4522078416873411,,0.7816901408450704,2,True,1
+body part,KNEE,knee,,Rodilla,0.6039747550312332,,0.8098591549295774,2,True,7
+body part,LEG,leg,,Pierna,0.8667893752982501,,0.943661971830986,2,True,7
+body part,MOUTH,mouth,,Boca,0.6379411591614753,,0.9718309859154928,2,True,7
+body part,NAVEL,navel,,Ombligo,0.203814731494139,,0.5915492957746479,2,True,6
+body part,NECK,neck,,Cuello,0.6371592287807457,,0.8028169014084507,2,True,7
+body part,NOSE,nose,,Nariz,0.7273782348798075,,0.9084507042253522,2,True,7
+body part,SHOULDER,shoulder,,Hombro,0.5954562751418352,,0.7746478873239436,2,True,7
+body part,SKELETON,skeleton,,Esqueleto,0.0836176800892686,,0.4718309859154929,2,True,6
+body part,SKIN,skin,,Piel,0.3166779687774703,,0.5633802816901408,2,True,7
+body part,STOMACH,stomach,,Estómago,0.4243872840688875,,0.619718309859155,2,True,7
+body part,TONGUE,tongue,,Lengua,0.3724599020098679,,0.7253521126760565,2,True,7
+body part,TOOTH,tooth,,Diente,0.2712475963871401,,0.7464788732394365,2,True,7
+body part,TORSO,torso,,Tronco,0.2529214574573711,,0.6901408450704225,2,True,7
+body part,WRIST,wrist,,muñeca/s,0.4666597919357368,,0.7605633802816901,2,True,7
+body part,CALF,calf,,,0.4049118168683737,,,1,False,3
+body part,MUSTACHE,mustache,,,0.0312140409758617,,,1,False,6
+body part,SKULL,skull,,,0.2960072467015067,,,1,False,7
+body part,THUMB,thumb,,,0.5031916304983991,,,1,False,7
+body part,TOE,toe,,,0.5674915413567556,,,1,False,7
+breakfast food,BACON,bacon,,,0.759907818363053,,,1,False,7
+breakfast food,BAGEL,bagel,,,0.6758202825238913,,,1,False,6
+breakfast food,BREAD,bread,,,0.4487954581062445,,,1,False,7
+breakfast food,BREAKFAST,breakfast,,,0.5568920820429826,,,1,False,7
+breakfast food,CEREAL,cereal,,,0.8460975425981937,,,1,False,7
+breakfast food,CREAM CHEESE,cream cheese,,,0.3282566293986808,,,1,False,4
+breakfast food,CREPE,crepe,,,0.3067364285043988,,,1,False,5
+breakfast food,CROISSANT,croissant,,,0.4969389708849145,,,1,False,6
+breakfast food,DONUT,donut,,,0.5622843824516537,,,1,False,4
+breakfast food,EGG,egg,,,0.8991799527627219,,,1,False,7
+breakfast food,FRENCH FRIES,french fries,,,0.0802531544469831,,,1,False,1
+breakfast food,GRANOLA,granola,,,0.4583860775977984,,,1,False,4
+breakfast food,GRITS,grits,,,0.373830454993207,,,1,False,3
+breakfast food,HAM,ham,,,0.3462811271493445,,,1,False,6
+breakfast food,HAMBURGER,hamburger,,,0.0628313641348741,,,1,False,1
+breakfast food,HASH,hash,,,0.3321655566217162,,,1,False,1
+breakfast food,HONEY,honey,,,0.2092584355091711,,,1,False,3
+breakfast food,JAM,jam,,,0.4085961293128358,,,1,False,6
+breakfast food,MAPLE SYRUP,maple syrup,,,0.3892176042946669,,,1,False,4
+breakfast food,MARMALADE,marmalade,,,0.1880705467817274,,,1,False,6
+breakfast food,MUFFIN,muffin,,,0.587115684414053,,,1,False,6
+breakfast food,OATMEAL,oatmeal,,,0.7722028485658167,,,1,False,7
+breakfast food,OMELET,omelet,,,0.7528290729586704,,,1,False,7
+breakfast food,PANCAKE,pancake,,,0.8391579104692188,,,1,False,7
+breakfast food,PASTRY,pastry,,,0.4144957038616335,,,1,False,6
+breakfast food,PEANUT BUTTER,peanut butter,,,0.1925580106936254,,,1,False,3
+breakfast food,ROLL,roll,,,0.2266023383210126,,,1,False,1
+breakfast food,SANDWICH,sandwich,,,0.2885833531668434,,,1,False,3
+breakfast food,SAUSAGE,sausage,,,0.6192327507929085,,,1,False,6
+breakfast food,SCONE,scone,,,0.3233445026479436,,,1,False,5
+breakfast food,SCRAMBLED EGG,scrambled egg,,,0.8564727037650408,,,1,False,6
+breakfast food,SYRUP,syrup,,,0.4029710797522386,,,1,False,2
+breakfast food,TOAST,toast,,,0.7750083420341646,,,1,False,7
+breakfast food,WAFFLE,waffle,,,0.7377676044346175,,,1,False,6
+breakfast food,YOGURT,yogurt,,,0.4531570688006919,,,1,False,6
+candy,CANDY,candy,,,0.8865950202334797,,,1,False,7
+candy,CANDY BAR,candy bar,,,0.8458477592821274,,,1,False,7
+candy,CANDY CANE,candy cane,,,0.4743537092095157,,,1,False,7
+candy,CARAMEL,caramel,,,0.4393308424561636,,,1,False,6
+candy,CHOCOLATE,chocolate,,,0.8150080527183527,,,1,False,7
+candy,COTTON CANDY,cotton candy,,,0.3769404123772766,,,1,False,6
+candy,FUDGE,fudge,,,0.3273844762817132,,,1,False,7
+candy,GUM,gum,,,0.3321328654740923,,,1,False,6
+candy,GUMBALL,gumball,,,0.4027133981494981,,,1,False,7
+candy,GUMDROP,gumdrop,,,0.3447172663878853,,,1,False,6
+candy,JELLY BEAN,jelly bean,,,0.6131599809414303,,,1,False,7
+candy,LICORICE,licorice,,,0.3713301759738791,,,1,False,4
+candy,LOLLIPOP,lollipop,,,0.7426713383726813,,,1,False,7
+candy,MARSHMALLOW,marshmallow,,,0.1259171062621973,,,1,False,7
+candy,PEPPERMINT,peppermint,,,0.2890391375548117,,,1,False,6
+candy,TAFFY,taffy,,,0.3919846548291971,,,1,False,6
+clothing,BLOUSE,blouse,Bluse,Blusa,0.8378740000909838,0.8944444444444445,0.7816901408450704,3,True,6
+clothing,CLOAK,cloak,Umhang,Capa,0.3095444123443149,0.1111111111111122,0.2253521126760563,3,True,3
+clothing,COAT,coat,Mantel,Abrigo,0.8779622796931171,0.9155555555555556,0.823943661971831,3,True,7
+clothing,DRESS,dress,Kleid,Vestido,0.9173115489493486,0.9155555555555556,0.9507042253521126,3,True,7
+clothing,GLOVE,glove,Handschuh,Guante,0.4736736257677454,0.5988888888888891,0.3450704225352112,3,True,6
+clothing,JACKET,jacket,Jacke,Chaqueta,0.8497388635238105,0.9366666666666666,0.852112676056338,3,True,7
+clothing,RAINCOAT,raincoat,Regenjacke,Impermeable,0.4992328424073489,0.7255555555555556,0.4154929577464789,3,True,6
+clothing,SHAWL,shawl,Schal,Chal,0.4502360361199188,0.7255555555555556,0.3186619718309859,3,True,6
+clothing,SHIRT,shirt,Hemd,Camisa,0.9721729563466608,0.9155555555555556,0.9084507042253522,3,True,7
+clothing,SKIRT,skirt,Rock,Falda,0.8392926250666479,0.883888888888889,0.9014084507042254,3,True,6
+clothing,SOCK,sock,Socke,Calcetines,0.7061708907702977,0.9261111111111112,0.6338028169014084,3,True,6
+clothing,SWEATER,sweater,Pullover,Sudadera,0.9104396005249584,0.9894444444444443,0.8943661971830986,3,True,7
+clothing,BELT,belt,,Cinturón,0.5872793442611824,,0.323943661971831,2,True,6
+clothing,BOOT,boot,,Bota,0.5236973233852181,,0.3732394366197183,2,True,7
+clothing,BRACELET,bracelet,,Pulsera,0.2527646782044154,,0.0,2,True,3
+clothing,HAT,hat,,Gorro,0.5935448897667184,,0.4014084507042254,2,True,7
+clothing,HEADBAND,headband,Stirnband,,0.4444558202616432,0.1928104575163393,,2,True,3
+clothing,SHOE,shoe,,Zapato,0.603539253147284,,0.4295774647887324,2,True,7
+clothing,VEST,vest,,Chaleco,0.6962839727317653,,0.5070422535211268,2,True,6
+clothing,APRON,apron,,,0.4780537725329604,,,1,False,4
+clothing,ARMOR,armor,,,0.087859872048092,,,1,False,3
+clothing,BANDANNA,bandanna,,,0.3737671647749901,,,1,False,5
+clothing,BATHROBE,bathrobe,,,0.5848942912869806,,,1,False,5
+clothing,BEANIE,beanie,,,0.4465652138468671,,,1,False,3
+clothing,BIKINI,bikini,,,0.4909754823643503,,,1,False,3
+clothing,BLAZER,blazer,,,0.7023234788215467,,,1,False,6
+clothing,BOA,boa,,,0.14931133104674,,,1,False,1
+clothing,BOLO TIE,bolo tie,,,0.2391010220034983,,,1,False,3
+clothing,BONNET,bonnet,,,0.2791424381843484,,,1,False,4
+clothing,BOW,bow,,,0.3069760933446712,,,1,False,2
+clothing,BOWLER HAT,bowler hat,,,0.2290340003706457,,,1,False,3
+clothing,BOWTIE,bowtie,,,0.4917230421788939,,,1,False,3
+clothing,BOXER SHORTS,boxer shorts,,,0.6886289907332634,,,1,False,6
+clothing,BRA,bra,,,0.7126124797832397,,,1,False,6
+clothing,BULLETPROOF VEST,bulletproof vest,,,0.0866189128741277,,,1,False,3
+clothing,CAPE,cape,,,0.3188399037154798,,,1,False,3
+clothing,CARDIGAN,cardigan,,,0.688580460008724,,,1,False,6
+clothing,CHAPS,chaps,,,0.2288942212776489,,,1,False,3
+clothing,CLOTHES,clothes,,,0.85339080054542,,,1,False,7
+clothing,CORSET,corset,,,0.3103541613022428,,,1,False,3
+clothing,COSTUME,costume,,,0.4470915746993598,,,1,False,4
+clothing,COVERALL,coverall,,,0.531652663221572,,,1,False,5
+clothing,CROWN,crown,,,0.0688782924125162,,,1,False,2
+clothing,CUMMERBUND,cummerbund,,,0.2281770592266485,,,1,False,3
+clothing,DIAPER,diaper,,,0.1443066913641497,,,1,False,3
+clothing,EYE PATCH,eye patch,,,0.0818978725383943,,,1,False,3
+clothing,FISHNET STOCKINGS,fishnet stockings,,,0.2828423706651535,,,1,False,5
+clothing,FLIP-FLOP,flip-flop,,,0.4316236759515306,,,1,False,5
+clothing,FUR COAT,fur coat,,,0.45210237200808,,,1,False,6
+clothing,GARTER,garter,,,0.224761126185192,,,1,False,3
+clothing,HEADDRESS,headdress,,,0.205945035645634,,,1,False,4
+clothing,HEADSCARF,headscarf,,,0.4197825829379244,,,1,False,6
+clothing,HOODIE,hoodie,,,0.8347162946840625,,,1,False,6
+clothing,JEANS,jeans,,,0.9623791335261006,,,1,False,7
+clothing,JERSEY,jersey,,,0.6902823322918334,,,1,False,6
+clothing,JUMPSUIT,jumpsuit,,,0.5385340098895939,,,1,False,6
+clothing,KILT,kilt,,,0.3384425164190678,,,1,False,5
+clothing,KIMONO,kimono,,,0.3022845110602938,,,1,False,5
+clothing,LAB COAT,lab coat,,,0.3931448213010702,,,1,False,3
+clothing,LEGGINGS,leggings,,,0.7600477935546651,,,1,False,6
+clothing,LEOTARD,leotard,,,0.4049669057989322,,,1,False,5
+clothing,LIFE JACKET,life jacket,,,0.1773538575326586,,,1,False,3
+clothing,LINGERIE,lingerie,,,0.5957169186020784,,,1,False,5
+clothing,LOINCLOTH,loincloth,,,0.2395987690865143,,,1,False,4
+clothing,MITTEN,mitten,,,0.4225876030338749,,,1,False,5
+clothing,MOCCASIN,moccasin,,,0.2220641065062159,,,1,False,6
+clothing,MUFF,muff,,,0.2120393193856913,,,1,False,1
+clothing,NIGHTSHIRT,nightshirt,,,0.6120801723204228,,,1,False,5
+clothing,OUTFIT,outfit,,,0.7078518679859991,,,1,False,6
+clothing,OVERALLS,overalls,,,0.5608495499043843,,,1,False,6
+clothing,PAJAMAS,pajamas,,,0.773205461566201,,,1,False,6
+clothing,PANTIES,panties,,,0.6484517582326775,,,1,False,5
+clothing,PANTS,pants,,,0.9656545530098232,,,1,False,7
+clothing,PANTSUIT,pantsuit,,,0.6911338898066358,,,1,False,6
+clothing,PANTYHOSE,pantyhose,,,0.4700091983064545,,,1,False,5
+clothing,POLO SHIRT,polo shirt,,,0.8078040353987878,,,1,False,6
+clothing,ROBE,robe,,,0.5691694286026745,,,1,False,6
+clothing,SANDAL,sandal,,,0.4595731409557483,,,1,False,6
+clothing,SCARF,scarf,,,0.6523725136579406,,,1,False,6
+clothing,SHORTS,shorts,,,0.8660215631049504,,,1,False,6
+clothing,SKI BOOTS,ski boots,,,0.2459732580731649,,,1,False,4
+clothing,SLIPPER,slipper,,,0.3989397942338105,,,1,False,3
+clothing,SNOWSHOE,snowshoe,,,0.1134197475419547,,,1,False,3
+clothing,SNOWSUIT,snowsuit,,,0.3829946202635997,,,1,False,6
+clothing,SOMBRERO,sombrero,,,0.2216056958069497,,,1,False,3
+clothing,SPACESUIT,spacesuit,,,0.0858185841314987,,,1,False,2
+clothing,STILETTO,stiletto,,,0.2148635097517264,,,1,False,3
+clothing,STOCKINGS,stockings,,,0.5035012623680373,,,1,False,4
+clothing,STRAIGHTJACKET,straightjacket,,,0.0935550953102465,,,1,False,2
+clothing,SUIT,suit,,,0.7694839472326884,,,1,False,6
+clothing,SUSPENDERS,suspenders,,,0.3604231368309266,,,1,False,4
+clothing,SWEATSUIT,sweatsuit,,,0.7469811937400817,,,1,False,4
+clothing,SWIMSUIT,swimsuit,,,0.5777325198452983,,,1,False,6
+clothing,T-SHIRT,t-shirt,,,0.930136102638605,,,1,False,7
+clothing,TIARA,tiara,,,0.1015245063876431,,,1,False,2
+clothing,TIE,tie,,,0.5404193507999571,,,1,False,6
+clothing,TOGA,toga,,,0.229713835050221,,,1,False,3
+clothing,TOP HAT,top hat,,,0.3146804628068477,,,1,False,3
+clothing,TUBE TOP,tube top,,,0.576820267734447,,,1,False,4
+clothing,TURBAN,turban,,,0.256178460057775,,,1,False,5
+clothing,TURTLENECK,turtleneck,,,0.6414255815097601,,,1,False,6
+clothing,TUXEDO,tuxedo,,,0.530208528927623,,,1,False,6
+clothing,UNDERSHIRT,undershirt,,,0.7192024240544692,,,1,False,6
+clothing,UNDERWEAR,underwear,,,0.8372917032938775,,,1,False,6
+clothing,UNIFORM,uniform,,,0.6650353647116334,,,1,False,6
+clothing,VEIL,veil,,,0.2032001330504322,,,1,False,4
+clothing,VISOR,visor,,,0.2481054237910758,,,1,False,3
+clothing,WETSUIT,wetsuit,,,0.2015327815032883,,,1,False,4
+clothing accessory,HANDKERCHIEF,handkerchief,,Pañuelo,0.4790506393323543,,0.1971830985915492,2,True,5
+clothing accessory,BANDANNA,bandanna,,,0.5659918498215347,,,1,False,6
+clothing accessory,BELT,belt,,,0.8596581391970132,,,1,False,7
+clothing accessory,BELT BUCKLE,belt buckle,,,0.6345237679747868,,,1,False,7
+clothing accessory,BOA,boa,,,0.2830371462708416,,,1,False,1
+clothing accessory,BOLO TIE,bolo tie,,,0.4024448439052919,,,1,False,4
+clothing accessory,BONNET,bonnet,,,0.2627801616683758,,,1,False,5
+clothing accessory,BOW,bow,,,0.529200707548016,,,1,False,4
+clothing accessory,BOWTIE,bowtie,,,0.6368528279130378,,,1,False,5
+clothing accessory,BRACELET (JEWELRY),bracelet (jewelry),,,0.7702379875040247,,,1,False,7
+clothing accessory,BRACELET (WATCH),bracelet (watch),,,0.6869676394726659,,,1,False,6
+clothing accessory,BROOCH,brooch,,,0.3859640939713704,,,1,False,6
+clothing accessory,BUCKLE,buckle,,,0.5598991758211589,,,1,False,3
+clothing accessory,BUTTON,button,,,0.4288998326056672,,,1,False,1
+clothing accessory,CORSAGE,corsage,,,0.2434661676559139,,,1,False,3
+clothing accessory,CUFFLINK,cufflink,,,0.4224758986937708,,,1,False,6
+clothing accessory,CUMMERBUND,cummerbund,,,0.2744247716422995,,,1,False,3
+clothing accessory,EARRING,earring,,,0.7280023672170824,,,1,False,7
+clothing accessory,EYE PATCH,eye patch,,,0.0740013844255184,,,1,False,3
+clothing accessory,GLASSES,glasses,,,0.5289639302359397,,,1,False,3
+clothing accessory,GLOVE,glove,,,0.629816784031395,,,1,False,6
+clothing accessory,HAT,hat,,,0.8082832445841893,,,1,False,7
+clothing accessory,HEADBAND,headband,,,0.6569681317592284,,,1,False,5
+clothing accessory,HEADDRESS,headdress,,,0.3386355856488776,,,1,False,6
+clothing accessory,INSOLE,insole,,,0.1039374120716229,,,1,False,3
+clothing accessory,LANYARD,lanyard,,,0.2231029585307104,,,1,False,3
+clothing accessory,MITTEN,mitten,,,0.3526168132379976,,,1,False,3
+clothing accessory,MUFF,muff,,,0.1951079202082936,,,1,False,1
+clothing accessory,PATCH,patch,,,0.225597347900337,,,1,False,3
+clothing accessory,PURSE,purse,,,0.770356330166024,,,1,False,7
+clothing accessory,SCARF,scarf,,,0.843590020724635,,,1,False,6
+clothing accessory,SHAWL,shawl,,,0.5895020200945019,,,1,False,6
+clothing accessory,SOMBRERO,sombrero,,,0.2229203545307438,,,1,False,6
+clothing accessory,SUSPENDERS,suspenders,,,0.4776024679041802,,,1,False,5
+clothing accessory,TIE,tie,,,0.8233934176089355,,,1,False,6
+clothing accessory,TOP HAT,top hat,,,0.4602622894281936,,,1,False,6
+clothing accessory,VISOR,visor,,,0.3035131722089286,,,1,False,4
+clothing accessory,WATCH,watch,,,0.7620438735160152,,,1,False,4
+condiment,APPLESAUCE,applesauce,,,0.1411044794154965,,,1,False,2
+condiment,BUTTER,butter,,,0.5253845058606017,,,1,False,7
+condiment,CREAM CHEESE,cream cheese,,,0.3524400355802761,,,1,False,3
+condiment,GINGER,ginger,,,0.1314812223501932,,,1,False,1
+condiment,GRAVY,gravy,,,0.4415939905499827,,,1,False,4
+condiment,JAM,jam,,,0.5782582567760814,,,1,False,6
+condiment,KETCHUP,ketchup,,,0.9699889944372174,,,1,False,7
+condiment,MAPLE SYRUP,maple syrup,,,0.4680295491679407,,,1,False,5
+condiment,MARMALADE,marmalade,,,0.2797649160952822,,,1,False,3
+condiment,MUSTARD,mustard,,,0.8762377007320657,,,1,False,7
+condiment,PEANUT BUTTER,peanut butter,,,0.4410793256686285,,,1,False,3
+condiment,PESTO,pesto,,,0.2919274877446302,,,1,False,4
+condiment,SAUCE,sauce,,,0.6350219524067516,,,1,False,7
+condiment,SOY SAUCE,soy sauce,,,0.6152805100885674,,,1,False,7
+condiment,SYRUP,syrup,,,0.5156547925576402,,,1,False,3
+construction equipment,CRANE,crane,Kranich,,0.746257307467562,0.5883333333333336,,2,True,7
+construction equipment,BLOWTORCH,blowtorch,,,0.401459347682828,,,1,False,4
+construction equipment,BULLDOZER,bulldozer,,,0.8476174906027641,,,1,False,7
+construction equipment,CEMENT MIXER,cement mixer,,,0.6076668006745615,,,1,False,7
+construction equipment,CHAIN,chain,,,0.2834927099482603,,,1,False,1
+construction equipment,CHAINSAW,chainsaw,,,0.4181465439874747,,,1,False,5
+construction equipment,CHISEL,chisel,,,0.2612461982450034,,,1,False,3
+construction equipment,DRILL,drill,,,0.7657867764107605,,,1,False,7
+construction equipment,HAMMER,hammer,,,0.7536181638740221,,,1,False,7
+construction equipment,HELMET,helmet,,,0.5658749348942347,,,1,False,2
+construction equipment,JACKHAMMER,jackhammer,,,0.7278356564924275,,,1,False,7
+construction equipment,PLIERS,pliers,,,0.4351464582565837,,,1,False,4
+construction equipment,PULLEY,pulley,,,0.2936311481802199,,,1,False,5
+construction equipment,PUMP,pump,,,0.1667837094572507,,,1,False,3
+construction equipment,ROPE,rope,,,0.2659073721256858,,,1,False,2
+construction equipment,SAW,saw,,,0.5871730845468706,,,1,False,2
+construction equipment,SAWHORSE,sawhorse,,,0.3819892812026617,,,1,False,4
+construction equipment,SCAFFOLD,scaffold,,,0.5212729033235494,,,1,False,5
+construction equipment,SCAFFOLDING,scaffolding,,,0.5362493859921348,,,1,False,6
+construction equipment,SCREWDRIVER,screwdriver,,,0.5276085641983177,,,1,False,6
+construction equipment,SHOVEL,shovel,,,0.5451242853458067,,,1,False,4
+construction equipment,SLEDGEHAMMER,sledgehammer,,,0.6508771423252119,,,1,False,6
+construction equipment,STAPLE GUN,staple gun,,,0.3758207193102395,,,1,False,3
+construction equipment,STEAMROLLER,steamroller,,,0.416967633567298,,,1,False,6
+construction equipment,TARP,tarp,,,0.201332699317631,,,1,False,3
+construction equipment,TROWEL,trowel,,,0.2805652448379112,,,1,False,6
+construction equipment,WHEELBARROW,wheelbarrow,,,0.4875498826011541,,,1,False,6
+construction equipment,WRENCH,wrench,,,0.5038931929045511,,,1,False,5
+container,BAG,bag,,Bolsa,0.7515853874998867,,0.0140845070422534,2,True,7
+container,AQUARIUM,aquarium,,,0.392388955266365,,,1,False,6
+container,ASHTRAY,ashtray,,,0.2744293911444215,,,1,False,4
+container,BACKPACK,backpack,,,0.5915860228310148,,,1,False,7
+container,BALLOT BOX,ballot box,,,0.3252187926991306,,,1,False,3
+container,BANK,bank,,,0.1755539945278751,,,1,False,3
+container,BARREL,barrel,,,0.6879847035281679,,,1,False,6
+container,BASKET,basket,,,0.7640057127657655,,,1,False,6
+container,BATHTUB,bathtub,,,0.2816744723934848,,,1,False,7
+container,BEAKER,beaker,,,0.4823370133962902,,,1,False,6
+container,BEDPAN,bedpan,,,0.2154058957470078,,,1,False,3
+container,BIN,bin,,,0.8409062716575917,,,1,False,7
+container,BIRDBATH,birdbath,,,0.1567331830617192,,,1,False,5
+container,BIRDCAGE,birdcage,,,0.2531476335874471,,,1,False,5
+container,BOTTLE,bottle,,,0.8356434276827137,,,1,False,7
+container,BOWL,bowl,,,0.8074398195998371,,,1,False,7
+container,BOX,box,,,0.9489583121543336,,,1,False,7
+container,BREADBOX,breadbox,,,0.4805295076611254,,,1,False,5
+container,BRIEFCASE,briefcase,,,0.5640220814650058,,,1,False,6
+container,BUCKET,bucket,,,0.8123985152175845,,,1,False,7
+container,CABINET,cabinet,,,0.4588700097606735,,,1,False,6
+container,CAGE,cage,,,0.4767718458880208,,,1,False,5
+container,CAN,can,,,0.785143519647343,,,1,False,7
+container,CANISTER,canister,,,0.7750482118909403,,,1,False,6
+container,CHEST,chest,,,0.6804628399049145,,,1,False,2
+container,CLOSET,closet,,,0.3675133191354471,,,1,False,4
+container,COFFEE POT,coffee pot,,,0.5963543959807454,,,1,False,6
+container,COFFIN,coffin,,,0.229723148843091,,,1,False,3
+container,CONTAINER,container,,,0.8903385477338954,,,1,False,7
+container,COOKER,cooker,,,0.3501907790529923,,,1,False,1
+container,COOP,coop,,,0.1621165909288054,,,1,False,5
+container,CRATE,crate,,,0.7592327481351517,,,1,False,7
+container,CUP,cup,,,0.7954118484161438,,,1,False,7
+container,DOGHOUSE,doghouse,,,0.1450429110860515,,,1,False,3
+container,DRAWER,drawer,,,0.5707557611769281,,,1,False,6
+container,DRESSER,dresser,,,0.450086729248866,,,1,False,4
+container,DUFFEL BAG,duffel bag,,,0.4683699236245627,,,1,False,5
+container,DUMPSTER,dumpster,,,0.4926090389961307,,,1,False,6
+container,DUSTPAN,dustpan,,,0.2278621150455213,,,1,False,3
+container,FILING CABINET,filing cabinet,,,0.4928098560458209,,,1,False,3
+container,FISHBOWL,fishbowl,,,0.3557294525831602,,,1,False,6
+container,FLASK,flask,,,0.5590034254878231,,,1,False,6
+container,FOOTBATH,footbath,,,0.1233006469112944,,,1,False,4
+container,GLASS,glass,,,0.7025573086761469,,,1,False,7
+container,GOBLET,goblet,,,0.2429497939343438,,,1,False,6
+container,HATBOX,hatbox,,,0.3822454197142093,,,1,False,5
+container,HONEYPOT,honeypot,,,0.3231805022684648,,,1,False,3
+container,HOT TUB,hot tub,,,0.1302497378755202,,,1,False,4
+container,HOT-WATER BOTTLE,hot-water bottle,,,0.5156601396574896,,,1,False,6
+container,INKWELL,inkwell,,,0.2284220158119697,,,1,False,3
+container,JAR,jar,,,0.931905516310756,,,1,False,7
+container,JUG,jug,,,0.7843547898719984,,,1,False,7
+container,KEG,keg,,,0.4759593937284647,,,1,False,6
+container,KETTLE,kettle,,,0.5132747859795751,,,1,False,7
+container,LOCKER,locker,,,0.4971326889692442,,,1,False,6
+container,LUGGAGE,luggage,,,0.5410484681850238,,,1,False,6
+container,LUNCHBOX,lunchbox,,,0.7792767619948532,,,1,False,5
+container,MAILBOX,mailbox,,,0.4419109198547507,,,1,False,4
+container,MATCHBOX,matchbox,,,0.3101774083151876,,,1,False,6
+container,MEASURING CUP,measuring cup,,,0.6246483426890727,,,1,False,6
+container,MOLD,mold,,,0.2887843512509785,,,1,False,2
+container,MUG,mug,,,0.5777325198452983,,,1,False,7
+container,NIGHTSTAND,nightstand,,,0.2291218917700301,,,1,False,5
+container,OILCAN,oilcan,,,0.4614855365768349,,,1,False,3
+container,PAN,pan,,,0.4984510805097868,,,1,False,7
+container,PAPER BAG,paper bag,,,0.6214523574027573,,,1,False,7
+container,PETRI DISH,petri dish,,,0.2068994303496956,,,1,False,6
+container,PIGGY BANK,piggy bank,,,0.4426540465742644,,,1,False,6
+container,PILLBOX,pillbox,,,0.5935695719125749,,,1,False,4
+container,PITCHER,pitcher,,,0.6951133021658193,,,1,False,7
+container,POCKET,pocket,,,0.4651345450202396,,,1,False,3
+container,POT,pot,,,0.7500914405136456,,,1,False,5
+container,PURSE,purse,,,0.5601751327148737,,,1,False,6
+container,SALTSHAKER,saltshaker,,,0.4062291230052784,,,1,False,4
+container,SANDBAG,sandbag,,,0.2446049540938312,,,1,False,2
+container,SARCOPHAGUS,sarcophagus,,,0.1349220871948878,,,1,False,3
+container,SHAKER,shaker,,,0.3499358640204468,,,1,False,3
+container,SHOPPING BASKET,shopping basket,,,0.604803393274599,,,1,False,6
+container,SHOPPING CART,shopping cart,,,0.3922483290273501,,,1,False,5
+container,SUITCASE,suitcase,,,0.6218122936097598,,,1,False,7
+container,SWIMMING POOL,swimming pool,,,0.117957455976309,,,1,False,6
+container,SYRINGE,syringe,,,0.1556349161736859,,,1,False,3
+container,TANK,tank,,,0.6129815859856871,,,1,False,2
+container,TEACUP,teacup,,,0.4626149915712221,,,1,False,7
+container,TEAPOT,teapot,,,0.4938467916520292,,,1,False,7
+container,TENT,tent,,,0.0867671219005406,,,1,False,3
+container,TERRARIUM,terrarium,,,0.2599096058665611,,,1,False,5
+container,TEST TUBE,test tube,,,0.3804668864462411,,,1,False,6
+container,THERMOS,thermos,,,0.6938480481512038,,,1,False,4
+container,TOOLBOX,toolbox,,,0.5840709826599529,,,1,False,5
+container,TRASHCAN,trashcan,,,0.7435402647075037,,,1,False,6
+container,TRUNK,trunk,,,0.5312651158578563,,,1,False,4
+container,TUPPERWARE,tupperware,,,0.8998270198984922,,,1,False,7
+container,URN,urn,,,0.4468113097651432,,,1,False,7
+container,VASE,vase,,,0.6422317515070171,,,1,False,6
+container,VIAL,vial,,,0.5276889754786056,,,1,False,6
+container,WALLET,wallet,,,0.3500604573228707,,,1,False,6
+container,WATER BOTTLE,water bottle,,,0.790215723362192,,,1,False,7
+container,WATER HEATER,water heater,,,0.2175319459045494,,,1,False,5
+container,WATERING CAN,watering can,,,0.5515075447117594,,,1,False,6
+container,WHEELBARROW,wheelbarrow,,,0.3183656201857981,,,1,False,6
+container,WINE BOTTLE,wine bottle,,,0.5448045627012417,,,1,False,7
+container,WINE COOLER,wine cooler,,,0.3389801484050324,,,1,False,3
+container,WINEGLASS,wineglass,,,0.4456731666554146,,,1,False,6
+container,WOK,wok,,,0.1580965488537605,,,1,False,7
+dessert,BAKLAVA,baklava,,,0.2661195450477082,,,1,False,6
+dessert,BANANA SPLIT,banana split,,,0.6182085420737956,,,1,False,6
+dessert,BIRTHDAY CAKE,birthday cake,,,0.6092521941072655,,,1,False,7
+dessert,BROWNIE,brownie,,,0.8066949107066219,,,1,False,7
+dessert,CAKE,cake,,,0.9014131933198056,,,1,False,7
+dessert,CAKE MIX,cake mix,,,0.2443695341942568,,,1,False,6
+dessert,CARAMEL,caramel,,,0.305561892376513,,,1,False,6
+dessert,CHEESE,cheese,,,0.0408425340343577,,,1,False,1
+dessert,CHEESECAKE,cheesecake,,,0.7612430873257346,,,1,False,7
+dessert,CHOCOLATE,chocolate,,,0.6337540480904718,,,1,False,7
+dessert,COOKIE,cookie,,,0.7865047912174407,,,1,False,7
+dessert,CREME BRULEE,creme brulee,,,0.4222655548486621,,,1,False,6
+dessert,CREPE,crepe,,,0.2353921441033804,,,1,False,6
+dessert,CUPCAKE,cupcake,,,0.7821045902188092,,,1,False,6
+dessert,DESSERT,dessert,,,0.7268508864835015,,,1,False,7
+dessert,DONUT,donut,,,0.4304571173778841,,,1,False,7
+dessert,ECLAIR,eclair,,,0.4142231764052371,,,1,False,6
+dessert,FLAN,flan,,,0.2084674129147121,,,1,False,6
+dessert,FRUITCAKE,fruitcake,,,0.3011009528021896,,,1,False,3
+dessert,FUDGE,fudge,,,0.441898180539559,,,1,False,6
+dessert,ICE CREAM,ice cream,,,0.8559774582061468,,,1,False,7
+dessert,ICE-CREAM CONE,ice-cream cone,,,0.6456392334523788,,,1,False,7
+dessert,MILKSHAKE,milkshake,,,0.5317517554151463,,,1,False,7
+dessert,MOUSSE,mousse,,,0.4124877063337686,,,1,False,6
+dessert,MUFFIN,muffin,,,0.2828621232618793,,,1,False,6
+dessert,PARFAIT,parfait,,,0.3189810244841077,,,1,False,6
+dessert,PASTRY,pastry,,,0.5132289295972876,,,1,False,7
+dessert,PIE,pie,,,0.7764633841509723,,,1,False,7
+dessert,POPSICLE,popsicle,,,0.412209442398636,,,1,False,7
+dessert,PUDDING,pudding,,,0.5525655791524494,,,1,False,6
+dessert,SHORTBREAD,shortbread,,,0.2951950089416791,,,1,False,6
+dessert,SORBET,sorbet,,,0.344806266593822,,,1,False,6
+dessert,SOUFFLE,souffle,,,0.3179361508478974,,,1,False,6
+dessert,SUNDAE,sundae,,,0.7155626657914897,,,1,False,7
+dessert,TIRAMISU,tiramisu,,,0.3907741505558583,,,1,False,6
+dessert,WEDDING CAKE,wedding cake,,,0.3493045912881655,,,1,False,6
+dessert,WHIPPED CREAM,whipped cream,,,0.342023950632039,,,1,False,6
+drink,BEER,beer,,,0.6574894186797148,,,1,False,7
+drink,CHAMPAGNE,champagne,,,0.2498859763704627,,,1,False,6
+drink,COCKTAIL,cocktail,,,0.4166711516312713,,,1,False,5
+drink,COFFEE,coffee,,,0.8337288256666532,,,1,False,7
+drink,DRINK,drink,,,0.5515932388261592,,,1,False,7
+drink,EGGNOG,eggnog,,,0.0444682657623288,,,1,False,4
+drink,ESPRESSO,espresso,,,0.2849329303790808,,,1,False,6
+drink,HOT CHOCOLATE,hot chocolate,,,0.3580276939048991,,,1,False,6
+drink,JUICE,juice,,,0.7428135446817974,,,1,False,7
+drink,LATTE,latte,,,0.358633084301845,,,1,False,6
+drink,LEMONADE,lemonade,,,0.6184778284111805,,,1,False,7
+drink,MARGARITA,margarita,,,0.33150738192556,,,1,False,6
+drink,MILK,milk,,,0.6823302736377157,,,1,False,7
+drink,MILKSHAKE,milkshake,,,0.3474650137097261,,,1,False,7
+drink,PUNCH,punch,,,0.2715241327413005,,,1,False,2
+drink,SMOOTHIE,smoothie,,,0.3301498398233177,,,1,False,6
+drink,SODA,soda,,,0.8528070496467641,,,1,False,7
+drink,TEA,tea,,,0.7263483544823158,,,1,False,7
+drink,WINE,wine,,,0.5391214492535223,,,1,False,7
+electronic device,RADIO,radio,,Radio,0.7591618329301086,,0.1619718309859155,2,True,6
+electronic device,AIR CONDITIONER,air conditioner,,,0.4905988049384174,,,1,False,7
+electronic device,AMPLIFIER,amplifier,,,0.4737112480590656,,,1,False,5
+electronic device,BLENDER,blender,,,0.4910846764945645,,,1,False,5
+electronic device,BLOWER,blower,,,0.2365439498216539,,,1,False,1
+electronic device,CAMCORDER,camcorder,,,0.5931973651530609,,,1,False,6
+electronic device,CAMERA,camera,,,0.6049552812484759,,,1,False,7
+electronic device,CASH MACHINE,cash machine,,,0.3566523122766957,,,1,False,6
+electronic device,CD PLAYER,cd player,,,0.710041656351248,,,1,False,6
+electronic device,CELLPHONE,cellphone,,,0.9497141781890392,,,1,False,7
+electronic device,CENTRIFUGE,centrifuge,,,0.1025143309569,,,1,False,3
+electronic device,CHAINSAW,chainsaw,,,0.0899019151452484,,,1,False,1
+electronic device,COFFEEMAKER,coffeemaker,,,0.5646424260641957,,,1,False,6
+electronic device,COMPUTER,computer,,,0.9648463197857854,,,1,False,7
+electronic device,COMPUTER SCREEN,computer screen,,,0.8028070333378019,,,1,False,7
+electronic device,COOKER,cooker,,,0.4263689553209237,,,1,False,1
+electronic device,COPIER,copier,,,0.6881387201183117,,,1,False,2
+electronic device,CURLING IRON,curling iron,,,0.3924546827476436,,,1,False,6
+electronic device,DEFIBRILLATOR,defibrillator,,,0.3490057605302588,,,1,False,6
+electronic device,DISHWASHER,dishwasher,,,0.4861163435698165,,,1,False,4
+electronic device,DRILL,drill,,,0.3840744288846072,,,1,False,3
+electronic device,DRYER,dryer,,,0.4898956737433427,,,1,False,6
+electronic device,ELECTRIC CHAIR,electric chair,,,0.2051584466038251,,,1,False,2
+electronic device,FAN,fan,,,0.5718519348096991,,,1,False,2
+electronic device,FOOD PROCESSOR,food processor,,,0.4747783530492376,,,1,False,3
+electronic device,FREEZER,freezer,,,0.4398306646211006,,,1,False,1
+electronic device,GENERATOR,generator,,,0.3676425585649278,,,1,False,3
+electronic device,HAIRDRYER,hairdryer,,,0.5574023299463293,,,1,False,6
+electronic device,HOTPLATE,hotplate,,,0.2638917293664718,,,1,False,1
+electronic device,ICEMAKER,icemaker,,,0.2164693516238768,,,1,False,6
+electronic device,INCUBATOR,incubator,,,0.1755113933826019,,,1,False,3
+electronic device,IRON,iron,,,0.3107274284798751,,,1,False,1
+electronic device,JACKHAMMER,jackhammer,,,0.0697384158313187,,,1,False,1
+electronic device,JOYSTICK,joystick,,,0.3895236956464357,,,1,False,4
+electronic device,JUICER,juicer,,,0.4064956236219317,,,1,False,3
+electronic device,JUKEBOX,jukebox,,,0.3137006946189456,,,1,False,4
+electronic device,LAMP,lamp,,,0.5341050476336617,,,1,False,5
+electronic device,LAPTOP,laptop,,,0.9457410362117422,,,1,False,7
+electronic device,METAL DETECTOR,metal detector,,,0.3436184172543601,,,1,False,6
+electronic device,MICROPHONE,microphone,,,0.585839123830362,,,1,False,6
+electronic device,MICROWAVE,microwave,,,0.7485221090271519,,,1,False,7
+electronic device,MIXER,mixer,,,0.5022563065461698,,,1,False,2
+electronic device,MODEM,modem,,,0.6863319173508612,,,1,False,3
+electronic device,MOUSE,mouse,,,0.6553565923160174,,,1,False,1
+electronic device,MUSIC BOX,music box,,,0.3576191176699233,,,1,False,1
+electronic device,PINBALL,pinball,,,0.16284534555624,,,1,False,4
+electronic device,POLYGRAPH,polygraph,,,0.1892191964495434,,,1,False,4
+electronic device,PRINTER,printer,,,0.8158317528843776,,,1,False,6
+electronic device,PROJECTOR,projector,,,0.5802598828361956,,,1,False,5
+electronic device,RECORD PLAYER,record player,,,0.4842266784830533,,,1,False,6
+electronic device,REFRIGERATOR,refrigerator,,,0.5955451308669181,,,1,False,7
+electronic device,REMOTE CONTROL,remote control,,,0.6845311776799458,,,1,False,6
+electronic device,ROUTER,router,,,0.6170005148424631,,,1,False,6
+electronic device,SCANNER,scanner,,,0.5894614755562418,,,1,False,6
+electronic device,SCREEN,screen,,,0.5678873055061123,,,1,False,7
+electronic device,SEWING MACHINE,sewing machine,,,0.3332489541371849,,,1,False,2
+electronic device,SHREDDER,shredder,,,0.3722090899677224,,,1,False,2
+electronic device,SLICER,slicer,,,0.0757363939956956,,,1,False,1
+electronic device,SLOT MACHINE,slot machine,,,0.3093467640898831,,,1,False,4
+electronic device,SMOKE ALARM,smoke alarm,,,0.3090091123345682,,,1,False,7
+electronic device,STEREO,stereo,,,0.7490497427851442,,,1,False,6
+electronic device,TABLET,tablet,,,0.8497718913780109,,,1,False,6
+electronic device,TAPE RECORDER,tape recorder,,,0.5289487522031143,,,1,False,6
+electronic device,TELEVISION,television,,,0.8936744329278269,,,1,False,7
+electronic device,TOASTER,toaster,,,0.5517712189099124,,,1,False,6
+electronic device,TOASTER OVEN,toaster oven,,,0.4953691864084497,,,1,False,6
+electronic device,TREADMILL,treadmill,,,0.3768593440078753,,,1,False,3
+electronic device,TURNTABLE,turntable,,,0.3201945310735412,,,1,False,3
+electronic device,VACUUM,vacuum,,,0.5425297598185501,,,1,False,6
+electronic device,VENDING MACHINE,vending machine,,,0.3818068307804914,,,1,False,5
+electronic device,WAFFLE IRON,waffle iron,,,0.3137006946189456,,,1,False,3
+electronic device,WASHING MACHINE,washing machine,,,0.573225295130361,,,1,False,6
+electronic device,WATER HEATER,water heater,,,0.2735290213089638,,,1,False,6
+electronic device,WEBCAM,webcam,,,0.729166370246592,,,1,False,5
+farm animal,BISON,bison,,,0.0602080643673677,,,1,False,3
+farm animal,BULL,bull,,,0.3791448677887034,,,1,False,7
+farm animal,CALF,calf,,,0.6392651094652106,,,1,False,7
+farm animal,CHICKEN,chicken,,,0.8689915619185934,,,1,False,7
+farm animal,COW,cow,,,0.9155773015810093,,,1,False,7
+farm animal,DONKEY,donkey,,,0.2582099947909907,,,1,False,6
+farm animal,DUCK,duck,,,0.3229826681972531,,,1,False,4
+farm animal,GOAT,goat,,,0.6168981533274145,,,1,False,7
+farm animal,GOOSE,goose,,,0.2302947873411244,,,1,False,6
+farm animal,HORSE,horse,,,0.6577819185628764,,,1,False,7
+farm animal,LAMB,lamb,,,0.4689639989361202,,,1,False,7
+farm animal,PIG,pig,,,0.7720398499705948,,,1,False,7
+farm animal,PIGLET,piglet,,,0.4625001389245134,,,1,False,7
+farm animal,RABBIT,rabbit,,,0.2918417868969774,,,1,False,2
+farm animal,RAM,ram,,,0.1554249533862678,,,1,False,7
+farm animal,ROOSTER,rooster,,,0.6712213627210053,,,1,False,7
+farm animal,SHEEP,sheep,,,0.6214163637820571,,,1,False,7
+farm animal,TURKEY,turkey,,,0.3537167395372589,,,1,False,6
+fastener,BUTTON,button,,Botón,0.6819040823154212,,0.0492957746478873,2,True,7
+fastener,BARRETTE,barrette,,,0.2944503133409842,,,1,False,5
+fastener,BELT BUCKLE,belt buckle,,,0.6231170623601439,,,1,False,6
+fastener,BOLT,bolt,,,0.516814257688975,,,1,False,7
+fastener,BOW,bow,,,0.4383804963011231,,,1,False,3
+fastener,BUCKLE,buckle,,,0.6510571104287131,,,1,False,7
+fastener,CHAIN,chain,,,0.3724727641658754,,,1,False,7
+fastener,CLASP,clasp,,,0.6295909149722029,,,1,False,6
+fastener,CLOTHESPIN,clothespin,,,0.4668761172318647,,,1,False,6
+fastener,COMBINATION LOCK,combination lock,,,0.3538220024132275,,,1,False,3
+fastener,CUFFLINK,cufflink,,,0.2373175178766656,,,1,False,3
+fastener,GASKET,gasket,,,0.1234518201182356,,,1,False,6
+fastener,HAIRPIN,hairpin,,,0.3766046939534024,,,1,False,6
+fastener,HOOK,hook,,,0.4727504197853944,,,1,False,6
+fastener,KNOT,knot,,,0.4142201448569696,,,1,False,7
+fastener,LATCH,latch,,,0.5410619899387754,,,1,False,6
+fastener,LOCK,lock,,,0.4752996399697242,,,1,False,7
+fastener,NAIL,nail,,,0.4149962212134585,,,1,False,7
+fastener,PADLOCK,padlock,,,0.3363182664027476,,,1,False,6
+fastener,PAPERCLIP,paperclip,,,0.636512975817677,,,1,False,7
+fastener,PEG,peg,,,0.1535352882995047,,,1,False,6
+fastener,PIN,pin,,,0.5948770674524059,,,1,False,7
+fastener,RUBBER BAND,rubber band,,,0.4067504099257648,,,1,False,3
+fastener,SAFETY PIN,safety pin,,,0.6849770537116538,,,1,False,6
+fastener,SCREW,screw,,,0.5834666759706485,,,1,False,7
+fastener,STAPLE,staple,,,0.6536666479294811,,,1,False,7
+fastener,STRAP,strap,,,0.6224961724030647,,,1,False,6
+fastener,TACK,tack,,,0.407065354106892,,,1,False,6
+fastener,TAPE,tape,,,0.6140982062642291,,,1,False,2
+fastener,THUMBTACK,thumbtack,,,0.4430866205097885,,,1,False,6
+fastener,VELCRO,velcro,,,0.6123639681759442,,,1,False,6
+fastener,ZIPPER,zipper,,,0.7187406318368645,,,1,False,7
+food,CHICKEN,chicken,Huhn,Pollo,0.9302832605659532,0.8311111111111112,0.7816901408450704,3,True,6
+food,APPLE,apple,Apfel,,0.8568123456965422,0.9894444444444443,,2,True,7
+food,AVOCADO,avocado,Avocado,,0.6359484978686484,0.4956790123456789,,2,True,6
+food,BANANA,banana,Banane,,0.8022916701323212,0.9472222222222224,,2,True,7
+food,BEAN,bean,Bohne,,0.6201231953853323,0.7572222222222224,,2,True,6
+food,BLUEBERRY,blueberry,Blaubeere,,0.5948098793604321,0.7677777777777779,,2,True,7
+food,CARROT,carrot,Mohrrübe,,0.7206924959311857,0.9683333333333332,,2,True,7
+food,CAULIFLOWER,cauliflower,Blumenkohl,,0.5483493137605491,0.9261111111111112,,2,True,6
+food,CELERY,celery,Sellerie,,0.5567346141155938,0.693888888888889,,2,True,6
+food,CHERRY,cherry,Kirsche,,0.5370054638133447,0.9366666666666666,,2,True,7
+food,CRANBERRY,cranberry,Preiselbeere,,0.4365604074742529,0.6305555555555556,,2,True,5
+food,CUCUMBER,cucumber,Gurke,,0.6257757771915199,0.9788888888888888,,2,True,6
+food,FIG,fig,Feige,,0.2191128964753066,0.4827777777777778,,2,True,6
+food,GINGER,ginger,Ingwer,,0.1663521471488546,0.3790849673202608,,2,True,1
+food,GOOSE,goose,Gans,,0.1024703852572078,0.9577777777777778,,2,True,3
+food,GRAPE,grape,Weintraube,,0.6196526763677447,0.9577777777777778,,2,True,7
+food,LEMON,lemon,Zitrone,,0.4663508811680411,0.8522222222222222,,2,True,6
+food,MANGO,mango,Mango,,0.5428062961727105,0.693888888888889,,2,True,6
+food,MELON,melon,Melone,,0.6172634446488489,0.7677777777777779,,2,True,6
+food,OLIVE,olive,Olive,,0.3957559948755065,0.4956790123456789,,2,True,6
+food,ONION,onion,Zwiebel,,0.5384350227189934,0.8416666666666668,,2,True,5
+food,PAPAYA,papaya,Papaya,,0.2748028778909818,0.3350000000000002,,2,True,6
+food,PEA,pea,Erbse,,0.526469836712952,0.8416666666666668,,2,True,6
+food,PEACH,peach,Pfirsich,,0.6059751005016498,0.9472222222222224,,2,True,6
+food,PEAR,pear,Birne,,0.5831191513569908,0.9683333333333332,,2,True,6
+food,PINEAPPLE,pineapple,Ananas,,0.6368852500736993,0.9155555555555556,,2,True,5
+food,POMEGRANATE,pomegranate,Granatapfel,,0.3268215973196986,0.4222222222222221,,2,True,6
+food,POTATO,potato,Kartoffel,,0.8184225384638719,0.922222222222222,,2,True,7
+food,PUMPKIN,pumpkin,Kürbis,,0.3501463511904509,0.633333333333333,,2,True,3
+food,RADISH,radish,Radieschen,,0.3464472515525764,0.8311111111111112,,2,True,5
+food,RASPBERRY,raspberry,Himbeere,,0.5001538556429141,0.8733333333333334,,2,True,6
+food,STRAWBERRY,strawberry,Erdbeere,,0.7446718230499724,0.9577777777777778,,2,True,7
+food,TOMATO,tomato,Tomate,,0.6275344323923772,0.9683333333333332,,2,True,7
+food,TURKEY,turkey,Pute,,0.7535145694427932,0.6622222222222225,,2,True,6
+food,ALMOND,almond,,,0.5534563636729396,,,1,False,6
+food,APPETIZER,appetizer,,,0.4866436919661225,,,1,False,6
+food,APPLESAUCE,applesauce,,,0.6303824988144228,,,1,False,7
+food,ARTICHOKE,artichoke,,,0.3245499786515684,,,1,False,6
+food,ARUGULA,arugula,,,0.218453655963747,,,1,False,4
+food,ASPARAGUS,asparagus,,,0.5118845038438593,,,1,False,6
+food,BACON,bacon,,,0.875743053106413,,,1,False,7
+food,BAGEL,bagel,,,0.7126849107677926,,,1,False,6
+food,BAKLAVA,baklava,,,0.1666684606525085,,,1,False,6
+food,BANANA SPLIT,banana split,,,0.415253902816199,,,1,False,3
+food,BASIL,basil,,,0.139268316894443,,,1,False,3
+food,BATTER,batter,,,0.2321697386841641,,,1,False,6
+food,BEET,beet,,,0.3097627801714159,,,1,False,6
+food,BELL PEPPER,bell pepper,,,0.5477069660680522,,,1,False,5
+food,BERRY,berry,,,0.5705481878719992,,,1,False,6
+food,BIRTHDAY CAKE,birthday cake,,,0.5500779187850648,,,1,False,3
+food,BISCUIT,biscuit,,,0.746356573048043,,,1,False,6
+food,BLACKBERRY,blackberry,,,0.4421141422637606,,,1,False,2
+food,BOK CHOY,bok choy,,,0.2085932574183759,,,1,False,6
+food,BOLOGNA,bologna,,,0.60407590769176,,,1,False,3
+food,BREAD,bread,,,0.8994376343654623,,,1,False,7
+food,BREADSTICK,breadstick,,,0.6348501646715915,,,1,False,6
+food,BREAKFAST,breakfast,,,0.6166499614926215,,,1,False,7
+food,BROCCOLI,broccoli,,,0.6940673945131458,,,1,False,7
+food,BROWNIE,brownie,,,0.6477138568136706,,,1,False,6
+food,BRUSSELS SPROUTS,brussels sprouts,,,0.4848565668453078,,,1,False,5
+food,BUFFET,buffet,,,0.3330908495327296,,,1,False,3
+food,BUN,bun,,,0.5715292054915103,,,1,False,5
+food,BURRITO,burrito,,,0.8235897625153084,,,1,False,6
+food,BUTTER,butter,,,0.4913891921733628,,,1,False,7
+food,CABBAGE,cabbage,,,0.5570099326490401,,,1,False,6
+food,CAKE,cake,,,0.752953485691091,,,1,False,6
+food,CAKE MIX,cake mix,,,0.2659599781867092,,,1,False,4
+food,CALAMARI,calamari,,,0.3053168752197085,,,1,False,5
+food,CALZONE,calzone,,,0.5175553868814582,,,1,False,6
+food,CANDY,candy,,,0.4249562154928591,,,1,False,7
+food,CANDY BAR,candy bar,,,0.5078052524950648,,,1,False,7
+food,CANDY CANE,candy cane,,,0.2491083959900271,,,1,False,3
+food,CANTALOUPE,cantaloupe,,,0.4882060908422368,,,1,False,6
+food,CARAMEL,caramel,,,0.2975408000838678,,,1,False,6
+food,CASHEW,cashew,,,0.4544754397914569,,,1,False,5
+food,CASSEROLE,casserole,,,0.6904414067810986,,,1,False,6
+food,CATFISH,catfish,,,0.4015174912239592,,,1,False,1
+food,CAVIAR,caviar,,,0.2654403329497704,,,1,False,3
+food,CEREAL,cereal,,,0.8146688820617541,,,1,False,6
+food,CHEESE,cheese,,,0.8580024326448017,,,1,False,7
+food,CHEESEBURGER,cheeseburger,,,0.943758870036816,,,1,False,7
+food,CHEESECAKE,cheesecake,,,0.6259515599902885,,,1,False,6
+food,CHICKPEA,chickpea,,,0.373080013834349,,,1,False,6
+food,CHILI,chili,,,0.6889403962157263,,,1,False,6
+food,CHIPS,chips,,,0.7272193950014021,,,1,False,6
+food,CHIVE,chive,,,0.1964822220895759,,,1,False,3
+food,CHOCOLATE,chocolate,,,0.6597135762071233,,,1,False,7
+food,CILANTRO,cilantro,,,0.2178772180438593,,,1,False,3
+food,CINNAMON,cinnamon,,,0.2041267763042085,,,1,False,6
+food,CLAM,clam,,,0.3165618489666152,,,1,False,3
+food,CLOVE,clove,,,0.0668626496533022,,,1,False,2
+food,COCONUT,coconut,,,0.4503386845937677,,,1,False,5
+food,COFFEE BEAN,coffee bean,,,0.1268307904799728,,,1,False,3
+food,COLESLAW,coleslaw,,,0.5805137040403932,,,1,False,5
+food,COOKIE,cookie,,,0.7868307739678955,,,1,False,7
+food,CORDON BLEU,cordon bleu,,,0.279395772217868,,,1,False,3
+food,CORN,corn,,,0.7894075899952997,,,1,False,7
+food,CORNBREAD,cornbread,,,0.6320332407292961,,,1,False,6
+food,CORNMEAL,cornmeal,,,0.313378723285704,,,1,False,6
+food,COTTON CANDY,cotton candy,,,0.3388788528784378,,,1,False,3
+food,CRAB,crab,,,0.4903940469530385,,,1,False,3
+food,CRACKER,cracker,,,0.6608244702278263,,,1,False,6
+food,CRAYFISH,crayfish,,,0.224356649377323,,,1,False,3
+food,CREAM CHEESE,cream cheese,,,0.5016246294542863,,,1,False,5
+food,CREME BRULEE,creme brulee,,,0.2332654947313661,,,1,False,6
+food,CREPE,crepe,,,0.4205088703327593,,,1,False,6
+food,CROISSANT,croissant,,,0.5633971295319228,,,1,False,6
+food,CROUTON,crouton,,,0.3178299898879669,,,1,False,3
+food,CRUMB,crumb,,,0.1476358460774148,,,1,False,3
+food,CUPCAKE,cupcake,,,0.6763484883972646,,,1,False,5
+food,CURRY,curry,,,0.4126893573413061,,,1,False,6
+food,DESSERT,dessert,,,0.5633349305243646,,,1,False,7
+food,DIP,dip,,,0.2942294433957781,,,1,False,2
+food,DONUT,donut,,,0.717080127994641,,,1,False,6
+food,DOUGH,dough,,,0.2567610895450957,,,1,False,4
+food,DUMPLING,dumpling,,,0.5019895302986269,,,1,False,6
+food,EASTER EGG,easter egg,,,0.1311500249640029,,,1,False,1
+food,ECLAIR,eclair,,,0.3198258159346606,,,1,False,5
+food,EEL,eel,,,0.0855952365754161,,,1,False,2
+food,EGG,egg,,,0.8659390260092067,,,1,False,7
+food,EGG ROLL,egg roll,,,0.6051029473846821,,,1,False,4
+food,EGGPLANT,eggplant,,,0.408884619906109,,,1,False,6
+food,ENCHILADA,enchilada,,,0.5938895501665273,,,1,False,6
+food,FAST FOOD,fast food,,,0.7737364019481778,,,1,False,6
+food,FISH,fish,,,0.7856052151255933,,,1,False,3
+food,FLAN,flan,,,0.2517099814118034,,,1,False,6
+food,FLOUR,flour,,,0.2326375477454034,,,1,False,7
+food,FONDUE,fondue,,,0.2516260850760275,,,1,False,5
+food,FRENCH FRIES,french fries,,,0.8689581460903568,,,1,False,7
+food,FRUIT,fruit,,,0.8039580111633758,,,1,False,7
+food,FRUITCAKE,fruitcake,,,0.2909922920741967,,,1,False,3
+food,FUDGE,fudge,,,0.3937856642435376,,,1,False,6
+food,GARLIC,garlic,,,0.3504184991287838,,,1,False,7
+food,GINGERBREAD MAN,gingerbread man,,,0.2365439498216539,,,1,False,3
+food,GOAT,goat,,,0.1457066757972002,,,1,False,3
+food,GRAIN,grain,,,0.3521511506103534,,,1,False,7
+food,GRANOLA,granola,,,0.5525880919159551,,,1,False,3
+food,GRAPEFRUIT,grapefruit,,,0.5182154545102997,,,1,False,6
+food,GRAVY,gravy,,,0.4406369883355845,,,1,False,6
+food,GREEN BEANS,green beans,,,0.7199337345975734,,,1,False,6
+food,GRITS,grits,,,0.4589051663204274,,,1,False,3
+food,GUACAMOLE,guacamole,,,0.5474445650220382,,,1,False,6
+food,GUM,gum,,,0.107831760619652,,,1,False,3
+food,GUMBALL,gumball,,,0.1266353500055824,,,1,False,3
+food,GUMDROP,gumdrop,,,0.1552106614692122,,,1,False,6
+food,GYRO,gyro,,,0.4428258343094247,,,1,False,5
+food,HAM,ham,,,0.77099385353873,,,1,False,6
+food,HAMBURGER,hamburger,,,0.9263865884972736,,,1,False,7
+food,HASH,hash,,,0.3067464631569128,,,1,False,1
+food,HONEY,honey,,,0.3522261409054533,,,1,False,7
+food,HOTDOG,hotdog,,,0.8680725188491006,,,1,False,6
+food,HUMMUS,hummus,,,0.421279834815099,,,1,False,6
+food,ICE CREAM,ice cream,,,0.6379751034260652,,,1,False,7
+food,ICE-CREAM CONE,ice-cream cone,,,0.5443701569341697,,,1,False,6
+food,JALAPENO,jalapeno,,,0.36061651746272,,,1,False,6
+food,JAM,jam,,,0.3318432365987948,,,1,False,6
+food,JELLY BEAN,jelly bean,,,0.2980535877610853,,,1,False,5
+food,KALE,kale,,,0.3885536350161939,,,1,False,3
+food,KEBAB,kebab,,,0.4560120239117279,,,1,False,6
+food,KETCHUP,ketchup,,,0.3180679879469739,,,1,False,6
+food,KIWI,kiwi,,,0.4261141690170905,,,1,False,5
+food,LAMB,lamb,,,0.4768877466344616,,,1,False,3
+food,LAMB CHOP,lamb chop,,,0.6137346554758663,,,1,False,5
+food,LASAGNA,lasagna,,,0.8275947616823817,,,1,False,6
+food,LEEK,leek,,,0.2607062939344996,,,1,False,5
+food,LETTUCE,lettuce,,,0.6383546344688611,,,1,False,6
+food,LICORICE,licorice,,,0.2414266876838366,,,1,False,4
+food,LIME,lime,,,0.3433573376524627,,,1,False,5
+food,LOBSTER,lobster,,,0.5789109610219296,,,1,False,4
+food,LOLLIPOP,lollipop,,,0.3190159594689049,,,1,False,5
+food,MACADAMIA,macadamia,,,0.214702293569499,,,1,False,5
+food,MACARONI,macaroni,,,0.8242143520819425,,,1,False,6
+food,MAPLE SYRUP,maple syrup,,,0.2861419927558988,,,1,False,6
+food,MARMALADE,marmalade,,,0.1921016348429887,,,1,False,6
+food,MARSHMALLOW,marshmallow,,,0.4312508951886247,,,1,False,6
+food,MASHED POTATO,mashed potato,,,0.8264683811070419,,,1,False,6
+food,MEAT,meat,,,0.8586380472648947,,,1,False,7
+food,MEATBALL,meatball,,,0.8041429571080376,,,1,False,6
+food,MEATLOAF,meatloaf,,,0.7510604209070202,,,1,False,5
+food,MINT,mint,,,0.1799905995141885,,,1,False,7
+food,MOUSSE,mousse,,,0.2432084860531735,,,1,False,4
+food,MUFFIN,muffin,,,0.7219958420088148,,,1,False,6
+food,MULBERRY,mulberry,,,0.1770834224576299,,,1,False,4
+food,MUSHROOM,mushroom,,,0.5507670129212021,,,1,False,3
+food,MUSSEL,mussel,,,0.300810264791907,,,1,False,3
+food,MUSTARD,mustard,,,0.315525198840648,,,1,False,6
+food,NACHO,nacho,,,0.6188082106513159,,,1,False,5
+food,NOODLE,noodle,,,0.6945947429094517,,,1,False,6
+food,NUT,nut,,,0.5595017986975189,,,1,False,7
+food,OATMEAL,oatmeal,,,0.7590870547395094,,,1,False,6
+food,OCTOPUS,octopus,,,0.1000016993580172,,,1,False,3
+food,OKRA,okra,,,0.2546665210151895,,,1,False,4
+food,OMELET,omelet,,,0.8269229998060386,,,1,False,6
+food,ORANGE,orange,,,0.7073331363935543,,,1,False,3
+food,OYSTER,oyster,,,0.4109076731166437,,,1,False,3
+food,PANCAKE,pancake,,,0.8265467768928366,,,1,False,6
+food,PARFAIT,parfait,,,0.3672675252893962,,,1,False,5
+food,PARSLEY,parsley,,,0.2021392321590402,,,1,False,3
+food,PASTA,pasta,,,0.9271522400934684,,,1,False,7
+food,PASTRY,pastry,,,0.6137919759537257,,,1,False,6
+food,PATTY,patty,,,0.4769503818845976,,,1,False,3
+food,PEANUT,peanut,,,0.5389410721316041,,,1,False,6
+food,PEANUT BUTTER,peanut butter,,,0.7182205714738383,,,1,False,7
+food,PECAN,pecan,,,0.3814976128572028,,,1,False,5
+food,PEPPER (SEASONING),pepper (seasoning),,,0.2155506606923675,,,1,False,3
+food,PEPPER (VEGETABLE),pepper (vegetable),,,0.5346043455833556,,,1,False,6
+food,PEPPERMINT,peppermint,,,0.1224907904455388,,,1,False,6
+food,PEPPERONI,pepperoni,,,0.6577149192014982,,,1,False,7
+food,PESTO,pesto,,,0.2779925405656284,,,1,False,6
+food,PICKLE,pickle,,,0.5055342813579342,,,1,False,5
+food,PIE,pie,,,0.6572923467951406,,,1,False,6
+food,PIECRUST,piecrust,,,0.2557433273879459,,,1,False,3
+food,PIG,pig,,,0.1520411345099711,,,1,False,3
+food,PISTACHIO,pistachio,,,0.3433075003314929,,,1,False,6
+food,PITA,pita,,,0.4686424993557478,,,1,False,6
+food,PIZZA,pizza,,,0.934098806231756,,,1,False,6
+food,PLUM,plum,,,0.4519325144721912,,,1,False,6
+food,POPCORN,popcorn,,,0.606562717286105,,,1,False,7
+food,POPPY,poppy,,,0.0289931753719064,,,1,False,1
+food,POPSICLE,popsicle,,,0.3980491613867159,,,1,False,4
+food,POTPIE,potpie,,,0.6472212786412969,,,1,False,6
+food,PRETZEL,pretzel,,,0.6521549158600707,,,1,False,6
+food,PRUNE,prune,,,0.26989419493619,,,1,False,6
+food,PUDDING,pudding,,,0.5040051730578408,,,1,False,6
+food,QUESADILLA,quesadilla,,,0.6218122936097598,,,1,False,6
+food,QUICHE,quiche,,,0.3675343015369392,,,1,False,5
+food,RABBIT,rabbit,,,0.0522019980218315,,,1,False,1
+food,RAISIN,raisin,,,0.4175730372408628,,,1,False,6
+food,RAVIOLI,ravioli,,,0.7110304345943217,,,1,False,7
+food,READY MEAL,ready meal,,,0.4651345450202396,,,1,False,6
+food,RHUBARB,rhubarb,,,0.2005323705750019,,,1,False,4
+food,RICE,rice,,,0.871990200725246,,,1,False,7
+food,ROLL,roll,,,0.6238729283948491,,,1,False,1
+food,SAFFRON,saffron,,,0.0571384490633599,,,1,False,3
+food,SALAD,salad,,,0.8519798871424725,,,1,False,6
+food,SALAMI,salami,,,0.6214690986216878,,,1,False,6
+food,SANDWICH,sandwich,,,0.9302697983107516,,,1,False,7
+food,SARDINE,sardine,,,0.2532727333667102,,,1,False,3
+food,SAUCE,sauce,,,0.2711984343686225,,,1,False,3
+food,SAUERKRAUT,sauerkraut,,,0.2627205523236867,,,1,False,4
+food,SAUSAGE,sausage,,,0.7832771648882425,,,1,False,6
+food,SCALLION,scallion,,,0.2554882775688663,,,1,False,6
+food,SCALLOP,scallop,,,0.3856031467076065,,,1,False,4
+food,SCONE,scone,,,0.4051497524405066,,,1,False,6
+food,SCRAMBLED EGG,scrambled egg,,,0.8286316381533974,,,1,False,6
+food,SEAFOOD,seafood,,,0.6979295127144792,,,1,False,7
+food,SEAWEED,seaweed,,,0.1138523214774787,,,1,False,4
+food,SHORTBREAD,shortbread,,,0.4269354688070982,,,1,False,6
+food,SHRIMP,shrimp,,,0.5860383581117146,,,1,False,6
+food,SNACK,snack,,,0.630418041104456,,,1,False,6
+food,SORBET,sorbet,,,0.2637172987430783,,,1,False,5
+food,SOUFFLE,souffle,,,0.3345521714384009,,,1,False,4
+food,SOUP,soup,,,0.7975155715885043,,,1,False,6
+food,SOY SAUCE,soy sauce,,,0.1574825887029655,,,1,False,3
+food,SPAGHETTI,spaghetti,,,0.9056219928312323,,,1,False,6
+food,SPAM,spam,,,0.2850559783382189,,,1,False,1
+food,SPARERIBS,spareribs,,,0.5323600577155481,,,1,False,6
+food,SPINACH,spinach,,,0.6293873146934941,,,1,False,6
+food,SPRING ROLL,spring roll,,,0.5238332094139293,,,1,False,5
+food,SPROUTS,sprouts,,,0.2933705047199767,,,1,False,3
+food,SQUASH,squash,,,0.4506903145806087,,,1,False,5
+food,SQUID,squid,,,0.1734336893336128,,,1,False,3
+food,STAR FRUIT,star fruit,,,0.2127721808019491,,,1,False,4
+food,STEAK,steak,,,0.9022821196546278,,,1,False,7
+food,STEW,stew,,,0.6710428786123606,,,1,False,5
+food,STIR FRY,stir fry,,,0.6027156781826826,,,1,False,7
+food,STRING CHEESE,string cheese,,,0.5910774650097496,,,1,False,6
+food,STUFFING,stuffing,,,0.5406226831835621,,,1,False,3
+food,SUGAR CUBE,sugar cube,,,0.1116989821925626,,,1,False,3
+food,SUNDAE,sundae,,,0.4538466782420152,,,1,False,5
+food,SUSHI,sushi,,,0.6165032345564728,,,1,False,6
+food,SWEET POTATO,sweet potato,,,0.6391792155976305,,,1,False,6
+food,SWORDFISH,swordfish,,,0.2646801057682611,,,1,False,4
+food,SYRUP,syrup,,,0.2026665805553461,,,1,False,4
+food,TACO,taco,,,0.8219501706523994,,,1,False,6
+food,TAFFY,taffy,,,0.1881644996569313,,,1,False,5
+food,TAMALE,tamale,,,0.5600832341088305,,,1,False,5
+food,TIRAMISU,tiramisu,,,0.2343614176924187,,,1,False,7
+food,TOAST,toast,,,0.7849721850894028,,,1,False,7
+food,TOMATO SAUCE,tomato sauce,,,0.4056166108737069,,,1,False,6
+food,TORTELLINI,tortellini,,,0.4789012586930846,,,1,False,6
+food,TORTILLA,tortilla,,,0.5989182335725948,,,1,False,6
+food,TOSTADA,tostada,,,0.4242727589121139,,,1,False,6
+food,VEGETABLE,vegetable,,,0.7681031400655023,,,1,False,6
+food,WAFER,wafer,,,0.2681177076514147,,,1,False,5
+food,WAFFLE,waffle,,,0.7160609827793082,,,1,False,6
+food,WALNUT,walnut,,,0.443031979591617,,,1,False,6
+food,WATERMELON,watermelon,,,0.6232029562277239,,,1,False,7
+food,WEDDING CAKE,wedding cake,,,0.2967122282418315,,,1,False,3
+food,WHEAT,wheat,,,0.3231756767702861,,,1,False,7
+food,WHIPPED CREAM,whipped cream,,,0.3034200872268534,,,1,False,5
+food,WRAP,wrap,,,0.578161320376666,,,1,False,3
+food,YOGURT,yogurt,,,0.656440987682332,,,1,False,6
+food,YOLK,yolk,,,0.2696147150578116,,,1,False,6
+food,ZUCCHINI,zucchini,,,0.5050129944374478,,,1,False,6
+footwear,BOOT,boot,,,0.8708521552347908,,,1,False,7
+footwear,FLIP-FLOP,flip-flop,,,0.7404112738170842,,,1,False,6
+footwear,FLIPPER,flipper,,,0.0769408634493722,,,1,False,3
+footwear,ICESKATE,iceskate,,,0.2064043796280645,,,1,False,3
+footwear,MOCCASIN,moccasin,,,0.3879937342497456,,,1,False,6
+footwear,ROLLERBLADE,rollerblade,,,0.2562886063114954,,,1,False,3
+footwear,ROLLERSKATE,rollerskate,,,0.2500026909787628,,,1,False,3
+footwear,SANDAL,sandal,,,0.814918068666602,,,1,False,6
+footwear,SHOE,shoe,,,0.9835206571137975,,,1,False,7
+footwear,SKI BOOTS,ski boots,,,0.3117632448978046,,,1,False,3
+footwear,SLIPPER,slipper,,,0.7089078572991903,,,1,False,6
+footwear,SNOWSHOE,snowshoe,,,0.2493217599388774,,,1,False,3
+footwear,SOCK,sock,,,0.6345773253275132,,,1,False,6
+footwear,STILETTO,stiletto,,,0.4929718727217942,,,1,False,4
+footwear,STOCKINGS,stockings,,,0.3126187211851454,,,1,False,3
+fruit,APPLE,apple,,,0.9723467186534894,,,1,False,7
+fruit,AVOCADO,avocado,,,0.151964106092533,,,1,False,6
+fruit,BANANA,banana,,,0.8591071599262936,,,1,False,7
+fruit,BERRY,berry,,,0.475299639969724,,,1,False,7
+fruit,BLACKBERRY,blackberry,,,0.4613863787386989,,,1,False,6
+fruit,BLUEBERRY,blueberry,,,0.6803223781685186,,,1,False,7
+fruit,CANTALOUPE,cantaloupe,,,0.4795803255050123,,,1,False,6
+fruit,CHERRY,cherry,,,0.6337621756822429,,,1,False,7
+fruit,COCONUT,coconut,,,0.2119148238035046,,,1,False,6
+fruit,CRANBERRY,cranberry,,,0.2947142665594527,,,1,False,6
+fruit,FIG,fig,,,0.1273565134389812,,,1,False,6
+fruit,FRUIT,fruit,,,0.6048426182893736,,,1,False,7
+fruit,GRAPE,grape,,,0.7592897256630131,,,1,False,7
+fruit,GRAPEFRUIT,grapefruit,,,0.4961659260766932,,,1,False,6
+fruit,KIWI,kiwi,,,0.4396178431202517,,,1,False,6
+fruit,LEMON,lemon,,,0.5328696303232143,,,1,False,7
+fruit,LIME,lime,,,0.425424747253777,,,1,False,6
+fruit,MANGO,mango,,,0.5937852609578316,,,1,False,6
+fruit,MELON,melon,,,0.5045090837476444,,,1,False,7
+fruit,MULBERRY,mulberry,,,0.1100729913039526,,,1,False,5
+fruit,ORANGE,orange,,,0.9205731891221056,,,1,False,7
+fruit,PAPAYA,papaya,,,0.3146967249848749,,,1,False,5
+fruit,PEACH,peach,,,0.6805321190079585,,,1,False,6
+fruit,PEAR,pear,,,0.5552979769567868,,,1,False,6
+fruit,PINEAPPLE,pineapple,,,0.685021090850588,,,1,False,6
+fruit,PLUM,plum,,,0.4532652428307034,,,1,False,6
+fruit,POMEGRANATE,pomegranate,,,0.3273844762817132,,,1,False,6
+fruit,PRUNE,prune,,,0.1652753352215225,,,1,False,3
+fruit,RAISIN,raisin,,,0.2059850168052716,,,1,False,6
+fruit,RASPBERRY,raspberry,,,0.5060437208484097,,,1,False,6
+fruit,STAR FRUIT,star fruit,,,0.1863863890386177,,,1,False,5
+fruit,STRAWBERRY,strawberry,,,0.7945878787676331,,,1,False,7
+fruit,TOMATO,tomato,,,0.1882364108018822,,,1,False,7
+fruit,WATERMELON,watermelon,,,0.6612521120366297,,,1,False,7
+furniture,BED,bed,Bett,Cama,0.8503333648994214,0.9577777777777778,0.9859154929577464,3,True,7
+furniture,BENCH,bench,Bank,Banco,0.5005428189633846,0.5111111111111115,0.6338028169014084,3,True,7
+furniture,CHAIR,chair,Stuhl,Silla,0.8725748266627238,0.9683333333333332,0.9647887323943662,3,True,7
+furniture,ROCKING CHAIR,rocking chair,Schaukelstuhl,Mecedora,0.5754459658531648,0.6305555555555556,0.676056338028169,3,True,7
+furniture,SHELF,shelf,Regal,Estante,0.4643321145920751,0.8000000000000005,0.7394366197183099,3,True,7
+furniture,STOOL,stool,Hocker,Banqueta,0.5187305632154321,0.7466666666666667,0.6338028169014084,3,True,7
+furniture,TABLE,table,Tisch,Escritor,0.9036423436927188,0.905,0.8028169014084507,3,True,7
+furniture,HAMMOCK,hammock,,Hamaca,0.1973160681748482,,0.3732394366197183,2,True,4
+furniture,AIR MATTRESS,air mattress,,,0.2565220355280955,,,1,False,3
+furniture,BASSINET,bassinet,,,0.2844055819827749,,,1,False,6
+furniture,BEANBAG,beanbag,,,0.2494357914527338,,,1,False,3
+furniture,BOOKSHELF,bookshelf,,,0.6639147192614402,,,1,False,7
+furniture,BUNKBED,bunkbed,,,0.5261592465988448,,,1,False,6
+furniture,CABINET,cabinet,,,0.5604714799051478,,,1,False,7
+furniture,CHEST,chest,,,0.4575995795332092,,,1,False,6
+furniture,CLOSET,closet,,,0.1691135029172105,,,1,False,6
+furniture,COAT RACK,coat rack,,,0.3306009274932248,,,1,False,4
+furniture,COFFEE TABLE,coffee table,,,0.7959798866981628,,,1,False,7
+furniture,COT,cot,,,0.2784249717610319,,,1,False,7
+furniture,COUCH,couch,,,0.915506394823532,,,1,False,7
+furniture,COUNTER,counter,,,0.2739699431625419,,,1,False,3
+furniture,CRIB,crib,,,0.4465192706153708,,,1,False,6
+furniture,DESK,desk,,,0.7740485679528877,,,1,False,7
+furniture,DRESSER,dresser,,,0.7494379885814616,,,1,False,7
+furniture,FILING CABINET,filing cabinet,,,0.3346911812838639,,,1,False,5
+furniture,FOOTREST,footrest,,,0.3928169757920415,,,1,False,6
+furniture,HIGHCHAIR,highchair,,,0.394760810754578,,,1,False,6
+furniture,LECTERN,lectern,,,0.0543637509612773,,,1,False,4
+furniture,LOVESEAT,loveseat,,,0.7612598864226906,,,1,False,6
+furniture,MATTRESS,mattress,,,0.5213762481557924,,,1,False,7
+furniture,NIGHTSTAND,nightstand,,,0.6838719921845633,,,1,False,7
+furniture,OTTOMAN,ottoman,,,0.5322781621178874,,,1,False,6
+furniture,RACK (DISPLAY),rack (display),,,0.2500799954595848,,,1,False,3
+furniture,RACK (FRAME),rack (frame),,,0.1506148968017798,,,1,False,2
+furniture,RECLINER,recliner,,,0.7512790250994822,,,1,False,6
+furniture,SOFA BED,sofa bed,,,0.6721433732222764,,,1,False,6
+furniture,STEP STOOL,step stool,,,0.2693913063776031,,,1,False,4
+furniture,THRONE,throne,,,0.0718513654823568,,,1,False,6
+furniture,WORKBENCH,workbench,,,0.1919955306536249,,,1,False,4
+game,COMPUTER,computer,,Ordenador,0.482057063013066,,0.3661971830985915,2,True,1
+game,BACKGAMMON,backgammon,,,0.3642988640231325,,,1,False,6
+game,BOARD GAME,board game,,,0.7976276331227194,,,1,False,7
+game,CHECKERS,checkers,,,0.7946544260340782,,,1,False,6
+game,CHESSBOARD,chessboard,,,0.5572364659261745,,,1,False,6
+game,DICE,dice,,,0.4177734562652165,,,1,False,5
+game,DOMINO,domino,,,0.4229475392408774,,,1,False,3
+game,GAME,game,,,0.6645007277602565,,,1,False,7
+game,HOPSCOTCH,hopscotch,,,0.3219674363663255,,,1,False,6
+game,JIGSAW PUZZLE,jigsaw puzzle,,,0.3371931564530045,,,1,False,4
+game,JUMP ROPE,jump rope,,,0.1625274876778948,,,1,False,6
+game,PINBALL,pinball,,,0.4209228980764884,,,1,False,6
+game,PLAYING CARD,playing card,,,0.6261336963841935,,,1,False,7
+game,SCRABBLE,scrabble,,,0.6949812532802383,,,1,False,7
+game,SHUFFLEBOARD,shuffleboard,,,0.2962408820669587,,,1,False,5
+game,SLOT MACHINE,slot machine,,,0.3277942831679991,,,1,False,6
+game,TICKTACKTOE,ticktacktoe,,,0.5621228726151781,,,1,False,6
+game,VIDEOGAME,videogame,,,0.7987514280654944,,,1,False,7
+game,YO-YO,yo-yo,,,0.1086368458380125,,,1,False,3
+garden tool,AXE,axe,,,0.311616759232164,,,1,False,6
+garden tool,CHAINSAW,chainsaw,,,0.244239212464135,,,1,False,2
+garden tool,CLIPPER,clipper,,,0.6589272540318255,,,1,False,6
+garden tool,HATCHET,hatchet,,,0.2560984899052003,,,1,False,2
+garden tool,HOE,hoe,,,0.7034606922882164,,,1,False,1
+garden tool,HOSE,hose,,,0.6964424373841493,,,1,False,2
+garden tool,LAWNMOWER,lawnmower,,,0.7489057683023432,,,1,False,7
+garden tool,PICKAX,pickax,,,0.2038989708293221,,,1,False,2
+garden tool,PITCHFORK,pitchfork,,,0.3974280621644001,,,1,False,4
+garden tool,RAKE,rake,,,0.7620074462372342,,,1,False,7
+garden tool,SAW,saw,,,0.2345624659758755,,,1,False,1
+garden tool,SCISSORS,scissors,,,0.2866424663890838,,,1,False,5
+garden tool,SHEARS,shears,,,0.5345604848850168,,,1,False,7
+garden tool,SHOVEL,shovel,,,0.7737955592279184,,,1,False,7
+garden tool,SICKLE,sickle,,,0.211886484934718,,,1,False,2
+garden tool,TROWEL,trowel,,,0.519602966735247,,,1,False,7
+garden tool,WATERING CAN,watering can,,,0.7453415219598307,,,1,False,7
+hardware,AXE,axe,,,0.5571861865890544,,,1,False,7
+hardware,BLOWTORCH,blowtorch,,,0.3494744488240544,,,1,False,6
+hardware,BOLT,bolt,,,0.7888658860037611,,,1,False,7
+hardware,BRACKET,bracket,,,0.5746047983223799,,,1,False,5
+hardware,BUTTON,button,,,0.2828621232618793,,,1,False,6
+hardware,CABLE,cable,,,0.5006556490609118,,,1,False,3
+hardware,CAN OPENER,can opener,,,0.2622251813622422,,,1,False,5
+hardware,CHAIN,chain,,,0.5460457220357331,,,1,False,3
+hardware,CHAINSAW,chainsaw,,,0.5695830676550278,,,1,False,6
+hardware,CHARGER,charger,,,0.290401031012206,,,1,False,4
+hardware,CHICKEN WIRE,chicken wire,,,0.2370807164883971,,,1,False,6
+hardware,CHISEL,chisel,,,0.5255795818933815,,,1,False,5
+hardware,CLASP,clasp,,,0.435295468412869,,,1,False,6
+hardware,CLEAVER,cleaver,,,0.2289915700399085,,,1,False,7
+hardware,CLIPPER,clipper,,,0.467133798834605,,,1,False,3
+hardware,COIL,coil,,,0.3194967918960242,,,1,False,4
+hardware,COMBINATION LOCK,combination lock,,,0.4461634245925386,,,1,False,6
+hardware,CORD,cord,,,0.4523600536108205,,,1,False,5
+hardware,CORKSCREW,corkscrew,,,0.2568009860885225,,,1,False,3
+hardware,CRANK,crank,,,0.3418501883252102,,,1,False,2
+hardware,CROWBAR,crowbar,,,0.6210256914495126,,,1,False,6
+hardware,DOORHANDLE,doorhandle,,,0.6186628517984878,,,1,False,7
+hardware,DOORKNOB,doorknob,,,0.5823632853222855,,,1,False,7
+hardware,DOORKNOCKER,doorknocker,,,0.4157088221889382,,,1,False,6
+hardware,DRILL,drill,,,0.8092490734063127,,,1,False,7
+hardware,DUCT,duct,,,0.3424573342678944,,,1,False,6
+hardware,FAUCET,faucet,,,0.5119102720041333,,,1,False,7
+hardware,FILE,file,,,0.5162806718385192,,,1,False,1
+hardware,GEAR,gear,,,0.4936661113752843,,,1,False,7
+hardware,HAMMER,hammer,,,0.8093169075376325,,,1,False,7
+hardware,HANDLE,handle,,,0.5565269078896428,,,1,False,6
+hardware,HINGE,hinge,,,0.6730870261994364,,,1,False,7
+hardware,HOOK (DOOR CATCH),hook (door catch),,,0.4726093461670401,,,1,False,7
+hardware,HOOK (HANGING),hook (hanging),,,0.5603286451590597,,,1,False,6
+hardware,HOSE,hose,,,0.3895479415497141,,,1,False,3
+hardware,JACKHAMMER,jackhammer,,,0.4411843070623375,,,1,False,3
+hardware,KEY,key,,,0.457147140823978,,,1,False,7
+hardware,KNOB,knob,,,0.5004074851097089,,,1,False,7
+hardware,LADDER,ladder,,,0.618129225445083,,,1,False,6
+hardware,LATCH,latch,,,0.5443535984084601,,,1,False,7
+hardware,LIGHT SWITCH,light switch,,,0.4601219262787334,,,1,False,7
+hardware,LIGHTBULB,lightbulb,,,0.3566392913286388,,,1,False,3
+hardware,LOCK,lock,,,0.6336002043890917,,,1,False,7
+hardware,MALLET,mallet,,,0.4932181618079813,,,1,False,6
+hardware,NAIL,nail,,,0.7911622790044368,,,1,False,7
+hardware,PADLOCK,padlock,,,0.5035871562356175,,,1,False,6
+hardware,PEG,peg,,,0.3986644011824063,,,1,False,6
+hardware,PICKAX,pickax,,,0.3778453642130602,,,1,False,6
+hardware,PIPE,pipe,,,0.5589907218569877,,,1,False,3
+hardware,PLIERS,pliers,,,0.7356767283249743,,,1,False,7
+hardware,PLUG,plug,,,0.4528667309195797,,,1,False,6
+hardware,PLUNGER,plunger,,,0.4128342097172949,,,1,False,5
+hardware,RAKE,rake,,,0.4784273614926422,,,1,False,3
+hardware,RATCHET,ratchet,,,0.5079058150640977,,,1,False,6
+hardware,SAW,saw,,,0.7621832290360029,,,1,False,7
+hardware,SAWHORSE,sawhorse,,,0.289293923858645,,,1,False,3
+hardware,SCRAPER,scraper,,,0.4127973382034068,,,1,False,3
+hardware,SCREW,screw,,,0.816763788053673,,,1,False,7
+hardware,SCREWDRIVER,screwdriver,,,0.8263015932856571,,,1,False,7
+hardware,SHEARS,shears,,,0.5344247943195232,,,1,False,6
+hardware,SHOVEL,shovel,,,0.595440382247918,,,1,False,3
+hardware,SLEDGEHAMMER,sledgehammer,,,0.5237107331906831,,,1,False,6
+hardware,SOLDERING IRON,soldering iron,,,0.3192859116241568,,,1,False,6
+hardware,SPARK PLUG,spark plug,,,0.3775175187040315,,,1,False,7
+hardware,STAPLE GUN,staple gun,,,0.4811386891949283,,,1,False,6
+hardware,STRAINER,strainer,,,0.1601682250759631,,,1,False,3
+hardware,SWITCH,switch,,,0.5328792555835814,,,1,False,7
+hardware,TACK,tack,,,0.3583341260811309,,,1,False,7
+hardware,TANK,tank,,,0.1984592298561435,,,1,False,3
+hardware,THERMOMETER,thermometer,,,0.2046822233145601,,,1,False,2
+hardware,TOOL,tool,,,0.8378608259553028,,,1,False,3
+hardware,TROWEL,trowel,,,0.2975844578634585,,,1,False,3
+hardware,TWEEZERS,tweezers,,,0.2669586340819999,,,1,False,3
+hardware,VALVE,valve,,,0.4828299695058806,,,1,False,6
+hardware,VISE,vise,,,0.4078163748465029,,,1,False,6
+hardware,WEDGE,wedge,,,0.3345232110539294,,,1,False,3
+hardware,WIRE,wire,,,0.5332381383187587,,,1,False,6
+hardware,WIRE CUTTERS,wire cutters,,,0.5811215054081268,,,1,False,6
+hardware,WRENCH,wrench,,,0.7190360277584735,,,1,False,7
+headwear,BANDANNA,bandanna,,,0.5895934469285168,,,1,False,6
+headwear,BEANIE,beanie,,,0.7138559803226773,,,1,False,6
+headwear,BONNET,bonnet,,,0.3336833599042568,,,1,False,6
+headwear,BOWLER HAT,bowler hat,,,0.3423996529170742,,,1,False,3
+headwear,CROWN,crown,,,0.4010096552318008,,,1,False,7
+headwear,FOOTBALL HELMET,football helmet,,,0.482148046887614,,,1,False,6
+headwear,HAIRNET,hairnet,,,0.2555772029847139,,,1,False,4
+headwear,HAT,hat,,,0.9748662721025068,,,1,False,7
+headwear,HEADBAND,headband,,,0.7451894269650422,,,1,False,6
+headwear,HEADDRESS,headdress,,,0.2240086803587887,,,1,False,6
+headwear,HEADSCARF,headscarf,,,0.5132588057251415,,,1,False,6
+headwear,HELMET,helmet,,,0.6959358622624102,,,1,False,7
+headwear,HOOD,hood,,,0.6658649737741147,,,1,False,3
+headwear,SOMBRERO,sombrero,,,0.4096379880358748,,,1,False,6
+headwear,TIARA,tiara,,,0.3168023517958395,,,1,False,3
+headwear,TOP HAT,top hat,,,0.5136070877087541,,,1,False,4
+headwear,TURBAN,turban,,,0.3380353158616507,,,1,False,6
+headwear,VEIL,veil,,,0.2253425615965038,,,1,False,6
+headwear,WIG,wig,,,0.4674239808196731,,,1,False,4
+home appliance,TELEVISION,television,,Televisión,0.574865441782623,,0.4718309859154929,2,True,7
+home appliance,AIR CONDITIONER,air conditioner,,,0.5919375884285522,,,1,False,7
+home appliance,BLENDER,blender,,,0.6466118982722322,,,1,False,6
+home appliance,BLOWER,blower,,,0.1169724661556226,,,1,False,1
+home appliance,COFFEEMAKER,coffeemaker,,,0.7436733003256626,,,1,False,7
+home appliance,COOKER,cooker,,,0.5373949825151616,,,1,False,6
+home appliance,COOLER,cooler,,,0.1957303981192274,,,1,False,7
+home appliance,CURLING IRON,curling iron,,,0.2349465065080529,,,1,False,4
+home appliance,DISHWASHER,dishwasher,,,0.7437624040202109,,,1,False,7
+home appliance,DRYER,dryer,,,0.6254302730698023,,,1,False,7
+home appliance,FAN,fan,,,0.4675413378233363,,,1,False,1
+home appliance,FLATIRON,flatiron,,,0.1447472072935942,,,1,False,2
+home appliance,FOOD PROCESSOR,food processor,,,0.4826767284680678,,,1,False,6
+home appliance,FREEZER,freezer,,,0.7017466782290086,,,1,False,7
+home appliance,HAIRDRYER,hairdryer,,,0.3450213504248358,,,1,False,6
+home appliance,HEATER,heater,,,0.4304571173778841,,,1,False,6
+home appliance,HOTPLATE,hotplate,,,0.2997731346610095,,,1,False,1
+home appliance,ICEMAKER,icemaker,,,0.4053677281549624,,,1,False,6
+home appliance,IRON,iron,,,0.4780177789122603,,,1,False,2
+home appliance,JUICER,juicer,,,0.4156679305599279,,,1,False,5
+home appliance,LAWNMOWER,lawnmower,,,0.2180358565943531,,,1,False,5
+home appliance,MEAT GRINDER,meat grinder,,,0.2328208106632686,,,1,False,1
+home appliance,MICROWAVE,microwave,,,0.8637586432167877,,,1,False,7
+home appliance,MIXER,mixer,,,0.572871080025032,,,1,False,6
+home appliance,OVEN,oven,,,0.8462865091068701,,,1,False,7
+home appliance,REFRIGERATOR,refrigerator,,,0.902141493415613,,,1,False,7
+home appliance,SEWING MACHINE,sewing machine,,,0.2516675510810661,,,1,False,6
+home appliance,SODA FOUNTAIN,soda fountain,,,0.0496037085275323,,,1,False,3
+home appliance,STOVE,stove,,,0.8713503396667557,,,1,False,7
+home appliance,THERMOSTAT,thermostat,,,0.296859117187847,,,1,False,7
+home appliance,TOASTER,toaster,,,0.7625287331577206,,,1,False,7
+home appliance,TOASTER OVEN,toaster oven,,,0.6907040836300387,,,1,False,7
+home appliance,VACUUM,vacuum,,,0.5982868631200763,,,1,False,7
+home appliance,WAFFLE IRON,waffle iron,,,0.4577013796725634,,,1,False,6
+home appliance,WASHING MACHINE,washing machine,,,0.788055752664,,,1,False,7
+home appliance,WATER COOLER,water cooler,,,0.2714420834933627,,,1,False,1
+home appliance,WATER HEATER,water heater,,,0.4099517248962811,,,1,False,7
+home appliance,WINE COOLER,wine cooler,,,0.1408745322181917,,,1,False,1
+home decor,CURTAIN,curtain,,Cortina,0.9043948220925346,,0.4154929577464789,2,True,6
+home decor,LAMP,lamp,,Lámpara,0.9167366592961028,,0.4366197183098591,2,True,6
+home decor,MIRROR,mirror,,Espejo,0.8207217297146838,,0.5704225352112675,2,True,6
+home decor,RUG,rug,,Alfombra,0.867707752530417,,0.3661971830985915,2,True,6
+home decor,ABACUS,abacus,,,0.0535720052097348,,,1,False,2
+home decor,ALBUM,album,,,0.3312497003228195,,,1,False,1
+home decor,AQUARIUM,aquarium,,,0.4194067714371086,,,1,False,4
+home decor,BIRDBATH,birdbath,,,0.3230777977118808,,,1,False,4
+home decor,BIRDCAGE,birdcage,,,0.2895911745464504,,,1,False,3
+home decor,BIRDHOUSE,birdhouse,,,0.3390781684656827,,,1,False,5
+home decor,BONSAI,bonsai,,,0.3350068843666324,,,1,False,4
+home decor,CANDELABRA,candelabra,,,0.5179446784046943,,,1,False,6
+home decor,CANDLE,candle,,,0.7478654365556522,,,1,False,6
+home decor,CANDLESTICK,candlestick,,,0.7033419346799971,,,1,False,6
+home decor,CENTERPIECE,centerpiece,,,0.7036827136057915,,,1,False,6
+home decor,CHANDELIER,chandelier,,,0.7759357641801177,,,1,False,6
+home decor,CHRISTMAS TREE,christmas tree,,,0.480509644960739,,,1,False,6
+home decor,COASTER,coaster,,,0.4988940789184053,,,1,False,1
+home decor,CORNUCOPIA,cornucopia,,,0.140797545862805,,,1,False,3
+home decor,CRYSTAL BALL,crystal ball,,,0.1935408808680511,,,1,False,3
+home decor,CUCKOO CLOCK,cuckoo clock,,,0.4026228718036664,,,1,False,6
+home decor,DOILY,doily,,,0.3160464857611342,,,1,False,6
+home decor,DOORKNOCKER,doorknocker,,,0.4004801575924144,,,1,False,6
+home decor,FIGURINE,figurine,,,0.5824989535849251,,,1,False,5
+home decor,FRAME,frame,,,0.7573574349351234,,,1,False,3
+home decor,GLOBE,globe,,,0.3879377441731008,,,1,False,3
+home decor,GOURD,gourd,,,0.1318041398017286,,,1,False,4
+home decor,HOURGLASS,hourglass,,,0.3033071705694727,,,1,False,3
+home decor,LAMPSHADE,lampshade,,,0.7488258800222524,,,1,False,6
+home decor,PILLOW,pillow,,,0.818609507440744,,,1,False,5
+home decor,PINECONE,pinecone,,,0.2180244040786756,,,1,False,2
+home decor,PINWHEEL,pinwheel,,,0.1468062370149334,,,1,False,4
+home decor,PLACE MAT,place mat,,,0.5849062764778055,,,1,False,5
+home decor,POSTER,poster,,,0.6214492275226964,,,1,False,6
+home decor,POTPOURRI,potpourri,,,0.376908426217921,,,1,False,6
+home decor,SCARECROW,scarecrow,,,0.0731726082360614,,,1,False,3
+home decor,STAINED GLASS,stained glass,,,0.4341701019433485,,,1,False,6
+home decor,STATUE,statue,,,0.5018116794669316,,,1,False,4
+home decor,TAPESTRY,tapestry,,,0.5660365789726521,,,1,False,6
+home decor,TERRARIUM,terrarium,,,0.2712409328605337,,,1,False,5
+home decor,VASE,vase,,,0.8069625786513291,,,1,False,6
+home decor,WALLPAPER,wallpaper,,,0.7900824703834293,,,1,False,6
+home decor,WEATHER VANE,weather vane,,,0.1357724364839312,,,1,False,3
+home decor,WIND CHIMES,wind chimes,,,0.4740389188848521,,,1,False,6
+home decor,WREATH,wreath,,,0.5907193102314389,,,1,False,6
+insect,ANT,ant,,,0.7738607999632937,,,1,False,7
+insect,BEE,bee,,,0.7105570195567288,,,1,False,7
+insect,BEETLE,beetle,,,0.4608036205471288,,,1,False,7
+insect,BUG,bug,,,0.6652050574744136,,,1,False,7
+insect,BUTTERFLY,butterfly,,,0.4946516847482298,,,1,False,7
+insect,CATERPILLAR,caterpillar,,,0.3478631723382623,,,1,False,6
+insect,COCKROACH,cockroach,,,0.4894848769853508,,,1,False,7
+insect,DRAGONFLY,dragonfly,,,0.3287858009527958,,,1,False,7
+insect,EARWIG,earwig,,,0.1388903838770904,,,1,False,6
+insect,FLY,fly,,,0.7927756401205306,,,1,False,7
+insect,GRASSHOPPER,grasshopper,,,0.4650600754601701,,,1,False,7
+insect,LADYBUG,ladybug,,,0.4979639066980617,,,1,False,7
+insect,LIGHTNING BUG,lightning bug,,,0.261796353903175,,,1,False,7
+insect,MOSQUITO,mosquito,,,0.7686939534673192,,,1,False,7
+insect,MOTH,moth,,,0.3737442597436353,,,1,False,6
+insect,PRAYING MANTIS,praying mantis,,,0.1652991188396357,,,1,False,7
+insect,WASP,wasp,,,0.43914466855599,,,1,False,7
+jewelry,NECKLACE,necklace,,Collares,0.8801046840451587,,0.0704225352112676,2,True,7
+jewelry,RING,ring,,Anillo,0.8575046672073128,,0.1549295774647887,2,True,7
+jewelry,ANKLET,anklet,,,0.4297582345919148,,,1,False,5
+jewelry,BARRETTE,barrette,,,0.1973125294761839,,,1,False,5
+jewelry,BRACELET,bracelet,,,0.7581359372789879,,,1,False,7
+jewelry,BROOCH,brooch,,,0.3533613912719001,,,1,False,6
+jewelry,CROWN,crown,,,0.2528371886089074,,,1,False,7
+jewelry,CUFFLINK,cufflink,,,0.2637099388011629,,,1,False,6
+jewelry,EARRING,earring,,,0.8397250455164468,,,1,False,7
+jewelry,HAIRPIN,hairpin,,,0.1994271546923237,,,1,False,6
+jewelry,JEWELRY,jewelry,,,0.7149547855768323,,,1,False,7
+jewelry,LOCKET,locket,,,0.4654245108697601,,,1,False,6
+jewelry,POCKET WATCH,pocket watch,,,0.2074598773607941,,,1,False,3
+jewelry,TIARA,tiara,,,0.2142811074300855,,,1,False,6
+jewelry,WATCH,watch,,,0.571458065158832,,,1,False,4
+kitchen appliance,OVEN,oven,,Horno,0.8063168344785768,,0.3591549295774647,2,True,7
+kitchen appliance,BLENDER,blender,,,0.5654822772138682,,,1,False,6
+kitchen appliance,BURNER,burner,,,0.2685603136984749,,,1,False,7
+kitchen appliance,COFFEEMAKER,coffeemaker,,,0.6665475110677167,,,1,False,7
+kitchen appliance,COOKER,cooker,,,0.3802950987110809,,,1,False,2
+kitchen appliance,DISHWASHER,dishwasher,,,0.709726712170121,,,1,False,7
+kitchen appliance,FOOD PROCESSOR,food processor,,,0.4069261927245334,,,1,False,7
+kitchen appliance,FREEZER,freezer,,,0.5107259353974294,,,1,False,7
+kitchen appliance,HOTPLATE,hotplate,,,0.1320221780809705,,,1,False,1
+kitchen appliance,ICEMAKER,icemaker,,,0.2339536936374498,,,1,False,6
+kitchen appliance,JUICER,juicer,,,0.2949711622052348,,,1,False,6
+kitchen appliance,MICROWAVE,microwave,,,0.8284683500204646,,,1,False,7
+kitchen appliance,MIXER,mixer,,,0.431511538648868,,,1,False,6
+kitchen appliance,REFRIGERATOR,refrigerator,,,0.8700409819292534,,,1,False,7
+kitchen appliance,SLICER,slicer,,,0.1369062355359891,,,1,False,3
+kitchen appliance,STOVE,stove,,,0.7765022890204056,,,1,False,7
+kitchen appliance,TOASTER,toaster,,,0.703427828547577,,,1,False,7
+kitchen appliance,TOASTER OVEN,toaster oven,,,0.5735682859572268,,,1,False,7
+kitchen appliance,WAFFLE IRON,waffle iron,,,0.2577744879693222,,,1,False,6
+kitchen appliance,WATER FILTER,water filter,,,0.1235583285140349,,,1,False,6
+kitchen tool,BOTTLE OPENER,bottle opener,,,0.5198726335288125,,,1,False,3
+kitchen tool,CAN OPENER,can opener,,,0.7524646375490804,,,1,False,7
+kitchen tool,CLEAVER,cleaver,,,0.3221613570531319,,,1,False,7
+kitchen tool,CORKSCREW,corkscrew,,,0.2753327925281467,,,1,False,6
+kitchen tool,EGGBEATER,eggbeater,,,0.4035630230324294,,,1,False,5
+kitchen tool,FUNNEL,funnel,,,0.3079839147242783,,,1,False,3
+kitchen tool,GRATER,grater,,,0.5614696550543218,,,1,False,6
+kitchen tool,GRINDER,grinder,,,0.3605111268461868,,,1,False,5
+kitchen tool,ICEPICK,icepick,,,0.109729415833632,,,1,False,1
+kitchen tool,JUICER,juicer,,,0.2744738538523453,,,1,False,6
+kitchen tool,KETTLE,kettle,,,0.5397141169398254,,,1,False,7
+kitchen tool,KNIFE,knife,,,0.9162362818292212,,,1,False,7
+kitchen tool,LADLE,ladle,,,0.6349555026454587,,,1,False,7
+kitchen tool,MEASURING CUP,measuring cup,,,0.7922420876254445,,,1,False,7
+kitchen tool,NUTCRACKER,nutcracker,,,0.124172800028262,,,1,False,5
+kitchen tool,PEELER,peeler,,,0.6408082372241504,,,1,False,7
+kitchen tool,PEPPER MILL,pepper mill,,,0.2910297582899218,,,1,False,6
+kitchen tool,ROLLING PIN,rolling pin,,,0.623639499178249,,,1,False,7
+kitchen tool,SCOOP,scoop,,,0.4132063951163062,,,1,False,6
+kitchen tool,SIFTER,sifter,,,0.2611467421878053,,,1,False,7
+kitchen tool,SKEWER,skewer,,,0.1686526089936098,,,1,False,3
+kitchen tool,SPATULA,spatula,,,0.7833778404911738,,,1,False,7
+kitchen tool,SPOON,spoon,,,0.7993130924662355,,,1,False,7
+kitchen tool,STRAINER,strainer,,,0.6115901053308886,,,1,False,7
+kitchen tool,TIMER,timer,,,0.3557904095214429,,,1,False,5
+kitchen tool,TONGS,tongs,,,0.5971733434006569,,,1,False,6
+kitchen tool,WHISK,whisk,,,0.6769725173328932,,,1,False,5
+lighting,CANDELABRA,candelabra,,,0.2101393470348186,,,1,False,5
+lighting,CANDLE,candle,,,0.597628303977195,,,1,False,7
+lighting,CHANDELIER,chandelier,,,0.5693537861721146,,,1,False,7
+lighting,FLASHBULB,flashbulb,,,0.2971498348935029,,,1,False,3
+lighting,FLASHLIGHT,flashlight,,,0.7737474931592521,,,1,False,7
+lighting,HEADLAMP,headlamp,,,0.4332455035633279,,,1,False,6
+lighting,HEADLIGHT,headlight,,,0.5320562014569025,,,1,False,7
+lighting,LAMP,lamp,,,0.9222162931333824,,,1,False,7
+lighting,LANTERN,lantern,,,0.555028810776455,,,1,False,6
+lighting,LIGHTBULB,lightbulb,,,0.8103656936848544,,,1,False,7
+lighting,LIGHTER,lighter,,,0.3843995325554482,,,1,False,6
+lighting,MATCH,match,,,0.2738987383911566,,,1,False,3
+lighting,PENLIGHT,penlight,,,0.1838503409680026,,,1,False,3
+lighting,STREETLIGHT,streetlight,,,0.6437016724906705,,,1,False,7
+lighting,TAILLIGHT,taillight,,,0.2621280419521596,,,1,False,6
+lighting,TORCH,torch,,,0.3434140490866694,,,1,False,6
+mammal,BEAR,bear,Bär,Oso,0.7894464187299592,0.9577777777777778,0.943661971830986,3,True,7
+mammal,BULL,bull,Stier,Toro,0.5702751550248403,0.693888888888889,0.9084507042253522,3,True,7
+mammal,CAMEL,camel,Kamel,Camello,0.4639802668391626,0.81,0.5070422535211268,3,True,6
+mammal,CAT,cat,Katze,Gato,0.8614126189409137,0.9788888888888888,0.9507042253521126,3,True,7
+mammal,CHEETAH,cheetah,Gepard,Guepardo,0.5711952181738498,0.6200000000000001,0.352112676056338,3,True,3
+mammal,COW,cow,Kuh,Vaca,0.8516432988310856,0.9894444444444443,0.9507042253521126,3,True,7
+mammal,DEER,deer,Hirsch,Ciervo,0.7863522224199488,0.8733333333333334,0.6338028169014084,3,True,7
+mammal,DOG,dog,Hund,Perro,0.956013061811583,0.9577777777777778,0.9859154929577464,3,True,7
+mammal,DOLPHIN,dolphin,Delphin,Delfín,0.4820670612410385,0.8522222222222222,0.7253521126760565,3,True,6
+mammal,ELEPHANT,elephant,Elefant,Elefante,0.7297011720131653,0.9683333333333332,0.8802816901408451,3,True,7
+mammal,FOX,fox,Fuchs,Zorro,0.6531627372396777,0.8416666666666668,0.9154929577464788,3,True,6
+mammal,GIRAFFE,giraffe,Giraffe,Jirafa,0.6531287657324999,0.8733333333333334,0.7183098591549296,3,True,6
+mammal,GOAT,goat,Ziege,Cabra,0.6868654698459472,0.8205555555555556,0.7042253521126761,3,True,6
+mammal,HAMSTER,hamster,Hamster,Hamster,0.5361583177951824,0.81,0.4577464788732394,3,True,6
+mammal,HIPPOPOTAMUS,hippopotamus,Nilpferd,Hipopótamo,0.40310140148236,0.6411111111111112,0.5492957746478874,3,True,6
+mammal,HORSE,horse,Pferd,Caballo,0.8668768597930078,0.9894444444444443,0.9084507042253522,3,True,7
+mammal,KANGAROO,kangaroo,Känguru,Canguro,0.4348801079261882,0.6833333333333335,0.4577464788732394,3,True,4
+mammal,LEOPARD,leopard,Leopard,Leopardo,0.5719983637199479,0.7466666666666667,0.8732394366197184,3,True,6
+mammal,LION,lion,Löwe,León,0.7897332556804653,0.9577777777777778,0.9647887323943662,3,True,6
+mammal,MONKEY,monkey,Affe,mono/s,0.8597604581412509,0.9577777777777778,0.8169014084507042,3,True,6
+mammal,MOUSE,mouse,Maus,Ratón,0.5248764506983069,0.7994444444444445,0.7746478873239436,3,True,7
+mammal,PIG,pig,Schwein,Cerdo,0.7732509535034751,0.9577777777777778,0.9084507042253522,3,True,7
+mammal,RAT,rat,Ratte,Rata,0.4440990845817891,0.6727777777777779,0.7535211267605633,3,True,7
+mammal,RHINOCEROS,rhinoceros,Nashorn,Rinoceronte,0.3055153185360275,0.7466666666666667,0.6830985915492959,3,True,7
+mammal,SEAL,seal,Seehund,Foca,0.3566206279697572,0.5988888888888891,0.619718309859155,3,True,6
+mammal,SHEEP,sheep,Schaf,Oveja,0.6785856460654959,0.9472222222222224,0.9366197183098592,3,True,7
+mammal,SQUIRREL,squirrel,Eichhörnchen,Ardilla,0.6239919073077193,0.8311111111111112,0.5211267605633804,3,True,6
+mammal,TIGER,tiger,Tiger,Tigre,0.714765819068156,0.8627777777777779,0.9154929577464788,3,True,7
+mammal,WHALE,whale,Wal,Ballena,0.4979756210108817,0.651666666666667,0.6478873239436619,3,True,7
+mammal,WOLF,wolf,Wolf,Lobo,0.6966972236879826,0.8733333333333334,0.9577464788732394,3,True,6
+mammal,ZEBRA,zebra,Zebra,Cebra,0.6069393060820552,0.7677777777777779,0.528169014084507,3,True,7
+mammal,ANTELOPE,antelope,Antilope,,0.3735274609584874,0.5883333333333336,,2,True,6
+mammal,BADGER,badger,Dachs,,0.29200448176569,0.6094444444444446,,2,True,6
+mammal,BAT,bat,Fledermaus,,0.2310767177218541,0.6305555555555556,,2,True,6
+mammal,BEAVER,beaver,Biber,,0.5131798228584012,0.5672222222222225,,2,True,6
+mammal,BISON,bison,Bison,,0.3963246715160372,0.5777777777777781,,2,True,6
+mammal,COYOTE,coyote,Kojote,,0.5542301805608695,0.4370370370370364,,2,True,6
+mammal,DONKEY,donkey,,Burro,0.6323473495147175,,0.7464788732394365,2,True,6
+mammal,GAZELLE,gazelle,Gazelle,,0.3130412352617038,0.5566666666666668,,2,True,7
+mammal,GORILLA,gorilla,,Gorila,0.7734333281571973,,0.584507042253521,2,True,7
+mammal,GUINEA PIG,guinea pig,Meerschweinchen,,0.5212784660703458,0.6727777777777779,,2,True,6
+mammal,HEDGEHOG,hedgehog,Igel,,0.2885685322642022,0.7994444444444445,,2,True,6
+mammal,HYENA,hyena,,Hiena,0.2633443780999611,,0.3098591549295775,2,True,4
+mammal,LAMB,lamb,,Cordero,0.5996336789637329,,0.7816901408450704,2,True,7
+mammal,MOLE,mole,Maulwurf,,0.1698820296524677,0.5777777777777781,,2,True,6
+mammal,POLAR BEAR,polar bear,Eisbär,,0.5957169186020784,0.81,,2,True,7
+mammal,RABBIT,rabbit,,Conejo,0.7452508979979853,,0.8450704225352114,2,True,7
+mammal,REINDEER,reindeer,Rentier,,0.3776717989435744,0.6411111111111112,,2,True,6
+mammal,AARDVARK,aardvark,,,0.0797245146695518,,,1,False,3
+mammal,ALPACA,alpaca,,,0.2577744879693222,,,1,False,6
+mammal,ANTEATER,anteater,,,0.1573146184730309,,,1,False,4
+mammal,BOAR,boar,,,0.3407677513667885,,,1,False,6
+mammal,CALF,calf,,,0.6370195983556156,,,1,False,7
+mammal,CHIHUAHUA,chihuahua,,,0.563592612127105,,,1,False,3
+mammal,CHINCHILLA,chinchilla,,,0.0892866753495581,,,1,False,5
+mammal,CHIPMUNK,chipmunk,,,0.4384967833833855,,,1,False,6
+mammal,COUGAR,cougar,,,0.4528843023888097,,,1,False,7
+mammal,DALMATIAN,dalmatian,,,0.5203562061304303,,,1,False,2
+mammal,FERRET,ferret,,,0.368883365162726,,,1,False,6
+mammal,GOPHER,gopher,,,0.3065981603273187,,,1,False,5
+mammal,GROUNDHOG,groundhog,,,0.3715762718921553,,,1,False,6
+mammal,KITTEN,kitten,,,0.8186392552989973,,,1,False,7
+mammal,KOALA,koala,,,0.3815063057305483,,,1,False,6
+mammal,LLAMA,llama,,,0.3690110986215524,,,1,False,6
+mammal,MANATEE,manatee,,,0.1723440477677517,,,1,False,3
+mammal,MEERKAT,meerkat,,,0.1247679162727811,,,1,False,3
+mammal,MONGOOSE,mongoose,,,0.1814441880424679,,,1,False,6
+mammal,MOOSE,moose,,,0.5356255688430106,,,1,False,5
+mammal,ORANGUTAN,orangutan,,,0.4578973449408204,,,1,False,5
+mammal,OTTER,otter,,,0.2931128231172362,,,1,False,6
+mammal,PANDA,panda,,,0.5868398872642608,,,1,False,3
+mammal,PANTHER,panther,,,0.5068343583764967,,,1,False,3
+mammal,PIGLET,piglet,,,0.4870285956806677,,,1,False,7
+mammal,PLATYPUS,platypus,,,0.1428125375746161,,,1,False,3
+mammal,PONY,pony,,,0.6646896942689328,,,1,False,6
+mammal,POODLE,poodle,,,0.647862107072251,,,1,False,3
+mammal,PORCUPINE,porcupine,,,0.2499542971167846,,,1,False,5
+mammal,POSSUM,possum,,,0.3689571081905021,,,1,False,6
+mammal,PUG,pug,,,0.5455716597143152,,,1,False,2
+mammal,PUPPY,puppy,,,0.8697183561827331,,,1,False,7
+mammal,RACCOON,raccoon,,,0.5911277319627964,,,1,False,4
+mammal,RAM,ram,,,0.3507273979417283,,,1,False,7
+mammal,SKUNK,skunk,,,0.386642552038666,,,1,False,6
+mammal,SLOTH,sloth,,,0.2630509345638221,,,1,False,6
+mammal,WALRUS,walrus,,,0.2136530054783876,,,1,False,6
+mammal,WARTHOG,warthog,,,0.1325771846099499,,,1,False,3
+mammal,WEASEL,weasel,,,0.2503376770623253,,,1,False,6
+mammal,YAK,yak,,,0.1637534772871867,,,1,False,4
+medical equipment,BANDAGE,bandage,,,0.7574550712554867,,,1,False,6
+medical equipment,BEDPAN,bedpan,,,0.33989225947505,,,1,False,4
+medical equipment,BRACE,brace,,,0.454592283651815,,,1,False,3
+medical equipment,CANE,cane,,,0.3681751778097725,,,1,False,6
+medical equipment,CRUTCH,crutch,,,0.5990763232007684,,,1,False,7
+medical equipment,DEFIBRILLATOR,defibrillator,,,0.643714411805862,,,1,False,7
+medical equipment,EYE PATCH,eye patch,,,0.2110293537052766,,,1,False,3
+medical equipment,EYEDROPPER,eyedropper,,,0.2672192775422432,,,1,False,2
+medical equipment,FIRST-AID KIT,first-aid kit,,,0.8179083079247768,,,1,False,7
+medical equipment,GAUZE,gauze,,,0.5993527299082555,,,1,False,7
+medical equipment,GURNEY,gurney,,,0.526538744556228,,,1,False,7
+medical equipment,HEARING AID,hearing aid,,,0.3845783395744107,,,1,False,7
+medical equipment,ICE PACK,ice pack,,,0.3855373954033915,,,1,False,6
+medical equipment,INHALER,inhaler,,,0.4446296055286076,,,1,False,7
+medical equipment,PENLIGHT,penlight,,,0.2182563175211421,,,1,False,6
+medical equipment,PILLBOX,pillbox,,,0.2372079005133886,,,1,False,3
+medical equipment,PLASTER CAST,plaster cast,,,0.3141568206743712,,,1,False,6
+medical equipment,SCALPEL,scalpel,,,0.7164797013561505,,,1,False,7
+medical equipment,SLING,sling,,,0.4610198926422432,,,1,False,3
+medical equipment,STETHOSCOPE,stethoscope,,,0.935341271013962,,,1,False,7
+medical equipment,STRETCHER,stretcher,,,0.6315744658582179,,,1,False,7
+medical equipment,SWAB,swab,,,0.39047705882564,,,1,False,3
+medical equipment,SYRINGE,syringe,,,0.7175625233965653,,,1,False,7
+medical equipment,TWEEZERS,tweezers,,,0.2626145764112801,,,1,False,6
+medical equipment,VIAL,vial,,,0.3442358425848479,,,1,False,6
+medical equipment,WALKER,walker,,,0.419954145721882,,,1,False,3
+medical equipment,WHEELCHAIR,wheelchair,,,0.6824291906733215,,,1,False,7
+musical instrument,ACCORDION,accordion,Akkordeon,,0.4121009223062627,0.7255555555555556,,2,True,4
+musical instrument,DRUM,drum,Trommel,,0.81767475655788,0.7361111111111112,,2,True,7
+musical instrument,FLUTE,flute,Flöte,,0.7898305150385275,0.9472222222222224,,2,True,7
+musical instrument,GUITAR,guitar,Gitarre,,0.9741963451364202,0.9366666666666666,,2,True,7
+musical instrument,HARMONICA,harmonica,Mundharmonika,,0.5500521843674714,0.4933333333333337,,2,True,6
+musical instrument,HARP,harp,Harfe,,0.4098433789873173,0.651666666666667,,2,True,6
+musical instrument,SAXOPHONE,saxophone,Saxophon,,0.71967894829374,0.7572222222222224,,2,True,6
+musical instrument,TAMBOURINE,tambourine,Tamburin,,0.4583172705156566,0.3455555555555559,,2,True,6
+musical instrument,TRUMPET,trumpet,Trompete,,0.8452437782517647,0.9366666666666666,,2,True,7
+musical instrument,VIOLIN,violin,Geige,,0.8710033284417317,0.9788888888888888,,2,True,7
+musical instrument,BAGPIPE,bagpipe,,,0.2969698667900017,,,1,False,3
+musical instrument,BANJO,banjo,,,0.5454996119285569,,,1,False,6
+musical instrument,BASSOON,bassoon,,,0.1810967449308304,,,1,False,6
+musical instrument,BELL,bell,,,0.257016947812724,,,1,False,6
+musical instrument,BONGO,bongo,,,0.2999623596738016,,,1,False,5
+musical instrument,CELLO,cello,,,0.5239574849275289,,,1,False,6
+musical instrument,CHIME,chime,,,0.119260673277525,,,1,False,4
+musical instrument,CLARINET,clarinet,,,0.6553951787840397,,,1,False,6
+musical instrument,CYMBAL,cymbal,,,0.3568065616826151,,,1,False,7
+musical instrument,FRENCH HORN,french horn,,,0.4082791277487642,,,1,False,6
+musical instrument,GONG,gong,,,0.1274907738428127,,,1,False,6
+musical instrument,HORN,horn,,,0.5147077979260587,,,1,False,3
+musical instrument,KAZOO,kazoo,,,0.1133286793450023,,,1,False,4
+musical instrument,KEYBOARD,keyboard,,,0.726762007540304,,,1,False,2
+musical instrument,MANDOLIN,mandolin,,,0.2358083990001151,,,1,False,6
+musical instrument,ORGAN,organ,,,0.4563541184532971,,,1,False,1
+musical instrument,PIANO,piano,,,0.9284508456546902,,,1,False,7
+musical instrument,RECORDER,recorder,,,0.3155826588762015,,,1,False,6
+musical instrument,TRIANGLE,triangle,,,0.1950134369539554,,,1,False,1
+musical instrument,TROMBONE,trombone,,,0.6053632089497455,,,1,False,6
+musical instrument,TUBA,tuba,,,0.5564634211179533,,,1,False,7
+musical instrument,UKULELE,ukulele,,,0.3740509879896028,,,1,False,6
+musical instrument,XYLOPHONE,xylophone,,,0.3746261034507916,,,1,False,7
+office supply,BINDER,binder,,,0.3838012242937499,,,1,False,6
+office supply,CLIPBOARD,clipboard,,,0.3523280554269865,,,1,False,6
+office supply,ENVELOPE,envelope,,,0.563614843481067,,,1,False,6
+office supply,ERASER,eraser,,,0.3501907790529923,,,1,False,7
+office supply,FILE,file,,,0.6762254404381264,,,1,False,7
+office supply,FOLDER,folder,,,0.5915471960809572,,,1,False,6
+office supply,FOUNTAIN PEN,fountain pen,,,0.3613984478434496,,,1,False,6
+office supply,GLUE,glue,,,0.2067158628841243,,,1,False,6
+office supply,HIGHLIGHTER,highlighter,,,0.4922214153885897,,,1,False,6
+office supply,INK,ink,,,0.4145610256177192,,,1,False,3
+office supply,NOTEBOOK,notebook,,,0.5448914438546562,,,1,False,7
+office supply,NOTEPAD,notepad,,,0.6553665876059267,,,1,False,7
+office supply,PAPER,paper,,,0.8624042407292615,,,1,False,7
+office supply,PAPERCLIP,paperclip,,,0.6990359862424792,,,1,False,7
+office supply,PEN,pen,,,0.8927722702412432,,,1,False,7
+office supply,PENCIL,pencil,,,0.6237919427482735,,,1,False,7
+office supply,PENCIL SHARPENER,pencil sharpener,,,0.3160464857611342,,,1,False,7
+office supply,PUNCH,punch,,,0.1322376512039861,,,1,False,1
+office supply,RUBBER BAND,rubber band,,,0.3425017969758183,,,1,False,6
+office supply,SCISSORS,scissors,,,0.498496907931368,,,1,False,7
+office supply,STAPLE,staple,,,0.5868243770173107,,,1,False,7
+office supply,STAPLER,stapler,,,0.7455028890559053,,,1,False,7
+office supply,TACK,tack,,,0.1061730442099946,,,1,False,2
+office supply,TAPE,tape,,,0.5003214121530705,,,1,False,6
+office supply,THUMBTACK,thumbtack,,,0.2422112792002917,,,1,False,6
+outerwear,APRON,apron,,,0.1797269253160356,,,1,False,1
+outerwear,BLAZER,blazer,,,0.625006727446907,,,1,False,6
+outerwear,CAPE,cape,,,0.2480185426376615,,,1,False,3
+outerwear,CLOAK,cloak,,,0.2999623596738016,,,1,False,4
+outerwear,COAT,coat,,,0.929404119289032,,,1,False,7
+outerwear,COVERALL,coverall,,,0.348859964208927,,,1,False,4
+outerwear,FUR COAT,fur coat,,,0.546747597639388,,,1,False,6
+outerwear,GLOVE,glove,,,0.5336770051041926,,,1,False,2
+outerwear,JACKET,jacket,,,0.926204806391668,,,1,False,7
+outerwear,JUMPSUIT,jumpsuit,,,0.3128526856144924,,,1,False,3
+outerwear,LAB COAT,lab coat,,,0.2053251438498266,,,1,False,3
+outerwear,OVERALLS,overalls,,,0.3714766616395196,,,1,False,3
+outerwear,RAINCOAT,raincoat,,,0.7783125564144476,,,1,False,7
+outerwear,SCARF,scarf,,,0.5936119752142917,,,1,False,3
+outerwear,SHAWL,shawl,,,0.4764375711742005,,,1,False,4
+outerwear,SNOWSUIT,snowsuit,,,0.4776128506793823,,,1,False,6
+part of car,AIRBAG,airbag,,,0.3774939481118792,,,1,False,7
+part of car,BRAKE,brake,,,0.6611038840139305,,,1,False,7
+part of car,BUMPER,bumper,,,0.7333925177805353,,,1,False,7
+part of car,CAR DOOR,car door,,,0.7436888105726129,,,1,False,7
+part of car,CAR SEAT,car seat,,,0.5680887118163,,,1,False,7
+part of car,DASHBOARD,dashboard,,,0.6343200768030968,,,1,False,7
+part of car,ENGINE,engine,,,0.9187829543766888,,,1,False,7
+part of car,EXHAUST PIPE,exhaust pipe,,,0.3768307127186818,,,1,False,7
+part of car,GASKET,gasket,,,0.1138523214774787,,,1,False,5
+part of car,GEARSHIFT,gearshift,,,0.3787389039337466,,,1,False,6
+part of car,GRILLE,grille,,,0.2196052651885001,,,1,False,6
+part of car,HANDBRAKE,handbrake,,,0.2839682686785211,,,1,False,6
+part of car,HEADLIGHT,headlight,,,0.7198827773368066,,,1,False,7
+part of car,HEADREST,headrest,,,0.2685603136984749,,,1,False,5
+part of car,HUBCAP,hubcap,,,0.3365368300754333,,,1,False,7
+part of car,LICENSE PLATE,license plate,,,0.3821847637978441,,,1,False,7
+part of car,ODOMETER,odometer,,,0.3476873895394937,,,1,False,7
+part of car,PEDAL,pedal,,,0.4931350996063652,,,1,False,3
+part of car,REARVIEW MIRROR,rearview mirror,,,0.5716236887458485,,,1,False,7
+part of car,RIM,rim,,,0.265214494927206,,,1,False,7
+part of car,ROOF RACK,roof rack,,,0.0880561957581773,,,1,False,6
+part of car,SEATBELT,seatbelt,,,0.5769568700298757,,,1,False,6
+part of car,SPARK PLUG,spark plug,,,0.2274040144184272,,,1,False,6
+part of car,SPEEDOMETER,speedometer,,,0.4610719822865823,,,1,False,7
+part of car,STEERING WHEEL,steering wheel,,,0.8658723319473208,,,1,False,7
+part of car,SUNROOF,sunroof,,,0.3171135907513064,,,1,False,5
+part of car,TAILLIGHT,taillight,,,0.4703259914749464,,,1,False,7
+part of car,WHEEL,wheel,,,0.8151728549704353,,,1,False,7
+part of car,WINDSHIELD,windshield,,,0.7040577169098314,,,1,False,7
+part of car,WINDSHIELD WIPER,windshield wiper,,,0.5744945260892,,,1,False,7
+personal hygiene item,CLIPPER,clipper,,,0.474166865920038,,,1,False,3
+personal hygiene item,COMB,comb,,,0.6607213975867302,,,1,False,7
+personal hygiene item,CURLING IRON,curling iron,,,0.1925580106936254,,,1,False,4
+personal hygiene item,DEODORANT,deodorant,,,0.8726902840010058,,,1,False,7
+personal hygiene item,DIAPER,diaper,,,0.2626749694081658,,,1,False,7
+personal hygiene item,EYELINER,eyeliner,,,0.2227637245369211,,,1,False,3
+personal hygiene item,FLATIRON,flatiron,,,0.1581342322456029,,,1,False,1
+personal hygiene item,FLOSS,floss,,,0.6726532828488632,,,1,False,7
+personal hygiene item,HAIRBRUSH,hairbrush,,,0.6975698667786114,,,1,False,7
+personal hygiene item,HAIRDRYER,hairdryer,,,0.4274545665285609,,,1,False,7
+personal hygiene item,HAIRSPRAY,hairspray,,,0.2933705047199767,,,1,False,6
+personal hygiene item,LIP BALM,lip balm,,,0.4325185701998076,,,1,False,7
+personal hygiene item,LIP GLOSS,lip gloss,,,0.222067142112781,,,1,False,5
+personal hygiene item,LIPSTICK,lipstick,,,0.265089224994488,,,1,False,3
+personal hygiene item,MAKEUP,makeup,,,0.4407643814875013,,,1,False,5
+personal hygiene item,MASCARA,mascara,,,0.2324904251855643,,,1,False,6
+personal hygiene item,NAIL CLIPPERS,nail clippers,,,0.6175405400721854,,,1,False,7
+personal hygiene item,NAIL FILE,nail file,,,0.4307602722046376,,,1,False,6
+personal hygiene item,NAIL POLISH,nail polish,,,0.2498430468593638,,,1,False,3
+personal hygiene item,PERFUME,perfume,,,0.3606254030352282,,,1,False,6
+personal hygiene item,RAZOR,razor,,,0.6509733321736347,,,1,False,7
+personal hygiene item,SHAVING CREAM,shaving cream,,,0.6045109728983266,,,1,False,7
+personal hygiene item,SHOWER CAP,shower cap,,,0.2716526637228116,,,1,False,6
+personal hygiene item,SOAP,soap,,,0.9193804532382268,,,1,False,7
+personal hygiene item,SWAB,swab,,,0.3908772231969545,,,1,False,6
+personal hygiene item,TOILET PAPER,toilet paper,,,0.7575249848686334,,,1,False,7
+personal hygiene item,TOOTHBRUSH,toothbrush,,,0.9134412966385282,,,1,False,7
+personal hygiene item,TOOTHPASTE,toothpaste,,,0.8730357682239394,,,1,False,7
+personal hygiene item,TOOTHPICK,toothpick,,,0.3075429928707002,,,1,False,3
+personal hygiene item,TWEEZERS,tweezers,,,0.4483230418345537,,,1,False,2
+personal hygiene item,WASHCLOTH,washcloth,,,0.6376331259811878,,,1,False,7
+plant,ASPARAGUS,asparagus,Spargel,,0.2581836375871459,0.8733333333333334,,2,True,6
+plant,BROCCOLI,broccoli,Brokkoli,,0.3291603061222857,0.8522222222222222,,2,True,6
+plant,LETTUCE,lettuce,Salat,,0.4641434937237335,0.7361111111111112,,2,True,6
+plant,SPINACH,spinach,Spinat,,0.3772188997326293,0.8311111111111112,,2,True,7
+plant,ALOE,aloe,,,0.5587825555426171,,,1,False,6
+plant,APPLE TREE,apple tree,,,0.4969079249086808,,,1,False,7
+plant,ARTICHOKE,artichoke,,,0.2314784152899934,,,1,False,6
+plant,ARUGULA,arugula,,,0.2345919749159234,,,1,False,6
+plant,BAMBOO,bamboo,,,0.4554248600727186,,,1,False,6
+plant,BASIL,basil,,,0.4325227096633054,,,1,False,7
+plant,BOK CHOY,bok choy,,,0.1439758060958794,,,1,False,6
+plant,BONSAI,bonsai,,,0.4299932904929514,,,1,False,3
+plant,BUSH,bush,,,0.73092351716958,,,1,False,7
+plant,CABBAGE,cabbage,,,0.3683346302795683,,,1,False,6
+plant,CACTUS,cactus,,,0.6054351961911458,,,1,False,6
+plant,CHIVE,chive,,,0.262191030788385,,,1,False,6
+plant,CILANTRO,cilantro,,,0.2990394999802661,,,1,False,4
+plant,CLOVER,clover,,,0.4747783530492376,,,1,False,7
+plant,CORN,corn,,,0.5413144553147397,,,1,False,7
+plant,DAISY,daisy,,,0.7487358449302001,,,1,False,7
+plant,DANDELION,dandelion,,,0.6043302757417429,,,1,False,7
+plant,FERN,fern,,,0.6889996798262915,,,1,False,6
+plant,FLOWER,flower,,,0.9022025988647088,,,1,False,7
+plant,GRAPEVINE,grapevine,,,0.3926409106112667,,,1,False,3
+plant,GRASS,grass,,,0.6346030387007703,,,1,False,7
+plant,HEDGE,hedge,,,0.4865261504561024,,,1,False,3
+plant,IVY,ivy,,,0.6538604597332517,,,1,False,6
+plant,KALE,kale,,,0.3208056422759452,,,1,False,6
+plant,LAVENDER,lavender,,,0.4924152271923603,,,1,False,5
+plant,LEEK,leek,,,0.2120936737971758,,,1,False,6
+plant,MARIJUANA,marijuana,,,0.4067504099257648,,,1,False,3
+plant,MINT,mint,,,0.3403616943474359,,,1,False,4
+plant,MOSS,moss,,,0.3061098199116382,,,1,False,5
+plant,ORCHID,orchid,,,0.6541010536965532,,,1,False,6
+plant,PALM TREE,palm tree,,,0.5562057395152128,,,1,False,6
+plant,PARSLEY,parsley,,,0.3772976989182842,,,1,False,6
+plant,PINE TREE,pine tree,,,0.5155951189233214,,,1,False,7
+plant,PLANT,plant,,,0.8711982143832101,,,1,False,7
+plant,POINSETTIA,poinsettia,,,0.5561451085498621,,,1,False,6
+plant,POPPY,poppy,,,0.4214897976025172,,,1,False,6
+plant,ROSE,rose,,,0.8563149177766224,,,1,False,7
+plant,SEAWEED,seaweed,,,0.2201848874773385,,,1,False,6
+plant,SUNFLOWER,sunflower,,,0.7781029465056639,,,1,False,7
+plant,TREE,tree,,,0.7839275612436866,,,1,False,7
+plant,TULIP,tulip,,,0.6974239559301397,,,1,False,6
+plant,TUMBLEWEED,tumbleweed,,,0.153886853897042,,,1,False,3
+plant,WEED,weed,,,0.5091503664168872,,,1,False,3
+protective clothing,APRON,apron,,,0.3880760725977527,,,1,False,5
+protective clothing,ARMOR,armor,,,0.5268452180445159,,,1,False,7
+protective clothing,BULLETPROOF VEST,bulletproof vest,,,0.6821944950457765,,,1,False,7
+protective clothing,COVERALL,coverall,,,0.3117662805043697,,,1,False,6
+protective clothing,FACE MASK,face mask,,,0.7605636571821791,,,1,False,6
+protective clothing,FOOTBALL HELMET,football helmet,,,0.5715467837713871,,,1,False,7
+protective clothing,GLOVE,glove,,,0.6424277409715041,,,1,False,6
+protective clothing,HELMET,helmet,,,0.7266729858196875,,,1,False,7
+protective clothing,KNEEPAD,kneepad,,,0.5039009156737435,,,1,False,5
+protective clothing,LAB COAT,lab coat,,,0.3903881334097922,,,1,False,5
+protective clothing,LIFE JACKET,life jacket,,,0.5599127380107769,,,1,False,7
+protective clothing,OVERALLS,overalls,,,0.2408331494682411,,,1,False,6
+protective clothing,RAINCOAT,raincoat,,,0.5441246671634755,,,1,False,7
+protective clothing,SPACESUIT,spacesuit,,,0.2929970179734165,,,1,False,7
+protective clothing,VISOR,visor,,,0.2800225976980225,,,1,False,4
+protective clothing,WETSUIT,wetsuit,,,0.3016665953447905,,,1,False,6
+safety equipment,ARMOR,armor,,,0.2147408042266119,,,1,False,6
+safety equipment,BULLETPROOF VEST,bulletproof vest,,,0.5113525160188468,,,1,False,7
+safety equipment,COVERALL,coverall,,,0.216641313057455,,,1,False,6
+safety equipment,EARPLUG,earplug,,,0.5430582515176123,,,1,False,6
+safety equipment,EXTINGUISHER,extinguisher,,,0.53644596002702,,,1,False,2
+safety equipment,FACE MASK,face mask,,,0.745411257214358,,,1,False,6
+safety equipment,FIRE ALARM,fire alarm,,,0.5751195691563602,,,1,False,7
+safety equipment,FOOTBALL HELMET,football helmet,,,0.535247635825658,,,1,False,7
+safety equipment,GAS MASK,gas mask,,,0.4841007008106026,,,1,False,6
+safety equipment,HARNESS,harness,,,0.4487140070249185,,,1,False,6
+safety equipment,HELMET,helmet,,,0.8507517177192956,,,1,False,7
+safety equipment,KNEEPAD,kneepad,,,0.4734285922729783,,,1,False,5
+safety equipment,LAB COAT,lab coat,,,0.3202167811250253,,,1,False,4
+safety equipment,LIFE JACKET,life jacket,,,0.7249700105366769,,,1,False,7
+safety equipment,LIFESAVER,lifesaver,,,0.4283202455502806,,,1,False,3
+safety equipment,MOUTHPIECE,mouthpiece,,,0.3712691690025416,,,1,False,1
+safety equipment,PARACHUTE,parachute,,,0.3223019288069709,,,1,False,7
+safety equipment,SEATBELT,seatbelt,,,0.7769489841325707,,,1,False,7
+safety equipment,SHIELD,shield,,,0.4384967833833855,,,1,False,4
+safety equipment,SMOKE ALARM,smoke alarm,,,0.5718104579695401,,,1,False,7
+safety equipment,SPACESUIT,spacesuit,,,0.1114750008844543,,,1,False,7
+school supply,BOOK,book,,Libro,0.6627780563323236,,0.4577464788732394,2,True,6
+school supply,BACKPACK,backpack,,,0.7389798995985394,,,1,False,7
+school supply,BINDER,binder,,,0.6140355542666998,,,1,False,6
+school supply,CALCULATOR,calculator,,,0.4726689594640137,,,1,False,6
+school supply,CHALK,chalk,,,0.2627842977342293,,,1,False,6
+school supply,CHALKBOARD,chalkboard,,,0.1901280969208237,,,1,False,6
+school supply,CRAYON,crayon,,,0.5601317648333703,,,1,False,7
+school supply,ERASER,eraser,,,0.6075557842058956,,,1,False,7
+school supply,FOLDER,folder,,,0.5753529983729603,,,1,False,6
+school supply,FOUNTAIN PEN,fountain pen,,,0.2704038059731632,,,1,False,4
+school supply,GLUE,glue,,,0.4169255296237201,,,1,False,5
+school supply,HIGHLIGHTER,highlighter,,,0.4578973449408204,,,1,False,6
+school supply,INK,ink,,,0.1309537905126852,,,1,False,3
+school supply,INKWELL,inkwell,,,0.0,,,1,False,2
+school supply,LUNCHBOX,lunchbox,,,0.4192818731327204,,,1,False,6
+school supply,MARKER,marker,,,0.487050060436217,,,1,False,6
+school supply,NOTEBOOK,notebook,,,0.9083215143837512,,,1,False,7
+school supply,NOTEPAD,notepad,,,0.6102673397701545,,,1,False,7
+school supply,PAPER,paper,,,0.7937708054484438,,,1,False,7
+school supply,PAPERCLIP,paperclip,,,0.2480185426376615,,,1,False,2
+school supply,PEN,pen,,,0.8141450238583807,,,1,False,7
+school supply,PENCIL,pencil,,,0.8787467560417124,,,1,False,7
+school supply,PENCIL SHARPENER,pencil sharpener,,,0.4505562823916375,,,1,False,7
+school supply,RULER,ruler,,,0.494326612567477,,,1,False,3
+school supply,STAPLER,stapler,,,0.2381140911484202,,,1,False,6
+school supply,WHITEBOARD,whiteboard,,,0.2659483881120651,,,1,False,6
+scientific equipment,BEAKER,beaker,,,0.8211989554787957,,,1,False,7
+scientific equipment,BLOWTORCH,blowtorch,,,0.150565814591734,,,1,False,6
+scientific equipment,CALCULATOR,calculator,,,0.5775761337691524,,,1,False,6
+scientific equipment,CENTRIFUGE,centrifuge,,,0.5383257408826505,,,1,False,6
+scientific equipment,FILTER,filter,,,0.2635605071714886,,,1,False,3
+scientific equipment,FUNNEL,funnel,,,0.4626485028732535,,,1,False,4
+scientific equipment,GAUGE,gauge,,,0.4421979205188389,,,1,False,6
+scientific equipment,GYROSCOPE,gyroscope,,,0.3029641890066203,,,1,False,6
+scientific equipment,INCUBATOR,incubator,,,0.4888530999023702,,,1,False,6
+scientific equipment,LAB COAT,lab coat,,,0.6197156652039703,,,1,False,6
+scientific equipment,MAGNET,magnet,,,0.4572383848080003,,,1,False,3
+scientific equipment,MAGNIFIER,magnifier,,,0.6517616197119314,,,1,False,5
+scientific equipment,MAGNIFYING GLASS,magnifying glass,,,0.666613716902728,,,1,False,6
+scientific equipment,MEASURING CUP,measuring cup,,,0.5550640754825091,,,1,False,4
+scientific equipment,MICROSCOPE,microscope,,,0.932887810998793,,,1,False,7
+scientific equipment,PENDULUM,pendulum,,,0.2077990042477892,,,1,False,4
+scientific equipment,PETRI DISH,petri dish,,,0.6648119667157234,,,1,False,7
+scientific equipment,POLYGRAPH,polygraph,,,0.2777807677541808,,,1,False,3
+scientific equipment,PRISM,prism,,,0.1885274394355655,,,1,False,4
+scientific equipment,RADAR,radar,,,0.3104314809318954,,,1,False,7
+scientific equipment,RULER,ruler,,,0.4305961836396805,,,1,False,3
+scientific equipment,SCALE,scale,,,0.6320472538185566,,,1,False,6
+scientific equipment,SCALPEL,scalpel,,,0.4160269476244201,,,1,False,6
+scientific equipment,SEISMOGRAPH,seismograph,,,0.4028789009675184,,,1,False,7
+scientific equipment,STETHOSCOPE,stethoscope,,,0.548801095758304,,,1,False,6
+scientific equipment,SWAB,swab,,,0.4143969616722016,,,1,False,3
+scientific equipment,SYRINGE,syringe,,,0.4896464871384948,,,1,False,6
+scientific equipment,TANK,tank,,,0.2061089584001484,,,1,False,1
+scientific equipment,TAPE MEASURE,tape measure,,,0.3790353219865721,,,1,False,3
+scientific equipment,TELESCOPE,telescope,,,0.7027085366758412,,,1,False,7
+scientific equipment,TEST TUBE,test tube,,,0.8933347751973029,,,1,False,7
+scientific equipment,THERMOMETER,thermometer,,,0.7444312842254133,,,1,False,7
+scientific equipment,TIMER,timer,,,0.3882777814678461,,,1,False,4
+scientific equipment,TONGS,tongs,,,0.3281223455060683,,,1,False,3
+scientific equipment,TWEEZERS,tweezers,,,0.3570196377113639,,,1,False,6
+sea animal,BARNACLE,barnacle,,,0.0589671051934034,,,1,False,5
+sea animal,BLOWFISH,blowfish,,,0.3157665353779103,,,1,False,6
+sea animal,CATFISH,catfish,,,0.3833872779439661,,,1,False,2
+sea animal,CLAM,clam,,,0.3722325276742249,,,1,False,6
+sea animal,CORAL,coral,,,0.1459766279524521,,,1,False,3
+sea animal,CRAB,crab,,,0.6391792155976305,,,1,False,6
+sea animal,DOLPHIN,dolphin,,,0.9151841535112388,,,1,False,7
+sea animal,EEL,eel,,,0.4198921716655266,,,1,False,5
+sea animal,FISH,fish,,,0.8897394744229815,,,1,False,7
+sea animal,JELLYFISH,jellyfish,,,0.6037968658696172,,,1,False,6
+sea animal,LOBSTER,lobster,,,0.602158958670589,,,1,False,6
+sea animal,MANATEE,manatee,,,0.4118763979772142,,,1,False,6
+sea animal,MUSSEL,mussel,,,0.2063514274745343,,,1,False,6
+sea animal,OCTOPUS,octopus,,,0.7281378535810032,,,1,False,7
+sea animal,OYSTER,oyster,,,0.3700102249130129,,,1,False,5
+sea animal,SARDINE,sardine,,,0.2740959208349927,,,1,False,6
+sea animal,SCALLOP,scallop,,,0.2016474353400132,,,1,False,6
+sea animal,SEA URCHIN,sea urchin,,,0.3160464857611342,,,1,False,6
+sea animal,SEAHORSE,seahorse,,,0.5527107476619519,,,1,False,6
+sea animal,SEAL,seal,,,0.5642373213920007,,,1,False,7
+sea animal,SHARK,shark,,,0.8847917311771459,,,1,False,7
+sea animal,SHRIMP,shrimp,,,0.5276000500627578,,,1,False,6
+sea animal,SNAIL,snail,,,0.1650450665552438,,,1,False,5
+sea animal,SQUID,squid,,,0.5165447967617973,,,1,False,6
+sea animal,STARFISH,starfish,,,0.6267334903710181,,,1,False,7
+sea animal,STINGRAY,stingray,,,0.5354194235608184,,,1,False,6
+sea animal,SWORDFISH,swordfish,,,0.4808252813268797,,,1,False,6
+sea animal,TURTLE,turtle,,,0.634813437638557,,,1,False,4
+sea animal,WALRUS,walrus,,,0.3948970561997051,,,1,False,6
+sea animal,WHALE,whale,,,0.836065705198026,,,1,False,7
+seafood,CRAB,crab,Krebs,Cangrejo,0.7946716570227114,0.5144444444444447,0.3450704225352112,3,True,6
+seafood,FISH,fish,Fisch,Pez,0.9305568838611644,0.9111111111111104,0.7394366197183099,3,True,7
+seafood,SARDINE,sardine,,Sardina,0.5103710321518141,,0.4577464788732394,2,True,6
+seafood,SHARK,shark,,Tiburón,0.2572091864687366,,0.6478873239436619,2,True,3
+seafood,SNAIL,snail,Schnecke,,0.1911982683046457,0.6200000000000001,,2,True,2
+seafood,BLOWFISH,blowfish,,,0.1639840246616067,,,1,False,3
+seafood,CALAMARI,calamari,,,0.5699535974191668,,,1,False,6
+seafood,CATFISH,catfish,,,0.5514196533123751,,,1,False,1
+seafood,CAVIAR,caviar,,,0.3703068689667615,,,1,False,6
+seafood,CLAM,clam,,,0.6540916328485927,,,1,False,6
+seafood,CRAYFISH,crayfish,,,0.3999736799594418,,,1,False,6
+seafood,EEL,eel,,,0.2442392124641352,,,1,False,3
+seafood,JELLYFISH,jellyfish,,,0.1543421115949766,,,1,False,3
+seafood,LOBSTER,lobster,,,0.821356927480758,,,1,False,6
+seafood,MUSSEL,mussel,,,0.5381147138883331,,,1,False,6
+seafood,OCTOPUS,octopus,,,0.4568715267508633,,,1,False,6
+seafood,OYSTER,oyster,,,0.6635485328853681,,,1,False,6
+seafood,SCALLOP,scallop,,,0.6444282852830837,,,1,False,6
+seafood,SEA URCHIN,sea urchin,,,0.1548958471619741,,,1,False,3
+seafood,SEAFOOD,seafood,,,0.6878205946828297,,,1,False,7
+seafood,SEAWEED,seaweed,,,0.2377971723956244,,,1,False,5
+seafood,SHRIMP,shrimp,,,0.851697403769943,,,1,False,7
+seafood,SQUID,squid,,,0.4176589311084429,,,1,False,6
+seafood,SWORDFISH,swordfish,,,0.4641402384867193,,,1,False,6
+sports equipment,BALANCE BEAM,balance beam,,,0.267086981240453,,,1,False,6
+sports equipment,BALL,ball,,,0.9409304935788436,,,1,False,7
+sports equipment,BARBELL,barbell,,,0.5225685926628603,,,1,False,3
+sports equipment,BASEBALL,baseball,,,0.8990654919459238,,,1,False,7
+sports equipment,BASEBALL BAT,baseball bat,,,0.8977382288133392,,,1,False,7
+sports equipment,BASEBALL GLOVE,baseball glove,,,0.8463155808774356,,,1,False,7
+sports equipment,BASKETBALL,basketball,,,0.9056219928312326,,,1,False,7
+sports equipment,BASKETBALL HOOP,basketball hoop,,,0.7242141445019714,,,1,False,7
+sports equipment,BAT,bat,,,0.8742974980906567,,,1,False,1
+sports equipment,BATON (DRUMS),baton (drums),,,0.0120568848470647,,,1,False,1
+sports equipment,BATON (RUNNING),baton (running),,,0.2258699099928098,,,1,False,6
+sports equipment,BEACHBALL,beachball,,,0.3969810446169937,,,1,False,4
+sports equipment,BOBSLED,bobsled,,,0.187549259861241,,,1,False,6
+sports equipment,BOWLING BALL,bowling ball,,,0.563737970979933,,,1,False,7
+sports equipment,BOXING GLOVES,boxing gloves,,,0.6076329243256671,,,1,False,7
+sports equipment,CLEAT,cleat,,,0.5272495184816838,,,1,False,7
+sports equipment,DART,dart,,,0.2490492690486232,,,1,False,6
+sports equipment,DARTBOARD,dartboard,,,0.2999213436874223,,,1,False,7
+sports equipment,DUMBBELL,dumbbell,,,0.5413274278439394,,,1,False,7
+sports equipment,EXERCISER,exerciser,,,0.2872556334279792,,,1,False,1
+sports equipment,FACE MASK,face mask,,,0.3384676804984586,,,1,False,1
+sports equipment,FLIPPER,flipper,,,0.1721799838222342,,,1,False,3
+sports equipment,FOOTBALL,football,,,0.901069617849485,,,1,False,7
+sports equipment,FOOTBALL HELMET,football helmet,,,0.7856176437257805,,,1,False,7
+sports equipment,FRISBEE,frisbee,,,0.5378886135372787,,,1,False,7
+sports equipment,GOGGLES,goggles,,,0.3841775015257033,,,1,False,6
+sports equipment,GOLF CLUB,golf club,,,0.7635701355674113,,,1,False,7
+sports equipment,HELMET,helmet,,,0.7939674340090108,,,1,False,7
+sports equipment,HOCKEY STICK,hockey stick,,,0.7128013979999385,,,1,False,7
+sports equipment,HOME PLATE,home plate,,,0.3372107347328814,,,1,False,7
+sports equipment,ICESKATE,iceskate,,,0.492071903425681,,,1,False,6
+sports equipment,JAVELIN,javelin,,,0.2918587726505662,,,1,False,6
+sports equipment,JUMP ROPE,jump rope,,,0.5925891970791602,,,1,False,6
+sports equipment,KNEEPAD,kneepad,,,0.5690492854675334,,,1,False,6
+sports equipment,MOUTHPIECE,mouthpiece,,,0.3641097064461966,,,1,False,1
+sports equipment,OAR,oar,,,0.2771029531034941,,,1,False,6
+sports equipment,PADDLE,paddle,,,0.3342371079150301,,,1,False,6
+sports equipment,PING-PONG TABLE,ping-pong table,,,0.3814600216586855,,,1,False,7
+sports equipment,PUCK,puck,,,0.4567406408574077,,,1,False,7
+sports equipment,PUNCHING BAG,punching bag,,,0.5556115560547762,,,1,False,7
+sports equipment,RACKET,racket,,,0.6786073961158232,,,1,False,7
+sports equipment,ROLLERBLADE,rollerblade,,,0.4245498359043079,,,1,False,5
+sports equipment,ROLLERSKATE,rollerskate,,,0.4582867304738502,,,1,False,6
+sports equipment,SADDLE,saddle,,,0.1848865499662567,,,1,False,3
+sports equipment,SCUBA,scuba,,,0.2080307911242221,,,1,False,6
+sports equipment,SKATEBOARD,skateboard,,,0.5608775760829052,,,1,False,6
+sports equipment,SKI,ski,,,0.5318504851078816,,,1,False,7
+sports equipment,SKI BOOTS,ski boots,,,0.4119833286275704,,,1,False,6
+sports equipment,SKI POLE,ski pole,,,0.4745206714464973,,,1,False,6
+sports equipment,SLED,sled,,,0.2386523765554441,,,1,False,4
+sports equipment,SNORKEL,snorkel,,,0.2482650206924566,,,1,False,4
+sports equipment,SNOWBOARD,snowboard,,,0.5452445737040178,,,1,False,7
+sports equipment,SNOWSHOE,snowshoe,,,0.2057943020782645,,,1,False,5
+sports equipment,SOCCER BALL,soccer ball,,,0.8615732480501331,,,1,False,7
+sports equipment,SPRINGBOARD,springboard,,,0.2182085450891733,,,1,False,4
+sports equipment,STOPWATCH,stopwatch,,,0.3575847601228912,,,1,False,3
+sports equipment,SURFBOARD,surfboard,,,0.4357960485627532,,,1,False,7
+sports equipment,TARGET,target,,,0.2238138437735044,,,1,False,6
+sports equipment,TEE,tee,,,0.3337702410576714,,,1,False,7
+sports equipment,TENNIS BALL,tennis ball,,,0.756424344844525,,,1,False,7
+sports equipment,TRAMPOLINE,trampoline,,,0.2429794357396264,,,1,False,7
+sports equipment,TREADMILL,treadmill,,,0.4761073482750931,,,1,False,6
+sports equipment,VOLLEYBALL,volleyball,,,0.8327113288858706,,,1,False,7
+sports equipment,WETSUIT,wetsuit,,,0.2233490687577206,,,1,False,6
+tool,AXE,axe,Axt,,0.7993612909755753,0.9577777777777778,,2,True,7
+tool,BRUSH,brush,Bürste,,0.4720788314967189,0.217647058823529,,2,True,6
+tool,CHISEL,chisel,Meißel,,0.7870884555706359,0.788888888888889,,2,True,6
+tool,DRILL,drill,Bohrmaschine,,0.9520046813245094,0.9366666666666666,,2,True,6
+tool,HAMMER,hammer,Hammer,,0.9304815868615388,0.9894444444444443,,2,True,7
+tool,KNIFE,knife,Messer,,0.7585497611848592,0.7019607843137262,,2,True,7
+tool,PLIERS,pliers,Zange,,0.8469564812739953,0.9472222222222224,,2,True,6
+tool,RAKE,rake,Rechen,,0.7234747103375859,0.3555555555555555,,2,True,6
+tool,SAW,saw,Säge,,0.8661896552733458,0.9472222222222224,,2,True,7
+tool,SCREWDRIVER,screwdriver,Schraubenzieher,,0.9340069855698108,0.8944444444444445,,2,True,6
+tool,SHOVEL,shovel,Schaufel,,0.8014706845607994,0.6411111111111112,,2,True,7
+tool,SICKLE,sickle,Sichel,,0.482057063013066,0.3901234567901235,,2,True,3
+tool,AIR PUMP,air pump,,,0.494376879520524,,,1,False,5
+tool,ANVIL,anvil,,,0.4055806172530066,,,1,False,6
+tool,BACKSCRATCHER,backscratcher,,,0.1707620025788337,,,1,False,4
+tool,BLOWER,blower,,,0.5626267833049816,,,1,False,2
+tool,BLOWTORCH,blowtorch,,,0.5571333932850784,,,1,False,4
+tool,BOTTLE OPENER,bottle opener,,,0.5494897432164202,,,1,False,4
+tool,BROOM,broom,,,0.4555704632261395,,,1,False,6
+tool,CAN OPENER,can opener,,,0.5656689108026844,,,1,False,6
+tool,CHAIN,chain,,,0.3982469170353307,,,1,False,2
+tool,CHAINSAW,chainsaw,,,0.7865478968306648,,,1,False,5
+tool,CHOPSTICKS,chopsticks,,,0.1132224331152244,,,1,False,4
+tool,CLEAVER,cleaver,,,0.3821056615383982,,,1,False,7
+tool,CLIPPER,clipper,,,0.5720852448733624,,,1,False,5
+tool,CORKSCREW,corkscrew,,,0.4479794663642333,,,1,False,5
+tool,CRANK,crank,,,0.452617735213561,,,1,False,3
+tool,CROWBAR,crowbar,,,0.7518977380230516,,,1,False,6
+tool,CURLING IRON,curling iron,,,0.2511966157381267,,,1,False,4
+tool,DUSTER,duster,,,0.295918367758309,,,1,False,3
+tool,DUSTPAN,dustpan,,,0.3723069690261276,,,1,False,6
+tool,EGGBEATER,eggbeater,,,0.2636512265372474,,,1,False,4
+tool,FILE,file,,,0.5508862434402495,,,1,False,3
+tool,FLYSWATTER,flyswatter,,,0.2535075697944496,,,1,False,4
+tool,FORK,fork,,,0.3533951604171587,,,1,False,6
+tool,FOUNTAIN PEN,fountain pen,,,0.1459001920613021,,,1,False,3
+tool,FUNNEL,funnel,,,0.3935435198688268,,,1,False,5
+tool,GAVEL,gavel,,,0.1843098339982186,,,1,False,6
+tool,GRATER,grater,,,0.3241090567979903,,,1,False,5
+tool,GRINDER,grinder,,,0.5661324845555501,,,1,False,6
+tool,HOE,hoe,,,0.6691572358012186,,,1,False,1
+tool,HOSE,hose,,,0.4450886383372105,,,1,False,2
+tool,ICEPICK,icepick,,,0.3924150196123893,,,1,False,3
+tool,JACK,jack,,,0.6493834070661514,,,1,False,1
+tool,JACKHAMMER,jackhammer,,,0.7661179986057438,,,1,False,4
+tool,LADDER,ladder,,,0.6268154068870946,,,1,False,4
+tool,LADLE,ladle,,,0.250538096086679,,,1,False,6
+tool,LETTER OPENER,letter opener,,,0.3310788776872951,,,1,False,3
+tool,LIGHTER,lighter,,,0.3460346490945493,,,1,False,3
+tool,MAGNIFIER,magnifier,,,0.3500604573228707,,,1,False,4
+tool,MAGNIFYING GLASS,magnifying glass,,,0.3359329611980226,,,1,False,6
+tool,MALLET,mallet,,,0.718476848093968,,,1,False,6
+tool,MARKER,marker,,,0.2874075615573019,,,1,False,3
+tool,MATCH,match,,,0.2130054378116595,,,1,False,3
+tool,METAL DETECTOR,metal detector,,,0.323272897301723,,,1,False,6
+tool,MOP,mop,,,0.3807622069347752,,,1,False,5
+tool,NAIL CLIPPERS,nail clippers,,,0.3765157685375546,,,1,False,6
+tool,NAIL FILE,nail file,,,0.3352543755842325,,,1,False,5
+tool,NEEDLE,needle,,,0.4328147559500839,,,1,False,3
+tool,NUTCRACKER,nutcracker,,,0.3224212595478051,,,1,False,5
+tool,PAINTBRUSH,paintbrush,,,0.4898956737433428,,,1,False,6
+tool,PEELER,peeler,,,0.4430807451422432,,,1,False,5
+tool,PEN,pen,,,0.2869159183562014,,,1,False,7
+tool,PENCIL,pencil,,,0.3074800040344748,,,1,False,7
+tool,PENCIL SHARPENER,pencil sharpener,,,0.3433935490392345,,,1,False,6
+tool,PENLIGHT,penlight,,,0.2701414509704982,,,1,False,4
+tool,PICKAX,pickax,,,0.6433455856082045,,,1,False,6
+tool,PIN,pin,,,0.247508970029995,,,1,False,3
+tool,PITCHFORK,pitchfork,,,0.5462815423092865,,,1,False,5
+tool,PLUNGER,plunger,,,0.5517466471208372,,,1,False,4
+tool,POCKETKNIFE,pocketknife,,,0.7640393441799903,,,1,False,6
+tool,POKER,poker,,,0.351233352893965,,,1,False,1
+tool,POLISHER,polisher,,,0.380982249651722,,,1,False,6
+tool,PUNCH,punch,,,0.4170085918253362,,,1,False,1
+tool,QUILL,quill,,,0.0624877886645536,,,1,False,4
+tool,RATCHET,ratchet,,,0.7105539149591055,,,1,False,3
+tool,RAZOR,razor,,,0.4561789528694117,,,1,False,6
+tool,ROLLING PIN,rolling pin,,,0.3562075606171606,,,1,False,7
+tool,ROPE,rope,,,0.379240401918469,,,1,False,6
+tool,RULER,ruler,,,0.581097971117669,,,1,False,7
+tool,SANDPAPER,sandpaper,,,0.4974050384794362,,,1,False,4
+tool,SAWHORSE,sawhorse,,,0.5067308717890507,,,1,False,3
+tool,SCALPEL,scalpel,,,0.4354733192445645,,,1,False,7
+tool,SCISSORS,scissors,,,0.7121542594538652,,,1,False,7
+tool,SCOOP,scoop,,,0.2810762981313973,,,1,False,5
+tool,SCRAPER,scraper,,,0.6165032345564728,,,1,False,3
+tool,SHEARS,shears,,,0.6544986865103195,,,1,False,7
+tool,SLEDGEHAMMER,sledgehammer,,,0.7489515783650527,,,1,False,7
+tool,SOLDERING IRON,soldering iron,,,0.5747206398602657,,,1,False,6
+tool,SPATULA,spatula,,,0.3623951942628411,,,1,False,6
+tool,SPOON,spoon,,,0.2984392534232942,,,1,False,7
+tool,SQUEEGEE,squeegee,,,0.3477928592187549,,,1,False,3
+tool,STAMP,stamp,,,0.1852034687190523,,,1,False,2
+tool,STAPLE GUN,staple gun,,,0.6686970874701719,,,1,False,6
+tool,SWEEPER,sweeper,,,0.3798480811636746,,,1,False,5
+tool,TAPE MEASURE,tape measure,,,0.7867998521755666,,,1,False,6
+tool,TONGS,tongs,,,0.5136142286254731,,,1,False,6
+tool,TOOL,tool,,,0.814918068666602,,,1,False,7
+tool,TRIDENT,trident,,,0.1303702174711847,,,1,False,2
+tool,TROWEL,trowel,,,0.5652090726230108,,,1,False,6
+tool,TWEEZERS,tweezers,,,0.4727627102900236,,,1,False,7
+tool,VACUUM,vacuum,,,0.4133852340081776,,,1,False,6
+tool,VISE,vise,,,0.5641721094203792,,,1,False,6
+tool,WATERING CAN,watering can,,,0.2751311286651325,,,1,False,6
+tool,WEDGE,wedge,,,0.3529261032786215,,,1,False,3
+tool,WIRE CUTTERS,wire cutters,,,0.7443133095157249,,,1,False,6
+tool,WRENCH,wrench,,,0.894147400015225,,,1,False,7
+toy,RATTLE,rattle,Rassel,,0.5790878658385628,0.176666666666667,,2,True,7
+toy,BALL,ball,,,0.9069657546707084,,,1,False,7
+toy,BALLOON,balloon,,,0.3029384292099166,,,1,False,7
+toy,BEACHBALL,beachball,,,0.4412797446929821,,,1,False,7
+toy,BOOMERANG,boomerang,,,0.2657107915818613,,,1,False,3
+toy,CRAYON,crayon,,,0.391810940063355,,,1,False,7
+toy,DOLL,doll,,,0.8506794724591086,,,1,False,7
+toy,DOLLHOUSE,dollhouse,,,0.7205567282050108,,,1,False,6
+toy,DREIDEL,dreidel,,,0.1506148968017798,,,1,False,6
+toy,FRISBEE,frisbee,,,0.6207709051456795,,,1,False,6
+toy,GYROSCOPE,gyroscope,,,0.128969642171584,,,1,False,1
+toy,HOBBYHORSE,hobbyhorse,,,0.3090277297245855,,,1,False,2
+toy,HULA HOOP,hula hoop,,,0.5552415115823777,,,1,False,6
+toy,KALEIDOSCOPE,kaleidoscope,,,0.2719684551979852,,,1,False,6
+toy,KITE,kite,,,0.5298862604632137,,,1,False,6
+toy,LEGO,lego,,,0.8139213222472104,,,1,False,7
+toy,MARBLE,marble,,,0.4668509775633045,,,1,False,6
+toy,MUSIC BOX,music box,,,0.249564632254104,,,1,False,6
+toy,NOISEMAKER,noisemaker,,,0.2283328008546784,,,1,False,3
+toy,PINWHEEL,pinwheel,,,0.2660500456342446,,,1,False,6
+toy,POGO STICK,pogo stick,,,0.382510568123148,,,1,False,4
+toy,PUPPET,puppet,,,0.5047582081336146,,,1,False,6
+toy,ROBOT,robot,,,0.502974704006782,,,1,False,5
+toy,ROCKING HORSE,rocking horse,,,0.5149447225678773,,,1,False,7
+toy,SCOOTER,scooter,,,0.5378225640757529,,,1,False,5
+toy,SKATEBOARD,skateboard,,,0.4982670932674977,,,1,False,3
+toy,SLINGSHOT,slingshot,,,0.3858187351185424,,,1,False,4
+toy,SQUIRT GUN,squirt gun,,,0.6172888256599586,,,1,False,6
+toy,STILT,stilt,,,0.0480576189110896,,,1,False,1
+toy,TEDDY BEAR,teddy bear,,,0.777040781816372,,,1,False,7
+toy,TOY,toy,,,0.8385907961271512,,,1,False,7
+toy,TRAIN SET,train set,,,0.7633512080767102,,,1,False,6
+toy,WHOOPEE CUSHION,whoopee cushion,,,0.2724013179507342,,,1,False,4
+toy,YO-YO,yo-yo,,,0.6724537529949812,,,1,False,4
+vegetable,ARTICHOKE,artichoke,,,0.3359198174601264,,,1,False,6
+vegetable,ARUGULA,arugula,,,0.1957531717013347,,,1,False,4
+vegetable,ASPARAGUS,asparagus,,,0.5412242509837927,,,1,False,6
+vegetable,BEET,beet,,,0.3948773681671362,,,1,False,6
+vegetable,BELL PEPPER,bell pepper,,,0.6347699970618499,,,1,False,6
+vegetable,BOK CHOY,bok choy,,,0.1854878070393176,,,1,False,6
+vegetable,BROCCOLI,broccoli,,,0.8840534434223176,,,1,False,7
+vegetable,BRUSSELS SPROUTS,brussels sprouts,,,0.5752741781180045,,,1,False,6
+vegetable,CABBAGE,cabbage,,,0.6319491926569715,,,1,False,7
+vegetable,CARROT,carrot,,,0.9168325901998948,,,1,False,7
+vegetable,CAULIFLOWER,cauliflower,,,0.6780978235081567,,,1,False,7
+vegetable,CELERY,celery,,,0.6007846567893069,,,1,False,6
+vegetable,CHICKPEA,chickpea,,,0.1537586123552129,,,1,False,3
+vegetable,CHIVE,chive,,,0.1731113693106912,,,1,False,5
+vegetable,CILANTRO,cilantro,,,0.162919917157362,,,1,False,3
+vegetable,CORN,corn,,,0.7653473194138387,,,1,False,7
+vegetable,CUCUMBER,cucumber,,,0.6729355055566264,,,1,False,6
+vegetable,EGGPLANT,eggplant,,,0.4379192677613635,,,1,False,6
+vegetable,GARLIC,garlic,,,0.3139613380791888,,,1,False,6
+vegetable,GOURD,gourd,,,0.1938481434837849,,,1,False,4
+vegetable,GREEN BEANS,green beans,,,0.819109689404513,,,1,False,7
+vegetable,JALAPENO,jalapeno,,,0.2639002222432662,,,1,False,5
+vegetable,KALE,kale,,,0.5001250607463539,,,1,False,6
+vegetable,LEEK,leek,,,0.2203327518315969,,,1,False,6
+vegetable,LETTUCE,lettuce,,,0.8081900303357091,,,1,False,7
+vegetable,OKRA,okra,,,0.2796201757907641,,,1,False,4
+vegetable,ONION,onion,,,0.713037518640487,,,1,False,7
+vegetable,PARSLEY,parsley,,,0.1993167197197206,,,1,False,4
+vegetable,PEA,pea,,,0.6330118471276455,,,1,False,7
+vegetable,PEPPER,pepper,,,0.5118922246409451,,,1,False,7
+vegetable,POTATO,potato,,,0.7198284602566487,,,1,False,7
+vegetable,PUMPKIN,pumpkin,,,0.3811540373868824,,,1,False,6
+vegetable,RADISH,radish,,,0.4067504099257648,,,1,False,6
+vegetable,RHUBARB,rhubarb,,,0.1259171062621973,,,1,False,5
+vegetable,SCALLION,scallion,,,0.2235847336088172,,,1,False,6
+vegetable,SPINACH,spinach,,,0.7009068907285325,,,1,False,7
+vegetable,SPROUTS,sprouts,,,0.3101310124460497,,,1,False,5
+vegetable,SQUASH,squash,,,0.5305684651346254,,,1,False,7
+vegetable,SWEET POTATO,sweet potato,,,0.5113257217602609,,,1,False,6
+vegetable,TOMATO,tomato,,,0.7118683326017858,,,1,False,7
+vegetable,VEGETABLE,vegetable,,,0.7349874075253569,,,1,False,7
+vegetable,ZUCCHINI,zucchini,,,0.603275578949131,,,1,False,6
+vehicle,AIRPLANE,airplane,Hobel,,0.678690394684496,0.651666666666667,,2,True,7
+vehicle,BOAT,boat,Boot,,0.5952187341701135,0.7677777777777779,,2,True,4
+vehicle,BUS,bus,Bus,,0.9293119405043117,1.0,,2,True,7
+vehicle,CANOE,canoe,Kanu,,0.2881576355151128,0.1133333333333336,,2,True,3
+vehicle,CAR,car,Auto,,0.9937780539575308,1.0,,2,True,7
+vehicle,CARRIAGE,carriage,Kutsche,,0.3357529930945213,0.4194444444444448,,2,True,5
+vehicle,FERRY,ferry,Fähre,,0.4322608885970672,0.5672222222222225,,2,True,5
+vehicle,HELICOPTER,helicopter,Hubschrauber,,0.5425395199251676,0.7255555555555556,,2,True,6
+vehicle,MOTORCYCLE,motorcycle,Motorrad,,0.8617817628183279,0.7466666666666667,,2,True,6
+vehicle,RAFT,raft,Floß,,0.1994652655848298,0.1238888888888891,,2,True,4
+vehicle,SHIP,ship,Schiff,,0.5343369538561336,0.9577777777777778,,2,True,6
+vehicle,SLED,sled,Schlitten,,0.1365510695678745,0.1977777777777781,,2,True,3
+vehicle,SUBMARINE,submarine,U-Boot,,0.3225625722672141,0.0,,2,True,3
+vehicle,TRAIN,train,Zug,,0.6978032959952116,0.9788888888888888,,2,True,7
+vehicle,AIRBOAT,airboat,,,0.2869917328173422,,,1,False,4
+vehicle,AIRCRAFT CARRIER,aircraft carrier,,,0.3430393017116086,,,1,False,3
+vehicle,AMBULANCE,ambulance,,,0.76191955483785,,,1,False,6
+vehicle,BIKE,bike,,,0.5954469664468266,,,1,False,6
+vehicle,BUGGY,buggy,,,0.3780796292990138,,,1,False,3
+vehicle,BULLDOZER,bulldozer,,,0.4448994133244183,,,1,False,4
+vehicle,CAMPER,camper,,,0.5568565118766435,,,1,False,2
+vehicle,CART,cart,,,0.2438570330083853,,,1,False,3
+vehicle,CHARIOT,chariot,,,0.1857978629515582,,,1,False,4
+vehicle,CRUISE SHIP,cruise ship,,,0.4425681527066842,,,1,False,2
+vehicle,DIRT BIKE,dirt bike,,,0.6261800776286879,,,1,False,5
+vehicle,FIRETRUCK,firetruck,,,0.7421770785032022,,,1,False,7
+vehicle,FORKLIFT,forklift,,,0.3724682278355845,,,1,False,3
+vehicle,GARBAGE TRUCK,garbage truck,,,0.6662058209083125,,,1,False,6
+vehicle,GO-KART,go-kart,,,0.5358701137365917,,,1,False,4
+vehicle,GOLF CART,golf cart,,,0.5587044015620057,,,1,False,4
+vehicle,GONDOLA,gondola,,,0.1286470164250633,,,1,False,2
+vehicle,HEARSE,hearse,,,0.4943398017546219,,,1,False,2
+vehicle,HOT-AIR BALLOON,hot-air balloon,,,0.1743755946849495,,,1,False,3
+vehicle,HOVERCRAFT,hovercraft,,,0.2333331453919593,,,1,False,4
+vehicle,HUMVEE,humvee,,,0.608314685847166,,,1,False,3
+vehicle,JEEP,jeep,,,0.8786347758884226,,,1,False,5
+vehicle,JET,jet,,,0.5649153776878394,,,1,False,6
+vehicle,JETSKI,jetski,,,0.3406209210289934,,,1,False,4
+vehicle,KAYAK,kayak,,,0.1913285900347673,,,1,False,3
+vehicle,LIMOUSINE,limousine,,,0.7070181922124272,,,1,False,4
+vehicle,MINIVAN,minivan,,,0.9255326103307856,,,1,False,3
+vehicle,POLICE CAR,police car,,,0.848256585473921,,,1,False,5
+vehicle,QUAD,quad,,,0.3644558834894484,,,1,False,5
+vehicle,RICKSHAW,rickshaw,,,0.1626852455617262,,,1,False,3
+vehicle,ROADSWEEPER,roadsweeper,,,0.3734738686417895,,,1,False,2
+vehicle,ROCKET,rocket,,,0.1838578210870993,,,1,False,3
+vehicle,SAILBOAT,sailboat,,,0.4448834267328052,,,1,False,3
+vehicle,SCHOOL BUS,school bus,,,0.8023506574871652,,,1,False,6
+vehicle,SCOOTER,scooter,,,0.6233470095574486,,,1,False,4
+vehicle,SEAPLANE,seaplane,,,0.3096768281653035,,,1,False,5
+vehicle,SKATEBOARD,skateboard,,,0.2772750044515472,,,1,False,2
+vehicle,SNOWMOBILE,snowmobile,,,0.5043977546417576,,,1,False,5
+vehicle,SNOWPLOW,snowplow,,,0.3835590656791264,,,1,False,5
+vehicle,SPACE SHUTTLE,space shuttle,,,0.2485716153459823,,,1,False,3
+vehicle,SPEEDBOAT,speedboat,,,0.4935032161817087,,,1,False,5
+vehicle,STATION WAGON,station wagon,,,0.8250555660732373,,,1,False,4
+vehicle,STEAMROLLER,steamroller,,,0.2638401930459237,,,1,False,3
+vehicle,STROLLER,stroller,,,0.1878069414639815,,,1,False,3
+vehicle,SUBWAY,subway,,,0.4780177789122601,,,1,False,3
+vehicle,TAXI,taxi,,,0.870029313728656,,,1,False,6
+vehicle,TRACTOR,tractor,,,0.6524068712049724,,,1,False,6
+vehicle,TRICYCLE,tricycle,,,0.3728698264877999,,,1,False,4
+vehicle,TROLLEY,trolley,,,0.4651814022715193,,,1,False,3
+vehicle,TRUCK,truck,,,0.964691523691532,,,1,False,7
+vehicle,TUGBOAT,tugboat,,,0.2775333116118666,,,1,False,4
+vehicle,UNICYCLE,unicycle,,,0.1921196126292264,,,1,False,3
+vehicle,VAN,van,,,0.9081708434133784,,,1,False,6
+vehicle,WAGON,wagon,,,0.4101559601920193,,,1,False,6
+vehicle,WHEELCHAIR,wheelchair,,,0.1524554796784972,,,1,False,2
+vehicle,YACHT,yacht,,,0.4058714959319215,,,1,False,4
+watercraft,AIRBOAT,airboat,,,0.3569206591821577,,,1,False,5
+watercraft,AIRCRAFT CARRIER,aircraft carrier,,,0.2077119863370038,,,1,False,7
+watercraft,BOAT,boat,,,0.9103897632039888,,,1,False,7
+watercraft,CANOE,canoe,,,0.5716666356796385,,,1,False,6
+watercraft,CRUISE SHIP,cruise ship,,,0.6528927850844257,,,1,False,6
+watercraft,FERRY,ferry,,,0.4599759765362597,,,1,False,6
+watercraft,GONDOLA,gondola,,,0.1504845037015979,,,1,False,4
+watercraft,HOVERCRAFT,hovercraft,,,0.1890028483895204,,,1,False,4
+watercraft,JETSKI,jetski,,,0.5950223390026195,,,1,False,6
+watercraft,KAYAK,kayak,,,0.5313379839220101,,,1,False,6
+watercraft,RAFT,raft,,,0.534860913668367,,,1,False,7
+watercraft,SAILBOAT,sailboat,,,0.7840381757853507,,,1,False,7
+watercraft,SEAPLANE,seaplane,,,0.2049061836211394,,,1,False,6
+watercraft,SHIP,ship,,,0.7953900473464521,,,1,False,7
+watercraft,SPEEDBOAT,speedboat,,,0.7217242328582366,,,1,False,6
+watercraft,SUBMARINE,submarine,,,0.3892471024715059,,,1,False,6
+watercraft,TORPEDO,torpedo,,,0.0699814482469509,,,1,False,1
+watercraft,TUGBOAT,tugboat,,,0.3991006813817598,,,1,False,6
+watercraft,YACHT,yacht,,,0.6433175821376417,,,1,False,7
+weapon,ARROW,arrow,,,0.5954621322982452,,,1,False,3
+weapon,AXE,axe,,,0.6163163446028369,,,1,False,7
+weapon,BASEBALL BAT,baseball bat,,,0.5131530901958121,,,1,False,4
+weapon,BAT,bat,,,0.4977091203942285,,,1,False,3
+weapon,BATON,baton,,,0.4649864521451016,,,1,False,2
+weapon,BAZOOKA,bazooka,,,0.5149766830767444,,,1,False,5
+weapon,BLOWGUN,blowgun,,,0.2507180641901802,,,1,False,3
+weapon,BLOWTORCH,blowtorch,,,0.159308111311814,,,1,False,3
+weapon,BOMB,bomb,,,0.6662947712402196,,,1,False,7
+weapon,BOOMERANG,boomerang,,,0.1203032471184978,,,1,False,3
+weapon,BOW,bow,,,0.6082278046937516,,,1,False,1
+weapon,BRASS KNUCKLES,brass knuckles,,,0.5359507670207326,,,1,False,5
+weapon,BULLET,bullet,,,0.7097114840998247,,,1,False,7
+weapon,CANNON,cannon,,,0.5585808916796028,,,1,False,6
+weapon,CANNONBALL,cannonball,,,0.3203657202451643,,,1,False,3
+weapon,CATAPULT,catapult,,,0.2084038769633499,,,1,False,4
+weapon,CHAINSAW,chainsaw,,,0.3717286169844214,,,1,False,4
+weapon,CLEAVER,cleaver,,,0.4023096969718714,,,1,False,3
+weapon,CROSSBOW,crossbow,,,0.6058244295312766,,,1,False,5
+weapon,CROWBAR,crowbar,,,0.4106516539758565,,,1,False,3
+weapon,DAGGER,dagger,,,0.7038312401953131,,,1,False,6
+weapon,DART,dart,,,0.2614179859801636,,,1,False,2
+weapon,DYNAMITE,dynamite,,,0.3050197341960223,,,1,False,6
+weapon,FLAMETHROWER,flamethrower,,,0.417008591825336,,,1,False,4
+weapon,GRENADE,grenade,,,0.6611157624744025,,,1,False,6
+weapon,GUN,gun,,,0.9904793387515164,,,1,False,7
+weapon,HAMMER,hammer,,,0.4109496656741273,,,1,False,3
+weapon,ICEPICK,icepick,,,0.2820325141993978,,,1,False,3
+weapon,KNIFE,knife,,,0.892065699817497,,,1,False,6
+weapon,LANDMINE,landmine,,,0.3152821268496346,,,1,False,3
+weapon,MACHETE,machete,,,0.6183133347974775,,,1,False,6
+weapon,MACHINE GUN,machine gun,,,0.869844333855184,,,1,False,6
+weapon,MISSILE,missile,,,0.5353335296932383,,,1,False,7
+weapon,PICKAX,pickax,,,0.3275824411955644,,,1,False,3
+weapon,PITCHFORK,pitchfork,,,0.2785928990976492,,,1,False,3
+weapon,POCKETKNIFE,pocketknife,,,0.6881993510836623,,,1,False,4
+weapon,RAZOR BLADE,razor blade,,,0.4586592821886557,,,1,False,3
+weapon,REVOLVER,revolver,,,0.8610430755571388,,,1,False,6
+weapon,RIFLE,rifle,,,0.9189318077901728,,,1,False,7
+weapon,SCALPEL,scalpel,,,0.1915922642329203,,,1,False,3
+weapon,SCISSORS,scissors,,,0.218365336660763,,,1,False,2
+weapon,SLINGSHOT,slingshot,,,0.382646681930164,,,1,False,3
+weapon,SPEAR,spear,,,0.5782169767116198,,,1,False,7
+weapon,SWORD,sword,,,0.8354598397274153,,,1,False,7
+weapon,TANK,tank,,,0.4042585438772859,,,1,False,7
+weapon,TORPEDO,torpedo,,,0.3436184172543601,,,1,False,5
+weapon,TRIDENT,trident,,,0.1392247909008715,,,1,False,3
+weapon,WHIP,whip,,,0.2368589025297659,,,1,False,3
+women's clothing,BIKINI,bikini,,,0.6579115477620651,,,1,False,5
+women's clothing,BLOUSE,blouse,,,0.8075185380110665,,,1,False,6
+women's clothing,BOA,boa,,,0.0745209202529903,,,1,False,2
+women's clothing,BRA,bra,,,0.8605248170527505,,,1,False,7
+women's clothing,CORSET,corset,,,0.3351950919736675,,,1,False,3
+women's clothing,DRESS,dress,,,0.9554927192514596,,,1,False,7
+women's clothing,FISHNET STOCKINGS,fishnet stockings,,,0.353673663093165,,,1,False,5
+women's clothing,GARTER,garter,,,0.2401201672188311,,,1,False,3
+women's clothing,HEADSCARF,headscarf,,,0.3056944074597363,,,1,False,6
+women's clothing,KIMONO,kimono,,,0.2576311867746739,,,1,False,6
+women's clothing,LEGGINGS,leggings,,,0.7140519455909344,,,1,False,6
+women's clothing,LINGERIE,lingerie,,,0.6267643191673908,,,1,False,5
+women's clothing,PANTSUIT,pantsuit,,,0.4973643500386447,,,1,False,6
+women's clothing,PANTYHOSE,pantyhose,,,0.5479083919069709,,,1,False,6
+women's clothing,SKIRT,skirt,,,0.866939436937493,,,1,False,6
+women's clothing,STILETTO,stiletto,,,0.3646738673271723,,,1,False,4
+women's clothing,STOCKINGS,stockings,,,0.4928708911139911,,,1,False,6
+women's clothing,TIARA,tiara,,,0.1240736917195158,,,1,False,3
+women's clothing,TUBE TOP,tube top,,,0.4772079224465046,,,1,False,3
+women's clothing,VEIL,veil,,,0.1452529264298619,,,1,False,4
