@@ -1,0 +1,8 @@
+Game starts!
+                Rounds: 26
+                Language: english
+                Agents: 4
+                Strategies enabled: False
+                Categories: 53
+                Valid words: 2355
+        
