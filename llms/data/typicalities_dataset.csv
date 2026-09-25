@@ -1,0 +1,3270 @@
+,concept,spanish,spanish_to_eng,german,german_to_eng,english,typ_es,typ_de,typ_en
+0,animal,,,,,aardvark,,,0.277408637873754
+1,animal,,,,,alligator,,,0.5937847866419295
+2,animal,,,,,alpaca,,,0.4372294372294373
+3,animal,,,Ameise,ant,ant,,0.7083333333333334,0.34029243881460636
+4,animal,,,,,anteater,,,0.4476190476190475
+5,animal,,,Antilope,antelope,antelope,,0.6749999999999999,0.5526815377313716
+6,animal,,,Dachs,badger,badger,,0.6916666666666668,0.5447779111644658
+7,animal,,,,,barnacle,,,0.06890756302521005
+8,animal,,,Fledermaus,bat,bat,,0.7083333333333334,0.5201814058956915
+9,animal,Oso,bear,Bär,bear,bear,0.9466666666666667,0.9666666666666667,0.8383045525902668
+10,animal,,,Biber,beaver,beaver,,0.6583333333333333,0.6310657596371883
+11,animal,Abeja,bee,Biene,bee,bee,0.5466666666666667,0.7719298245614036,0.3409768401742719
+12,animal,,,Käfer,beetle,beetle,,0.6491228070175439,0.2699443413729128
+13,animal,Pájaro,bird,,,bird,0.8533333333333334,,0.8089887640449438
+14,animal,,,Bison,bison,bison,,0.6666666666666666,0.4794797039694999
+15,animal,,,,,blowfish,,,0.20079756040347166
+16,animal,,,,,boar,,,0.4720930232558139
+17,animal,,,,,bug,,,0.392063492063492
+18,animal,Toro,bull,Stier,bull,bull,0.9133333333333334,0.7583333333333333,0.6854480922803905
+19,animal,Mariposa,butterfly,Schmetterling,butterfly,butterfly,0.5333333333333333,0.7999999999999999,0.3308523409363745
+20,animal,,,,,calf,,,0.7039002267573696
+21,animal,Camello,camel,Kamel,camel,camel,0.5333333333333333,0.85,0.631083202511774
+22,animal,,,,,cardinal,,,0.46155671570953966
+23,animal,Gato,cat,Katze,cat,cat,0.9533333333333333,0.9833333333333334,0.915282392026578
+24,animal,,,,,caterpillar,,,0.27674366449876653
+25,animal,,,,,catfish,,,0.3514739229024943
+26,animal,Guepardo,cheetah,Gepard,cheetah,cheetah,0.38666666666666666,0.7000000000000001,0.7098106712564544
+27,animal,,,,,chick,,,0.5874799357945425
+28,animal,Pollo,chicken,Huhn,chicken,chicken,0.7933333333333333,0.8666666666666667,0.8223816999327205
+29,animal,,,,,chihuahua,,,0.6196078431372548
+30,animal,,,,,chinchilla,,,0.38571428571428573
+31,animal,,,,,chipmunk,,,0.6316594053351678
+32,animal,,,,,clam,,,0.18367346938775508
+33,animal,,,Kobra,cobra,cobra,,0.6166666666666667,0.3577123872804936
+34,animal,,,,,cockatoo,,,0.3415435139573071
+35,animal,Cucaracha,cockroach,,,cockroach,0.3,,0.2440008970621215
+36,animal,,,,,coral,,,0.09411764705882343
+37,animal,,,,,cougar,,,0.5878942486085343
+38,animal,Vaca,cow,Kuh,cow,cow,0.9533333333333333,0.9916666666666667,0.9067717996289425
+39,animal,,,Kojote,coyote,coyote,,0.5555555555555556,0.6650399290150844
+40,animal,Cangrejo,crab,Krebs,crab,crab,0.37999999999999995,0.6166666666666667,0.41206145379500114
+41,animal,,,,,crayfish,,,0.20779220779220778
+42,animal,Cuervo,crow,,,crow,0.4266666666666667,,0.5118738404452688
+43,animal,,,,,dalmatian,,,0.5934418711304746
+44,animal,Ciervo,deer,,,deer,0.6533333333333333,,0.8310383494056964
+45,animal,Perro,dog,Hund,dog,dog,0.9866666666666667,0.9666666666666667,0.9624903125807285
+46,animal,Delfín,dolphin,Delphin,dolphin,dolphin,0.7400000000000001,0.8833333333333333,0.6320251177394035
+47,animal,Burro,donkey,,,donkey,0.7599999999999999,,0.7529411764705882
+48,animal,,,Libelle,dragonfly,dragonfly,,0.5701754385964912,0.20634920634920628
+49,animal,Pato,duck,Ente,duck,duck,0.84,0.9500000000000001,0.7578397212543554
+50,animal,,,,,duckling,,,0.5384544829167622
+51,animal,Águila,eagle,,,eagle,0.64,,0.6423524248409039
+52,animal,,,,,earwig,,,0.14459930313588848
+53,animal,,,Aal,eel,eel,,0.7017543859649124,0.23450980392156856
+54,animal,Elefante,elephant,Elefant,elephant,elephant,0.8866666666666667,0.975,0.8433179723502304
+55,animal,,,Frettchen,ferret,ferret,,0.5350877192982456,0.46657283603096406
+56,animal,Pez,fish,Fisch,fish,fish,0.7533333333333333,0.9298245614035089,0.5542168674698794
+57,animal,,,,,flamingo,,,0.4801525005606639
+58,animal,Mosca,fly,,,fly,0.44,,0.3250188964474678
+59,animal,Zorro,fox,Fuchs,fox,fox,0.9199999999999999,0.875,0.7647840531561461
+60,animal,Rana,frog,Frosch,frog,frog,0.6333333333333333,0.8083333333333332,0.6421282798833818
+61,animal,,,Gazelle,gazelle,gazelle,,0.65,0.5053763440860215
+62,animal,Jirafa,giraffe,Giraffe,giraffe,giraffe,0.7333333333333334,0.9,0.7720779220779221
+63,animal,Cabra,goat,Ziege,goat,goat,0.7200000000000001,0.8583333333333334,0.7802363050483352
+64,animal,,,,,goldfish,,,0.5682486948267679
+65,animal,,,Gans,goose,goose,,0.9666666666666667,0.5872206025267249
+66,animal,,,,,gopher,,,0.42774327122153216
+67,animal,Gorila,gorilla,,,gorilla,0.6066666666666666,,0.7382534409112482
+68,animal,Saltamontes,grasshopper,,,grasshopper,0.41333333333333333,,0.29081632653061223
+69,animal,,,,,groundhog,,,0.5456864564007421
+70,animal,,,Meerschweinchen,guinea pig,guinea pig,,0.7416666666666667,0.6193760262725779
+71,animal,Hamster,hamster,Hamster,hamster,hamster,0.48666666666666664,0.85,0.6785714285714286
+72,animal,,,,,hawk,,,0.5375510204081632
+73,animal,,,Igel,hedgehog,hedgehog,,0.8416666666666667,0.4936941068562256
+74,animal,Hipopótamo,hippopotamus,Nilpferd,hippopotamus,hippopotamus,0.5733333333333334,0.7166666666666667,0.6129568106312293
+75,animal,Caballo,horse,Pferd,horse,horse,0.9133333333333334,0.9916666666666667,0.877451468392235
+76,animal,Colibrí,hummingbird,,,hummingbird,0.21999999999999997,,0.4228387984407246
+77,animal,Hiena,hyena,,,hyena,0.3466666666666667,,0.5029478458049886
+78,animal,Iguana,iguana,Leguan,iguana,iguana,0.45333333333333337,0.5740740740740741,0.42478354978354976
+79,animal,,,,,jellyfish,,,0.2705082032813125
+80,animal,Canguro,kangaroo,Känguru,kangaroo,kangaroo,0.48666666666666664,0.75,0.7007567071772529
+81,animal,,,,,kitten,,,0.8705288567039718
+82,animal,Koala,koala,,,koala,0.5866666666666666,,0.543778801843318
+83,animal,,,,,ladybug,,,0.2506407214048409
+84,animal,Cordero,lamb,,,lamb,0.7933333333333333,,0.6398705823792932
+85,animal,,,,,leech,,,0.13061224489795908
+86,animal,Leopardo,leopard,Leopard,leopard,leopard,0.88,0.7999999999999999,0.674080868302377
+87,animal,,,,,lightning bug,,,0.16530612244897955
+88,animal,León,lion,Löwe,lion,lion,0.9666666666666667,0.9666666666666667,0.858114674441205
+89,animal,Lagartija,lizard,Eidechse,lizard,lizard,0.5066666666666667,0.6333333333333333,0.5495798319327732
+90,animal,,,Lama,llama,llama,,0.7000000000000001,0.5758855266244429
+91,animal,,,,,lobster,,,0.3479437229437229
+92,animal,,,,,maggot,,,0.1285714285714286
+93,animal,,,,,manatee,,,0.32102728731942215
+94,animal,,,,,meerkat,,,0.3695598721416277
+95,animal,,,Maulwurf,mole,mole,,0.6666666666666666,0.42667299477930704
+96,animal,,,,,mongoose,,,0.3609263930291217
+97,animal,mono/s,monkey,Affe,monkey,monkey,0.8266666666666667,0.9666666666666667,0.8407029478458049
+98,animal,,,,,moose,,,0.6934338952972493
+99,animal,Mosquito,mosquito,,,mosquito,0.39999999999999997,,0.18511404561824732
+100,animal,,,,,moth,,,0.19079259610821073
+101,animal,Ratón,mouse,Maus,mouse,mouse,0.7866666666666666,0.8416666666666667,0.7607216799763383
+102,animal,,,Miesmuschel,mussel,mussel,,0.3508771929824562,0.08673469387755096
+103,animal,,,,,octopus,,,0.38587848932676516
+104,animal,Orangután,orangutan,,,orangutan,0.7533333333333333,,0.5458269329237071
+105,animal,Avestruz,ostrich,,,ostrich,0.4466666666666667,,0.4788657035848047
+106,animal,,,,,otter,,,0.5327479829140959
+107,animal,Lechuza,owl,,,owl,0.6133333333333333,,0.625
+108,animal,,,,,oyster,,,0.18628381585192205
+109,animal,,,,,panda,,,0.7477324263038548
+110,animal,Pantera,panther,,,panther,0.8266666666666667,,0.6406817672123795
+111,animal,Loro,parrot,Papagei,parrot,parrot,0.7066666666666667,0.7916666666666666,0.5897959183673469
+112,animal,,,,,peacock,,,0.5255675303829397
+113,animal,,,,,pelican,,,0.4125200642054575
+114,animal,,,Pinguin,penguin,penguin,,0.7666666666666666,0.6027874564459931
+115,animal,,,,,pheasant,,,0.28410914927768854
+116,animal,Cerdo,pig,Schwein,pig,pig,0.9133333333333334,0.9666666666666667,0.8491570541259982
+117,animal,Paloma,pigeon,,,pigeon,0.7733333333333333,,0.5620929222752931
+118,animal,,,,,piglet,,,0.641595964228388
+119,animal,,,,,platypus,,,0.34099378881987574
+120,animal,,,Eisbär,polar bear,polar bear,,0.85,0.6857142857142857
+121,animal,,,Pony,pony,pony,,0.8166666666666668,0.7852216748768474
+122,animal,,,,,poodle,,,0.6597093382807667
+123,animal,,,,,porcupine,,,0.47212413055109675
+124,animal,,,,,possum,,,0.5955699352911896
+125,animal,,,,,praying mantis,,,0.1778615794143744
+126,animal,,,,,puffin,,,0.25747508305647837
+127,animal,,,,,pug,,,0.6384839650145773
+128,animal,,,,,puppy,,,0.9028510280516702
+129,animal,Conejo,rabbit,,,rabbit,0.8533333333333334,,0.8070097604259094
+130,animal,,,,,raccoon,,,0.7682753101240495
+131,animal,,,,,ram,,,0.46962233169129725
+132,animal,Rata,rat,Ratte,rat,rat,0.7666666666666666,0.7416666666666667,0.6816326530612244
+133,animal,,,,,rattlesnake,,,0.4336961451247165
+134,animal,,,Rentier,reindeer,reindeer,,0.7166666666666667,0.49891774891774887
+135,animal,Rinoceronte,rhinoceros,Nashorn,rhinoceros,rhinoceros,0.7000000000000001,0.7999999999999999,0.5993197278911565
+136,animal,Gallo,rooster,,,rooster,0.7599999999999999,,0.6599378881987578
+137,animal,Sardina,sardine,,,sardine,0.48666666666666664,,0.18146053602163748
+138,animal,,,,,scallop,,,0.08667736757624389
+139,animal,,,,,scorpion,,,0.27959183673469384
+140,animal,,,,,sea urchin,,,0.11620648259303713
+141,animal,Gaviota,seagull,,,seagull,0.5533333333333333,,0.42502218278615794
+142,animal,,,Seepferdchen,seahorse,seahorse,,0.5416666666666666,0.26202205019939007
+143,animal,Foca,seal,Seehund,seal,seal,0.64,0.6833333333333332,0.5200642054574639
+144,animal,Tiburón,shark,,,shark,0.6666666666666666,,0.5723562152133581
+145,animal,Oveja,sheep,Schaf,sheep,sheep,0.94,0.9583333333333334,0.7841614906832298
+146,animal,,,,,shrimp,,,0.2396239394634257
+147,animal,,,,,skunk,,,0.6269085411942555
+148,animal,,,,,sloth,,,0.4918831168831169
+149,animal,,,,,slug,,,0.17142857142857143
+150,animal,,,Schnecke,snail,snail,,0.7000000000000001,0.36734693877551017
+151,animal,Serpiente,snake,Schlange,snake,snake,0.6266666666666666,0.7833333333333333,0.584126984126984
+152,animal,Araña,spider,Spinne,spider,spider,0.49333333333333335,0.75,0.3685823754789272
+153,animal,Calamar,squid,,,squid,0.24666666666666667,,0.2873563218390805
+154,animal,Ardilla,squirrel,Eichhörnchen,squirrel,squirrel,0.5466666666666667,0.8666666666666667,0.7528891074502091
+155,animal,,,Seestern,starfish,starfish,,0.2916666666666667,0.2977697408077154
+156,animal,,,,,stingray,,,0.3134602155468929
+157,animal,,,,,swan,,,0.5152036718301779
+158,animal,,,,,swordfish,,,0.2900226757369614
+159,animal,,,,,tadpole,,,0.1992225461613216
+160,animal,,,Tarantel,tarantula,tarantula,,0.40350877192982465,0.25280612244897954
+161,animal,,,Zecke,tick,tick,,0.26315789473684204,0.13322632423756012
+162,animal,Tigre,tiger,Tiger,tiger,tiger,0.9199999999999999,0.8916666666666666,0.8354352977145917
+163,animal,Sapo,toad,,,toad,0.52,,0.4620248099239696
+164,animal,,,,,toucan,,,0.33333333333333337
+165,animal,,,Pute,turkey,turkey,,0.7333333333333334,0.623861852433281
+166,animal,Tortuga,turtle,,,turtle,0.7599999999999999,,0.692713529856387
+167,animal,Buitre,vulture,,,vulture,0.43333333333333335,,0.38140589569160993
+168,animal,,,,,walrus,,,0.4159132007233273
+169,animal,,,Warzenschwein,warthog,warthog,,0.6333333333333333,0.3495491219743711
+170,animal,Avispa,wasp,Wespe,wasp,wasp,0.43333333333333335,0.631578947368421,0.24096385542168672
+171,animal,,,,,weasel,,,0.4684494487450152
+172,animal,Ballena,whale,Wal,whale,whale,0.6666666666666666,0.725,0.5532630634671452
+173,animal,Lobo,wolf,Wolf,wolf,wolf,0.96,0.9,0.8287590898428336
+174,animal,Gusano,worm,Wurm,worm,worm,0.35333333333333333,0.5789473684210527,0.28421052631578936
+175,animal,,,,,yak,,,0.33770651117589895
+176,animal,Cebra,zebra,Zebra,zebra,zebra,0.5533333333333333,0.8166666666666668,0.7435149884129476
+177,animal,Hormiga,aunt,,,,0.5466666666666667,,
+178,animal,Periquito,budgerigar,,,,0.6533333333333333,,
+179,animal,Canario,canary,,,,0.54,,
+180,animal,Potro,colt,,,,0.7733333333333333,,
+181,animal,Cocodrilo,crocodile,Krokodil,crocodile,,0.5333333333333333,0.7583333333333333,
+182,animal,Halcón,falcon,,,,0.45999999999999996,,
+183,animal,Gamo,fallow deer,,,,0.3466666666666667,,
+184,animal,Colorín,goldfinch,,,,0.14666666666666664,,
+185,animal,Liebre,hare,Hase,hare,,0.9,0.9416666666666668,
+186,animal,Gallina,hen,,,,0.8133333333333334,,
+187,animal,Lagarto,lizard,,,,0.4666666666666666,,
+188,animal,Lince,lynx,Luchs,lynx,,0.7999999999999999,0.6583333333333333,
+189,animal,Yegua,mare,,,,0.8333333333333334,,
+190,animal,Búho,owl,,,,0.48666666666666664,,
+191,animal,Buey,ox,,,,0.5666666666666668,,
+192,animal,Perdiz,partridge,,,,0.7000000000000001,,
+193,animal,Gorrino,pig,,,,0.44,,
+194,animal,Langostino,prawn,,,,0.36000000000000004,,
+195,animal,Gamba,prawn,,,,0.26,,
+196,animal,Puma,puma,,,,0.7333333333333334,,
+197,animal,Codorniz,quail,,,,0.35333333333333333,,
+198,animal,Salmón,salmon,Lachs,salmon,,0.52,0.6578947368421052,
+199,animal,Culebra,snake,,,,0.47333333333333333,,
+200,animal,Gorrión,sparrow,,,,0.48666666666666664,,
+201,animal,Cigüeña,stork,,,,0.6,,
+202,animal,Golondrina,swallow,,,,0.5533333333333333,,
+203,animal,Trucha,trout,,,,0.5,,
+204,animal,Jabalí,wild boar,Wildschwein,wild boar,,0.7133333333333334,0.8666666666666667,
+205,animal,,,Feuerkäfer,Cardinal beetle,,,0.3541666666666667,
+206,animal,,,Raubkatze,big cat,,,0.6749999999999999,
+207,animal,,,Schwarzbär,black bear,,,0.7083333333333334,
+208,animal,,,Braunbär,brown bear,,,0.7999999999999999,
+209,animal,,,Büffel,buffalo,,,0.7000000000000001,
+210,animal,,,Chamäleon,chameleon,,,0.6166666666666667,
+211,animal,,,Schimpanse,chimpanzee,,,0.7833333333333333,
+212,animal,,,Dromedar,dromedary,,,0.5833333333333334,
+213,animal,,,Regenwurm,earthworm,,,0.6583333333333333,
+214,animal,,,Elch,elk,,,0.775,
+215,animal,,,Kreuzspinne,garden spider,,,0.425,
+216,animal,,,Buckelwal,humpback whale,,,0.5666666666666667,
+217,animal,,,Steinbock,ibex,,,0.6833333333333332,
+218,animal,,,Marienkäfer,ladybird,,,0.7166666666666667,
+219,animal,,,Murmeltier,marmot,,,0.6166666666666667,
+220,animal,,,Marder,marten,,,0.6833333333333332,
+221,animal,,,Milbe,mite,,,0.16666666666666666,
+222,animal,,,Hecht,pike,,,0.631578947368421,
+223,animal,,,Iltis,polecat,,,0.6166666666666667,
+224,animal,,,Hornkäfer,rhinocerous horn beetle,,,0.3333333333333333,
+225,animal,,,Flusspferd,river horse,,,0.6833333333333332,
+226,animal,,,Reh,roe deer,,,0.8916666666666666,
+227,animal,,,Echse,saurian,,,0.6166666666666667,
+228,animal,,,Schildlaus,scale insect,,,0.23148148148148154,
+229,animal,,,Muschel,sea shell,,,0.3916666666666666,
+230,animal,,,Hirsch,stag / deer,,,0.9,
+231,animal,,,Stabheuschrecke,stick insect,,,0.2708333333333333,
+232,animal,,,Schildkröte,tortoise,,,0.6833333333333332,
+233,animal,,,Wasserbüffel,water buffalo,,,0.5833333333333334,
+234,animal,,,Wildkatze,wild cat,,,0.6833333333333332,
+235,arts and crafts supply,,,,,bead,,,0.5930232558139535
+236,arts and crafts supply,,,,,button,,,0.3797928262213976
+237,arts and crafts supply,,,,,canvas,,,0.7042727203240847
+238,arts and crafts supply,,,,,cardboard,,,0.5125429947259803
+239,arts and crafts supply,,,,,chalk,,,0.5048766494549628
+240,arts and crafts supply,,,,,charcoal,,,0.3685198217217921
+241,arts and crafts supply,,,,,chisel,,,0.23694779116465864
+242,arts and crafts supply,,,,,clay,,,0.6192115400377018
+243,arts and crafts supply,,,,,crayon,,,0.7838246409674982
+244,arts and crafts supply,,,,,easel,,,0.625615763546798
+245,arts and crafts supply,,,,,eraser,,,0.45199443413729135
+246,arts and crafts supply,,,,,fountain pen,,,0.3408239700374532
+247,arts and crafts supply,,,,,glue,,,0.7670841063698205
+248,arts and crafts supply,,,,,ink,,,0.5460662525879918
+249,arts and crafts supply,,,,,knitting needle,,,0.481015662078785
+250,arts and crafts supply,,,,,loom,,,0.2528735632183908
+251,arts and crafts supply,,,,,marble,,,0.19102990033222583
+252,arts and crafts supply,,,,,marker,,,0.7040816326530611
+253,arts and crafts supply,,,,,mold,,,0.3411410018552875
+254,arts and crafts supply,,,,,needle,,,0.44684385382059794
+255,arts and crafts supply,,,,,paint,,,0.8600583090379009
+256,arts and crafts supply,,,,,paintbrush,,,0.7923344947735192
+257,arts and crafts supply,,,,,palette,,,0.49741824440619625
+258,arts and crafts supply,,,,,paper,,,0.7917850684577629
+259,arts and crafts supply,,,,,patch,,,0.2850185528756958
+260,arts and crafts supply,,,,,pen,,,0.5713529856386999
+261,arts and crafts supply,,,,,pencil,,,0.7252923641366659
+262,arts and crafts supply,,,,,pencil sharpener,,,0.40857306778132924
+263,arts and crafts supply,,,,,pin,,,0.38989084005695307
+264,arts and crafts supply,,,,,pincushion,,,0.2974789915966386
+265,arts and crafts supply,,,,,pom-pom,,,0.31448241947381356
+266,arts and crafts supply,,,,,ribbon,,,0.6071428571428571
+267,arts and crafts supply,,,,,scissors,,,0.7751192430995387
+268,arts and crafts supply,,,,,sequin,,,0.4547122219674386
+269,arts and crafts supply,,,,,sewing kit,,,0.4805636540330417
+270,arts and crafts supply,,,,,sewing machine,,,0.4879569410181655
+271,arts and crafts supply,,,,,stamp,,,0.40655812886952525
+272,arts and crafts supply,,,,,tape,,,0.5561224489795918
+273,arts and crafts supply,,,,,thimble,,,0.24930426716141005
+274,arts and crafts supply,,,,,thread,,,0.5296846011131725
+275,arts and crafts supply,,,,,wire,,,0.3542106497771522
+276,arts and crafts supply,,,,,wire cutters,,,0.287884267631103
+277,arts and crafts supply,,,,,wrapping paper,,,0.35884353741496594
+278,arts and crafts supply,,,,,yarn,,,0.6500899210258817
+279,bird,,,,,bird,,,0.8084537185660781
+280,bird,,,,,cardinal,,,0.5042016806722689
+281,bird,,,,,chick,,,0.4712643678160919
+282,bird,,,,,cockatoo,,,0.2977624784853701
+283,bird,,,Krähe,crow,crow,,0.8583333333333334,0.707034632034632
+284,bird,,,Ente,duck,duck,,0.8166666666666668,0.7021831988609397
+285,bird,,,,,duckling,,,0.4182091441227654
+286,bird,,,Adler,eagle,eagle,,0.8833333333333333,0.7895847994370161
+287,bird,,,Flamingo,flamingo,flamingo,,0.6416666666666667,0.3910773611770289
+288,bird,,,Gans,goose ,goose,,0.775,0.5259961127308066
+289,bird,,,Falke,hawk,hawk,,0.7583333333333333,0.6215472235405791
+290,bird,,,Kolibri,hummingbird,hummingbird,,0.6666666666666666,0.6434178066831128
+291,bird,,,,,ostrich,,,0.35534213685474186
+292,bird,,,Eule,owl,owl,,0.7833333333333333,0.579700061842919
+293,bird,,,Papagei ,parrot,parrot,,0.7666666666666666,0.679202017885806
+294,bird,,,Pfau,peacock,peacock,,0.6666666666666666,0.44134453781512606
+295,bird,,,Pelikan,pelican,pelican,,0.6666666666666666,0.3181818181818182
+296,bird,,,,,penguin,,,0.2952380952380952
+297,bird,,,Fasan,pheasant,pheasant,,0.6583333333333333,0.28743545611015486
+298,bird,,,,,pigeon,,,0.7536134453781512
+299,bird,,,,,puffin,,,0.13738295318127244
+300,bird,,,,,rooster,,,0.578397212543554
+301,bird,,,Möwe,seagull,seagull,,0.9083333333333333,0.5850174216027876
+302,bird,,,Schwan,swan,swan,,0.775,0.45515574650912993
+303,bird,,,,,toucan,,,0.23920265780730893
+304,bird,,,Pute,turkey,turkey,,0.6333333333333333,0.5160018552875695
+305,bird,,,Geier,vulture,vulture,,0.7368421052631579,0.3513526340768866
+306,bird,,,Albatros,albatross,,,0.5686274509803921,
+307,bird,,,Schwarzstorch,black stork,,,0.5740740740740741,
+308,bird,,,Amsel,blackbird,,,0.9666666666666667,
+309,bird,,,Blaumeise,bluetit,,,0.9473684210526315,
+310,bird,,,Wellensittich,budgerigar,,,0.8583333333333334,
+311,bird,,,Bussard,buzzard,,,0.8333333333333334,
+312,bird,,,Kanarienvogel,canary,,,0.8250000000000001,
+313,bird,,,Buchfink,chaffinch,,,0.7666666666666666,
+314,bird,,,Huhn,chicken,,,0.7583333333333333,
+315,bird,,,Nymphensittich,cockateel,,,0.5789473684210527,
+316,bird,,,Mäusebussard,common buzzard,,,0.7083333333333334,
+317,bird,,,Kranich,crane,,,0.6749999999999999,
+318,bird,,,Kuckuck,cuckoo,,,0.8250000000000001,
+319,bird,,,Taube,dove,,,0.8916666666666666,
+320,bird,,,Uhu,eagle owl,,,0.6749999999999999,
+321,bird,,,Fink,finch,,,0.8833333333333333,
+322,bird,,,Steinadler,golden eagle,,,0.7583333333333333,
+323,bird,,,Goldkehlchen,goldenthroat,,,0.7543859649122807,
+324,bird,,,Stieglitz,goldfinch,,,0.7314814814814815,
+325,bird,,,Habicht,goshawk,,,0.7583333333333333,
+326,bird,,,Graugans,graylag goose,,,0.6166666666666667,
+327,bird,,,Haubentaucher,great crested grebe,,,0.6749999999999999,
+328,bird,,,Kohlmeise,great tit,,,0.9500000000000001,
+329,bird,,,Grünspecht,green woodpecker,,,0.7333333333333334,
+330,bird,,,Grünfink,greenfinch,,,0.7083333333333334,
+331,bird,,,Reiher,heron,,,0.6583333333333333,
+332,bird,,,Nebelkrähe,hooded crow,,,0.6666666666666666,
+333,bird,,,Eichelhäher,jay,,,0.7719298245614036,
+334,bird,,,Turmfalke,kestrel,,,0.6833333333333332,
+335,bird,,,Eisvogel,kingfisher,,,0.6403508771929824,
+336,bird,,,Elster,magpie,,,0.9473684210526315,
+337,bird,,,Flugente,muscovy duck,,,0.5666666666666667,
+338,bird,,,Nachtigall,nightingale,,,0.9249999999999999,
+339,bird,,,Sittich,parakeet,,,0.7416666666666667,
+340,bird,,,Rabe,raven,,,0.7916666666666666,
+341,bird,,,Rotkehlchen,robin,,,0.9083333333333333,
+342,bird,,,Käuzchen,screech owl,,,0.625,
+343,bird,,,Seeadler,sea eagle,,,0.7083333333333334,
+344,bird,,,Zeisig,siskin,,,0.7407407407407408,
+345,bird,,,Spatz,sparrow,,,0.9583333333333334,
+346,bird,,,Sperber,sparrowhawk,,,0.7222222222222223,
+347,bird,,,Buntspecht,spotted woodpecker,,,0.9,
+348,bird,,,Storch,stork,,,0.7916666666666666,
+349,bird,,,Mauersegler,swift,,,0.7333333333333334,
+350,bird,,,Drossel,thrush,,,0.8611111111111112,
+351,bird,,,Meise,tit,,,0.975,
+352,bird,,,Bachstelze,wagtail,,,0.7166666666666667,
+353,bird,,,Weißstorch,white stork,,,0.7280701754385964,
+354,bird,,,Wildente,wild duck,,,0.6578947368421052,
+355,bird,,,Auerhahn,wood grouse,,,0.6,
+356,bird,,,Specht,woodpecker,,,0.9416666666666668,
+357,bird,,,Zaunkönig,wren,,,0.7807017543859649,
+358,body part,Tobillo,ankle,,,ankle,0.7266666666666667,,0.4593066142119497
+359,body part,Brazo,arm,,,arm,1.0,,0.8504201680672269
+360,body part,Barba,beard,,,beard,0.42,,0.09835259404966801
+361,body part,Hueso,bone,,,bone,0.66,,0.306359753203607
+362,body part,Pantorrilla,calf,,,calf,0.6133333333333333,,0.42691671263099834
+363,body part,,,,,chest,,,0.5649459783913565
+364,body part,Barbilla,chin,,,chin,0.6733333333333333,,0.45643738977072307
+365,body part,Oreja,ear,,,ear,0.9266666666666666,,0.6779263429509735
+366,body part,Codo,elbow,,,elbow,0.7133333333333334,,0.5238095238095238
+367,body part,Ojo,eye,,,eye,0.94,,0.6944444444444444
+368,body part,Cara,face,,,face,0.9500000000000001,,0.6210281580986824
+369,body part,Dedo,finger,,,finger,0.8933333333333334,,0.7333180463196516
+370,body part,Pie,foot,,,foot,0.9333333333333332,,0.7186588921282799
+371,body part,Cabello,hair,,,hair,0.7333333333333334,,0.3017656500802568
+372,body part,Mano,hand,,,hand,0.9866666666666667,,0.8519793459552496
+373,body part,Cadera,hip,,,hip,0.7933333333333333,,0.46948267679164674
+374,body part,Rodilla,knee,,,knee,0.82,,0.6060714285714285
+375,body part,Pierna,leg,,,leg,0.9466666666666667,,0.8426020408163265
+376,body part,Boca,mouth,,,mouth,0.9733333333333333,,0.6366408632418484
+377,body part,,,,,mustache,,,0.09059233449477348
+378,body part,,,,,navel,,,0.24593128390596744
+379,body part,Cuello,neck,,,neck,0.8133333333333334,,0.6359371334740792
+380,body part,Nariz,nose,,,nose,0.9133333333333334,,0.7171333649738966
+381,body part,Hombro,shoulder,,,shoulder,0.7866666666666666,,0.5984048791930565
+382,body part,Esqueleto,skeleton,,,skeleton,0.5,,0.13775510204081623
+383,body part,Piel,skin,,,skin,0.5866666666666666,,0.3475071041074657
+384,body part,,,,,skull,,,0.3289036544850498
+385,body part,Estómago,stomach,,,stomach,0.64,,0.4444444444444445
+386,body part,,,,,thumb,,,0.5153675928202607
+387,body part,,,,,toe,,,0.5732368896925859
+388,body part,Lengua,tongue,,,tongue,0.7400000000000001,,0.39771030363364857
+389,body part,Diente,tooth,,,tooth,0.7599999999999999,,0.3066202090592335
+390,body part,,,,,torso,,,0.29012686155543294
+391,body part,muñeca/s,wrist,,,wrist,0.7733333333333333,,0.4824892920131015
+392,body part,Esternocleidomastoideo,a neck muscle,,,,0.24,,
+393,body part,Abdomen,abdomen,,,,0.6533333333333333,,
+394,body part,Ano,anus,,,,0.3933333333333333,,
+395,body part,Axila,armpit,,,,0.54,,
+396,body part,arteria,artery,,,,0.3133333333333333,,
+397,body part,Espalda,back,,,,0.9133333333333334,,
+398,body part,Tripa,belly,,,,0.7066666666666667,,
+399,body part,Ombligo,bellybutton,,,,0.6133333333333333,,
+400,body part,Biceps,biceps,,,,0.5800000000000001,,
+401,body part,Vejiga,bladder,,,,0.45333333333333337,,
+402,body part,Culo,bottom,,,,0.84,,
+403,body part,Trasero,bottom,,,,0.7666666666666666,,
+404,body part,Cerebro,brain,,,,0.5466666666666667,,
+405,body part,Pecho,breast,,,,0.8533333333333334,,
+406,body part,Pechos,breasts,,,,0.8266666666666667,,
+407,body part,Gemelo,calf muscle,,,,0.5133333333333333,,
+408,body part,Cerebelo,cerebellum,,,,0.24,,
+409,body part,Mejilla,cheek,,,,0.7533333333333333,,
+410,body part,Moflete,chubby cheek,,,,0.6933333333333334,,
+411,body part,Clavícula,collarbone,,,,0.5800000000000001,,
+412,body part,Colon,colon,,,,0.24666666666666667,,
+413,body part,Oído,ear,,,,0.7466666666666667,,
+414,body part,Extremidades,extremities,,,,0.6266666666666666,,
+415,body part,Ceja,eyebrow,,,,0.5333333333333333,,
+416,body part,Pestaña,eyelash,,,,0.48666666666666664,,
+417,body part,Párpado,eyelid,,,,0.5266666666666667,,
+418,body part,Femur,femur,,,,0.3933333333333333,,
+419,body part,Peroné,fibula,,,,0.39999999999999997,,
+420,body part,Cubito,fibula,,,,0.21999999999999997,,
+421,body part,Antebrazo,forearm,,,,0.52,,
+422,body part,Frente,forehead,,,,0.7599999999999999,,
+423,body part,Glúteo,gluteus,,,,0.54,,
+424,body part,Ingle,groin,,,,0.5,,
+425,body part,Pelo,hair,,,,0.7266666666666667,,
+426,body part,Cabeza,head,,,,1.0,,
+427,body part,Corazón,heart,,,,0.7266666666666667,,
+428,body part,Talón,heel,,,,0.6,,
+429,body part,Húmero,humerus,,,,0.32666666666666666,,
+430,body part,Incisivo,incisor,,,,0.3,,
+431,body part,Intestino,intestine,,,,0.44,,
+432,body part,Articulaciones,joints,,,,0.39999999999999997,,
+433,body part,Riñón,kidney,,,,0.54,,
+434,body part,Rótula,kneecap,,,,0.41333333333333333,,
+435,body part,Laringe,larynx,,,,0.3933333333333333,,
+436,body part,Labio,lip,,,,0.8466666666666667,,
+437,body part,Hígado,liver,,,,0.5266666666666667,,
+438,body part,Pulmón,lung,,,,0.56,,
+439,body part,Muela,molar,,,,0.48666666666666664,,
+440,body part,Bigote,moustache,,,,0.45333333333333337,,
+441,body part,Músculo,muscle,,,,0.6,,
+442,body part,Uña,nail,,,,0.6333333333333333,,
+443,body part,Nuca,nape,,,,0.6866666666666666,,
+444,body part,Esófago,oesophagus,,,,0.30666666666666664,,
+445,body part,Ovario,ovary,,,,0.38666666666666666,,
+446,body part,Pancreas,pancreas,,,,0.35333333333333333,,
+447,body part,Pelvis,pelvis,,,,0.5,,
+448,body part,Pene,penis,,,,0.7266666666666667,,
+449,body part,Falange,phalange,,,,0.2733333333333334,,
+450,body part,Faringe,pharynx,,,,0.34,,
+451,body part,Radio,radius,,,,0.3133333333333333,,
+452,body part,Costilla,rib,,,,0.6533333333333333,,
+453,body part,Omóplato,shoulder blade,,,,0.41333333333333333,,
+454,body part,Tendón,tendon,,,,0.3933333333333333,,
+455,body part,Testículo,testicle,,,,0.5466666666666667,,
+456,body part,Muslo,thigh,,,,0.7333333333333334,,
+457,body part,Tórax,thorax,,,,0.5866666666666666,,
+458,body part,Tibia,tibia,,,,0.4266666666666667,,
+459,body part,Triceps,triceps,,,,0.3933333333333333,,
+460,body part,Tronco,trunk,,,,0.7066666666666667,,
+461,body part,Vagina,vagina,,,,0.5266666666666667,,
+462,body part,Vena,vein,,,,0.41333333333333333,,
+463,body part,Cintura,waist,,,,0.7000000000000001,,
+464,breakfast food,,,,,bacon,,,0.7464096749811036
+465,breakfast food,,,,,bagel,,,0.6707317073170732
+466,breakfast food,,,,,bread,,,0.4664115646258503
+467,breakfast food,,,,,breakfast,,,0.5636974789915966
+468,breakfast food,,,,,cereal,,,0.8239795918367346
+469,breakfast food,,,,,cream cheese,,,0.3579277864992151
+470,breakfast food,,,,,crepe,,,0.33855981416957015
+471,breakfast food,,,,,croissant,,,0.5097402597402597
+472,breakfast food,,,,,donut,,,0.5685504971219257
+473,breakfast food,,,,,egg,,,0.8717532467532468
+474,breakfast food,,,,,french fries,,,0.13472706155632982
+475,breakfast food,,,,,granola,,,0.47504302925989667
+476,breakfast food,,,,,grits,,,0.39894378804153235
+477,breakfast food,,,,,ham,,,0.3741496598639456
+478,breakfast food,,,,,hamburger,,,0.11904761904761897
+479,breakfast food,,,,,hash,,,0.36144578313253006
+480,breakfast food,,,,,honey,,,0.25083056478405313
+481,breakfast food,,,,,jam,,,0.43023255813953487
+482,breakfast food,,,,,maple syrup,,,0.41279207335107954
+483,breakfast food,,,,,marmalade,,,0.2317616701853154
+484,breakfast food,,,,,muffin,,,0.590898428336852
+485,breakfast food,,,,,oatmeal,,,0.7574750830564784
+486,breakfast food,,,,,omelet,,,0.7400388726919339
+487,breakfast food,,,,,pancake,,,0.8177339901477833
+488,breakfast food,,,,,pastry,,,0.4355421180818006
+489,breakfast food,,,,,peanut butter,,,0.2358003442340792
+490,breakfast food,,,,,roll,,,0.26643990929705214
+491,breakfast food,,,,,sandwich,,,0.32222222222222213
+492,breakfast food,,,,,sausage,,,0.6198034769463341
+493,breakfast food,,,,,scone,,,0.35350692000938294
+494,breakfast food,,,,,scrambled egg,,,0.8333171363783608
+495,breakfast food,,,,,syrup,,,0.42517006802721097
+496,breakfast food,,,,,toast,,,0.7599999999999999
+497,breakfast food,,,,,waffle,,,0.7264836969270467
+498,breakfast food,,,,,yogurt,,,0.4703369719981015
+499,candy,,,,,candy,,,0.8604269293924467
+500,candy,,,,,candy bar,,,0.8237547892720307
+501,candy,,,,,candy cane,,,0.4894137430253
+502,candy,,,,,caramel,,,0.45789350222847747
+503,candy,,,,,chocolate,,,0.7959993521218012
+504,candy,,,,,cotton candy,,,0.40174271955973395
+505,candy,,,,,fudge,,,0.35714285714285715
+506,candy,,,,,gum,,,0.3614163614163614
+507,candy,,,,,gumball,,,0.4249381570810142
+508,candy,,,,,gumdrop,,,0.3727422003284072
+509,candy,,,,,jelly bean,,,0.6143380429094715
+510,candy,,,,,licorice,,,0.39669356114538834
+511,candy,,,,,lollipop,,,0.7308970099667774
+512,candy,,,,,marshmallow,,,0.17582417582417578
+513,candy,,,,,peppermint,,,0.3226324237560192
+514,candy,,,,,taffy,,,0.4152823920265781
+515,clothing,,,,,apron,,,0.49274376417233556
+516,clothing,,,,,armor,,,0.14157303370786514
+517,clothing,,,,,bandanna,,,0.39888682745825604
+518,clothing,Albornoz,bathrobe,,,bathrobe,0.3333333333333333,,0.5888991960420533
+519,clothing,,,,,beanie,,,0.46440436639772187
+520,clothing,Cinturón,belt,,,belt,0.36000000000000004,,0.5910457206138269
+521,clothing,Biquini,bikini,Bikini,bikini,bikini,0.4066666666666667,0.7166666666666667,0.5043731778425656
+522,clothing,,,Blazer,blazer,blazer,,0.7916666666666666,0.6945843272373884
+523,clothing,Blusa,blouse,Bluse,blouse,blouse,0.7933333333333333,0.9166666666666666,0.8165784832451498
+524,clothing,,,,,boa,,,0.19687875150060025
+525,clothing,,,,,bolo tie,,,0.2776886035313001
+526,clothing,,,,,bonnet,,,0.31372549019607837
+527,clothing,Bota,boot,,,boot,0.4066666666666667,,0.5338225177711534
+528,clothing,,,,,bow,,,0.3387755102040816
+529,clothing,,,,,bowler hat,,,0.2686283815851921
+530,clothing,,,,,bowtie,,,0.5050459744337294
+531,clothing,,,,,boxer shorts,,,0.6822594206221814
+532,clothing,Sujetado,bra,BH,bra,bra,0.5666666666666668,0.7416666666666667,0.703844328429046
+533,clothing,Pulsera,bracelet,,,bracelet,0.053333333333333344,,0.28998576174655905
+534,clothing,,,,,bulletproof vest,,,0.14045618247298913
+535,clothing,,,,,cape,,,0.34945282460810406
+536,clothing,Rebeca,cardigan,Strickjacke,cardigan,cardigan,0.7000000000000001,0.7916666666666666,0.6822157434402333
+537,clothing,,,,,chaps,,,0.2685025817555937
+538,clothing,Capa,cloak,Umhang,cloak,cloak,0.26666666666666666,0.29824561403508776,0.34108697242337793
+539,clothing,,,,,clothes,,,0.8305434533363908
+540,clothing,Abrigo,coat,Mantel,coat,coat,0.8333333333333334,0.9333333333333332,0.8526575465350975
+541,clothing,Corsé,corset,Korsett,corset,corset,0.21999999999999997,0.375,0.3418157386411354
+542,clothing,,,,,costume,,,0.464878086065887
+543,clothing,,,,,coverall,,,0.5409822465571594
+544,clothing,,,,,crown,,,0.12448979591836731
+545,clothing,,,,,cummerbund,,,0.26785714285714285
+546,clothing,,,,,diaper,,,0.1923746242683119
+547,clothing,Vestido,dress,Kleid,dress,dress,0.9533333333333333,0.9333333333333332,0.8880715076728365
+548,clothing,,,,,eye patch,,,0.1362072919055262
+549,clothing,,,,,fishnet stockings,,,0.3170553935860058
+550,clothing,Chancla,flip-flop,,,flip-flop,0.22666666666666666,,0.45095712703686114
+551,clothing,,,Pelzmantel,fur coat,fur coat,,0.6083333333333333,0.4693877551020408
+552,clothing,Liga,garter,,,garter,0.12666666666666668,,0.2647828362114076
+553,clothing,Guante,glove,Handschuh,glove,glove,0.37999999999999995,0.6833333333333332,0.4888016745159602
+554,clothing,Gorro,hat,,,hat,0.43333333333333335,,0.596684650871843
+555,clothing,,,Stirnband,headband,headband,,0.36274509803921573,0.46250593260560036
+556,clothing,,,,,headdress,,,0.24784853700516343
+557,clothing,,,Kopftuch,headscarf,headscarf,,0.5083333333333333,0.4403002580342482
+558,clothing,,,,,hoodie,,,0.8137365789689369
+559,clothing,Chaqueta,jacket,Jacke,jacket,jacket,0.86,0.9500000000000001,0.8272567453947871
+560,clothing,Tejano,jeans,Jeans,jeans,jeans,0.8733333333333334,0.9333333333333332,0.928631897203326
+561,clothing,,,,,jersey,,,0.6837474120082815
+562,clothing,,,,,jumpsuit,,,0.5471753918958887
+563,clothing,,,,,kilt,,,0.36709498614260516
+564,clothing,,,Kimono,kimono,kimono,,0.35964912280701755,0.33455313159746647
+565,clothing,,,,,lab coat,,,0.41632653061224484
+566,clothing,,,,,leggings,,,0.7465356512975561
+567,clothing,Mallas,leotard,,,leotard,0.37999999999999995,,0.42696629213483145
+568,clothing,,,,,life jacket,,,0.22211675367821543
+569,clothing,,,,,lingerie,,,0.5986394557823129
+570,clothing,,,,,loincloth,,,0.2781365710841298
+571,clothing,Manoplas,mitten,Fäustlinge,mittens,mitten,0.28,0.5,0.4428247489471979
+572,clothing,,,,,moccasin,,,0.2623555446274895
+573,clothing,,,,,muff,,,0.25333333333333324
+574,clothing,,,,,nightshirt,,,0.6133662256111235
+575,clothing,,,,,outfit,,,0.6995598239295718
+576,clothing,,,Schutzanzug,overalls,overalls,,0.2962962962962963,0.5672591617292078
+577,clothing,,,,,pajamas,,,0.7583774250440917
+578,clothing,,,,,panties,,,0.6461003005853504
+579,clothing,Calzoncillos,pants,,,pants,0.6066666666666666,,0.9315797430083144
+580,clothing,,,,,pantsuit,,,0.684513805522209
+581,clothing,,,,,pantyhose,,,0.48550372529964364
+582,clothing,Polo,polo shirt,Polo-Shirt,polo shirt,polo shirt,0.8533333333333334,0.7000000000000001,0.7895158063225288
+583,clothing,Gabardina,raincoat,Regenjacke,raincoat,raincoat,0.6666666666666666,0.7833333333333333,0.5118047218887555
+584,clothing,Bata,robe,,,robe,0.39999999999999997,,0.5747469719595156
+585,clothing,Sandalia,sandals,,,sandal,0.32,,0.4761113747824711
+586,clothing,Bufanda,scarf,Tuch,scarf,scarf,0.5266666666666667,0.5166666666666667,0.6496289424860855
+587,clothing,Chal,shawl,Schal,shawl,shawl,0.355,0.7833333333333333,0.46770807088267397
+588,clothing,Camisa,shirt,Hemd,shirt,shirt,0.9133333333333334,0.9333333333333332,0.9374462428649621
+589,clothing,Zapato,shoes,,,shoe,0.45999999999999996,,0.6056794810947635
+590,clothing,Shorts,shorts,Shorts,shorts,shorts,0.6333333333333333,0.7416666666666667,0.8419110172804753
+591,clothing,,,,,ski boots,,,0.2838735494197679
+592,clothing,Falda,skirt,Rock,skirt,skirt,0.9066666666666667,0.9083333333333333,0.8178552319804326
+593,clothing,,,Pantolette,slippers,slipper,,0.3684210526315789,0.42154195011337864
+594,clothing,,,,,snowshoe,,,0.1645766740431112
+595,clothing,,,,,snowsuit,,,0.4071914480077745
+596,clothing,Calcetines,socks,Socke,sock,sock,0.6533333333333333,0.9416666666666668,0.6980469607197718
+597,clothing,,,,,sombrero,,,0.26194297943896655
+598,clothing,,,,,spacesuit,,,0.13973589435774308
+599,clothing,,,Stöckelschuh,stiletto ,stiletto,,0.28947368421052627,0.2558750773036487
+600,clothing,,,Strumpf,stocking,stockings,,0.8250000000000001,0.5156462585034013
+601,clothing,,,,,straightjacket,,,0.14669867947178866
+602,clothing,Traje,suit,Anzug,suit,suit,0.9333333333333332,0.9333333333333332,0.7550280981958001
+603,clothing,,,,,suspenders,,,0.38687733157779236
+604,clothing,Sudadera,sweater,Pullover,sweater,sweater,0.9,0.9916666666666667,0.8818868206623308
+605,clothing,,,,,sweatsuit,,,0.7347758380460618
+606,clothing,Bañador,swimsuit,Badeanzug,swimsuit,swimsuit,0.45999999999999996,0.6416666666666667,0.5824536711236219
+607,clothing,Camiseta,T-shirt,,,t-shirt,0.94,,0.8996134817563387
+608,clothing,,,,,tiara,,,0.1538710722384191
+609,clothing,Corbata,tie,Krawatte,tie,tie,0.43333333333333335,0.5833333333333334,0.5488721804511277
+610,clothing,,,,,toga,,,0.26924022621096627
+611,clothing,,,,,top hat,,,0.3457093680845832
+612,clothing,,,,,tube top,,,0.5816326530612245
+613,clothing,,,,,turban,,,0.29305813234384664
+614,clothing,,,,,turtleneck,,,0.6397768096002446
+615,clothing,,,,,tuxedo,,,0.5396825396825397
+616,clothing,,,,,undershirt,,,0.7097752144335994
+617,clothing,,,Unterwäsche,underwear,underwear,,0.85,0.8160544217687073
+618,clothing,,,,,uniform,,,0.6610253857640618
+619,clothing,,,,,veil,,,0.24537815126050413
+620,clothing,Chaleco,vest,Unterhemd,vest,vest,0.5333333333333333,0.8250000000000001,0.6891488302638129
+621,clothing,,,,,visor,,,0.2857924779107045
+622,clothing,,,,,wetsuit,,,0.24387755102040812
+623,clothing,Palestina/o,Palestinian scarf,,,,0.12,,
+624,clothing,Botines,ankle boot,,,,0.24666666666666667,,
+625,clothing,Tobillera,ankleband,,,,0.033333333333333326,,
+626,clothing,Anorak,anorak,Anorak,anorak,,0.48,0.8666666666666667,
+627,clothing,Bolso,bag,,,,0.26,,
+628,clothing,Bolsa,bag,,,,0.06666666666666665,,
+629,clothing,Pareo,beach wrap,,,,0.30666666666666664,,
+630,clothing,Correa,belt,,,,0.16,,
+631,clothing,Boina,beret,,,,0.19333333333333336,,
+632,clothing,Bermudas,bermuda shorts,,,,0.42,,
+633,clothing,Body,body stocking,,,,0.2933333333333333,,
+634,clothing,Peúcos,bootees,,,,0.15333333333333332,,
+635,clothing,Pajarita,bow tie,,,,0.10666666666666665,,
+636,clothing,Tirantes,braces,Hosenträger,braces ,,0.2066666666666667,0.2916666666666667,
+637,clothing,Botón,button,,,,0.10000000000000002,,
+638,clothing,Gorra,cap,Mütze,cap,,0.44,0.8416666666666667,
+639,clothing,Mono,dungarees,Latzhose,dungarees,,0.45999999999999996,0.7083333333333334,
+640,clothing,Peto,dungrarees,,,,0.6133333333333333,,
+641,clothing,Orejeras,earflaps,,,,0.12,,
+642,clothing,Polar,fleece,,,,0.7466666666666667,,
+643,clothing,Fular,foulard scarf,,,,0.34,,
+644,clothing,Tanga,g-string,,,,0.43333333333333335,,
+645,clothing,Faja,girdle,,,,0.26666666666666666,,
+646,clothing,Diadema,hairband,Haarband,hairband,,0.14,0.19607843137254907,
+647,clothing,Pañuelo,handkerchief,,,,0.24,,
+648,clothing,Sombrero,hat,,,,0.2933333333333333,,
+649,clothing,Cazadora,jacket,,,,0.8333333333333334,,
+650,clothing,Americana,jacket,,,,0.5266666666666667,,
+651,clothing,Jeans,jeans,,,,0.82,,
+652,clothing,Suéter,jumper,,,,0.9266666666666666,,
+653,clothing,Rodillera,kneeband,,,,0.04666666666666667,,
+654,clothing,Chupa,leather jacket,Lederjacke,leather jacket,,0.48666666666666664,0.7083333333333334,
+655,clothing,Minifalda,miniskirt,Minirock,miniskirt,,0.7466666666666667,0.6833333333333332,
+656,clothing,Collares,necklaces,,,,0.12,,
+657,clothing,Camisón,night-dress,,,,0.4666666666666666,,
+658,clothing,Bragas,pants,,,,0.5733333333333334,,
+659,clothing,Pichi,pinafore dress,,,,0.5,,
+660,clothing,Poncho,poncho,,,,0.45999999999999996,,
+661,clothing,Jersey,pullover,,,,0.9266666666666666,,
+662,clothing,Pijama,pyjama,Schlafanzug,pyjamas,,0.6933333333333334,0.775,
+663,clothing,Plumas,quilted anorak,,,,0.6933333333333334,,
+664,clothing,plumífero,quilted anorak,,,,0.5866666666666666,,
+665,clothing,Chubasquero,raincoat,,,,0.56,,
+666,clothing,Impermeable,raincoat,,,,0.4466666666666667,,
+667,clothing,Anillo,ring,,,,0.20000000000000004,,
+668,clothing,Rokys,rokys,,,,0.16666666666666666,,
+669,clothing,Chaquetón,short coat,,,,0.6466666666666666,,
+670,clothing,Slips,slips,,,,0.54,,
+671,clothing,Ejecutivos,sock,,,,0.20000000000000004,,
+672,clothing,Chándal,sportsuit,,,,0.7733333333333333,,
+673,clothing,Niqui,t-shirt,,,,0.8066666666666666,,
+674,clothing,Frac,tailcoat,,,,0.35333333333333333,,
+675,clothing,Medias,tights,Strumpfhose,tights,,0.4066666666666667,0.7666666666666666,
+676,clothing,Panty,tights,,,,0.3933333333333333,,
+677,clothing,Top,top,Top,top,,0.6466666666666666,0.5333333333333333,
+678,clothing,Deportivas,trainers,,,,0.4666666666666666,,
+679,clothing,Zapatilla,trainers,,,,0.43333333333333335,,
+680,clothing,Pantaloon,trousers,Hose,trousers,,0.9533333333333333,1.0,
+681,clothing,Calzones,underpants,Unterhose,underpants,,0.48,0.7916666666666666,
+682,clothing,Reloj,watch,,,,0.08,,
+683,clothing,Leotardo,woolen tights,,,,0.36000000000000004,,
+684,clothing,Muñequera,wristband,,,,0.04666666666666667,,
+685,clothing,,,Blouson,blouson,,,0.5916666666666667,
+686,clothing,,,Mieder,bodice,,,0.4561403508771929,
+687,clothing,,,Clogs,clogs,,,0.24074074074074078,
+688,clothing,,,Stoffhose,cloth trousers,,,0.6916666666666668,
+689,clothing,,,Kordhose,cord trousers,,,0.6916666666666668,
+690,clothing,,,Stulpen,cuffs,,,0.22499999999999995,
+691,clothing,,,Jeansjacke,denim jacket,,,0.7083333333333334,
+692,clothing,,,Jeansrock,denim skirt,,,0.6083333333333333,
+693,clothing,,,Ohrenwärmer,ear muffs,,,0.2833333333333334,
+694,clothing,,,Fellmütze,fur cap,,,0.5166666666666667,
+695,clothing,,,Hallenschuh,gym shoe,,,0.324561403508772,
+696,clothing,,,Hot Pant,hot pants,,,0.47368421052631576,
+697,clothing,,,Lederhandschuh,leather gloves,,,0.4833333333333334,
+698,clothing,,,Lederhose,leather trousers,,,0.5083333333333333,
+699,clothing,,,Langarmshirt,longsleeve shirt,,,0.6666666666666666,
+700,clothing,,,Nachthemd,nightgown,,,0.7583333333333333,
+701,clothing,,,Parka,parka,,,0.6416666666666667,
+702,clothing,,,Schildmütze,peaked cap,,,0.37254901960784315,
+703,clothing,,,Lätzchen,pinafore,,,0.3684210526315789,
+704,clothing,,,Pumps,pumps,,,0.35964912280701755,
+705,clothing,,,Skihose,ski bottoms,,,0.5499999999999999,
+706,clothing,,,Skijacke,ski jacket,,,0.5,
+707,clothing,,,Slipper,slip-on shoes,,,0.4561403508771929,
+708,clothing,,,Sport-BH,sports bra,,,0.4583333333333333,
+709,clothing,,,Sakko,sports jacket,,,0.8666666666666667,
+710,clothing,,,Stola,stole,,,0.29824561403508776,
+711,clothing,,,Sonnenhut,sun hat,,,0.425,
+712,clothing,,,Pullunder,tanktop,,,0.5964912280701754,
+713,clothing,,,Trikot,tricot,,,0.4000000000000001,
+714,clothing,,,Weste,waistcoat,,,0.7416666666666667,
+715,clothing accessory,,,,,bandanna,,,0.5718871818390278
+716,clothing accessory,,,,,belt,,,0.8361839974084874
+717,clothing accessory,,,,,belt buckle,,,0.63356524427953
+718,clothing accessory,,,,,boa,,,0.3172306897442521
+719,clothing accessory,,,,,bolo tie,,,0.42469646086282614
+720,clothing accessory,,,,,bonnet,,,0.298999599839936
+721,clothing accessory,,,,,bow,,,0.5387755102040817
+722,clothing accessory,,,,,bowtie,,,0.6356613756613757
+723,clothing accessory,,,,,bracelet (jewelry),,,0.7557067271352985
+724,clothing accessory,,,,,bracelet (watch),,,0.6807642205818498
+725,clothing accessory,,,,,brooch,,,0.4098639455782313
+726,clothing accessory,,,,,buckle,,,0.5664038342609771
+727,clothing accessory,,,,,button,,,0.4485056944125966
+728,clothing accessory,,,,,corsage,,,0.28161719233147803
+729,clothing accessory,,,,,cufflink,,,0.442724216123231
+730,clothing accessory,,,,,cummerbund,,,0.3094796360102482
+731,clothing accessory,,,,,earring,,,0.7176950780312124
+732,clothing accessory,,,,,eye patch,,,0.12910052910052902
+733,clothing accessory,,,,,glasses,,,0.538562412916974
+734,clothing accessory,,,,,glove,,,0.6293290043290043
+735,clothing accessory,,,,,handkerchief,,,0.4936409346347234
+736,clothing accessory,,,,,hat,,,0.7899470899470901
+737,clothing accessory,,,,,headband,,,0.6537649542575652
+738,clothing accessory,,,,,headdress,,,0.3672687465790914
+739,clothing accessory,,,,,insole,,,0.15604266397917188
+740,clothing accessory,,,,,lanyard,,,0.26329050138573945
+741,clothing accessory,,,,,mitten,,,0.37985171596728584
+742,clothing accessory,,,,,muff,,,0.23809523809523805
+743,clothing accessory,,,,,patch,,,0.2655354276542076
+744,clothing accessory,,,,,purse,,,0.7558132343846629
+745,clothing accessory,,,,,scarf,,,0.8217228464419474
+746,clothing accessory,,,,,shawl,,,0.5930461073318217
+747,clothing accessory,,,,,sombrero,,,0.263126159554731
+748,clothing accessory,,,,,suspenders,,,0.4923375943784105
+749,clothing accessory,,,,,tie,,,0.8035460992907801
+750,clothing accessory,,,,,top hat,,,0.47673160173160173
+751,clothing accessory,,,,,visor,,,0.33565891472868215
+752,clothing accessory,,,,,watch,,,0.7483321039259077
+753,condiment,,,,,applesauce,,,0.18949266453569372
+754,condiment,,,,,butter,,,0.5353409656545545
+755,condiment,,,,,cream cheese,,,0.3796926177878558
+756,condiment,,,,,ginger,,,0.18083182640144663
+757,condiment,,,,,gravy,,,0.4599303135888502
+758,condiment,,,,,jam,,,0.5829268292682928
+759,condiment,,,,,ketchup,,,0.9354806983034178
+760,condiment,,,,,maple syrup,,,0.48372206025267245
+761,condiment,,,,,marmalade,,,0.31428571428571433
+762,condiment,,,,,mustard,,,0.8511054421768707
+763,condiment,,,,,peanut butter,,,0.4594671201814059
+764,condiment,,,,,pesto,,,0.3252319109461966
+765,condiment,,,,,sauce,,,0.6340136054421769
+766,condiment,,,,,soy sauce,,,0.6162464985994399
+767,condiment,,,,,syrup,,,0.5265843179377013
+768,construction equipment,,,,,blowtorch,,,0.42380952380952375
+769,construction equipment,,,,,bulldozer,,,0.8253475303164743
+770,construction equipment,,,,,cement mixer,,,0.6093942338840298
+771,construction equipment,,,,,chain,,,0.3176406926406926
+772,construction equipment,,,,,chainsaw,,,0.4388278388278387
+773,construction equipment,,,,,chisel,,,0.2976190476190476
+774,construction equipment,,,,,crane,,,0.734124347413384
+775,construction equipment,,,,,drill,,,0.7517006802721088
+776,construction equipment,,,,,hammer,,,0.7407490468714959
+777,construction equipment,,,,,helmet,,,0.5717819595370617
+778,construction equipment,,,,,jackhammer,,,0.7175450399940196
+779,construction equipment,,,,,pliers,,,0.45412759698473976
+780,construction equipment,,,,,pulley,,,0.3267651888341544
+781,construction equipment,,,,,pump,,,0.21260372280780446
+782,construction equipment,,,,,rope,,,0.3018140589569161
+783,construction equipment,,,,,saw,,,0.5909500879003285
+784,construction equipment,,,,,sawhorse,,,0.4062866525920713
+785,construction equipment,,,,,scaffold,,,0.531640563202025
+786,construction equipment,,,,,scaffolding,,,0.5451192525202851
+787,construction equipment,,,,,screwdriver,,,0.5373425966131132
+788,construction equipment,,,,,shovel,,,0.5531065759637188
+789,construction equipment,,,,,sledgehammer,,,0.6482831227729188
+790,construction equipment,,,,,staple gun,,,0.4007350066463367
+791,construction equipment,,,,,steamroller,,,0.4377668308702792
+792,construction equipment,,,,,tarp,,,0.24369747899159658
+793,construction equipment,,,,,trowel,,,0.3150060024009603
+794,construction equipment,,,,,wheelbarrow,,,0.5012901712409101
+795,construction equipment,,,,,wrench,,,0.5159989921894683
+796,container,,,,,aquarium,,,0.41564625850340137
+797,container,,,,,ashtray,,,0.30948379351740696
+798,container,,,,,backpack,,,0.5949216896060749
+799,container,,,,,bag,,,0.738919567827131
+800,container,,,,,ballot box,,,0.3551937628984177
+801,container,,,,,bank,,,0.22049689440993783
+802,container,,,,,barrel,,,0.6816795683790756
+803,container,,,,,basket,,,0.7500977402455236
+804,container,,,,,bathtub,,,0.3160042964554242
+805,container,,,,,beaker,,,0.49659863945578225
+806,container,,,,,bedpan,,,0.2563632194450814
+807,container,,,,,bin,,,0.819307498280211
+808,container,,,,,birdbath,,,0.20355834641548926
+809,container,,,,,birdcage,,,0.29033041788143826
+810,container,,,,,bottle,,,0.8145709896861969
+811,container,,,,,bowl,,,0.7891880156317844
+812,container,,,,,box,,,0.9165532879818592
+813,container,,,,,breadbox,,,0.49497190180419987
+814,container,,,,,briefcase,,,0.5701144094001237
+815,container,,,,,bucket,,,0.7936507936507936
+816,container,,,,,cabinet,,,0.4754785635184305
+817,container,,,,,cage,,,0.49159004261045075
+818,container,,,,,can,,,0.7691215616681456
+819,container,,,,,canister,,,0.7600358824848621
+820,container,,,,,chest,,,0.6749099639855942
+821,container,,,,,closet,,,0.3932584269662921
+822,container,,,,,coffee pot,,,0.5992131792476025
+823,container,,,,,coffin,,,0.26924860853432275
+824,container,,,,,container,,,0.8637960678777005
+825,container,,,,,cooker,,,0.3776683087027914
+826,container,,,,,coop,,,0.2084033613445377
+827,container,,,,,crate,,,0.7458021183156808
+828,container,,,,,cup,,,0.7783629580864603
+829,container,,,,,doghouse,,,0.1930372148859543
+830,container,,,,,drawer,,,0.5761746559088751
+831,container,,,,,dresser,,,0.46757369614512473
+832,container,,,,,duffel bag,,,0.48402839396628217
+833,container,,,,,dumpster,,,0.50584336298622
+834,container,,,,,dustpan,,,0.26757369614512466
+835,container,,,,,filing cabinet,,,0.5060240963855421
+836,container,,,,,fishbowl,,,0.38265306122448983
+837,container,,,,,flask,,,0.5655976676384838
+838,container,,,,,footbath,,,0.17346938775510193
+839,container,,,,,glass,,,0.6947947718413208
+840,container,,,,,goblet,,,0.2811524609843937
+841,container,,,,,hatbox,,,0.40651717477114296
+842,container,,,,,honeypot,,,0.3533593212565925
+843,container,,,,,hot tub,,,0.17972350230414744
+844,container,,,,,hot-water bottle,,,0.5265891302757661
+845,container,,,,,inkwell,,,0.26807760141093473
+846,container,,,,,jar,,,0.9012059369202226
+847,container,,,,,jug,,,0.7684117125110914
+848,container,,,,,keg,,,0.49085884353741494
+849,container,,,,,kettle,,,0.5244423350735643
+850,container,,,,,locker,,,0.5099146041395282
+851,container,,,,,luggage,,,0.549438380003164
+852,container,,,,,lunchbox,,,0.7638415366146459
+853,container,,,,,mailbox,,,0.4602155468929144
+854,container,,,,,matchbox,,,0.34165666266506595
+855,container,,,,,measuring cup,,,0.6246774571897725
+856,container,,,,,mold,,,0.32240311855079107
+857,container,,,,,mug,,,0.5824536711236219
+858,container,,,,,nightstand,,,0.26870748299319724
+859,container,,,,,oilcan,,,0.47783251231527085
+860,container,,,,,pan,,,0.5111011437542049
+861,container,,,,,paper bag,,,0.6218011013929381
+862,container,,,,,petri dish,,,0.24870748299319725
+863,container,,,,,piggy bank,,,0.46088435374149656
+864,container,,,,,pillbox,,,0.5967068645640075
+865,container,,,,,pitcher,,,0.6880952380952382
+866,container,,,,,pocket,,,0.48111658456486045
+867,container,,,,,pot,,,0.7375750300120049
+868,container,,,,,purse,,,0.5666521927920103
+869,container,,,,,saltshaker,,,0.42810227539291573
+870,container,,,,,sandbag,,,0.2826420890937019
+871,container,,,,,sarcophagus,,,0.18392857142857144
+872,container,,,,,shaker,,,0.37743888764296923
+873,container,,,,,shopping basket,,,0.6068171949630916
+874,container,,,,,shopping cart,,,0.41551969625059326
+875,container,,,,,suitcase,,,0.6221250404923875
+876,container,,,,,swimming pool,,,0.16866056767534593
+877,container,,,,,syringe,,,0.2025699168556311
+878,container,,,,,tank,,,0.6141774891774893
+879,container,,,,,teacup,,,0.4788490108687153
+880,container,,,,,teapot,,,0.5069573283858998
+881,container,,,,,tent,,,0.1405895691609977
+882,container,,,,,terrarium,,,0.2964161274265803
+883,container,,,,,test tube,,,0.4049165120593691
+884,container,,,,,thermos,,,0.6869565217391304
+885,container,,,,,toolbox,,,0.5881582262534643
+886,container,,,,,trashcan,,,0.7316790352504638
+887,container,,,,,trunk,,,0.540633457684149
+888,container,,,,,tupperware,,,0.8723356009070294
+889,container,,,,,urn,,,0.464625850340136
+890,container,,,,,vase,,,0.640502354788069
+891,container,,,,,vial,,,0.5374149659863946
+892,container,,,,,wallet,,,0.3775510204081632
+893,container,,,,,water bottle,,,0.7736864958749458
+894,container,,,,,water heater,,,0.2582766439909296
+895,container,,,,,watering can,,,0.5588514475557665
+896,container,,,,,wheelbarrow,,,0.3490259740259739
+897,container,,,,,wine bottle,,,0.5528188286808976
+898,container,,,,,wine cooler,,,0.36757884972170685
+899,container,,,,,wineglass,,,0.4636015325670497
+900,container,,,,,wok,,,0.2047853624208304
+901,dessert,,,,,baklava,,,0.3020050125313282
+902,dessert,,,,,banana split,,,0.6188816990210718
+903,dessert,,,,,birthday cake,,,0.6108210726150926
+904,dessert,,,,,brownie,,,0.7885176048441355
+905,dessert,,,,,cake,,,0.8737631416202845
+906,dessert,,,,,cake mix,,,0.2824302134646962
+907,dessert,,,,,caramel,,,0.3375027430326969
+908,dessert,,,,,cheese,,,0.09925788497217063
+909,dessert,,,,,cheesecake,,,0.7476114041122067
+910,dessert,,,,,chocolate,,,0.6328725038402457
+911,dessert,,,,,cookie,,,0.770346692894025
+912,dessert,,,,,creme brulee,,,0.4425349087003222
+913,dessert,,,,,crepe,,,0.27435064935064923
+914,dessert,,,,,cupcake,,,0.7663865546218487
+915,dessert,,,,,dessert,,,0.7166587565258661
+916,dessert,,,,,donut,,,0.4499072356215213
+917,dessert,,,,,eclair,,,0.4352968460111316
+918,dessert,,,,,flan,,,0.2501186521120075
+919,dessert,,,,,fruitcake,,,0.33348794063079784
+920,dessert,,,,,fudge,,,0.46020408163265286
+921,dessert,,,,,ice cream,,,0.8328714201730075
+922,dessert,,,,,ice-cream cone,,,0.6435690555291884
+923,dessert,,,,,milkshake,,,0.5410714285714285
+924,dessert,,,,,mousse,,,0.43373493975903615
+925,dessert,,,,,muffin,,,0.3170731707317073
+926,dessert,,,,,parfait,,,0.34957983193277314
+927,dessert,,,,,pastry,,,0.5244010647737356
+928,dessert,,,,,pie,,,0.7613095238095238
+929,dessert,,,,,popsicle,,,0.4334845049130762
+930,dessert,,,,,pudding,,,0.5598036683027642
+931,dessert,,,,,shortbread,,,0.3281726483696927
+932,dessert,,,,,sorbet,,,0.3728222996515679
+933,dessert,,,,,souffle,,,0.34863945578231287
+934,dessert,,,,,sundae,,,0.7064994672567823
+935,dessert,,,,,tiramisu,,,0.41419294990723554
+936,dessert,,,,,wedding cake,,,0.37687074829931966
+937,dessert,,,,,whipped cream,,,0.3703182422394245
+938,drink,,,,,beer,,,0.6542341074360779
+939,drink,,,,,champagne,,,0.28739495798319326
+940,drink,,,,,cocktail,,,0.4375
+941,drink,,,,,coffee,,,0.812847866419295
+942,drink,,,,,drink,,,0.5589285714285714
+943,drink,,,,,eggnog,,,0.10252100840336124
+944,drink,,,,,espresso,,,0.3189368770764119
+945,drink,,,,,hot chocolate,,,0.3847214561500275
+946,drink,,,,,juice,,,0.7310249942673698
+947,drink,,,,,latte,,,0.3852663016426082
+948,drink,,,,,lemonade,,,0.6191240541160284
+949,drink,,,,,margarita,,,0.36085343228200367
+950,drink,,,,,milk,,,0.6765906362545018
+951,drink,,,,,milkshake,,,0.37521514629948355
+952,drink,,,,,punch,,,0.30686908909905425
+953,drink,,,,,smoothie,,,0.35963165754106513
+954,drink,,,,,soda,,,0.8300180831826401
+955,drink,,,,,tea,,,0.7162064825930372
+956,drink,,,,,wine,,,0.5477040816326529
+957,electronic device,,,,,air conditioner,,,0.5040341718082582
+958,electronic device,,,,,amplifier,,,0.48883553421368553
+959,electronic device,,,,,blender,,,0.504471451501949
+960,electronic device,,,,,blower,,,0.2753872633390705
+961,electronic device,,,,,camcorder,,,0.5963718820861679
+962,electronic device,,,,,camera,,,0.6069538926681783
+963,electronic device,,,,,cash machine,,,0.38348362600854297
+964,electronic device,,,,,cd player,,,0.701530612244898
+965,electronic device,,,,,cellphone,,,0.917233560090703
+966,electronic device,,,,,centrifuge,,,0.15476190476190468
+967,electronic device,,,,,chainsaw,,,0.1434108527131783
+968,electronic device,,,,,coffeemaker,,,0.5706727135298564
+969,electronic device,,,,,computer,,,0.9308523409363746
+970,electronic device,,,,,computer screen,,,0.7850185528756957
+971,electronic device,,,,,cooker,,,0.4462279293739968
+972,electronic device,,,,,copier,,,0.6818181818181818
+973,electronic device,,,,,curling iron,,,0.41570541259982247
+974,electronic device,,,,,defibrillator,,,0.37660180351210254
+975,electronic device,,,,,dishwasher,,,0.5
+976,electronic device,,,,,drill,,,0.4081632653061224
+977,electronic device,,,,,dryer,,,0.5034013605442176
+978,electronic device,,,,,electric chair,,,0.24714061448755326
+979,electronic device,,,,,fan,,,0.5771612015592754
+980,electronic device,,,,,food processor,,,0.48979591836734687
+981,electronic device,,,,,freezer,,,0.45834333733493393
+982,electronic device,,,,,generator,,,0.3933747412008281
+983,electronic device,,,,,hairdryer,,,0.5641566971616233
+984,electronic device,,,,,hotplate,,,0.3
+985,electronic device,,,,,icemaker,,,0.2573203194321206
+986,electronic device,,,,,incubator,,,0.22045855379188709
+987,electronic device,,,,,iron,,,0.3421516754850088
+988,electronic device,,,,,jackhammer,,,0.12526389866291338
+989,electronic device,,,,,joystick,,,0.4130675526024362
+990,electronic device,,,,,juicer,,,0.4283421233662005
+991,electronic device,,,,,jukebox,,,0.3448275862068965
+992,electronic device,,,,,lamp,,,0.5431893687707642
+993,electronic device,,,,,laptop,,,0.913657770800628
+994,electronic device,,,,,metal detector,,,0.3717532467532467
+995,electronic device,,,,,microphone,,,0.5897495361781075
+996,electronic device,,,,,microwave,,,0.7361626468769326
+997,electronic device,,,,,mixer,,,0.5145258103241296
+998,electronic device,,,,,modem,,,0.6801920768307322
+999,electronic device,,,,,mouse,,,0.6523145843703336
+1000,electronic device,,,,,music box,,,0.3843537414965986
+1001,electronic device,,,,,pinball,,,0.20905923344947724
+1002,electronic device,,,,,polygraph,,,0.23279544375889885
+1003,electronic device,,,,,printer,,,0.7967406742916946
+1004,electronic device,,,,,projector,,,0.5847282733318045
+1005,electronic device,,,,,radio,,,0.7457382953181273
+1006,electronic device,,,,,record player,,,0.4982993197278911
+1007,electronic device,,,,,refrigerator,,,0.5984848484848485
+1008,electronic device,,,,,remote control,,,0.6785714285714286
+1009,electronic device,,,,,router,,,0.6177944862155388
+1010,electronic device,,,,,scanner,,,0.5930096176401596
+1011,electronic device,,,,,screen,,,0.5735930735930737
+1012,electronic device,,,,,sewing machine,,,0.36242083040112594
+1013,electronic device,,,,,shredder,,,0.39748457522543895
+1014,electronic device,,,,,slicer,,,0.13066202090592333
+1015,electronic device,,,,,slot machine,,,0.34090909090909083
+1016,electronic device,,,,,smoke alarm,,,0.34060520760028146
+1017,electronic device,,,,,stereo,,,0.7366375121477162
+1018,electronic device,,,,,tablet,,,0.8272864701436129
+1019,electronic device,,,,,tape recorder,,,0.5385487528344671
+1020,electronic device,,,,,television,,,0.8667983322361202
+1021,electronic device,,,,,toaster,,,0.5590887517797817
+1022,electronic device,,,,,toaster oven,,,0.5083274689186018
+1023,electronic device,,,,,treadmill,,,0.40166975881261596
+1024,electronic device,,,,,turntable,,,0.35067197610751616
+1025,electronic device,,,,,vacuum,,,0.5507715281234444
+1026,electronic device,,,,,vending machine,,,0.40612244897959177
+1027,electronic device,,,,,waffle iron,,,0.3448275862068965
+1028,electronic device,,,,,washing machine,,,0.578397212543554
+1029,electronic device,,,,,water heater,,,0.3086734693877551
+1030,electronic device,,,,,webcam,,,0.7187426694815856
+1031,farm animal,,,,,bison,,,0.11668667466986789
+1032,farm animal,,,,,bull,,,0.4037267080745342
+1033,farm animal,,,,,calf,,,0.6378324056895485
+1034,farm animal,,,,,chicken,,,0.8445839874411304
+1035,farm animal,,,,,cow,,,0.8865107018417123
+1036,farm animal,,,,,donkey,,,0.294886493923412
+1037,farm animal,,,,,duck,,,0.35318127250900355
+1038,farm animal,,,,,goat,,,0.6177023618436139
+1039,farm animal,,,,,goose,,,0.26976307764485097
+1040,farm animal,,,,,horse,,,0.6544973544973544
+1041,farm animal,,,,,lamb,,,0.4845630559916273
+1042,farm animal,,,,,pig,,,0.7573283858998144
+1043,farm animal,,,,,piglet,,,0.4787456445993032
+1044,farm animal,,,,,rabbit,,,0.325154781013529
+1045,farm animal,,,,,ram,,,0.20238095238095233
+1046,farm animal,,,,,rooster,,,0.6665927240461401
+1047,farm animal,,,,,sheep,,,0.6217687074829933
+1048,farm animal,,,,,turkey,,,0.38084163898117385
+1049,fastener,,,,,barrette,,,0.3275024295432458
+1050,fastener,,,,,belt buckle,,,0.6232993197278912
+1051,fastener,,,,,bolt,,,0.5276278253236778
+1052,fastener,,,,,bow,,,0.4570381998953427
+1053,fastener,,,,,buckle,,,0.6484450923226434
+1054,fastener,,,,,button,,,0.6762070681931308
+1055,fastener,,,,,chain,,,0.3977218794494542
+1056,fastener,,,,,clasp,,,0.6291257243638197
+1057,fastener,,,,,clothespin,,,0.48268398268398277
+1058,fastener,,,,,combination lock,,,0.3809363745498199
+1059,fastener,,,,,cufflink,,,0.27608346709470294
+1060,fastener,,,,,gasket,,,0.17360544217687074
+1061,fastener,,,,,hairpin,,,0.40144057623049223
+1062,fastener,,,,,hook,,,0.4879707980753278
+1063,fastener,,,,,knot,,,0.4352941176470587
+1064,fastener,,,,,latch,,,0.5494505494505495
+1065,fastener,,,,,lock,,,0.4902650715458598
+1066,fastener,,,,,nail,,,0.4359925788497217
+1067,fastener,,,,,padlock,,,0.3651831817064175
+1068,fastener,,,,,paperclip,,,0.6353555120678408
+1069,fastener,,,,,peg,,,0.20068027210884357
+1070,fastener,,,,,pin,,,0.5978835978835979
+1071,fastener,,,,,rubber band,,,0.42857142857142855
+1072,fastener,,,,,safety pin,,,0.6789727126805778
+1073,fastener,,,,,screw,,,0.5876143560872625
+1074,fastener,,,,,staple,,,0.6507936507936508
+1075,fastener,,,,,strap,,,0.6227405247813412
+1076,fastener,,,,,tack,,,0.4288548752834466
+1077,fastener,,,,,tape,,,0.6151824366110082
+1078,fastener,,,,,thumbtack,,,0.46127366609294324
+1079,fastener,,,,,velcro,,,0.6136216391318433
+1080,fastener,,,,,zipper,,,0.7093596059113301
+1081,food,,,,,almond,,,0.5606053657418023
+1082,food,,,,,appetizer,,,0.5004746084480304
+1083,food,,,,,apple,,,0.8336228108264583
+1084,food,,,,,applesauce,,,0.629838142153413
+1085,food,,,,,artichoke,,,0.3545918367346938
+1086,food,,,,,arugula,,,0.2591061741152157
+1087,food,,,,,asparagus,,,0.5231910946196661
+1088,food,,,,,avocado,,,0.6348474873820497
+1089,food,,,,,bacon,,,0.8506602641056421
+1090,food,,,,,bagel,,,0.7039095156134743
+1091,food,,,,,baklava,,,0.2125
+1092,food,,,,,banana,,,0.7845547309833024
+1093,food,,,,,banana split,,,0.4362244897959184
+1094,food,,,,,basil,,,0.1878401360544217
+1095,food,,,,,batter,,,0.27145051569014694
+1096,food,,,,,bean,,,0.6206048684534055
+1097,food,,,,,beet,,,0.34128350135234814
+1098,food,,,,,bell pepper,,,0.5554309635942288
+1099,food,,,,,berry,,,0.5759878419452888
+1100,food,,,,,birthday cake,,,0.557564798071127
+1101,food,,,,,biscuit,,,0.7342136854741896
+1102,food,,,,,blackberry,,,0.46039844509232264
+1103,food,,,,,blueberry,,,0.5978231292517007
+1104,food,,,,,bok choy,,,0.25023191094619657
+1105,food,,,,,bologna,,,0.6061624649859944
+1106,food,,,,,bread,,,0.8719851576994434
+1107,food,,,,,breadstick,,,0.6338589981447126
+1108,food,,,,,breakfast,,,0.6174789915966387
+1109,food,,,,,broccoli,,,0.6871539313399779
+1110,food,,,,,brownie,,,0.6454361964566047
+1111,food,,,,,brussels sprouts,,,0.4988662131519274
+1112,food,,,,,buffet,,,0.3622785377887418
+1113,food,,,,,bun,,,0.5768707482993198
+1114,food,,,,,burrito,,,0.8037228078044404
+1115,food,,,,,butter,,,0.5047455126628965
+1116,food,,,,,cabbage,,,0.5638035433953801
+1117,food,,,,,cake,,,0.7401508429458741
+1118,food,,,,,cake mix,,,0.3018614039022202
+1119,food,,,,,calamari,,,0.3372822299651568
+1120,food,,,,,calzone,,,0.5282948344172834
+1121,food,,,,,candy,,,0.4449564772145417
+1122,food,,,,,candy bar,,,0.5195198079231692
+1123,food,,,,,candy cane,,,0.28669514317354844
+1124,food,,,,,cantaloupe,,,0.5018807523009202
+1125,food,,,,,caramel,,,0.33028383767300024
+1126,food,,,,,carrot,,,0.7111162646876933
+1127,food,,,,,cashew,,,0.4715234931181774
+1128,food,,,,,casserole,,,0.6838905775075989
+1129,food,,,,,catfish,,,0.423861852433281
+1130,food,,,,,cauliflower,,,0.5560090702947845
+1131,food,,,,,caviar,,,0.3013937282229965
+1132,food,,,,,celery,,,0.5635557593824045
+1133,food,,,,,cereal,,,0.7956941018165508
+1134,food,,,,,cheese,,,0.8346938775510205
+1135,food,,,,,cheeseburger,,,0.9118738404452691
+1136,food,,,,,cheesecake,,,0.6258503401360543
+1137,food,,,,,cherry,,,0.5457997152349312
+1138,food,,,,,chicken,,,0.8997459224653717
+1139,food,,,,,chickpea,,,0.39826839826839827
+1140,food,,,,,chili,,,0.6825396825396826
+1141,food,,,,,chips,,,0.7169904106220801
+1142,food,,,,,chive,,,0.2393320964749536
+1143,food,,,,,chocolate,,,0.6562358276643991
+1144,food,,,,,cilantro,,,0.25858738557151245
+1145,food,,,,,cinnamon,,,0.24621212121212113
+1146,food,,,,,clam,,,0.3474025974025974
+1147,food,,,,,clove,,,0.1226757369614512
+1148,food,,,,,coconut,,,0.4678004535147391
+1149,food,,,,,coffee bean,,,0.17664648276893163
+1150,food,,,,,coleslaw,,,0.58495670995671
+1151,food,,,,,cookie,,,0.7706400742115028
+1152,food,,,,,cordon bleu,,,0.313953488372093
+1153,food,,,,,corn,,,0.7729591836734694
+1154,food,,,,,cornbread,,,0.6313237938853701
+1155,food,,,,,cornmeal,,,0.3445378151260504
+1156,food,,,,,cotton candy,,,0.36748768472906396
+1157,food,,,,,crab,,,0.5038498916049936
+1158,food,,,,,cracker,,,0.6572356215213357
+1159,food,,,,,cranberry,,,0.4554001375831231
+1160,food,,,,,crayfish,,,0.26441881100266185
+1161,food,,,,,cream cheese,,,0.5139573070607553
+1162,food,,,,,creme brulee,,,0.27243668551758043
+1163,food,,,,,crepe,,,0.44095390965374914
+1164,food,,,,,croissant,,,0.5695519587145204
+1165,food,,,,,crouton,,,0.3485439119468011
+1166,food,,,,,crumb,,,0.1953708312593329
+1167,food,,,,,cucumber,,,0.6256921373200443
+1168,food,,,,,cupcake,,,0.6712070874861574
+1169,food,,,,,curry,,,0.43391642371234207
+1170,food,,,,,dessert,,,0.5694959802102658
+1171,food,,,,,dip,,,0.3273036487322201
+1172,food,,,,,donut,,,0.7078651685393258
+1173,food,,,,,dough,,,0.2935824932382591
+1174,food,,,,,dumpling,,,0.5142857142857143
+1175,food,,,,,easter egg,,,0.18053375196232332
+1176,food,,,,,eclair,,,0.3503401360544217
+1177,food,,,,,eel,,,0.13953488372093018
+1178,food,,,,,egg,,,0.8418367346938774
+1179,food,,,,,egg roll,,,0.6070867907602601
+1180,food,,,,,eggplant,,,0.43049219687875145
+1181,food,,,,,enchilada,,,0.5969948418928012
+1182,food,,,,,fast food,,,0.7588552662444288
+1183,food,,,,,fig,,,0.25969948418928
+1184,food,,,,,fish,,,0.7695370831259333
+1185,food,,,,,flan,,,0.2890365448504983
+1186,food,,,,,flour,,,0.2718715393133998
+1187,food,,,,,fondue,,,0.288961038961039
+1188,food,,,,,french fries,,,0.8445539135194305
+1189,food,,,,,fruit,,,0.7860544217687074
+1190,food,,,,,fruitcake,,,0.324390243902439
+1191,food,,,,,fudge,,,0.4169032830523513
+1192,food,,,,,garlic,,,0.3778732545649839
+1193,food,,,,,ginger,,,0.21221532091097303
+1194,food,,,,,gingerbread man,,,0.2753872633390705
+1195,food,,,,,goat,,,0.19363459669582114
+1196,food,,,,,goose,,,0.15472235405790216
+1197,food,,,,,grain,,,0.37943262411347517
+1198,food,,,,,granola,,,0.5598239295718288
+1199,food,,,,,grape,,,0.6201814058956916
+1200,food,,,,,grapefruit,,,0.5288888888888889
+1201,food,,,,,gravy,,,0.4590690208667736
+1202,food,,,,,green beans,,,0.7104333868378813
+1203,food,,,,,grits,,,0.4755102040816327
+1204,food,,,,,guacamole,,,0.5551948051948051
+1205,food,,,,,gum,,,0.15954753994621096
+1206,food,,,,,gumball,,,0.17647058823529407
+1207,food,,,,,gumdrop,,,0.20218809173153796
+1208,food,,,,,gyro,,,0.461038961038961
+1209,food,,,,,ham,,,0.756386999244142
+1210,food,,,,,hamburger,,,0.896238955352256
+1211,food,,,,,hash,,,0.33856884525962283
+1212,food,,,,,honey,,,0.37950011465260264
+1213,food,,,,,hotdog,,,0.8437568575817425
+1214,food,,,,,hummus,,,0.44164777021919865
+1215,food,,,,,ice cream,,,0.636671412751147
+1216,food,,,,,ice-cream cone,,,0.5524278676988036
+1217,food,,,,,jalapeno,,,0.3870513722730471
+1218,food,,,,,jam,,,0.36115569823434995
+1219,food,,,,,jelly bean,,,0.33074534161490676
+1220,food,,,,,kale,,,0.4121945074326026
+1221,food,,,,,kebab,,,0.4729064039408866
+1222,food,,,,,ketchup,,,0.34875810789432043
+1223,food,,,,,kiwi,,,0.4459986241687687
+1224,food,,,,,lamb,,,0.4916943521594684
+1225,food,,,,,lamb chop,,,0.6148552444233506
+1226,food,,,,,lasagna,,,0.8073272682567002
+1227,food,,,,,leek,,,0.2971331389698736
+1228,food,,,,,lemon,,,0.4822112753147235
+1229,food,,,,,lettuce,,,0.637012987012987
+1230,food,,,,,licorice,,,0.27978168011390603
+1231,food,,,,,lime,,,0.3715182776407266
+1232,food,,,,,lobster,,,0.5835142567665363
+1233,food,,,,,lollipop,,,0.34961127308066076
+1234,food,,,,,macadamia,,,0.2557299843014128
+1235,food,,,,,macaroni,,,0.80428493236375
+1236,food,,,,,mango,,,0.5510204081632653
+1237,food,,,,,maple syrup,,,0.32002502150285395
+1238,food,,,,,marmalade,,,0.2353896103896104
+1239,food,,,,,marshmallow,,,0.4506216279615294
+1240,food,,,,,mashed potato,,,0.8063135366506152
+1241,food,,,,,meat,,,0.8352659245516388
+1242,food,,,,,meatball,,,0.7862208713272542
+1243,food,,,,,meatloaf,,,0.7384471029791226
+1244,food,,,,,melon,,,0.6180311204941747
+1245,food,,,,,mint,,,0.22448979591836732
+1246,food,,,,,mousse,,,0.28138528138528135
+1247,food,,,,,muffin,,,0.7122892635314996
+1248,food,,,,,mulberry,,,0.22187336473050753
+1249,food,,,,,mushroom,,,0.5581849761181068
+1250,food,,,,,mussel,,,0.3332263242375601
+1251,food,,,,,mustard,,,0.3464696223316913
+1252,food,,,,,nacho,,,0.6194213949315991
+1253,food,,,,,noodle,,,0.6876285397880082
+1254,food,,,,,nut,,,0.5660461986992599
+1255,food,,,,,oatmeal,,,0.7456709956709957
+1256,food,,,,,octopus,,,0.15250056066382595
+1257,food,,,,,okra,,,0.2916974018523071
+1258,food,,,,,olive,,,0.41867656153370436
+1259,food,,,,,omelet,,,0.8067226890756303
+1260,food,,,,,onion,,,0.5470863044012785
+1261,food,,,,,orange,,,0.699092970521542
+1262,food,,,,,oyster,,,0.43231292517006803
+1263,food,,,,,pancake,,,0.8063840920983777
+1264,food,,,,,papaya,,,0.30981992797118846
+1265,food,,,,,parfait,,,0.3930372148859544
+1266,food,,,,,parsley,,,0.24442335073564309
+1267,food,,,,,pasta,,,0.8969280343716433
+1268,food,,,,,pastry,,,0.6149068322981366
+1269,food,,,,,patty,,,0.4917507232778168
+1270,food,,,,,pea,,,0.5363177529076147
+1271,food,,,,,peach,,,0.6078717201166182
+1272,food,,,,,peanut,,,0.5475417439703154
+1273,food,,,,,peanut butter,,,0.7088915566226491
+1274,food,,,,,pear,,,0.5873015873015872
+1275,food,,,,,pecan,,,0.4058441558441558
+1276,food,,,,,pepper (seasoning),,,0.2564935064935064
+1277,food,,,,,pepper (vegetable),,,0.5436387320885799
+1278,food,,,,,peppermint,,,0.17274052478134103
+1279,food,,,,,pepperoni,,,0.654437055721165
+1280,food,,,,,pesto,,,0.31269059347877076
+1281,food,,,,,pickle,,,0.5174759558996012
+1282,food,,,,,pie,,,0.6540567446490791
+1283,food,,,,,piecrust,,,0.29266651715631303
+1284,food,,,,,pig,,,0.19933554817275748
+1285,food,,,,,pineapple,,,0.6356905552918841
+1286,food,,,,,pistachio,,,0.3714734245346489
+1287,food,,,,,pita,,,0.4842737094837934
+1288,food,,,,,pizza,,,0.9031798766018034
+1289,food,,,,,plum,,,0.469234884965222
+1290,food,,,,,pomegranate,,,0.3566362715298886
+1291,food,,,,,popcorn,,,0.6084005695301377
+1292,food,,,,,poppy,,,0.08859357696566994
+1293,food,,,,,popsicle,,,0.4207403891789273
+1294,food,,,,,potato,,,0.7990723562152134
+1295,food,,,,,potpie,,,0.6449928808732796
+1296,food,,,,,pretzel,,,0.6494331065759636
+1297,food,,,,,prune,,,0.30540216086434574
+1298,food,,,,,pudding,,,0.5160997732426302
+1299,food,,,,,pumpkin,,,0.37762832405689545
+1300,food,,,,,quesadilla,,,0.6221250404923875
+1301,food,,,,,quiche,,,0.3932773109243697
+1302,food,,,,,rabbit,,,0.10948129251700675
+1303,food,,,,,radish,,,0.3742991702175375
+1304,food,,,,,raisin,,,0.4383116883116883
+1305,food,,,,,raspberry,,,0.5126336248785229
+1306,food,,,,,ravioli,,,0.7024205030849549
+1307,food,,,,,ready meal,,,0.48111658456486045
+1308,food,,,,,rhubarb,,,0.2429771908763505
+1309,food,,,,,rice,,,0.8472827333180464
+1310,food,,,,,roll,,,0.6239795918367347
+1311,food,,,,,saffron,,,0.11392405063291132
+1312,food,,,,,salad,,,0.8292736449418477
+1313,food,,,,,salami,,,0.6218161683277963
+1314,food,,,,,sandwich,,,0.8997338065661046
+1315,food,,,,,sardine,,,0.290443006470881
+1316,food,,,,,sauce,,,0.3065759637188208
+1317,food,,,,,sauerkraut,,,0.29894595200717644
+1318,food,,,,,sausage,,,0.7674418604651162
+1319,food,,,,,scallion,,,0.29243697478991587
+1320,food,,,,,scallop,,,0.4095390965374913
+1321,food,,,,,scone,,,0.42713085234093634
+1322,food,,,,,scrambled egg,,,0.8082604470359572
+1323,food,,,,,seafood,,,0.6906298003072198
+1324,food,,,,,seaweed,,,0.1649659863945577
+1325,food,,,,,shortbread,,,0.4467377860235002
+1326,food,,,,,shrimp,,,0.5899288451012589
+1327,food,,,,,snack,,,0.6298701298701299
+1328,food,,,,,sorbet,,,0.29984301412872844
+1329,food,,,,,souffle,,,0.3635937133474079
+1330,food,,,,,soup,,,0.7802562885619364
+1331,food,,,,,soy sauce,,,0.20423280423280424
+1332,food,,,,,spaghetti,,,0.8775510204081632
+1333,food,,,,,spam,,,0.3190476190476191
+1334,food,,,,,spareribs,,,0.5416188947489108
+1335,food,,,,,spinach,,,0.6289424860853431
+1336,food,,,,,spring roll,,,0.5339448138806084
+1337,food,,,,,sprouts,,,0.32653061224489793
+1338,food,,,,,squash,,,0.4681169170965089
+1339,food,,,,,squid,,,0.21858864027538719
+1340,food,,,,,star fruit,,,0.2539929015084295
+1341,food,,,,,steak,,,0.8745451669039708
+1342,food,,,,,stew,,,0.6664320900774102
+1343,food,,,,,stir fry,,,0.6049382716049383
+1344,food,,,,,strawberry,,,0.7326974267968056
+1345,food,,,,,string cheese,,,0.5944639924935491
+1346,food,,,,,stuffing,,,0.5490551776266063
+1347,food,,,,,sugar cube,,,0.16302800189843372
+1348,food,,,,,sundae,,,0.4709576138147566
+1349,food,,,,,sushi,,,0.6173469387755102
+1350,food,,,,,sweet potato,,,0.6377551020408163
+1351,food,,,,,swordfish,,,0.3007095311242776
+1352,food,,,,,syrup,,,0.24489795918367335
+1353,food,,,,,taco,,,0.802247191011236
+1354,food,,,,,taffy,,,0.23184622686283807
+1355,food,,,,,tamale,,,0.5665694849368318
+1356,food,,,,,tiramisu,,,0.27342300556586263
+1357,food,,,,,toast,,,0.7689673622257891
+1358,food,,,,,tomato,,,0.6272749099639856
+1359,food,,,,,tomato sauce,,,0.42755102040816323
+1360,food,,,,,tortellini,,,0.4935064935064935
+1361,food,,,,,tortilla,,,0.6015206082432973
+1362,food,,,,,tostada,,,0.4443413729128015
+1363,food,,,,,turkey,,,0.7406558128869525
+1364,food,,,,,vegetable,,,0.7537853851217905
+1365,food,,,,,wafer,,,0.3038033395176251
+1366,food,,,,,waffle,,,0.7069479477184133
+1367,food,,,,,walnut,,,0.4612244897959184
+1368,food,,,,,watermelon,,,0.6233766233766234
+1369,food,,,,,wedding cake,,,0.32953813104189045
+1370,food,,,,,wheat,,,0.3533549783549783
+1371,food,,,,,whipped cream,,,0.3355751391465677
+1372,food,,,,,wrap,,,0.5828395874478823
+1373,food,,,,,yogurt,,,0.6532905296950241
+1374,food,,,,,yolk,,,0.3051506316812439
+1375,food,,,,,zucchini,,,0.5170068027210885
+1376,footwear,,,,,boot,,,0.8462585034013604
+1377,footwear,,,,,flip-flop,,,0.7288629737609329
+1378,footwear,,,,,flipper,,,0.13174603174603167
+1379,footwear,,,,,iceskate,,,0.24826194213949315
+1380,footwear,,,,,moccasin,,,0.41169060216679265
+1381,footwear,,,,,rollerblade,,,0.29315726290516203
+1382,footwear,,,,,rollerskate,,,0.28750000000000003
+1383,footwear,,,,,sandal,,,0.7959183673469388
+1384,footwear,,,,,shoe,,,0.9476590636254503
+1385,footwear,,,,,ski boots,,,0.34308390022675733
+1386,footwear,,,,,slipper,,,0.7005102040816328
+1387,footwear,,,,,snowshoe,,,0.2868871686605677
+1388,footwear,,,,,sock,,,0.6336134453781513
+1389,footwear,,,,,stiletto,,,0.5061699098243947
+1390,footwear,,,,,stockings,,,0.3438538205980066
+1391,fruit,,,Apfel,apple,apple,,0.9916666666666667,0.9376026272577996
+1392,fruit,,,,,avocado,,,0.19926622334326982
+1393,fruit,,,Banane,banana,banana,,0.9583333333333334,0.8356881214024069
+1394,fruit,,,,,berry,,,0.4902650715458597
+1395,fruit,,,Brombeere,blackberry,blackberry,,0.7916666666666666,0.47774327122153204
+1396,fruit,,,Blaubeere,blueberry,blueberry,,0.8166666666666668,0.6747835497835497
+1397,fruit,,,,,cantaloupe,,,0.49411764705882355
+1398,fruit,,,Kirsche,cherry,cherry,,0.9500000000000001,0.6328798185941044
+1399,fruit,,,,,coconut,,,0.2532212885154062
+1400,fruit,,,Preiselbeere,cranberry,cranberry,,0.7083333333333334,0.32773998488284206
+1401,fruit,,,Feige,fig,fig,,0.5916666666666667,0.17711962833914047
+1402,fruit,,,,,fruit,,,0.6068524970963995
+1403,fruit,,,Weintraube,grape,grape,,0.9666666666666667,0.7458533975387908
+1404,fruit,,,Grapefruit,grapefruit,grapefruit,,0.875,0.5090445269016698
+1405,fruit,,,,,kiwi,,,0.45815180004586104
+1406,fruit,,,Zitrone,lemon,lemon,,0.8833333333333333,0.5420775051593669
+1407,fruit,,,Limette,lime,lime,,0.6166666666666667,0.44537815126050423
+1408,fruit,,,Mango,mango,mango,,0.7583333333333333,0.5969009826152682
+1409,fruit,,,Melone,melon,melon,,0.8166666666666668,0.5165532879818594
+1410,fruit,,,,,mulberry,,,0.1615646258503401
+1411,fruit,,,Orange,orange,orange,,0.9333333333333332,0.891006952231442
+1412,fruit,,,Papaya,papaya,papaya,,0.4749999999999999,0.34572400388726915
+1413,fruit,,,Pfirsich,peach,peach,,0.9583333333333334,0.6749723145071982
+1414,fruit,,,Birne,pear,pear,,0.975,0.5622627998567847
+1415,fruit,,,Ananas,pineapple,pineapple,,0.9333333333333332,0.6790123456790124
+1416,fruit,,,Pflaume,plum,plum,,0.8833333333333333,0.47043432757718456
+1417,fruit,,,Granatapfel,pomegranate,pomegranate,,0.543859649122807,0.35714285714285715
+1418,fruit,,,,,prune,,,0.21124620060790275
+1419,fruit,,,,,raisin,,,0.24788451966152308
+1420,fruit,,,Himbeere,raspberry,raspberry,,0.9,0.5179344465058751
+1421,fruit,,,,,star fruit,,,0.23024594453165886
+1422,fruit,,,Erdbeere,strawberry,strawberry,,0.9666666666666667,0.7776213933849402
+1423,fruit,,,,,tomato,,,0.23191094619666044
+1424,fruit,,,,,watermelon,,,0.6576204950065133
+1425,fruit,,,Aprikose,apricot,,,0.8666666666666667,
+1426,fruit,,,Blutorange,blood orange,,,0.8083333333333332,
+1427,fruit,,,Clementine,clementine,,,0.7666666666666666,
+1428,fruit,,,Dattel,date,,,0.4416666666666667,
+1429,fruit,,,Holunderbeere,elderberry,,,0.525,
+1430,fruit,,,Stachelbeere,gooseberry,,,0.8083333333333332,
+1431,fruit,,,Honigmelone,honeydew melon,,,0.8166666666666668,
+1432,fruit,,,Litschi,lychee,,,0.5350877192982456,
+1433,fruit,,,Mirabelle,mirabelle,,,0.5833333333333334,
+1434,fruit,,,Zuckermelone,musk melon,,,0.6481481481481481,
+1435,fruit,,,Nektarine,nectarine,,,0.8166666666666668,
+1436,fruit,,,Maracuja,passion fruit,,,0.5916666666666667,
+1437,fruit,,,Physalis,physalis,,,0.4537037037037037,
+1438,fruit,,,Johannisbeere,redcurrant,,,0.8416666666666667,
+1439,fruit,,,Hagebutte,rosehip,,,0.38235294117647056,
+1440,fruit,,,Sauerkirsche,sour cherry,,,0.8833333333333333,
+1441,fruit,,,Sternfrucht,starfruit,,,0.40740740740740744,
+1442,fruit,,,Süßkirsche,sweet cherry,,,0.8833333333333333,
+1443,fruit,,,Mandarine,tangerine,,,0.9166666666666666,
+1444,fruit,,,Wassermelone,water melon,,,0.8083333333333332,
+1445,furniture,,,,,air mattress,,,0.2933673469387754
+1446,furniture,,,,,bassinet,,,0.3184622686283816
+1447,furniture,,,,,beanbag,,,0.2869897959183673
+1448,furniture,Cama,bed,Bett,bed,bed,0.9866666666666667,0.9666666666666667,0.827791790873653
+1449,furniture,Banco,bench,Bank,bench,bench,0.6533333333333333,0.6140350877192983,0.5129836880988955
+1450,furniture,,,,,bookshelf,,,0.6600168157150501
+1451,furniture,,,,,bunkbed,,,0.536038224813735
+1452,furniture,,,,,cabinet,,,0.5669189023924175
+1453,furniture,Silla,chair,Stuhl,chair,chair,0.9666666666666667,0.975,0.8478088909982597
+1454,furniture,Arcón,chest,Truhe,chest,chest,0.39999999999999997,0.6749999999999999,0.47433518862090285
+1455,furniture,,,,,closet,,,0.2147005143520823
+1456,furniture,,,,,coat rack,,,0.36003763207410616
+1457,furniture,,,Couchtisch,coffee table,coffee table,,0.875,0.7788741870374524
+1458,furniture,,,,,cot,,,0.31307977736549164
+1459,furniture,,,Couch,couch,couch,,0.9444444444444445,0.8864468864468863
+1460,furniture,,,,,counter,,,0.30907029478458053
+1461,furniture,,,,,crib,,,0.4643630179344465
+1462,furniture,Escritor,desk,Schreibtisch,desk,desk,0.8133333333333334,0.9,0.7591362126245846
+1463,furniture,,,,,dresser,,,0.736986929603302
+1464,furniture,,,Aktenschrank,filing cabinet,filing cabinet,,0.5666666666666667,0.3637188208616779
+1465,furniture,,,,,footrest,,,0.4160314728300959
+1466,furniture,Hamaca,hammock,,,hammock,0.4066666666666667,,0.24008254987388206
+1467,furniture,,,,,highchair,,,0.4177809054656345
+1468,furniture,,,,,lectern,,,0.11142684922070091
+1469,furniture,,,,,loveseat,,,0.7476265231367272
+1470,furniture,,,,,mattress,,,0.5317335725498991
+1471,furniture,,,,,nightstand,,,0.6779781680113907
+1472,furniture,,,,,ottoman,,,0.5415451895043731
+1473,furniture,,,,,rack (display),,,0.28756957328385896
+1474,furniture,,,,,rack (frame),,,0.198051948051948
+1475,furniture,,,,,recliner,,,0.738643844634628
+1476,furniture,Mecedora,rocking chair,Schaukelstuhl,rocking chair,rocking chair,0.6933333333333334,0.7083333333333334,0.580395794681509
+1477,furniture,Estante,shelf,Regal,shelf,shelf,0.7533333333333333,0.8421052631578947,0.48039440495299235
+1478,furniture,,,,,sofa bed,,,0.6674225245653818
+1479,furniture,,,,,step stool,,,0.3049495660333098
+1480,furniture,Taburete,stool,Hocker,stool,stool,0.7866666666666666,0.7999999999999999,0.5293524817334341
+1481,furniture,Mesa,table,Tisch,table,table,0.9866666666666667,0.9249999999999999,0.8757693553611922
+1482,furniture,,,,,throne,,,0.12716553287981852
+1483,furniture,,,,,workbench,,,0.23529411764705874
+1484,furniture,Sillón,armchair,Sessel,armchair,,0.96,0.9583333333333334,
+1485,furniture,Butaca,armchair,,,,0.7666666666666666,,
+1486,furniture,Barra,bar,,,,0.14666666666666664,,
+1487,furniture,Bañera,bath,,,,0.43333333333333335,,
+1488,furniture,Mesita,bedside table,Nachttisch,bedside table,,0.8933333333333334,0.775,
+1489,furniture,Bide,bidet,,,,0.4066666666666667,,
+1490,furniture,Portalibros,book shelf,,,,0.30666666666666664,,
+1491,furniture,Librería,book shelves,,,,0.7333333333333334,,
+1492,furniture,Litera,bunk bed,,,,0.68,,
+1493,furniture,Buró,bureau,,,,0.36000000000000004,,
+1494,furniture,Arca,chest,,,,0.39999999999999997,,
+1495,furniture,Cajonera,chest of drawers,Kommode,chest of drawers,,0.6866666666666666,0.8916666666666666,
+1496,furniture,Sinfonier,chest of drawers,,,,0.5333333333333333,,
+1497,furniture,Comodín,chest of drawers,,,,0.42,,
+1498,furniture,Reloj,clock,,,,0.25333333333333335,,
+1499,furniture,Perchero,clothes stand,,,,0.47333333333333333,,
+1500,furniture,Ordenador,computer,,,,0.2066666666666667,,
+1501,furniture,Consola,console table,,,,0.4066666666666667,,
+1502,furniture,Rinconera,cornerboard,,,,0.64,,
+1503,furniture,Alacena,cupboard,Schrank,cupboard,,0.3933333333333333,0.975,
+1504,furniture,Cortina,curtain,,,,0.4466666666666667,,
+1505,furniture,Tumbona,deck chair,,,,0.5533333333333333,,
+1506,furniture,Lavaplatos,dishwasher,,,,0.3133333333333333,,
+1507,furniture,Lavavajillas,dishwasher,,,,0.26,,
+1508,furniture,Diván,divan,,,,0.48666666666666664,,
+1509,furniture,Puerta,door,,,,0.41333333333333333,,
+1510,furniture,Cajón,drawer,,,,0.7933333333333333,,
+1511,furniture,Tocador,dressing table,Schminktisch,dressing table,,0.7066666666666667,0.4833333333333334,
+1512,furniture,Coqueta,dressing table,,,,0.3933333333333333,,
+1513,furniture,Entradita,entrance hall,,,,0.28,,
+1514,furniture,Tiestos,flowerpot,,,,0.09333333333333334,,
+1515,furniture,Escabel,footstool,,,,0.16666666666666666,,
+1516,furniture,Frigorífico,fridge,,,,0.5866666666666666,,
+1517,furniture,Nevera,fridge,,,,0.2866666666666667,,
+1518,furniture,Vitrina,glass cabinet,,,,0.52,,
+1519,furniture,Recibidor,hall,,,,0.48,,
+1520,furniture,Percha,hanger,,,,0.2933333333333333,,
+1521,furniture,Cocina,kitchen,,,,0.56,,
+1522,furniture,Lámpara,lamp,,,,0.4666666666666666,,
+1523,furniture,Papelera,litter,,,,0.30666666666666664,,
+1524,furniture,Retrete,loo,,,,0.13333333333333333,,
+1525,furniture,Revistero,magazine rack,,,,0.4066666666666667,,
+1526,furniture,Microondas,microwaves,,,,0.2733333333333334,,
+1527,furniture,Minicadena,mini hi-fi,,,,0.2133333333333333,,
+1528,furniture,Espejo,mirror,,,,0.5933333333333333,,
+1529,furniture,Mural,mural,,,,0.16666666666666666,,
+1530,furniture,Horno,oven,,,,0.3933333333333333,,
+1531,furniture,Piano,piano,,,,0.20000000000000004,,
+1532,furniture,Cuadro,picture,,,,0.4666666666666666,,
+1533,furniture,Posaplatos,place mat,,,,0.17333333333333334,,
+1534,furniture,Escurreplatos,plate rack,,,,0.37333333333333335,,
+1535,furniture,Puf,pouffe,,,,0.3333333333333333,,
+1536,furniture,Radio,radio,,,,0.2066666666666667,,
+1537,furniture,Barandilla,railing,,,,0.2733333333333334,,
+1538,furniture,Flexo,reading lamp,,,,0.42,,
+1539,furniture,Fogón,ring,,,,0.2733333333333334,,
+1540,furniture,Alfombra,rug,,,,0.39999999999999997,,
+1541,furniture,Pupitre,school desk,,,,0.7400000000000001,,
+1542,furniture,Balancin,seesaw,,,,0.3133333333333333,,
+1543,furniture,Repisa,shelf,,,,0.43333333333333335,,
+1544,furniture,Estantería,shelves,,,,0.88,,
+1545,furniture,Descalzadora,shoe horn,,,,0.14,,
+1546,furniture,Zapatero,shoe rack,,,,0.5933333333333333,,
+1547,furniture,Ducha,shower,,,,0.37333333333333335,,
+1548,furniture,Cómoda,sideboard,Anrichte,sideboard,,0.7799999999999999,0.7166666666666667,
+1549,furniture,Aparador,sideboard,,,,0.4466666666666667,,
+1550,furniture,Fregadero,sink,,,,0.5133333333333333,,
+1551,furniture,Fregador,sink,,,,0.18000000000000002,,
+1552,furniture,Sofá,sofa,Sofa,sofa,,0.9666666666666667,0.9666666666666667,
+1553,furniture,Tresillo,sofa,,,,0.84,,
+1554,furniture,Vidriera,stained-glass window,,,,0.12,,
+1555,furniture,Banqueta,stool,,,,0.6533333333333333,,
+1556,furniture,Televisión,television,,,,0.5,,
+1557,furniture,Televisor,television,,,,0.3133333333333333,,
+1558,furniture,WC,toilet,,,,0.14666666666666664,,
+1559,furniture,Váter,toilet,,,,0.11333333333333333,,
+1560,furniture,Taquillón,traditional Spanish table,,,,0.64,,
+1561,furniture,Nido,truckle bed,,,,0.37999999999999995,,
+1562,furniture,Baúl,trunk,,,,0.6733333333333333,,
+1563,furniture,Paragüero,umbrella stand,,,,0.34,,
+1564,furniture,Jarrón,vase,,,,0.3133333333333333,,
+1565,furniture,Video,video,,,,0.14,,
+1566,furniture,Armario,wardrobe,,,,1.0,,
+1567,furniture,Ropero,wardrobe,,,,0.8466666666666667,,
+1568,furniture,Guardarropa,wardrobe,,,,0.66,,
+1569,furniture,Lavabo,washbasin,,,,0.4666666666666666,,
+1570,furniture,Lavadora,washing machine,,,,0.3,,
+1571,furniture,Ventana,window,,,,0.20000000000000004,,
+1572,furniture,Encimera,worktop,,,,0.5800000000000001,,
+1573,furniture,Secreter,writing desk,,,,0.5733333333333334,,
+1574,furniture,,,TV-Schrank,TV cabinet,,,0.6083333333333333,
+1575,furniture,,,Balkontisch,balcony table,,,0.4333333333333333,
+1576,furniture,,,Kellerregal,basement shelf,,,0.34259259259259256,
+1577,furniture,,,Sitzsack,beanbag chair,,,0.2843137254901961,
+1578,furniture,,,Bettkasten,bed drawer,,,0.3796296296296296,
+1579,furniture,,,Nachtschrank,bedside cabinet,,,0.75,
+1580,furniture,,,Bücherschrank,bookcase,,,0.8666666666666667,
+1581,furniture,,,Brotschrank,bread cupboard,,,0.4166666666666667,
+1582,furniture,,,Campingstuhl,camping chair,,,0.23684210526315796,
+1583,furniture,,,Liege,chaise longue,,,0.6916666666666668,
+1584,furniture,,,Wiege,cradle,,,0.46491228070175444,
+1585,furniture,,,Liegestuhl,deckchair,,,0.6491228070175439,
+1586,furniture,,,Schreibtischstuhl,desk chair,,,0.8583333333333334,
+1587,furniture,,,Esstisch,dining table,,,0.9416666666666668,
+1588,furniture,,,Vitrine,display cabinet,,,0.8333333333333334,
+1589,furniture,,,Einbauschrank,fitted cupboard,,,0.725,
+1590,furniture,,,Blumenständer,flower stand,,,0.46296296296296297,
+1591,furniture,,,Klapptisch,folding table,,,0.4833333333333334,
+1592,furniture,,,Gartenstuhl,garden chair,,,0.4833333333333334,
+1593,furniture,,,Küchentisch,kitchen table,,,0.9333333333333332,
+1594,furniture,,,Wäschetruhe,linen chest,,,0.5175438596491228,
+1595,furniture,,,Wäscheschrank,linen cupboard,,,0.775,
+1596,furniture,,,Zeitungsständer,newspaper rack,,,0.3229166666666667,
+1597,furniture,,,Beistelltisch,occasional table,,,0.7166666666666667,
+1598,furniture,,,Klavierhocker,piano stool,,,0.5964912280701754,
+1599,furniture,,,Safe,safe,,,0.14583333333333334,
+1600,furniture,,,Sitzecke,seating area,,,0.7666666666666666,
+1601,furniture,,,Schuhschrank,shoe cupboard,,,0.6583333333333333,
+1602,furniture,,,Spültisch,sink unit,,,0.5,
+1603,furniture,,,Regenschirmhalter,umbrella holder,,,0.17708333333333334,
+1604,furniture,,,Hängeschrank,wall cupboard,,,0.75,
+1605,furniture,,,Ohrensessel,wing chair,,,0.7631578947368421,
+1606,game,,,,,backgammon,,,0.39036544850498334
+1607,game,,,,,board game,,,0.7803571428571429
+1608,game,,,,,checkers,,,0.7776812852800694
+1609,game,,,,,chessboard,,,0.5640074211502782
+1610,game,,,,,computer,,,0.49634668682287725
+1611,game,,,,,dice,,,0.43849206349206354
+1612,game,,,,,domino,,,0.4431486880466472
+1613,game,,,,,game,,,0.6605442176870747
+1614,game,,,,,hopscotch,,,0.35226757369614514
+1615,game,,,,,jigsaw puzzle,,,0.36597057427622204
+1616,game,,,,,jump rope,,,0.20877316443818902
+1617,game,,,,,pinball,,,0.4413265306122449
+1618,game,,,,,playing card,,,0.6260142611261372
+1619,game,,,,,scrabble,,,0.6879763953774282
+1620,game,,,,,shuffleboard,,,0.3291139240506329
+1621,game,,,,,slot machine,,,0.35751167937054334
+1622,game,,,,,ticktacktoe,,,0.5684051398337112
+1623,game,,,,,videogame,,,0.7813685474189676
+1624,game,,,,,yo-yo,,,0.16027210884353735
+1625,garden tool,,,,,axe,,,0.34295206454674887
+1626,garden tool,,,,,chainsaw,,,0.2823129251700679
+1627,garden tool,,,,,clipper,,,0.6555281453240637
+1628,garden tool,,,,,hatchet,,,0.29298615998123384
+1629,garden tool,,,,,hoe,,,0.6956078083407276
+1630,garden tool,,,,,hose,,,0.689291446915845
+1631,garden tool,,,,,lawnmower,,,0.7365079365079366
+1632,garden tool,,,,,pickax,,,0.24600709849157051
+1633,garden tool,,,,,pitchfork,,,0.42018140589569164
+1634,garden tool,,,,,rake,,,0.748299319727891
+1635,garden tool,,,,,saw,,,0.27360394707333474
+1636,garden tool,,,,,scissors,,,0.32047544292442254
+1637,garden tool,,,,,shears,,,0.5435992578849721
+1638,garden tool,,,,,shovel,,,0.758908507223114
+1639,garden tool,,,,,sickle,,,0.2531957838080287
+1640,garden tool,,,,,trowel,,,0.5301376364499288
+1641,garden tool,,,,,watering can,,,0.7333001493280239
+1642,hardware,,,,,axe,,,0.5639621702339472
+1643,hardware,,,,,blowtorch,,,0.3770236184361385
+1644,hardware,,,,,bolt,,,0.7724716553287984
+1645,hardware,,,,,bracket,,,0.5796387520525451
+1646,hardware,,,,,button,,,0.3170731707317073
+1647,hardware,,,,,cable,,,0.5130852340936375
+1648,hardware,,,,,can opener,,,0.29850012294074263
+1649,hardware,,,,,chain,,,0.553935860058309
+1650,hardware,,,,,chainsaw,,,0.5751192430995387
+1651,hardware,,,,,charger,,,0.32385811467444114
+1652,hardware,,,,,chicken wire,,,0.27587034813925565
+1653,hardware,,,,,chisel,,,0.5355165321942731
+1654,hardware,,,,,clasp,,,0.45426170468187266
+1655,hardware,,,,,cleaver,,,0.26859019469856904
+1656,hardware,,,,,clipper,,,0.48291589363017934
+1657,hardware,,,,,coil,,,0.35004401760704285
+1658,hardware,,,,,combination lock,,,0.46404275996112715
+1659,hardware,,,,,cord,,,0.4696196660482375
+1660,hardware,,,,,corkscrew,,,0.2936183997408487
+1661,hardware,,,,,crank,,,0.3701618578465869
+1662,hardware,,,,,crowbar,,,0.6214171061683099
+1663,hardware,,,,,doorhandle,,,0.6192905733722059
+1664,hardware,,,,,doorknob,,,0.5866213151927437
+1665,hardware,,,,,doorknocker,,,0.436633912824389
+1666,hardware,,,,,drill,,,0.7908163265306122
+1667,hardware,,,,,duct,,,0.3707082833133253
+1668,hardware,,,,,faucet,,,0.5232142857142857
+1669,hardware,,,,,file,,,0.5271476032273374
+1670,hardware,,,,,gear,,,0.5067947178871549
+1671,hardware,,,,,hammer,,,0.7908773765916625
+1672,hardware,,,,,handle,,,0.563368825791186
+1673,hardware,,,,,hinge,,,0.6682718031032637
+1674,hardware,,,,,hook (door catch),,,0.4878438331854481
+1675,hardware,,,,,hook (hanging),,,0.5667903525046382
+1676,hardware,,,,,hose,,,0.41308937368050663
+1677,hardware,,,,,jackhammer,,,0.4595616024187453
+1678,hardware,,,,,key,,,0.4739279981655583
+1679,hardware,,,,,knob,,,0.5128618889416231
+1680,hardware,,,,,ladder,,,0.6188103148236038
+1681,hardware,,,,,latch,,,0.5524129651860744
+1682,hardware,,,,,light switch,,,0.47660527625684423
+1683,hardware,,,,,lightbulb,,,0.3834719072814311
+1684,hardware,,,,,lock,,,0.6327340459993521
+1685,hardware,,,,,mallet,,,0.5063915676160574
+1686,hardware,,,,,nail,,,0.7745383867832846
+1687,hardware,,,,,padlock,,,0.5157235621521334
+1688,hardware,,,,,peg,,,0.42129409903496284
+1689,hardware,,,,,pickax,,,0.4025571674452913
+1690,hardware,,,,,pipe,,,0.5655862344937975
+1691,hardware,,,,,pliers,,,0.7246019286835613
+1692,hardware,,,,,plug,,,0.47007567071772527
+1693,hardware,,,,,plunger,,,0.4340467894474863
+1694,hardware,,,,,rake,,,0.49307999061693625
+1695,hardware,,,,,ratchet,,,0.519610313261107
+1696,hardware,,,,,saw,,,0.7484575225439013
+1697,hardware,,,,,sawhorse,,,0.32286172896124743
+1698,hardware,,,,,scraper,,,0.43401360544217676
+1699,hardware,,,,,screw,,,0.797579496915045
+1700,hardware,,,,,screwdriver,,,0.8061634292271125
+1701,hardware,,,,,shears,,,0.5434771376905192
+1702,hardware,,,,,shovel,,,0.5983905757424921
+1703,hardware,,,,,sledgehammer,,,0.5338345864661653
+1704,hardware,,,,,soldering iron,,,0.34985422740524774
+1705,hardware,,,,,spark plug,,,0.4022621096631424
+1706,hardware,,,,,staple gun,,,0.4955201592832255
+1707,hardware,,,,,strainer,,,0.2066498509516166
+1708,hardware,,,,,switch,,,0.5420861678004534
+1709,hardware,,,,,tack,,,0.3849972421400992
+1710,hardware,,,,,tank,,,0.24111138431276125
+1711,hardware,,,,,thermometer,,,0.2467120181405895
+1712,hardware,,,,,tool,,,0.8165666266506603
+1713,hardware,,,,,trowel,,,0.3303231292517007
+1714,hardware,,,,,tweezers,,,0.3027601845335834
+1715,hardware,,,,,valve,,,0.49704229517894116
+1716,hardware,,,,,vise,,,0.42953078667364375
+1717,hardware,,,,,wedge,,,0.36356764928193497
+1718,hardware,,,,,wire,,,0.5424091587854654
+1719,hardware,,,,,wire cutters,,,0.5855037252996436
+1720,hardware,,,,,wrench,,,0.709625459379154
+1721,headwear,,,,,bandanna,,,0.593128390596745
+1722,headwear,,,,,beanie,,,0.7049634668682287
+1723,headwear,,,,,bonnet,,,0.3628117913832199
+1724,headwear,,,,,bowler hat,,,0.37065637065637064
+1725,headwear,,,,,crown,,,0.42340480495995864
+1726,headwear,,,,,football helmet,,,0.49642857142857144
+1727,headwear,,,,,hairnet,,,0.292517006802721
+1728,headwear,,,,,hat,,,0.9398702009539447
+1729,headwear,,,,,headband,,,0.7331632653061223
+1730,headwear,,,,,headdress,,,0.26410564225690275
+1731,headwear,,,,,headscarf,,,0.5244279529993815
+1732,headwear,,,,,helmet,,,0.6888355342136855
+1733,headwear,,,,,hood,,,0.661772025883524
+1734,headwear,,,,,sombrero,,,0.4311702208973477
+1735,headwear,,,,,tiara,,,0.34761904761904755
+1736,headwear,,,,,top hat,,,0.5247414034106792
+1737,headwear,,,,,turban,,,0.36672850958565234
+1738,headwear,,,,,veil,,,0.26530612244897955
+1739,headwear,,,,,wig,,,0.4831770546056261
+1740,home appliance,,,,,air conditioner,,,0.5952380952380952
+1741,home appliance,,,,,blender,,,0.6444444444444445
+1742,home appliance,,,,,blower,,,0.1677740863787375
+1743,home appliance,,,,,coffeemaker,,,0.7317987660180351
+1744,home appliance,,,,,cooker,,,0.5461502782931354
+1745,home appliance,,,,,cooler,,,0.23865546218487396
+1746,home appliance,,,,,curling iron,,,0.2739495798319327
+1747,home appliance,,,,,dishwasher,,,0.7318789584799437
+1748,home appliance,,,,,dryer,,,0.6253811869575417
+1749,home appliance,,,,,fan,,,0.48328267477203646
+1750,home appliance,,,,,flatiron,,,0.19277108433734938
+1751,home appliance,,,,,food processor,,,0.49690437972941975
+1752,home appliance,,,,,freezer,,,0.6940652122918134
+1753,home appliance,,,,,hairdryer,,,0.373015873015873
+1754,home appliance,,,,,heater,,,0.4499072356215213
+1755,home appliance,,,,,hotplate,,,0.33229291716686676
+1756,home appliance,,,,,icemaker,,,0.42732702837232445
+1757,home appliance,,,,,iron,,,0.49271137026239076
+1758,home appliance,,,,,juicer,,,0.43659711075441404
+1759,home appliance,,,,,lawnmower,,,0.25873015873015875
+1760,home appliance,,,,,meat grinder,,,0.27203647416413373
+1761,home appliance,,,,,microwave,,,0.8398744113029828
+1762,home appliance,,,,,mixer,,,0.578078422380188
+1763,home appliance,,,,,oven,,,0.8241496598639456
+1764,home appliance,,,,,refrigerator,,,0.8744186046511627
+1765,home appliance,,,,,sewing machine,,,0.2889983579638752
+1766,home appliance,,,,,soda fountain,,,0.10714285714285714
+1767,home appliance,,,,,stove,,,0.8467068645640073
+1768,home appliance,,,,,television,,,0.5798733286418015
+1769,home appliance,,,,,thermostat,,,0.32967032967032955
+1770,home appliance,,,,,toaster,,,0.7487684729064039
+1771,home appliance,,,,,toaster oven,,,0.6841269841269841
+1772,home appliance,,,,,vacuum,,,0.600952380952381
+1773,home appliance,,,,,waffle iron,,,0.47442680776014107
+1774,home appliance,,,,,washing machine,,,0.7717425431711147
+1775,home appliance,,,,,water cooler,,,0.30679524557075577
+1776,home appliance,,,,,water heater,,,0.4314525810324129
+1777,home appliance,,,,,wine cooler,,,0.18928571428571428
+1778,home decor,,,,,abacus,,,0.11071428571428572
+1779,home decor,,,,,album,,,0.360621521335807
+1780,home decor,,,,,aquarium,,,0.43996203132415757
+1781,home decor,,,,,birdbath,,,0.353266888150609
+1782,home decor,,,,,birdcage,,,0.3231292517006802
+1783,home decor,,,,,birdhouse,,,0.3676670668267307
+1784,home decor,,,,,bonsai,,,0.3640029505778215
+1785,home decor,,,,,candelabra,,,0.5286451930169658
+1786,home decor,,,,,candle,,,0.7355716480140444
+1787,home decor,,,,,candlestick,,,0.6955009276437849
+1788,home decor,,,,,centerpiece,,,0.6958076253757316
+1789,home decor,,,,,chandelier,,,0.7608346709470305
+1790,home decor,,,,,christmas tree,,,0.4949540255662704
+1791,home decor,,,,,coaster,,,0.5114998380304503
+1792,home decor,,,,,cornucopia,,,0.18921642731166538
+1793,home decor,,,,,crystal ball,,,0.23668491786958687
+1794,home decor,,,,,cuckoo clock,,,0.42485668424673234
+1795,home decor,,,,,curtain,,,0.8764465786314526
+1796,home decor,,,,,doily,,,0.34693877551020397
+1797,home decor,,,,,doorknocker,,,0.42292826221397645
+1798,home decor,,,,,figurine,,,0.586743415314844
+1799,home decor,,,,,frame,,,0.7441143546026004
+1800,home decor,,,,,globe,,,0.4116402116402117
+1801,home decor,,,,,gourd,,,0.18112244897959176
+1802,home decor,,,,,hourglass,,,0.3354735152487961
+1803,home decor,,,,,lamp,,,0.8875541125541124
+1804,home decor,,,,,lampshade,,,0.7364360378297661
+1805,home decor,,,,,mirror,,,0.8011416060677145
+1806,home decor,,,,,pillow,,,0.7992406264831514
+1807,home decor,,,,,pinecone,,,0.2587198515769944
+1808,home decor,,,,,pinwheel,,,0.1946241911398705
+1809,home decor,,,,,place mat,,,0.5889099825976902
+1810,home decor,,,,,poster,,,0.6217982845312038
+1811,home decor,,,,,potpourri,,,0.40171393232617714
+1812,home decor,,,,,rug,,,0.8434285714285714
+1813,home decor,,,,,scarecrow,,,0.12835463855872012
+1814,home decor,,,,,stained glass,,,0.45324888576120104
+1815,home decor,,,,,statue,,,0.5141256502601042
+1816,home decor,,,,,tapestry,,,0.5719274376417234
+1817,home decor,,,,,terrarium,,,0.3066142119498401
+1818,home decor,,,,,vase,,,0.7887585034013604
+1819,home decor,,,,,wallpaper,,,0.7735665694849366
+1820,home decor,,,,,weather vane,,,0.18469387755102035
+1821,home decor,,,,,wind chimes,,,0.4891304347826087
+1822,home decor,,,,,wreath,,,0.594141656662665
+1823,insect,,,,,ant,,,0.7589672232529373
+1824,insect,,,,,bee,,,0.7019944341372912
+1825,insect,,,,,beetle,,,0.4772187944945419
+1826,insect,,,,,bug,,,0.6611781076066789
+1827,insect,,,,,butterfly,,,0.5076817243751434
+1828,insect,,,,,caterpillar,,,0.3755734852080366
+1829,insect,,,,,cockroach,,,0.5030316474415854
+1830,insect,,,,,dragonfly,,,0.3584040357716119
+1831,insect,,,,,earwig,,,0.1875
+1832,insect,,,,,fly,,,0.7759903961584634
+1833,insect,,,,,grasshopper,,,0.48104956268221566
+1834,insect,,,,,ladybug,,,0.5106626920431092
+1835,insect,,,,,lightning bug,,,0.29811418238181353
+1836,insect,,,,,mosquito,,,0.7543171114599686
+1837,insect,,,,,moth,,,0.3988662131519273
+1838,insect,,,,,praying mantis,,,0.21126760563380276
+1839,insect,,,,,wasp,,,0.45772594752186585
+1840,intelligence,Historia,History,,,,0.3333333333333333,,
+1841,intelligence,Yo,I,,,,0.39999999999999997,,
+1842,intelligence,NASA,NASA,,,,0.41333333333333333,,
+1843,intelligence,Filosofía,Philosophy,,,,0.6133333333333333,,
+1844,intelligence,Abundante,abundant,,,,0.2933333333333333,,
+1845,intelligence,Respuesta,answer,,,,0.6,,
+1846,intelligence,Atención,attention,,,,0.7333333333333334,,
+1847,intelligence,Atento,attentive,,,,0.7266666666666667,,
+1848,intelligence,Libro,book,,,,0.48666666666666664,,
+1849,intelligence,Cerebro,brain,,,,0.8533333333333334,,
+1850,intelligence,Capacidad,capacity,,,,0.82,,
+1851,intelligence,Estudios,career,,,,0.5800000000000001,,
+1852,intelligence,Carrera,career,,,,0.5800000000000001,,
+1853,intelligence,Carisma,charisma,,,,0.45999999999999996,,
+1854,intelligence,Ordenador,computer,,,,0.39999999999999997,,
+1855,intelligence,Concentración,concentration,,,,0.7000000000000001,,
+1856,intelligence,Aplicado,conscientious,,,,0.6733333333333333,,
+1857,intelligence,Conocimiento,consciousness,,,,0.8466666666666667,,
+1858,intelligence,Culto,cult,,,,0.66,,
+1859,intelligence,Cultura,culture,,,,0.7266666666666667,,
+1860,intelligence,Exámen,examination,,,,0.45999999999999996,,
+1861,intelligence,Estudioso,expert,,,,0.6333333333333333,,
+1862,intelligence,Superdotado,extremely gifted,,,,0.8266666666666667,,
+1863,intelligence,Familia,family,,,,0.28,,
+1864,intelligence,Sobresaliente,first class,,,,0.6533333333333333,,
+1865,intelligence,Tonto,fool,,,,0.3133333333333333,,
+1866,intelligence,Amistad,friendship,,,,0.41333333333333333,,
+1867,intelligence,Futuro,future,,,,0.4066666666666667,,
+1868,intelligence,Genio,genius,,,,0.8733333333333334,,
+1869,intelligence,Notas,grades,,,,0.5,,
+1870,intelligence,Felicidad,happiness,,,,0.4066666666666667,,
+1871,intelligence,Cabeza,head,,,,0.8066666666666666,,
+1872,intelligence,Idea,idea,,,,0.7933333333333333,,
+1873,intelligence,Imaginación,imagination,,,,0.7133333333333334,,
+1874,intelligence,Inteligencia,intelligence,,,,1.0,,
+1875,intelligence,Inteligente,intelligent,,,,0.9533333333333333,,
+1876,intelligence,Conocimientos,knowledge,,,,0.7000000000000001,,
+1877,intelligence,Aprendiz,learner,,,,0.7866666666666666,,
+1878,intelligence,Letras,letters,,,,0.3666666666666667,,
+1879,intelligence,Vida,life,,,,0.36000000000000004,,
+1880,intelligence,Lógica,logic,,,,0.86,,
+1881,intelligence,Amor,love,,,,0.4666666666666666,,
+1882,intelligence,Hombre,man,,,,0.5133333333333333,,
+1883,intelligence,Matemáticas,maths,,,,0.5733333333333334,,
+1884,intelligence,Memoria,memory,,,,0.66,,
+1885,intelligence,Recuerdo,memory,,,,0.42,,
+1886,intelligence,Mente,mind,,,,0.8733333333333334,,
+1887,intelligence,Dinero,money,,,,0.2866666666666667,,
+1888,intelligence,Nervio,nerve,,,,0.24,,
+1889,intelligence,Neurona,neurone,,,,0.6733333333333333,,
+1890,intelligence,Números,numbers,,,,0.45999999999999996,,
+1891,intelligence,Aprobado,pass,,,,0.6,,
+1892,intelligence,Representación,play,,,,0.41333333333333333,,
+1893,intelligence,Poder,power,,,,0.38666666666666666,,
+1894,intelligence,Rapidez,rapidity,,,,0.7066666666666667,,
+1895,intelligence,Lectura,reading,,,,0.7200000000000001,,
+1896,intelligence,Razón,reason,,,,0.7933333333333333,,
+1897,intelligence,Razonamiento,reasoning,,,,0.9333333333333332,,
+1898,intelligence,Reflexión,reflection,,,,0.82,,
+1899,intelligence,Recordarto,remember,,,,0.6066666666666666,,
+1900,intelligence,Responsabilidad,responsibility,,,,0.41333333333333333,,
+1901,intelligence,Ciencia,science,,,,0.6933333333333334,,
+1902,intelligence,Científico,scientist,,,,0.6866666666666666,,
+1903,intelligence,Instituto,secondary school,,,,0.36000000000000004,,
+1904,intelligence,Espabilado,sharp,,,,0.64,,
+1905,intelligence,Escasa,slim/limited,,,,0.24,,
+1906,intelligence,Listo,smart,,,,0.8666666666666667,,
+1907,intelligence,Alma,soul,,,,0.32666666666666666,,
+1908,intelligence,Estímulo,stimuli,,,,0.41333333333333333,,
+1909,intelligence,Estudiante,student,,,,0.5866666666666666,,
+1910,intelligence,Studio,study,,,,0.64,,
+1911,intelligence,Empollón,swot,,,,0.48666666666666664,,
+1912,intelligence,Profesor,teacher,,,,0.37333333333333335,,
+1913,intelligence,Diez,ten,,,,0.5533333333333333,,
+1914,intelligence,Test,test,,,,0.5066666666666667,,
+1915,intelligence,Pensamieto,thought,,,,0.7866666666666666,,
+1916,intelligence,Analizar,to analyse,,,,0.7533333333333333,,
+1917,intelligence,Copier,to cheat,,,,0.26666666666666666,,
+1918,intelligence,Descubrir,to discover,,,,0.7000000000000001,,
+1919,intelligence,Soñar,to dream,,,,0.34,,
+1920,intelligence,Conocer,to know,,,,0.7599999999999999,,
+1921,intelligence,saber,to know,,,,0.7533333333333333,,
+1922,intelligence,Aprender,to learn,,,,0.84,,
+1923,intelligence,Memorizar,to memorize,,,,0.6,,
+1924,intelligence,Aprobar,to pass,,,,0.68,,
+1925,intelligence,Leer,to read,,,,0.6266666666666666,,
+1926,intelligence,Razonar,to reason,,,,0.94,,
+1927,intelligence,Resolver,to solve,,,,0.84,,
+1928,intelligence,Estudiar,to study,,,,0.7333333333333334,,
+1929,intelligence,Pensar,to think,,,,0.8733333333333334,,
+1930,intelligence,Comprender,to understand,,,,0.8333333333333334,,
+1931,intelligence,Trabajar,to work,,,,0.32,,
+1932,intelligence,Escribir,to write,,,,0.52,,
+1933,intelligence,Universidad,university,,,,0.48,,
+1934,intelligence,Voluntad,will,,,,0.36000000000000004,,
+1935,intelligence,Sabiduría,wisdom,,,,0.7933333333333333,,
+1936,intelligence,Sabio,wise,,,,0.82,,
+1937,intelligence,Mujer,woman,,,,0.32,,
+1938,intelligence,Palabras,words,,,,0.5466666666666667,,
+1939,intelligence,Trabajo,work,,,,0.3466666666666667,,
+1940,jewelry,,,,,anklet,,,0.44927824788451953
+1941,jewelry,,,,,barrette,,,0.24007936507936503
+1942,jewelry,,,,,bracelet,,,0.7448149991703998
+1943,jewelry,,,,,brooch,,,0.3805218289847585
+1944,jewelry,,,,,crown,,,0.2900510204081632
+1945,jewelry,,,,,cufflink,,,0.2998363902523034
+1946,jewelry,,,,,earring,,,0.8182444061962134
+1947,jewelry,,,,,hairpin,,,0.24198250728862972
+1948,jewelry,,,,,jewelry,,,0.705952380952381
+1949,jewelry,,,,,locket,,,0.48137755102040813
+1950,jewelry,,,,,necklace,,,0.8545856896975658
+1951,jewelry,,,,,pocket watch,,,0.2492118798739007
+1952,jewelry,,,,,ring,,,0.834245893479343
+1953,jewelry,,,,,tiara,,,0.2553509208561473
+1954,jewelry,,,,,watch,,,0.5768067226890755
+1955,kitchen appliance,,,,,blender,,,0.5714285714285714
+1956,kitchen appliance,,,,,burner,,,0.3042016806722689
+1957,kitchen appliance,,,,,coffeemaker,,,0.662386302835741
+1958,kitchen appliance,,,,,cooker,,,0.40476190476190477
+1959,kitchen appliance,,,,,dishwasher,,,0.7012471655328799
+1960,kitchen appliance,,,,,food processor,,,0.4287296313874386
+1961,kitchen appliance,,,,,freezer,,,0.5221483942414175
+1962,kitchen appliance,,,,,hotplate,,,0.18131868131868126
+1963,kitchen appliance,,,,,icemaker,,,0.2730560578661844
+1964,kitchen appliance,,,,,juicer,,,0.3279711884753901
+1965,kitchen appliance,,,,,microwave,,,0.8081134892981583
+1966,kitchen appliance,,,,,mixer,,,0.45085620455078584
+1967,kitchen appliance,,,,,oven,,,0.7881773399014779
+1968,kitchen appliance,,,,,refrigerator,,,0.8455284552845528
+1969,kitchen appliance,,,,,slicer,,,0.18571428571428572
+1970,kitchen appliance,,,,,stove,,,0.761344537815126
+1971,kitchen appliance,,,,,toaster,,,0.695578231292517
+1972,kitchen appliance,,,,,toaster oven,,,0.5787059009650372
+1973,kitchen appliance,,,,,waffle iron,,,0.2944945420028476
+1974,kitchen appliance,,,,,water filter,,,0.17370129870129863
+1975,kitchen tool,,,,,bottle opener,,,0.5303803339517625
+1976,kitchen tool,,,,,can opener,,,0.7397108843537415
+1977,kitchen tool,,,,,cleaver,,,0.35244210043567986
+1978,kitchen tool,,,,,corkscrew,,,0.3102968460111316
+1979,kitchen tool,,,,,eggbeater,,,0.4257028112449799
+1980,kitchen tool,,,,,funnel,,,0.3396825396825397
+1981,kitchen tool,,,,,grater,,,0.5678172503569329
+1982,kitchen tool,,,,,grinder,,,0.38695652173913037
+1983,kitchen tool,,,,,icepick,,,0.1612554112554112
+1984,kitchen tool,,,,,juicer,,,0.3095238095238095
+1985,kitchen tool,,,,,kettle,,,0.5482374768089053
+1986,kitchen tool,,,,,knife,,,0.8871037776812852
+1987,kitchen tool,,,,,ladle,,,0.6339538013007401
+1988,kitchen tool,,,,,measuring cup,,,0.7755102040816327
+1989,kitchen tool,,,,,nutcracker,,,0.1742543171114599
+1990,kitchen tool,,,,,peeler,,,0.6392212057236687
+1991,kitchen tool,,,,,pepper mill,,,0.3244239631336406
+1992,kitchen tool,,,,,rolling pin,,,0.6237695078031213
+1993,kitchen tool,,,,,scoop,,,0.4343817527010804
+1994,kitchen tool,,,,,sifter,,,0.2975295381310418
+1995,kitchen tool,,,,,skewer,,,0.21428571428571427
+1996,kitchen tool,,,,,spatula,,,0.7675324675324676
+1997,kitchen tool,,,,,spoon,,,0.781874039938556
+1998,kitchen tool,,,,,strainer,,,0.6129251700680272
+1999,kitchen tool,,,,,timer,,,0.3827079218784288
+2000,kitchen tool,,,,,tongs,,,0.5999502239920359
+2001,kitchen tool,,,,,whisk,,,0.6717687074829932
+2002,lighting,,,,,candelabra,,,0.2516233766233766
+2003,lighting,,,,,candle,,,0.6003596841035265
+2004,lighting,,,,,chandelier,,,0.5749128919860628
+2005,lighting,,,,,flashbulb,,,0.32993197278911557
+2006,lighting,,,,,flashlight,,,0.7588652482269503
+2007,lighting,,,,,headlamp,,,0.4524167561761546
+2008,lighting,,,,,headlight,,,0.5413454270597127
+2009,lighting,,,,,lamp,,,0.8924857299241535
+2010,lighting,,,,,lantern,,,0.5620205529020118
+2011,lighting,,,,,lightbulb,,,0.791821273964131
+2012,lighting,,,,,lighter,,,0.40845585546046376
+2013,lighting,,,,,match,,,0.3090062111801242
+2014,lighting,,,,,penlight,,,0.22796352583586615
+2015,lighting,,,,,streetlight,,,0.6418252694336163
+2016,lighting,,,,,taillight,,,0.2984126984126984
+2017,lighting,,,,,torch,,,0.37156931738212523
+2018,mammal,,,,,aardvark,,,0.1342512908777968
+2019,mammal,,,,,alpaca,,,0.2944945420028476
+2020,mammal,,,,,anteater,,,0.20408163265306115
+2021,mammal,,,,,antelope,,,0.39867109634551495
+2022,mammal,,,,,badger,,,0.32530120481927705
+2023,mammal,,,,,bat,,,0.27046680741262025
+2024,mammal,,,,,bear,,,0.7729941291585127
+2025,mammal,,,,,beaver,,,0.5243568691844555
+2026,mammal,,,,,bison,,,0.4191883650011729
+2027,mammal,,,,,boar,,,0.369187675070028
+2028,mammal,,,,,bull,,,0.5757421150278293
+2029,mammal,,,,,calf,,,0.6358114674441205
+2030,mammal,,,,,camel,,,0.48007774538386777
+2031,mammal,,,,,cat,,,0.837763012181617
+2032,mammal,,,,,cheetah,,,0.5765701629489005
+2033,mammal,,,,,chihuahua,,,0.5697278911564625
+2034,mammal,,,,,chinchilla,,,0.14285714285714285
+2035,mammal,,,,,chipmunk,,,0.4571428571428572
+2036,mammal,,,,,cougar,,,0.47009148486981006
+2037,mammal,,,,,cow,,,0.8289707187222716
+2038,mammal,,,,,coyote,,,0.5613017934446505
+2039,mammal,,,,,dalmatian,,,0.530815544608648
+2040,mammal,,,,,deer,,,0.7702093824542803
+2041,mammal,,,,,dog,,,0.9229024943310659
+2042,mammal,,,,,dolphin,,,0.4963556851311954
+2043,mammal,,,,,donkey,,,0.6316064887493458
+2044,mammal,,,,,elephant,,,0.7192239858906525
+2045,mammal,,,,,ferret,,,0.3944914551186328
+2046,mammal,,,,,fox,,,0.6503401360544218
+2047,mammal,,,,,gazelle,,,0.3442340791738382
+2048,mammal,,,,,giraffe,,,0.6503095620270579
+2049,mammal,,,,,goat,,,0.680672268907563
+2050,mammal,,,,,gopher,,,0.33843537414965985
+2051,mammal,,,,,gorilla,,,0.7585825027685492
+2052,mammal,,,,,groundhog,,,0.3969150450878026
+2053,mammal,,,,,guinea pig,,,0.5316455696202531
+2054,mammal,,,,,hamster,,,0.5450372920252438
+2055,mammal,,,,,hedgehog,,,0.32220888355342137
+2056,mammal,,,,,hippopotamus,,,0.425287356321839
+2057,mammal,,,,,horse,,,0.8426807760141094
+2058,mammal,,,,,hyena,,,0.2995073891625616
+2059,mammal,,,,,kangaroo,,,0.4538878842676311
+2060,mammal,,,,,kitten,,,0.7992673992673993
+2061,mammal,,,,,koala,,,0.4058519793459552
+2062,mammal,,,,,lamb,,,0.6021645021645021
+2063,mammal,,,,,leopard,,,0.5772929861599811
+2064,mammal,,,,,lion,,,0.7732522796352583
+2065,mammal,,,,,llama,,,0.39460641399416907
+2066,mammal,,,,,manatee,,,0.21760797342192686
+2067,mammal,,,,,meerkat,,,0.17478991596638652
+2068,mammal,,,,,mole,,,0.21539218096877305
+2069,mammal,,,,,mongoose,,,0.22579801151229725
+2070,mammal,,,,,monkey,,,0.8362760834670947
+2071,mammal,,,,,moose,,,0.5445578231292517
+2072,mammal,,,,,mouse,,,0.5348837209302325
+2073,mammal,,,,,orangutan,,,0.47460317460317464
+2074,mammal,,,,,otter,,,0.32629870129870125
+2075,mammal,,,,,panda,,,0.5906502135738015
+2076,mammal,,,,,panther,,,0.5186460126219162
+2077,mammal,,,,,pig,,,0.7584183673469388
+2078,mammal,,,,,piglet,,,0.5008210180623973
+2079,mammal,,,,,platypus,,,0.19102990033222583
+2080,mammal,,,,,polar bear,,,0.5986394557823129
+2081,mammal,,,,,pony,,,0.6607142857142857
+2082,mammal,,,,,poodle,,,0.6455696202531646
+2083,mammal,,,,,porcupine,,,0.2874564459930313
+2084,mammal,,,,,possum,,,0.39455782312925164
+2085,mammal,,,,,pug,,,0.5535092085614733
+2086,mammal,,,,,puppy,,,0.8452380952380952
+2087,mammal,,,,,rabbit,,,0.7332185886402753
+2088,mammal,,,,,raccoon,,,0.5945092322643343
+2089,mammal,,,,,ram,,,0.3781512605042016
+2090,mammal,,,,,rat,,,0.4621848739495798
+2091,mammal,,,,,reindeer,,,0.4024009603841536
+2092,mammal,,,,,rhinoceros,,,0.33746082702744024
+2093,mammal,,,,,seal,,,0.38345511043923747
+2094,mammal,,,,,sheep,,,0.6732205077152812
+2095,mammal,,,,,skunk,,,0.4104745512662896
+2096,mammal,,,,,sloth,,,0.2992432928227471
+2097,mammal,,,,,squirrel,,,0.6240866717057193
+2098,mammal,,,,,tiger,,,0.7057823129251701
+2099,mammal,,,,,walrus,,,0.2547856351843062
+2100,mammal,,,,,warthog,,,0.18181818181818182
+2101,mammal,,,,,weasel,,,0.28780148423005564
+2102,mammal,,,,,whale,,,0.5106732348111659
+2103,mammal,,,,,wolf,,,0.6895207521210731
+2104,mammal,,,,,yak,,,0.20987654320987645
+2105,mammal,,,,,zebra,,,0.6087394957983193
+2106,medical equipment,,,,,bandage,,,0.7442022263450835
+2107,medical equipment,,,,,bedpan,,,0.36839974084872035
+2108,medical equipment,,,,,brace,,,0.4716286514605842
+2109,medical equipment,,,,,cane,,,0.3938540933614825
+2110,medical equipment,,,,,crutch,,,0.6016628873771731
+2111,medical equipment,,,,,defibrillator,,,0.6418367346938776
+2112,medical equipment,,,,,eye patch,,,0.252424374004921
+2113,medical equipment,,,,,eyedropper,,,0.3029947611228399
+2114,medical equipment,,,,,first-aid kit,,,0.7986095537115946
+2115,medical equipment,,,,,gauze,,,0.6019116507362439
+2116,medical equipment,,,,,gurney,,,0.536379769299024
+2117,medical equipment,,,,,hearing aid,,,0.4086167800453514
+2118,medical equipment,,,,,ice pack,,,0.4094799210006583
+2119,medical equipment,,,,,inhaler,,,0.4626623376623376
+2120,medical equipment,,,,,penlight,,,0.25892857142857145
+2121,medical equipment,,,,,pillbox,,,0.27598481252966295
+2122,medical equipment,,,,,plaster cast,,,0.34523809523809523
+2123,medical equipment,,,,,scalpel,,,0.7073247903812688
+2124,medical equipment,,,,,sling,,,0.4774134372850264
+2125,medical equipment,,,,,stethoscope,,,0.9042980828695114
+2126,medical equipment,,,,,stretcher,,,0.6309109009457441
+2127,medical equipment,,,,,swab,,,0.41392557022809123
+2128,medical equipment,,,,,syringe,,,0.7082993197278912
+2129,medical equipment,,,,,tweezers,,,0.29885057471264365
+2130,medical equipment,,,,,vial,,,0.3723089235694278
+2131,medical equipment,,,,,walker,,,0.4404546628778094
+2132,medical equipment,,,,,wheelchair,,,0.6766796606282962
+2133,musical instrument,,,Akkordeon,accordion,accordion,,0.7833333333333333,0.4333868378812199
+2134,musical instrument,,,Dudelsack,bagpipes,bagpipe,,0.525,0.329770003239391
+2135,musical instrument,,,,,banjo,,,0.553444366252248
+2136,musical instrument,,,Fagott,bassoon,bassoon,,0.6083333333333333,0.22548531607765052
+2137,musical instrument,,,Schelle,bells,bell,,0.4583333333333333,0.2938127632005183
+2138,musical instrument,,,,,bongo,,,0.3324632178452776
+2139,musical instrument,,,Cello,cello,cello,,0.7833333333333333,0.5340566606389391
+2140,musical instrument,,,,,chime,,,0.16983345062162788
+2141,musical instrument,,,Klarinette,clarinet,clarinet,,0.7916666666666666,0.6523493118177504
+2142,musical instrument,,,,,cymbal,,,0.38362244897959175
+2143,musical instrument,,,Trommel,drum,drum,,0.7916666666666666,0.7983993597438975
+2144,musical instrument,,,Flöte,flute,flute,,0.9583333333333334,0.7733398121153222
+2145,musical instrument,,,,,french horn,,,0.42994725980279747
+2146,musical instrument,,,,,gong,,,0.17724046140195202
+2147,musical instrument,,,Gitarre,guitar,guitar,,0.9500000000000001,0.9392672731743301
+2148,musical instrument,,,Mundharmonika,harmonica,harmonica,,0.6,0.557541637344593
+2149,musical instrument,,,Harfe,harp,harp,,0.725,0.4313550707639377
+2150,musical instrument,,,,,horn,,,0.5257320319432119
+2151,musical instrument,,,,,kazoo,,,0.16449471354806983
+2152,musical instrument,,,Keyboard,keyboard,keyboard,,0.6491228070175439,0.7165787663379959
+2153,musical instrument,,,Mandoline,mandolin,mandolin,,0.5583333333333333,0.27472527472527475
+2154,musical instrument,,,Orgel,organ,organ,,0.8416666666666667,0.4732142857142857
+2155,musical instrument,,,Klavier,piano ,piano,,0.9833333333333334,0.8980967667966063
+2156,musical instrument,,,,,recorder,,,0.3465213358070501
+2157,musical instrument,,,Saxophon,saxophone,saxophone,,0.8083333333333332,0.710204081632653
+2158,musical instrument,,,Tamburin,tambourine,tambourine,,0.4833333333333334,0.4749811035525321
+2159,musical instrument,,,Triangel,triangle,triangle,,0.5583333333333333,0.23801020408163256
+2160,musical instrument,,,Posaune,trombone,trombone,,0.7916666666666666,0.6073210236475542
+2161,musical instrument,,,Trompete,trumpet,trumpet,,0.9500000000000001,0.8232112121957217
+2162,musical instrument,,,Tuba,tuba,tuba,,0.5833333333333334,0.5633116883116883
+2163,musical instrument,,,,,ukulele,,,0.3991422656018929
+2164,musical instrument,,,Geige,violin,violin,,0.9833333333333334,0.846394557823129
+2165,musical instrument,,,Xylophon,xylophone,xylophone,,0.5333333333333333,0.3996598639455783
+2166,musical instrument,,,Balalaika,balalaika,,,0.42105263157894735,
+2167,musical instrument,,,Bongo,bongo drums,,,0.4166666666666667,
+2168,musical instrument,,,Kastagnette,castanets,,,0.3235294117647059,
+2169,musical instrument,,,Kontrabass,double bass,,,0.6916666666666668,
+2170,musical instrument,,,Schlagzeug,drumkit,,,0.8416666666666667,
+2171,musical instrument,,,E-Gitarre,electric guitar,,,0.775,
+2172,musical instrument,,,Fanfare,fanfare,,,0.4561403508771929,
+2173,musical instrument,,,Querflöte,flute,,,0.8583333333333334,
+2174,musical instrument,,,Cembalo,harpsichord,,,0.6666666666666666,
+2175,musical instrument,,,Pauke,kettledrum,,,0.775,
+2176,musical instrument,,,Leier,lyre,,,0.2833333333333334,
+2177,musical instrument,,,Oboe,oboe,,,0.725,
+2178,musical instrument,,,Panflöte,panpipes,,,0.6666666666666666,
+2179,musical instrument,,,Piccoloflöte,piccolo,,,0.5833333333333334,
+2180,musical instrument,,,Rassel,rattle,,,0.3499999999999999,
+2181,musical instrument,,,Blechtrommel,tin drum,,,0.5175438596491228,
+2182,musical instrument,,,Bratsche,viola,,,0.6583333333333333,
+2183,office supply,,,,,binder,,,0.4079173838209983
+2184,office supply,,,,,clipboard,,,0.3795918367346938
+2185,office supply,,,,,envelope,,,0.5697478991596638
+2186,office supply,,,,,eraser,,,0.3776683087027914
+2187,office supply,,,,,file,,,0.6710963455149502
+2188,office supply,,,,,folder,,,0.5948867459071542
+2189,office supply,,,,,fountain pen,,,0.38775510204081637
+2190,office supply,,,,,glue,,,0.24854227405247806
+2191,office supply,,,,,highlighter,,,0.5054945054945055
+2192,office supply,,,,,ink,,,0.4356009070294785
+2193,office supply,,,,,notebook,,,0.5528970208773164
+2194,office supply,,,,,notepad,,,0.6523235800344234
+2195,office supply,,,,,paper,,,0.8386554621848739
+2196,office supply,,,,,paperclip,,,0.6916256157635468
+2197,office supply,,,,,pen,,,0.8659863945578231
+2198,office supply,,,,,pencil,,,0.6239067055393586
+2199,office supply,,,,,pencil sharpener,,,0.34693877551020397
+2200,office supply,,,,,punch,,,0.1815126050420168
+2201,office supply,,,,,rubber band,,,0.3707482993197279
+2202,office supply,,,,,scissors,,,0.5111423879896785
+2203,office supply,,,,,staple,,,0.5906362545018008
+2204,office supply,,,,,stapler,,,0.7334453781512604
+2205,office supply,,,,,tack,,,0.15805471124620057
+2206,office supply,,,,,tape,,,0.5127844241144733
+2207,office supply,,,,,thumbtack,,,0.2804878048780487
+2208,outerwear,,,,,apron,,,0.2242524916943521
+2209,outerwear,,,,,blazer,,,0.625
+2210,outerwear,,,,,cape,,,0.2857142857142857
+2211,outerwear,,,,,cloak,,,0.3324632178452776
+2212,outerwear,,,,,coat,,,0.8989547038327527
+2213,outerwear,,,,,coverall,,,0.37647058823529406
+2214,outerwear,,,,,fur coat,,,0.5545675413022352
+2215,outerwear,,,,,glove,,,0.5428041346408693
+2216,outerwear,,,,,jacket,,,0.8960753532182103
+2217,outerwear,,,,,jumpsuit,,,0.3440643863179074
+2218,outerwear,,,,,lab coat,,,0.24729064039408857
+2219,outerwear,,,,,overalls,,,0.3968253968253968
+2220,outerwear,,,,,raincoat,,,0.7629737609329447
+2221,outerwear,,,,,scarf,,,0.596745027124774
+2222,outerwear,,,,,shawl,,,0.4912891986062718
+2223,outerwear,,,,,snowsuit,,,0.49234693877551017
+2224,part of car,,,,,airbag,,,0.40224089635854343
+2225,part of car,,,,,brake,,,0.6574870912220311
+2226,part of car,,,,,bumper,,,0.7225461613216714
+2227,part of car,,,,,car door,,,0.731812725090036
+2228,part of car,,,,,car seat,,,0.5737743373211354
+2229,part of car,,,,,dashboard,,,0.6333819241982507
+2230,part of car,,,,,engine,,,0.8893957583033212
+2231,part of car,,,,,exhaust pipe,,,0.4016439909297051
+2232,part of car,,,,,gasket,,,0.1649659863945577
+2233,part of car,,,,,gearshift,,,0.4033613445378151
+2234,part of car,,,,,grille,,,0.260142611261372
+2235,part of car,,,,,handbrake,,,0.3180686908909905
+2236,part of car,,,,,headlight,,,0.7103875257968355
+2237,part of car,,,,,headrest,,,0.3042016806722689
+2238,part of car,,,,,hubcap,,,0.3653798868945168
+2239,part of car,,,,,license plate,,,0.4064625850340136
+2240,part of car,,,,,odometer,,,0.3754152823920265
+2241,part of car,,,,,pedal,,,0.5063168124392614
+2242,part of car,,,,,rearview mirror,,,0.5769557823129252
+2243,part of car,,,,,rim,,,0.3011904761904762
+2244,part of car,,,,,roof rack,,,0.1417497231450719
+2245,part of car,,,,,seatbelt,,,0.5817555938037866
+2246,part of car,,,,,spark plug,,,0.2671614100185528
+2247,part of car,,,,,speedometer,,,0.47746031746031736
+2248,part of car,,,,,steering wheel,,,0.8417767106842736
+2249,part of car,,,,,sunroof,,,0.34789915966386553
+2250,part of car,,,,,taillight,,,0.48578883608237805
+2251,part of car,,,,,wheel,,,0.796147672552167
+2252,part of car,,,,,windshield,,,0.6961451247165532
+2253,part of car,,,,,windshield wiper,,,0.5795395081109367
+2254,personal hygiene item,,,,,clipper,,,0.4892455858747994
+2255,personal hygiene item,,,,,comb,,,0.6571428571428571
+2256,personal hygiene item,,,,,curling iron,,,0.2358003442340792
+2257,personal hygiene item,,,,,deodorant,,,0.84791280148423
+2258,personal hygiene item,,,,,diaper,,,0.29890492782478845
+2259,personal hygiene item,,,,,eyeliner,,,0.262985194077631
+2260,personal hygiene item,,,,,flatiron,,,0.2048192771084337
+2261,personal hygiene item,,,,,floss,,,0.6678814382896016
+2262,personal hygiene item,,,,,hairbrush,,,0.6903061224489796
+2263,personal hygiene item,,,,,hairdryer,,,0.4472049689440994
+2264,personal hygiene item,,,,,hairspray,,,0.32653061224489793
+2265,personal hygiene item,,,,,lip balm,,,0.4517625231910946
+2266,personal hygiene item,,,,,lip gloss,,,0.26235827664399086
+2267,personal hygiene item,,,,,lipstick,,,0.30107773446457237
+2268,personal hygiene item,,,,,makeup,,,0.45918367346938777
+2269,personal hygiene item,,,,,mascara,,,0.27173913043478254
+2270,personal hygiene item,,,,,nail clippers,,,0.618280503690838
+2271,personal hygiene item,,,,,nail file,,,0.4501800720288115
+2272,personal hygiene item,,,,,nail polish,,,0.2873563218390805
+2273,personal hygiene item,,,,,perfume,,,0.3870593692022263
+2274,personal hygiene item,,,,,razor,,,0.6483696927046679
+2275,personal hygiene item,,,,,shaving cream,,,0.6065540194572453
+2276,personal hygiene item,,,,,shower cap,,,0.3069847657372808
+2277,personal hygiene item,,,,,soap,,,0.8899335014904837
+2278,personal hygiene item,,,,,swab,,,0.41428571428571426
+2279,personal hygiene item,,,,,toilet paper,,,0.744265147919633
+2280,personal hygiene item,,,,,toothbrush,,,0.884588318085855
+2281,personal hygiene item,,,,,toothpaste,,,0.8482237339380196
+2282,personal hygiene item,,,,,toothpick,,,0.3392857142857143
+2283,personal hygiene item,,,,,tweezers,,,0.46598639455782304
+2284,personal hygiene item,,,,,washcloth,,,0.6363636363636364
+2285,plant,,,,,aloe,,,0.5653988868274583
+2286,plant,,,,,apple tree,,,0.5097123186624047
+2287,plant,,,,,artichoke,,,0.2708283313325329
+2288,plant,,,,,arugula,,,0.2736305048335123
+2289,plant,,,,,asparagus,,,0.294862772695285
+2290,plant,,,,,bamboo,,,0.47237796217388056
+2291,plant,,,,,basil,,,0.4517662486681419
+2292,plant,,,,,bok choy,,,0.1920768307322929
+2293,plant,,,,,bonsai,,,0.44948979591836735
+2294,plant,,,,,broccoli,,,0.35874108679616423
+2295,plant,,,,,bush,,,0.7203240846900558
+2296,plant,,,,,cabbage,,,0.3939975990396158
+2297,plant,,,,,cactus,,,0.6073858114674441
+2298,plant,,,,,chive,,,0.29846938775510207
+2299,plant,,,,,cilantro,,,0.33163265306122447
+2300,plant,,,,,clover,,,0.48979591836734687
+2301,plant,,,,,corn,,,0.5496777658431793
+2302,plant,,,,,daisy,,,0.7363550071191266
+2303,plant,,,,,dandelion,,,0.6063913937668091
+2304,plant,,,,,fern,,,0.682593037214886
+2305,plant,,,,,flower,,,0.8744735989633947
+2306,plant,,,,,grapevine,,,0.41587301587301584
+2307,plant,,,,,grass,,,0.6336365871649864
+2308,plant,,,,,hedge,,,0.5003688222276862
+2309,plant,,,,,ivy,,,0.6509680795395081
+2310,plant,,,,,kale,,,0.3512219702695893
+2311,plant,,,,,lavender,,,0.5056689342403629
+2312,plant,,,,,leek,,,0.2533822517771153
+2313,plant,,,,,lettuce,,,0.4802246479987344
+2314,plant,,,,,marijuana,,,0.42857142857142855
+2315,plant,,,,,mint,,,0.3688222276862552
+2316,plant,,,,,moss,,,0.3379958725063058
+2317,plant,,,,,orchid,,,0.6511846117757448
+2318,plant,,,,,palm tree,,,0.5630797773654916
+2319,plant,,,,,parsley,,,0.40206427398545624
+2320,plant,,,,,pine tree,,,0.5265306122448979
+2321,plant,,,,,plant,,,0.8465699532825177
+2322,plant,,,,,poinsettia,,,0.5630252100840336
+2323,plant,,,,,poppy,,,0.4418367346938775
+2324,plant,,,,,rose,,,0.8331751305173232
+2325,plant,,,,,seaweed,,,0.2606642657062824
+2326,plant,,,,,spinach,,,0.40199335548172754
+2327,plant,,,,,sunflower,,,0.7627851140456183
+2328,plant,,,,,tree,,,0.7680272108843537
+2329,plant,,,,,tulip,,,0.6901748040988547
+2330,plant,,,,,tumbleweed,,,0.20099667774086377
+2331,plant,,,,,weed,,,0.5207303974221268
+2332,profession,,,Schauspieler,actor,,,0.75,
+2333,profession,,,Fluglotse,air-traffic controller,,,0.7083333333333334,
+2334,profession,,,Flugzeugbauer,aircraft manufacturer,,,0.6491228070175439,
+2335,profession,,,Anästhesist,anaesthetist,,,0.6583333333333333,
+2336,profession,,,Archäologe,archaeologist,,,0.6416666666666667,
+2337,profession,,,Architekt,architect,,,0.8083333333333332,
+2338,profession,,,Künstler,artist,,,0.5666666666666667,
+2339,profession,,,Steuerfachangestellter,assistant tax consultant,,,0.5416666666666666,
+2340,profession,,,Gerichtsvollzieher,bailiff,,,0.5666666666666667,
+2341,profession,,,Bäcker,baker,,,0.9,
+2342,profession,,,Bankkaufmann,banker,,,0.7583333333333333,
+2343,profession,,,Kosmetiker,beautician,,,0.7000000000000001,
+2344,profession,,,Biologe,biologist,,,0.7083333333333334,
+2345,profession,,,Schmied,blacksmith,,,0.6833333333333332,
+2346,profession,,,Bodygard,bodyguard,,,0.3947368421052631,
+2347,profession,,,Heizer,boilerman,,,0.4083333333333334,
+2348,profession,,,Buchbinder,bookbinder,,,0.5750000000000001,
+2349,profession,,,Buchhalter,bookkeeper,,,0.6749999999999999,
+2350,profession,,,Buchhändler,bookseller,,,0.7666666666666666,
+2351,profession,,,Broker,broker,,,0.2708333333333333,
+2352,profession,,,Bauarbeiter,builder,,,0.7583333333333333,
+2353,profession,,,Bauingenieur,building engineer,,,0.7333333333333334,
+2354,profession,,,Busfahrer,bus driver,,,0.8583333333333334,
+2355,profession,,,Betriebswirt,business economist,,,0.5750000000000001,
+2356,profession,,,Fleischer,butcher,,,0.8166666666666668,
+2357,profession,,,Kapitän,captain,,,0.7666666666666666,
+2358,profession,,,Kfz-Mechaniker,car mechanic,,,0.8333333333333334,
+2359,profession,,,Kardiologe,cardiologist,,,0.6583333333333333,
+2360,profession,,,Zimmermann,carpenter,,,0.8166666666666668,
+2361,profession,,,Sachbearbeiter,case worker,,,0.5333333333333333,
+2362,profession,,,Kassierer,cashier,,,0.5964912280701754,
+2363,profession,,,Chauffeur,chauffeur,,,0.5666666666666667,
+2364,profession,,,Chemieingenieur,chemical engineer,,,0.5833333333333334,
+2365,profession,,,Chemiker,chemist,,,0.7000000000000001,
+2366,profession,,,Schornsteinfeger,chimney sweep,,,0.8166666666666668,
+2367,profession,,,Reinigungskraft,cleaner,,,0.5350877192982456,
+2368,profession,,,Kommunikationsassistent,communications assistant,,,0.375,
+2369,profession,,,Computerfachmann,computer expert,,,0.6,
+2370,profession,,,Informatiker,computer scientist,,,0.725,
+2371,profession,,,Schaffner,conductor,,,0.6749999999999999,
+2372,profession,,,Konditor,confectioner,,,0.75,
+2373,profession,,,Restaurator,conservator,,,0.6166666666666667,
+2374,profession,,,Koch,cook,,,0.9500000000000001,
+2375,profession,,,Gerichtshilfe,court assistant,,,0.4333333333333333,
+2376,profession,,,Handwerker,craftsman,,,0.7916666666666666,
+2377,profession,,,Kranführer,crane operator,,,0.6833333333333332,
+2378,profession,,,Tänzer,dancer,,,0.5,
+2379,profession,,,Zahnarzthelfer,dental assistant,,,0.6916666666666668,
+2380,profession,,,Zahnarzt,dentist,,,0.9583333333333334,
+2381,profession,,,Designer,designer,,,0.6166666666666667,
+2382,profession,,,Diätassistent,dietician,,,0.4333333333333333,
+2383,profession,,,Regisseur,director,,,0.65,
+2384,profession,,,Arzt,doctor,,,0.9333333333333332,
+2385,profession,,,Arzthelfer,doctor's assistant,,,0.6416666666666667,
+2386,profession,,,Portier,doorman,,,0.3859649122807018,
+2387,profession,,,Kraftfahrer,driver,,,0.6749999999999999,
+2388,profession,,,Fahrlehrer,driving instructor,,,0.6,
+2389,profession,,,Volkswirt,economist,,,0.6,
+2390,profession,,,Redakteur,editor,,,0.7000000000000001,
+2391,profession,,,Pädagoge,educationist,,,0.6666666666666666,
+2392,profession,,,Erzieher,educator,,,0.7166666666666667,
+2393,profession,,,Elektriker,electrician,,,0.8583333333333334,
+2394,profession,,,Ingenieur,engineer,,,0.8083333333333332,
+2395,profession,,,Eventmanager,event manager,,,0.3666666666666667,
+2396,profession,,,Forscher,explorer,,,0.5083333333333333,
+2397,profession,,,Bauer,farmer,,,0.8166666666666668,
+2398,profession,,,Modedesigner,fashion designer,,,0.6416666666666667,
+2399,profession,,,Feuerwehrmann,fireman,,,0.7583333333333333,
+2400,profession,,,Fischer,fisherman,,,0.7166666666666667,
+2401,profession,,,Installateur,fitter,,,0.7333333333333334,
+2402,profession,,,Fliesenleger,floor tiler,,,0.7916666666666666,
+2403,profession,,,Florist,florist,,,0.75,
+2404,profession,,,Lebensmittelkontrolleur,food inspector,,,0.4666666666666666,
+2405,profession,,,Förster,forester,,,0.7666666666666666,
+2406,profession,,,Obstbauer,fruit farmer,,,0.5499999999999999,
+2407,profession,,,Restaurantfachmann,fully qualified waiter,,,0.5666666666666667,
+2408,profession,,,Gärtner,gardener,,,0.7583333333333333,
+2409,profession,,,Geologe,geologist,,,0.6083333333333333,
+2410,profession,,,Altenpfleger,geriatic nurse,,,0.725,
+2411,profession,,,Glaser,glazier,,,0.6916666666666668,
+2412,profession,,,Goldschmied,goldsmith,,,0.7333333333333334,
+2413,profession,,,Grafikdesigner,graphic designer,,,0.5750000000000001,
+2414,profession,,,Gynäkologe,gynaecologist,,,0.75,
+2415,profession,,,Friseur,hairdresser,,,0.8250000000000001,
+2416,profession,,,Heilpraktiker,healer,,,0.5750000000000001,
+2417,profession,,,Historiker,historian,,,0.6333333333333333,
+2418,profession,,,Homöopath,homeopath,,,0.4833333333333334,
+2419,profession,,,Hotelfachmann,hotel manager,,,0.65,
+2420,profession,,,Jäger,hunter,,,0.5648148148148148,
+2421,profession,,,Gastwirt,innkeeper,,,0.7333333333333334,
+2422,profession,,,Kommissar,inspector,,,0.6166666666666667,
+2423,profession,,,Raumausstatter,interior designer,,,0.4833333333333334,
+2424,profession,,,Dolmetscher,interpreter,,,0.7333333333333334,
+2425,profession,,,Tischler ,joiner,,,0.8416666666666667,
+2426,profession,,,Journalist,journalist,,,0.8583333333333334,
+2427,profession,,,Richter,judge,,,0.875,
+2428,profession,,,Rechtspfleger,judicial officer,,,0.5092592592592592,
+2429,profession,,,Jurist,jurist,,,0.8333333333333334,
+2430,profession,,,Laborant,lab technician,,,0.525,
+2431,profession,,,Landschaftsgestalter,landscape architect,,,0.6,
+2432,profession,,,Dreher,lathe operator,,,0.6574074074074074,
+2433,profession,,,Anwalt,lawyer,,,0.875,
+2434,profession,,,Lektor,lecturer,,,0.5175438596491228,
+2435,profession,,,Bibliothekar,librarian,,,0.6666666666666666,
+2436,profession,,,Schlosser,locksmith,,,0.7999999999999999,
+2437,profession,,,Fernfahrer,lorry driver,,,0.6333333333333333,
+2438,profession,,,Maschinist,machinist,,,0.5916666666666667,
+2439,profession,,,Unternehmensberater,management consultant,,,0.4666666666666666,
+2440,profession,,,Manager,manager,,,0.7083333333333334,
+2441,profession,,,Maurer,mason,,,0.8083333333333332,
+2442,profession,,,Masseur,masseur,,,0.65,
+2443,profession,,,Mathematiker,mathematician,,,0.625,
+2444,profession,,,Mechaniker,mechanic,,,0.6083333333333333,
+2445,profession,,,Mediendesigner,media designer,,,0.45,
+2446,profession,,,Pharmareferent,medical representative,,,0.42105263157894735,
+2447,profession,,,Kaufmann,merchant,,,0.6666666666666666,
+2448,profession,,,Meteorologe,meteorologist,,,0.6083333333333333,
+2449,profession,,,Hebamme,midwife,,,0.8250000000000001,
+2450,profession,,,Fräser,milling cutter,,,0.4749999999999999,
+2451,profession,,,Musiker,musician,,,0.7083333333333334,
+2452,profession,,,Notar,notary,,,0.725,
+2453,profession,,,Krankenschwester,nurse,,,0.9416666666666668,
+2454,profession,,,Kindergärtner,nursery-school teacher,,,0.8166666666666668,
+2455,profession,,,Ergotherapeut,occupational therapist,,,0.5833333333333334,
+2456,profession,,,Bürokaufmann,office administrator,,,0.725,
+2457,profession,,,Offizier,officer,,,0.5583333333333333,
+2458,profession,,,Onkologe,oncologist,,,0.4916666666666667,
+2459,profession,,,Optiker,optician,,,0.7166666666666667,
+2460,profession,,,Kieferorthopäde,orthodontist,,,0.7583333333333333,
+2461,profession,,,Orthopäde,orthopedist,,,0.7333333333333334,
+2462,profession,,,Maler,painter,,,0.8666666666666667,
+2463,profession,,,Anwaltsgehilfe,paralegal,,,0.45,
+2464,profession,,,Rettungsassistent,paramedic,,,0.5333333333333333,
+2465,profession,,,Pastor,pastor,,,0.7105263157894738,
+2466,profession,,,Pathologe,pathologist,,,0.6166666666666667,
+2467,profession,,,Apotheker,pharmacist,,,0.8666666666666667,
+2468,profession,,,Philosoph,philosopher,,,0.3148148148148149,
+2469,profession,,,Fotograf,photographer,,,0.7166666666666667,
+2470,profession,,,Physiker,physicist,,,0.7000000000000001,
+2471,profession,,,Physiotherapeut,physiotherapist,,,0.7333333333333334,
+2472,profession,,,Pilot,pilot,,,0.9333333333333332,
+2473,profession,,,Stuckateur,plasterer,,,0.6,
+2474,profession,,,Dramaturg,playwright,,,0.5,
+2475,profession,,,Klempner,plumber,,,0.8333333333333334,
+2476,profession,,,Dichter,poet,,,0.4215686274509804,
+2477,profession,,,Polizist,policeman,,,0.9166666666666666,
+2478,profession,,,Bademeister,pool attendant,,,0.5416666666666666,
+2479,profession,,,Pförtner,porter,,,0.6052631578947368,
+2480,profession,,,Postbeamter,postal worker,,,0.6166666666666667,
+2481,profession,,,Feinmechaniker,precision engineer,,,0.625,
+2482,profession,,,Produzent,producer,,,0.47222222222222215,
+2483,profession,,,Filmvorführer,projectionist,,,0.3916666666666666,
+2484,profession,,,Psychologe,psychologist,,,0.7166666666666667,
+2485,profession,,,Psychotherapeut,psychotherapist,,,0.6916666666666668,
+2486,profession,,,Publizist,publicist,,,0.45,
+2487,profession,,,Radiologe,radiologist,,,0.6166666666666667,
+2488,profession,,,Müllmann,refuse collector,,,0.5333333333333333,
+2489,profession,,,Dachdecker,roofer,,,0.8166666666666668,
+2490,profession,,,Matrose,sailor,,,0.5916666666666667,
+2491,profession,,,Verkäufer,salesman,,,0.8166666666666668,
+2492,profession,,,Sekretär,secretary,,,0.7583333333333333,
+2493,profession,,,Schiffbauer,shipbuilder,,,0.7017543859649124,
+2494,profession,,,Schuster,shoemaker,,,0.7999999999999999,
+2495,profession,,,Sozialpädagoge,social worker,,,0.5916666666666667,
+2496,profession,,,Soziologe,sociologist,,,0.5166666666666667,
+2497,profession,,,Tontechniker,sound technician,,,0.6333333333333333,
+2498,profession,,,Logopäde,speech therapist,,,0.6166666666666667,
+2499,profession,,,Sportassistent,sports assistant,,,0.3499999999999999,
+2500,profession,,,Sportarzt,sports physician,,,0.7333333333333334,
+2501,profession,,,Sporttherapeut,sports therapist,,,0.6083333333333333,
+2502,profession,,,Steward,steward,,,0.75,
+2503,profession,,,Steinmetz,stonemason,,,0.6666666666666666,
+2504,profession,,,Chirurg,surgeon,,,0.8583333333333334,
+2505,profession,,,Schneider,tailor,,,0.8333333333333334,
+2506,profession,,,Steuerberater,tax advisor,,,0.7083333333333334,
+2507,profession,,,Lehrer,teacher,,,0.9416666666666668,
+2508,profession,,,Technischer Zeichner,technical draughtsman,,,0.5916666666666667,
+2509,profession,,,Techniker,technician,,,0.6916666666666668,
+2510,profession,,,Theologe,theologian,,,0.6333333333333333,
+2511,profession,,,Therapeut,therapist,,,0.5416666666666666,
+2512,profession,,,Reiseleiter,tourist guide,,,0.5083333333333333,
+2513,profession,,,Gleisbauer,track layer,,,0.5416666666666666,
+2514,profession,,,Lokführer,train driver,,,0.8250000000000001,
+2515,profession,,,Bestatter,undertaker,,,0.6,
+2516,profession,,,Lackierer,varnisher,,,0.5916666666666667,
+2517,profession,,,Tierarzt,veterinarian,,,0.9,
+2518,profession,,,Tierarzthelfer,veterinary assistant,,,0.5083333333333333,
+2519,profession,,,Uhrmacher,watchmaker,,,0.7416666666666667,
+2520,profession,,,Schweißer,welder,,,0.65,
+2521,profession,,,Großhandelskaufmann,wholesaler,,,0.6416666666666667,
+2522,profession,,,Schriftsteller,writer,,,0.6416666666666667,
+2523,profession,,,Tierpfleger,zookeeper,,,0.7000000000000001,
+2524,profession,,,Zoologe,zoologist,,,0.7000000000000001,
+2525,protective clothing,,,,,apron,,,0.4117647058823529
+2526,protective clothing,,,,,armor,,,0.536655592469546
+2527,protective clothing,,,,,bulletproof vest,,,0.6764684368371006
+2528,protective clothing,,,,,coverall,,,0.34308663224325875
+2529,protective clothing,,,,,face mask,,,0.7469999235649315
+2530,protective clothing,,,,,football helmet,,,0.5768865685809208
+2531,protective clothing,,,,,glove,,,0.6406787434074753
+2532,protective clothing,,,,,helmet,,,0.7164986476518319
+2533,protective clothing,,,,,kneepad,,,0.5160059426069278
+2534,protective clothing,,,,,lab coat,,,0.413845538215286
+2535,protective clothing,,,,,life jacket,,,0.5664160401002506
+2536,protective clothing,,,,,overalls,,,0.27924750146972366
+2537,protective clothing,,,,,raincoat,,,0.5522069292833413
+2538,protective clothing,,,,,spacesuit,,,0.3261944777911165
+2539,protective clothing,,,,,visor,,,0.31451762523191096
+2540,protective clothing,,,,,wetsuit,,,0.33399701343952215
+2541,safety equipment,,,,,armor,,,0.2557646435197455
+2542,safety equipment,,,,,bulletproof vest,,,0.5227123107307439
+2543,safety equipment,,,,,coverall,,,0.25747508305647837
+2544,safety equipment,,,,,earplug,,,0.5512471655328798
+2545,safety equipment,,,,,extinguisher,,,0.5452961672473867
+2546,safety equipment,,,,,face mask,,,0.7333629103815439
+2547,safety equipment,,,,,fire alarm,,,0.5801020408163265
+2548,safety equipment,,,,,football helmet,,,0.54421768707483
+2549,safety equipment,,,,,gas mask,,,0.49818594104308395
+2550,safety equipment,,,,,harness,,,0.46633825944170765
+2551,safety equipment,,,,,helmet,,,0.8281683043587805
+2552,safety equipment,,,,,kneepad,,,0.488581146744412
+2553,safety equipment,,,,,lab coat,,,0.35069200093830627
+2554,safety equipment,,,,,life jacket,,,0.7149659863945578
+2555,safety equipment,,,,,lifesaver,,,0.4479840716774514
+2556,safety equipment,,,,,mouthpiece,,,0.3966386554621848
+2557,safety equipment,,,,,parachute,,,0.3525686136523575
+2558,safety equipment,,,,,seatbelt,,,0.7617465590887518
+2559,safety equipment,,,,,shield,,,0.4571428571428572
+2560,safety equipment,,,,,smoke alarm,,,0.5771238728049359
+2561,safety equipment,,,,,spacesuit,,,0.16282642089093705
+2562,school supply,,,,,backpack,,,0.7275747508305648
+2563,school supply,,,,,binder,,,0.615126050420168
+2564,school supply,,,,,book,,,0.6589938300901756
+2565,school supply,,,,,calculator,,,0.48789748457522547
+2566,school supply,,,,,chalk,,,0.29900332225913623
+2567,school supply,,,,,chalkboard,,,0.23361344537815118
+2568,school supply,,,,,crayon,,,0.5666131621187801
+2569,school supply,,,,,eraser,,,0.6092943201376936
+2570,school supply,,,,,folder,,,0.58031212484994
+2571,school supply,,,,,fountain pen,,,0.30586080586080583
+2572,school supply,,,,,glue,,,0.4377289377289377
+2573,school supply,,,,,highlighter,,,0.47460317460317464
+2574,school supply,,,,,ink,,,0.18035714285714285
+2575,school supply,,,,,inkwell,,,0.0625
+2576,school supply,,,,,lunchbox,,,0.4398496240601504
+2577,school supply,,,,,marker,,,0.5008403361344537
+2578,school supply,,,,,notebook,,,0.8799805636540331
+2579,school supply,,,,,notepad,,,0.611734693877551
+2580,school supply,,,,,paper,,,0.7768860353130016
+2581,school supply,,,,,paperclip,,,0.2857142857142857
+2582,school supply,,,,,pen,,,0.7952226345083487
+2583,school supply,,,,,pencil,,,0.8533635676492819
+2584,school supply,,,,,pencil sharpener,,,0.4679962894248608
+2585,school supply,,,,,ruler,,,0.5073891625615763
+2586,school supply,,,,,stapler,,,0.27680037532254276
+2587,school supply,,,,,whiteboard,,,0.3018509729473184
+2588,scientific equipment,,,,,beaker,,,0.8015711046323292
+2589,scientific equipment,,,,,blowtorch,,,0.19800777453838675
+2590,scientific equipment,,,,,calculator,,,0.5823129251700682
+2591,scientific equipment,,,,,centrifuge,,,0.5469879518072289
+2592,scientific equipment,,,,,filter,,,0.29970190323320345
+2593,scientific equipment,,,,,funnel,,,0.47887917071590547
+2594,scientific equipment,,,,,gauge,,,0.46047384471029795
+2595,scientific equipment,,,,,gyroscope,,,0.3351648351648352
+2596,scientific equipment,,,,,incubator,,,0.5024630541871923
+2597,scientific equipment,,,,,lab coat,,,0.6202380952380953
+2598,scientific equipment,,,,,magnet,,,0.47401011686725963
+2599,scientific equipment,,,,,magnifier,,,0.649079143852663
+2600,scientific equipment,,,,,magnifying glass,,,0.6624458874458874
+2601,scientific equipment,,,,,measuring cup,,,0.5620522907958365
+2602,scientific equipment,,,,,microscope,,,0.9020899926235553
+2603,scientific equipment,,,,,pendulum,,,0.249517090786932
+2604,scientific equipment,,,,,petri dish,,,0.6608243297318929
+2605,scientific equipment,,,,,polygraph,,,0.3125
+2606,scientific equipment,,,,,prism,,,0.23217286914765897
+2607,scientific equipment,,,,,radar,,,0.341885325558795
+2608,scientific equipment,,,,,ruler,,,0.4500323939099448
+2609,scientific equipment,,,,,scale,,,0.6313364055299538
+2610,scientific equipment,,,,,scalpel,,,0.43692022263450825
+2611,scientific equipment,,,,,seismograph,,,0.4250871080139373
+2612,scientific equipment,,,,,stethoscope,,,0.5564156697161624
+2613,scientific equipment,,,,,swab,,,0.4354532510678689
+2614,scientific equipment,,,,,syringe,,,0.5031770950138296
+2615,scientific equipment,,,,,tank,,,0.24799606589623793
+2616,scientific equipment,,,,,tape measure,,,0.4036281179138321
+2617,scientific equipment,,,,,telescope,,,0.6949308755760367
+2618,scientific equipment,,,,,test tube,,,0.8664926435690555
+2619,scientific equipment,,,,,thermometer,,,0.7324809441849028
+2620,scientific equipment,,,,,timer,,,0.41194624191139867
+2621,scientific equipment,,,,,tongs,,,0.3578069322967282
+2622,scientific equipment,,,,,tweezers,,,0.3838142153413089
+2623,sea animal,,,,,barnacle,,,0.11556982343499189
+2624,sea animal,,,,,blowfish,,,0.34668682287729913
+2625,sea animal,,,,,catfish,,,0.4075448361162647
+2626,sea animal,,,,,clam,,,0.39750566893424033
+2627,sea animal,,,,,coral,,,0.1938775510204081
+2628,sea animal,,,,,crab,,,0.6377551020408163
+2629,sea animal,,,,,dolphin,,,0.8861568723875093
+2630,sea animal,,,,,eel,,,0.44039888682745826
+2631,sea animal,,,,,fish,,,0.8632569077013522
+2632,sea animal,,,,,jellyfish,,,0.605911330049261
+2633,sea animal,,,,,lobster,,,0.6044372294372293
+2634,sea animal,,,,,manatee,,,0.43318476816013757
+2635,sea animal,,,,,mussel,,,0.24821428571428572
+2636,sea animal,,,,,octopus,,,0.7178170144462278
+2637,sea animal,,,,,oyster,,,0.39550561797752815
+2638,sea animal,,,,,sardine,,,0.3091836734693877
+2639,sea animal,,,,,scallop,,,0.2439807383627608
+2640,sea animal,,,,,sea urchin,,,0.34693877551020397
+2641,sea animal,,,,,seahorse,,,0.5599343185550082
+2642,sea animal,,,,,seal,,,0.5703081232492997
+2643,sea animal,,,,,shark,,,0.8588039867109635
+2644,sea animal,,,,,shrimp,,,0.5373349339735893
+2645,sea animal,,,,,snail,,,0.21103896103896105
+2646,sea animal,,,,,squid,,,0.5273853130995988
+2647,sea animal,,,,,starfish,,,0.6265540699038236
+2648,sea animal,,,,,stingray,,,0.5443722943722944
+2649,sea animal,,,,,swordfish,,,0.4952380952380952
+2650,sea animal,,,,,turtle,,,0.6338259441707718
+2651,sea animal,,,,,walrus,,,0.4179035250463822
+2652,sea animal,,,,,whale,,,0.8149510353591987
+2653,seafood,,,,,blowfish,,,0.21008403361344535
+2654,seafood,,,,,calamari,,,0.5754527162977867
+2655,seafood,,,,,catfish,,,0.5587723461477614
+2656,seafood,,,,,caviar,,,0.3957725947521866
+2657,seafood,,,,,clam,,,0.651176133103844
+2658,seafood,,,,,crab,,,0.7776967930029155
+2659,seafood,,,,,crayfish,,,0.4224724372507623
+2660,seafood,,,,,eel,,,0.282312925170068
+2661,seafood,,,,,fish,,,0.899992180780358
+2662,seafood,,,,,jellyfish,,,0.20140640525873268
+2663,seafood,,,,,lobster,,,0.801713277903754
+2664,seafood,,,,,mussel,,,0.5467980295566501
+2665,seafood,,,,,octopus,,,0.4736799481697441
+2666,seafood,,,,,oyster,,,0.6596872515239862
+2667,seafood,,,,,sardine,,,0.5218289847584602
+2668,seafood,,,,,scallop,,,0.6424792139077854
+2669,seafood,,,,,sea urchin,,,0.20190476190476184
+2670,seafood,,,,,seafood,,,0.6815318720080625
+2671,seafood,,,,,seaweed,,,0.27651515151515144
+2672,seafood,,,,,shark,,,0.29398577612863314
+2673,seafood,,,,,shrimp,,,0.829019412643106
+2674,seafood,,,,,snail,,,0.2345765892563921
+2675,seafood,,,,,squid,,,0.4383889919604204
+2676,seafood,,,,,swordfish,,,0.48022171831695637
+2677,sport,,,Nordic-Walking,Nordic walking,,,0.6416666666666667,
+2678,sport,,,Thai Chi,Tai Chi,,,0.53125,
+2679,sport,,,Akrobatik,acrobatics,,,0.49074074074074076,
+2680,sport,,,Kunstfliegen,aerobatics,,,0.3333333333333333,
+2681,sport,,,Aerobic,aerobics,,,0.6228070175438597,
+2682,sport,,,Geräteturnen,apparatus gymnastics,,,0.875,
+2683,sport,,,Leichtathletik,athletics,,,0.9333333333333332,
+2684,sport,,,Badminton,badminton,,,0.6228070175438597,
+2685,sport,,,Ballett,ballet,,,0.611111111111111,
+2686,sport,,,Baseball,baseball,,,0.6583333333333333,
+2687,sport,,,Basketball,basketball,,,0.8583333333333334,
+2688,sport,,,Beachvolleyball,beach volleyball,,,0.6,
+2689,sport,,,Biathlon,biathlon,,,0.725,
+2690,sport,,,Fahrradrennen,bicycle racing,,,0.7083333333333334,
+2691,sport,,,Billard,billiards,,,0.36111111111111116,
+2692,sport,,,BMX,bmx,,,0.40196078431372556,
+2693,sport,,,Bobfahren,bobsleigh,,,0.5916666666666667,
+2694,sport,,,Bowling,bowling,,,0.5,
+2695,sport,,,Kegeln,bowling,,,0.4666666666666666,
+2696,sport,,,Boccia,bowls,,,0.2647058823529411,
+2697,sport,,,Boxen,boxing,,,0.7000000000000001,
+2698,sport,,,Breakdance,break dancing,,,0.37254901960784315,
+2699,sport,,,Kanufahren,canoeing,,,0.5666666666666667,
+2700,sport,,,Katamaransegeln,catamaran sailing,,,0.3166666666666667,
+2701,sport,,,Schach,chess,,,0.3137254901960785,
+2702,sport,,,Klippenspringen,cliff diving,,,0.13888888888888884,
+2703,sport,,,Klettern,climbing,,,0.4833333333333334,
+2704,sport,,,Cricket,cricket,,,0.3333333333333333,
+2705,sport,,,Skilanglauf,cross-country skiing,,,0.7833333333333333,
+2706,sport,,,Radfahren,cycling,,,0.9,
+2707,sport,,,Tanzen,dancing,,,0.6749999999999999,
+2708,sport,,,Dart,darts,,,0.28125,
+2709,sport,,,Zehn-Kampf,decathlon,,,0.725,
+2710,sport,,,Diskuswerfen,discus throwing,,,0.7017543859649124,
+2711,sport,,,Tauchen,diving,,,0.4333333333333333,
+2712,sport,,,Drachenbootrennen,dragon boat racing,,,0.3,
+2713,sport,,,Fechten,fencing,,,0.725,
+2714,sport,,,Eiskunstlauf,figure skating,,,0.8166666666666668,
+2715,sport,,,Angeln,fishing,,,0.3583333333333334,
+2716,sport,,,Bodenturnen,floor exercises,,,0.8666666666666667,
+2717,sport,,,Fliegen,flying,,,0.2549019607843137,
+2718,sport,,,Fußball,football,,,0.9666666666666667,
+2719,sport,,,Football,football,,,0.7166666666666667,
+2720,sport,,,Frisbee,frisbee,,,0.24074074074074078,
+2721,sport,,,Gymnastik,gymnastics,,,0.7333333333333334,
+2722,sport,,,Hammerwerfen,hammer throwing,,,0.6,
+2723,sport,,,Handball,handball,,,0.9166666666666666,
+2724,sport,,,Wasserspringen,high diving,,,0.4215686274509804,
+2725,sport,,,Hochsprung,high jump,,,0.7999999999999999,
+2726,sport,,,Hockey,hockey,,,0.6416666666666667,
+2727,sport,,,Reiten,horseback riding,,,0.7916666666666666,
+2728,sport,,,Hürdenlauf,hurdling,,,0.7333333333333334,
+2729,sport,,,Eishockey,ice hockey,,,0.8833333333333333,
+2730,sport,,,Schlittschuhlaufen,ice skating,,,0.6416666666666667,
+2731,sport,,,Speerwerfen,javelin ,,,0.7416666666666667,
+2732,sport,,,Joggen,jogging,,,0.8583333333333334,
+2733,sport,,,Judo,judo,,,0.6583333333333333,
+2734,sport,,,Weitsprung,long jump,,,0.7916666666666666,
+2735,sport,,,Marathonlauf,marathon,,,0.7999999999999999,
+2736,sport,,,Motorradrennen,motorcycle racing,,,0.4416666666666667,
+2737,sport,,,Mountainbiken,mountain biking,,,0.5614035087719298,
+2738,sport,,,Bergsteigen,mountaineering,,,0.47368421052631576,
+2739,sport,,,Fallschirmspringen,parachuting,,,0.3421052631578947,
+2740,sport,,,Paragleiten,paragliding,,,0.3859649122807018,
+2741,sport,,,Turnen,physical education,,,0.8583333333333334,
+2742,sport,,,Turmspringen,platform diving,,,0.6,
+2743,sport,,,Stabhochsprung,pole vault,,,0.7583333333333333,
+2744,sport,,,Rudern,rowing,,,0.8416666666666667,
+2745,sport,,,Rugby,rugby,,,0.5350877192982456,
+2746,sport,,,Segeln,sailing,,,0.7166666666666667,
+2747,sport,,,Schießen,shooting,,,0.3166666666666667,
+2748,sport,,,Kugelstoßen,shot put,,,0.7666666666666666,
+2749,sport,,,Springreiten,show jumping,,,0.6416666666666667,
+2750,sport,,,Skaten,skating,,,0.4912280701754386,
+2751,sport,,,Skispringen,ski jumping,,,0.8166666666666668,
+2752,sport,,,Skiabfahrt,ski slope,,,0.7999999999999999,
+2753,sport,,,Schnorcheln,snorkelling,,,0.30392156862745096,
+2754,sport,,,Snowboarding,snowboarding,,,0.587719298245614,
+2755,sport,,,Eisschnelllauf,speed skating,,,0.7833333333333333,
+2756,sport,,,Squash,squash,,,0.5964912280701754,
+2757,sport,,,Standardtanz,standard dance,,,0.5,
+2758,sport,,,Streetdance,street dance,,,0.23529411764705888,
+2759,sport,,,Surfen,surfing,,,0.5583333333333333,
+2760,sport,,,Schwimmen,swimming,,,0.9500000000000001,
+2761,sport,,,Tischfußball,table football,,,0.22916666666666666,
+2762,sport,,,Tischtennis,table tennis,,,0.7666666666666666,
+2763,sport,,,Stepptanz,tap dance,,,0.375,
+2764,sport,,,Tennis,tennis,,,0.9,
+2765,sport,,,Rodeln,tobogganing,,,0.6083333333333333,
+2766,sport,,,Tontaubenschießen,trapshooting,,,0.2719298245614035,
+2767,sport,,,Triathlon,triathlon,,,0.7416666666666667,
+2768,sport,,,Volleyball,volleyball,,,0.9249999999999999,
+2769,sport,,,Kunstschwimmen,water ballet,,,0.45,
+2770,sport,,,Wasserball,water polo,,,0.7416666666666667,
+2771,sport,,,Wasserski,water ski,,,0.5701754385964912,
+2772,sport,,,Gewichtheben,weightlifting,,,0.65,
+2773,sport,,,Ringen,wrestling,,,0.5833333333333334,
+2774,sport,,,Yoga,yoga,,,0.5277777777777778,
+2775,sports equipment,,,,,balance beam,,,0.3028756957328385
+2776,sports equipment,,,,,ball,,,0.9093283290327625
+2777,sports equipment,,,,,barbell,,,0.5328066710555189
+2778,sports equipment,,,,,baseball,,,0.8716502331269584
+2779,sports equipment,,,,,baseball bat,,,0.8704557091653867
+2780,sports equipment,,,,,baseball glove,,,0.8241758241758241
+2781,sports equipment,,,,,basketball,,,0.8775510204081634
+2782,sports equipment,,,,,basketball hoop,,,0.7142857142857142
+2783,sports equipment,,,,,bat,,,0.849359278595159
+2784,sports equipment,,,,,baton (drums),,,0.07335107956225966
+2785,sports equipment,,,,,baton (running),,,0.26578073089700993
+2786,sports equipment,,,,,beachball,,,0.41977909443347233
+2787,sports equipment,,,,,bobsled,,,0.23129251700680262
+2788,sports equipment,,,,,bowling ball,,,0.5698587127158555
+2789,sports equipment,,,,,boxing gloves,,,0.6093637454981993
+2790,sports equipment,,,,,cleat,,,0.5370194589463692
+2791,sports equipment,,,,,dart,,,0.28664192949907236
+2792,sports equipment,,,,,dartboard,,,0.3324263038548753
+2793,sports equipment,,,,,dumbbell,,,0.5496894409937888
+2794,sports equipment,,,,,exerciser,,,0.32102728731942215
+2795,sports equipment,,,,,face mask,,,0.36711763357028193
+2796,sports equipment,,,,,flipper,,,0.21746031746031738
+2797,sports equipment,,,,,football,,,0.8734539270253556
+2798,sports equipment,,,,,football helmet,,,0.7695482687457006
+2799,sports equipment,,,,,frisbee,,,0.5465945414310301
+2800,sports equipment,,,,,goggles,,,0.40825602968460106
+2801,sports equipment,,,,,golf club,,,0.7497057249866238
+2802,sports equipment,,,,,helmet,,,0.7770629991126886
+2803,sports equipment,,,,,hockey stick,,,0.7040143529939449
+2804,sports equipment,,,,,home plate,,,0.3659863945578231
+2805,sports equipment,,,,,iceskate,,,0.5053599461762727
+2806,sports equipment,,,,,javelin,,,0.3251700680272109
+2807,sports equipment,,,,,jump rope,,,0.5958245367112364
+2808,sports equipment,,,,,kneepad,,,0.5746388443017656
+2809,sports equipment,,,,,mouthpiece,,,0.3901952085181898
+2810,sports equipment,,,,,oar,,,0.31188997338065655
+2811,sports equipment,,,,,paddle,,,0.3633101592285266
+2812,sports equipment,,,,,ping-pong table,,,0.4058103241296518
+2813,sports equipment,,,,,puck,,,0.4735621521335806
+2814,sports equipment,,,,,punching bag,,,0.562545018007203
+2815,sports equipment,,,,,racket,,,0.673240082549874
+2816,sports equipment,,,,,rollerblade,,,0.44459073952161504
+2817,sports equipment,,,,,rollerskate,,,0.47495361781076056
+2818,sports equipment,,,,,saddle,,,0.2288961038961039
+2819,sports equipment,,,,,scuba,,,0.24972569673030492
+2820,sports equipment,,,,,skateboard,,,0.5672843850183752
+2821,sports equipment,,,,,ski,,,0.5411602843384544
+2822,sports equipment,,,,,ski boots,,,0.43328100470957615
+2823,sports equipment,,,,,ski pole,,,0.4895640074211503
+2824,sports equipment,,,,,sled,,,0.2772848269742679
+2825,sports equipment,,,,,snorkel,,,0.2859361135758651
+2826,sports equipment,,,,,snowboard,,,0.5532148343208251
+2827,sports equipment,,,,,snowshoe,,,0.24771287825475016
+2828,sports equipment,,,,,soccer ball,,,0.8379075768238329
+2829,sports equipment,,,,,springboard,,,0.2588855767025911
+2830,sports equipment,,,,,stopwatch,,,0.3843228200371057
+2831,sports equipment,,,,,surfboard,,,0.4547122219674386
+2832,sports equipment,,,,,target,,,0.26393029121761064
+2833,sports equipment,,,,,tee,,,0.36288998357963875
+2834,sports equipment,,,,,tennis ball,,,0.7432745825602968
+2835,sports equipment,,,,,trampoline,,,0.2811791383219954
+2836,sports equipment,,,,,treadmill,,,0.49099200119608283
+2837,sports equipment,,,,,volleyball,,,0.8119321291735085
+2838,sports equipment,,,,,wetsuit,,,0.2635119982058757
+2839,tool,,,,,air pump,,,0.5074344023323616
+2840,tool,,,,,anvil,,,0.42751862649821826
+2841,tool,,,Axt,axe,axe,,0.9666666666666667,0.7819174181300427
+2842,tool,,,,,backscratcher,,,0.21618414807783576
+2843,tool,,,,,blower,,,0.5688586545729403
+2844,tool,,,,,blowtorch,,,0.5639146567717996
+2845,tool,,,,,bottle opener,,,0.5570354457572503
+2846,tool,,,,,broom,,,0.47250900360144055
+2847,tool,,,Bürste,brush,brush,,0.38235294117647056,0.4873663751214771
+2848,tool,,,,,can opener,,,0.5715965398505082
+2849,tool,,,,,chain,,,0.4209183673469387
+2850,tool,,,Kettensäge,chainsaw,chainsaw,,0.7666666666666666,0.7703854875283447
+2851,tool,,,Meißel,chisel,chisel,,0.8333333333333334,0.7708719851576994
+2852,tool,,,,,chopsticks,,,0.1643990929705215
+2853,tool,,,,,cleaver,,,0.40639139376680905
+2854,tool,,,,,clipper,,,0.5773711783564001
+2855,tool,,,,,corkscrew,,,0.46567717996289426
+2856,tool,,,,,crank,,,0.4698515769944342
+2857,tool,,,Brechstange,crowbar,crowbar,,0.6416666666666667,0.739200680272109
+2858,tool,,,,,curling iron,,,0.2885745207173778
+2859,tool,,,Bohrmaschine,drill,drill,,0.9500000000000001,0.919294990723562
+2860,tool,,,,,duster,,,0.3288236642971795
+2861,tool,,,,,dustpan,,,0.39757266542980824
+2862,tool,,,,,eggbeater,,,0.2997835497835498
+2863,tool,,,Feile,file,file,,0.8250000000000001,0.5582922824302134
+2864,tool,,,,,flyswatter,,,0.29065435698088754
+2865,tool,,,,,fork,,,0.38055222088835533
+2866,tool,,,,,fountain pen,,,0.19380875945883966
+2867,tool,,,,,funnel,,,0.41668535546086555
+2868,tool,,,,,gavel,,,0.22837706511175895
+2869,tool,,,Reibeisen ,grater,grater,,0.4705882352941176,0.3541950113378684
+2870,tool,,,,,grinder,,,0.572013751737254
+2871,tool,,,Hammer,hammer  ,hammer,,0.9916666666666667,0.8999244142101286
+2872,tool,,,,,hoe,,,0.6647350298143949
+2873,tool,,,,,hose,,,0.4630754627432369
+2874,tool,,,,,icepick,,,0.415669716162327
+2875,tool,,,,,jack,,,0.6469387755102041
+2876,tool,,,,,jackhammer,,,0.7519987770389055
+2877,tool,,,Messer,knife,knife,,0.7647058823529411,0.7451874366767983
+2878,tool,,,,,ladder,,,0.6266277939747328
+2879,tool,,,,,ladle,,,0.2879818594104308
+2880,tool,,,,,letter opener,,,0.36046778261866547
+2881,tool,,,,,lighter,,,0.3739278320023662
+2882,tool,,,,,magnifier,,,0.3775510204081632
+2883,tool,,,,,magnifying glass,,,0.3648364107547781
+2884,tool,,,,,mallet,,,0.7091222030981068
+2885,tool,,,,,marker,,,0.32116402116402115
+2886,tool,,,,,match,,,0.2542028305575104
+2887,tool,,,,,metal detector,,,0.35344247589145544
+2888,tool,,,,,mop,,,0.40518229763815633
+2889,tool,,,,,nail clippers,,,0.40136054421768697
+2890,tool,,,,,nail file,,,0.3642256902761104
+2891,tool,,,,,needle,,,0.45202908749706777
+2892,tool,,,,,nutcracker,,,0.35267601016310135
+2893,tool,,,,,paintbrush,,,0.5034013605442177
+2894,tool,,,,,peeler,,,0.4612683783190696
+2895,tool,,,,,pen,,,0.32072154704578454
+2896,tool,,,,,pencil,,,0.33922902494331064
+2897,tool,,,,,pencil sharpener,,,0.3715508675380264
+2898,tool,,,,,penlight,,,0.3056246888999502
+2899,tool,,,,,pickax,,,0.6415047946889599
+2900,tool,,,,,pin,,,0.2852556753038294
+2901,tool,,,,,pitchfork,,,0.5541480960200172
+2902,tool,,,Zange,pliers,pliers,,0.9583333333333334,0.8247526283240569
+2903,tool,,,,,plunger,,,0.5590666374076513
+2904,tool,,,,,pocketknife,,,0.7501280081925242
+2905,tool,,,,,poker,,,0.3786066150598169
+2906,tool,,,,,polisher,,,0.4053803339517625
+2907,tool,,,,,punch,,,0.43780369290573373
+2908,tool,,,,,quill,,,0.11873840445269017
+2909,tool,,,Rechen,rake,rake,,0.4912280701754386,0.713620230700976
+2910,tool,,,,,ratchet,,,0.7019916400295056
+2911,tool,,,,,razor,,,0.4730566383856913
+2912,tool,,,,,rolling pin,,,0.38308335382345715
+2913,tool,,,,,rope,,,0.403812687865844
+2914,tool,,,,,ruler,,,0.5854825446662181
+2915,tool,,,Sandpapier ,sandpaper,sandpaper,,0.4561403508771929,0.5101597160603372
+2916,tool,,,Säge,saw,saw,,0.9583333333333334,0.842062298603652
+2917,tool,,,,,sawhorse,,,0.5185528756957328
+2918,tool,,,,,scalpel,,,0.45442176870748296
+2919,tool,,,,,scissors,,,0.7034319345715814
+2920,tool,,,,,scoop,,,0.31546594541431033
+2921,tool,,,Spachtel,scraper,scraper,,0.725,0.6173469387755102
+2922,tool,,,Schraubenzieher,screwdriver,screwdriver,,0.9166666666666666,0.903097238895558
+2923,tool,,,,,shears,,,0.6515424774560987
+2924,tool,,,Schaufel,shovel,shovel,,0.7166666666666667,0.7838158519221643
+2925,tool,,,Sichel,sickle,sickle,,0.5185185185185185,0.49634668682287725
+2926,tool,,,,,sledgehammer,,,0.7365491651205938
+2927,tool,,,Lötkolben,soldering iron,soldering iron,,0.6666666666666666,0.5797430083144368
+2928,tool,,,,,spatula,,,0.3886521641623682
+2929,tool,,,,,spoon,,,0.3310924369747898
+2930,tool,,,,,squeegee,,,0.3755102040816326
+2931,tool,,,,,stamp,,,0.22918132770349509
+2932,tool,,,,,staple gun,,,0.6643209007741027
+2933,tool,,,,,sweeper,,,0.40435959329968546
+2934,tool,,,,,tape measure,,,0.7706122448979592
+2935,tool,,,,,tongs,,,0.5247478301665494
+2936,tool,,,,,tool,,,0.7959183673469388
+2937,tool,,,,,trident,,,0.17983193277310913
+2938,tool,,,Maurerkelle,trowel,trowel,,0.6916666666666668,0.5711826899434472
+2939,tool,,,,,tweezers,,,0.48798185941043076
+2940,tool,,,,,vacuum,,,0.43454270597127737
+2941,tool,,,,,vise,,,0.570249433106576
+2942,tool,,,,,watering can,,,0.3101153504880213
+2943,tool,,,,,wedge,,,0.38013007400762505
+2944,tool,,,,,wire cutters,,,0.7323747680890538
+2945,tool,,,,,wrench,,,0.867223998032948
+2946,tool,,,Inbusschlüssel,Allen key,,,0.6759259259259259,
+2947,tool,,,Kreuzschraubenzieher,Phillips screwdriver,,,0.8583333333333334,
+2948,tool,,,Schleifpapier,abrasive paper,,,0.5370370370370371,
+2949,tool,,,Handbohrer,auger,,,0.7666666666666666,
+2950,tool,,,Stemmeisen,chisel,,,0.6666666666666666,
+2951,tool,,,Kreissäge,circular saw,,,0.85,
+2952,tool,,,Kneifzange,cutting pliers,,,0.8333333333333334,
+2953,tool,,,Glasschneider,glass cutter,,,0.5750000000000001,
+2954,tool,,,Schleifscheibe,grinding disk,,,0.46296296296296297,
+2955,tool,,,Schleifstein,grindstone,,,0.5,
+2956,tool,,,Sechskantschlüssel,hexagonal socket spanner ,,,0.7000000000000001,
+2957,tool,,,Locheisen,hole punch,,,0.46875,
+2958,tool,,,Heißluftpistole,hot air gun,,,0.4473684210526316,
+2959,tool,,,Klebepistole,hot glue gun,,,0.5166666666666667,
+2960,tool,,,Laubsäge,jigsaw,,,0.6666666666666666,
+2961,tool,,,Rührgerät ,mixer,,,0.2962962962962963,
+2962,tool,,,Blattsäge,pad saw,,,0.5833333333333334,
+2963,tool,,,Hobel,plane,,,0.725,
+2964,tool,,,Raspel,rasp,,,0.5098039215686274,
+2965,tool,,,Walze,roller,,,0.4583333333333333,
+2966,tool,,,Reibebrett,rubbing board,,,0.2843137254901961,
+2967,tool,,,Schleifmaschine,sander,,,0.7000000000000001,
+2968,tool,,,Sieb,sieve,,,0.4583333333333333,
+2969,tool,,,Steckschlüssel,socket,,,0.6052631578947368,
+2970,tool,,,Spaten,spade,,,0.7083333333333334,
+2971,tool,,,Vierkant,square box wrench,,,0.5614035087719298,
+2972,tool,,,Tacker,stapler,,,0.48245614035087714,
+2973,tool,,,Fliesenschneider,tile cutter,,,0.6166666666666667,
+2974,tool,,,Schraubstock,vice,,,0.6842105263157894,
+2975,tool,,,Quirl ,whisk,,,0.3020833333333333,
+2976,tool,,,Drahtbürste,wire brush,,,0.4416666666666667,
+2977,toy,,,,,ball,,,0.8787603930461073
+2978,toy,,,,,balloon,,,0.33514165159734777
+2979,toy,,,,,beachball,,,0.459647495361781
+2980,toy,,,,,boomerang,,,0.3016371383718322
+2981,toy,,,,,crayon,,,0.415126050420168
+2982,toy,,,,,doll,,,0.8281032843244824
+2983,toy,,,,,dollhouse,,,0.7109940750493747
+2984,toy,,,,,dreidel,,,0.198051948051948
+2985,toy,,,,,frisbee,,,0.6211878009630818
+2986,toy,,,,,gyroscope,,,0.17857142857142858
+2987,toy,,,,,hobbyhorse,,,0.3406219630709426
+2988,toy,,,,,hula hoop,,,0.5622119815668202
+2989,toy,,,,,kaleidoscope,,,0.3072689750057326
+2990,toy,,,,,kite,,,0.539392501186521
+2991,toy,,,,,lego,,,0.7950213052253867
+2992,toy,,,,,marble,,,0.48266135722581716
+2993,toy,,,,,music box,,,0.2871057513914657
+2994,toy,,,,,noisemaker,,,0.2679973088136353
+2995,toy,,,,,pinwheel,,,0.3019424637324809
+2996,toy,,,,,pogo stick,,,0.406755805770584
+2997,toy,,,,,puppet,,,0.5167774975158602
+2998,toy,,,,,rattle,,,0.5836734693877551
+2999,toy,,,,,robot,,,0.5151723610792632
+3000,toy,,,,,rocking horse,,,0.5259452618256605
+3001,toy,,,,,scooter,,,0.5465350975555057
+3002,toy,,,,,skateboard,,,0.5109355570185062
+3003,toy,,,,,slingshot,,,0.4097331240188383
+3004,toy,,,,,squirt gun,,,0.618053963158297
+3005,toy,,,,,stilt,,,0.10575139146567714
+3006,toy,,,,,teddy bear,,,0.7618291761148903
+3007,toy,,,,,toy,,,0.8172235927337967
+3008,toy,,,,,train set,,,0.7495086923658352
+3009,toy,,,,,whoopee cushion,,,0.3076585472898837
+3010,toy,,,,,yo-yo,,,0.6677018633540371
+3011,vegetable,,,,,artichoke,,,0.36482458151800046
+3012,vegetable,,,,,arugula,,,0.23867595818815326
+3013,vegetable,,,Spargel,asparagus,asparagus,,0.9,0.5495965828191742
+3014,vegetable,,,,,beet,,,0.4178858060077963
+3015,vegetable,,,,,bell pepper,,,0.6337868480725624
+3016,vegetable,,,,,bok choy,,,0.22943722943722936
+3017,vegetable,,,Brokkoli,broccoli,broccoli,,0.8833333333333333,0.858139534883721
+3018,vegetable,,,Rosenkohl,Brussels sprouts,brussels sprouts,,0.9249999999999999,0.5802411873840445
+3019,vegetable,,,,,cabbage,,,0.6312481514344868
+3020,vegetable,,,Mohrrübe,carrot,carrot,,0.975,0.8876404494382023
+3021,vegetable,,,Blumenkohl,cauliflower,cauliflower,,0.9416666666666668,0.6727814721394176
+3022,vegetable,,,Sellerie,celery,celery,,0.7583333333333333,0.603200371057514
+3023,vegetable,,,,,chickpea,,,0.20088126159554717
+3024,vegetable,,,,,chive,,,0.21829855537720697
+3025,vegetable,,,,,cilantro,,,0.20912634716808068
+3026,vegetable,,,,,corn,,,0.7513051732320833
+3027,vegetable,,,Gurke,cucumber,cucumber,,0.9833333333333334,0.6681354359925787
+3028,vegetable,,,,,eggplant,,,0.45662309867767326
+3029,vegetable,,,,,garlic,,,0.3450621627961529
+3030,vegetable,,,,,gourd,,,0.23696145124716547
+3031,vegetable,,,,,green beans,,,0.7996907854050711
+3032,vegetable,,,,,jalapeno,,,0.30000764350684095
+3033,vegetable,,,,,kale,,,0.5126077097505669
+3034,vegetable,,,Porree,leek,leek,,0.8083333333333332,0.26079734219269096
+3035,vegetable,,,Salat,lettuce,lettuce,,0.7916666666666666,0.7898631980264633
+3036,vegetable,,,,,okra,,,0.3141554494138081
+3037,vegetable,,,Zwiebel,onion,onion,,0.875,0.704226859283039
+3038,vegetable,,,,,parsley,,,0.2418831168831168
+3039,vegetable,,,Erbse,pea,pea,,0.875,0.6322045301637139
+3040,vegetable,,,Paprika,pepper,pepper,,0.8916666666666666,0.5231980432622486
+3041,vegetable,,,Kartoffel,potato,potato,,0.9385964912280702,0.7103386409508857
+3042,vegetable,,,Kürbis,pumpkin,pumpkin,,0.7105263157894738,0.40553494124922695
+3043,vegetable,,,Radieschen,radish,radish,,0.8666666666666667,0.42857142857142855
+3044,vegetable,,,,,rhubarb,,,0.17582417582417578
+3045,vegetable,,,,,scallion,,,0.2637240942888783
+3046,vegetable,,,Spinat,spinach,spinach,,0.8666666666666667,0.6933094116767585
+3047,vegetable,,,,,sprouts,,,0.34161490683229806
+3048,vegetable,,,,,squash,,,0.5400064787819889
+3049,vegetable,,,,,sweet potato,,,0.5226881961575839
+3050,vegetable,,,Tomate,tomato,tomato,,0.975,0.7031746031746032
+3051,vegetable,,,,,vegetable,,,0.7239815466416452
+3052,vegetable,,,,,zucchini,,,0.6054421768707483
+3053,vegetable,,,Chinakohl,Chinese cabbage,,,0.6666666666666666,
+3054,vegetable,,,Aubergine,aubergine,,,0.75,
+3055,vegetable,,,Avocado,avocado,,,0.6018518518518519,
+3056,vegetable,,,Bohne,bean,,,0.8083333333333332,
+3057,vegetable,,,Fleischtomate,beef tomato,,,0.7916666666666666,
+3058,vegetable,,,Rote Beete,beetroot,,,0.775,
+3059,vegetable,,,Knollensellerie,celeriac,,,0.6583333333333333,
+3060,vegetable,,,Kirschtomate,cherry tomato,,,0.7037037037037037,
+3061,vegetable,,,Chicoree,chicory,,,0.7666666666666666,
+3062,vegetable,,,Peperoni,chilli,,,0.5614035087719298,
+3063,vegetable,,,Chilischote,chilli pepper,,,0.49074074074074076,
+3064,vegetable,,,Cocktailtomate,cocktail tomato,,,0.7166666666666667,
+3065,vegetable,,,Zucchini,courgette,,,0.8333333333333334,
+3066,vegetable,,,Fenchel,fennel,,,0.5686274509803921,
+3067,vegetable,,,Ingwer,ginger,,,0.5098039215686274,
+3068,vegetable,,,Grünkohl,green cabbage,,,0.8416666666666667,
+3069,vegetable,,,Eisbergsalat,iceberg lettuce,,,0.7083333333333334,
+3070,vegetable,,,Kidneybohne,kidney bean,,,0.4583333333333333,
+3071,vegetable,,,Kohlrabi,kohlrabi,,,0.8666666666666667,
+3072,vegetable,,,Feldsalat,lamb's lettuce,,,0.725,
+3073,vegetable,,,Blattsalat,leaf salad,,,0.775,
+3074,vegetable,,,Olive,olive,,,0.6018518518518519,
+3075,vegetable,,,Rotkohl,red cabbage,,,0.8666666666666667,
+3076,vegetable,,,Rucola,rocket,,,0.6754385964912281,
+3077,vegetable,,,Wirsingkohl,savoy cabbage,,,0.7916666666666666,
+3078,vegetable,,,Schalotte,shallot,,,0.6929824561403509,
+3079,vegetable,,,Sprosse,shoot,,,0.4083333333333334,
+3080,vegetable,,,Sauerampfer,sorrel,,,0.35294117647058815,
+3081,vegetable,,,Stangensellerie,stalk celery,,,0.7105263157894738,
+3082,vegetable,,,Esskastanie,sweet chestnut,,,0.41228070175438597,
+3083,vegetable,,,Mais,sweetcorn,,,0.7894736842105262,
+3084,vegetable,,,Strauchtomate,vine tomato,,,0.7666666666666666,
+3085,vegetable,,,Weißkohl,white cabbage,,,0.8083333333333332,
+3086,vegetable,,,Rettich,white radish,,,0.6916666666666668,
+3087,vehicle,,,,,airboat,,,0.3207897793263647
+3088,vehicle,,,,,aircraft carrier,,,0.3712320483749055
+3089,vehicle,,,,,airplane,,,0.6733147804576376
+3090,vehicle,,,,,ambulance,,,0.7482202183198862
+3091,vehicle,,,,,bike,,,0.598396501457726
+3092,vehicle,,,Boot,boat,boat,,0.8166666666666668,0.598191094619666
+3093,vehicle,,,,,buggy,,,0.40276800375322536
+3094,vehicle,,,,,bulldozer,,,0.46290516206482596
+3095,vehicle,,,Bus,bus,bus,,1.0,0.8988717438194788
+3096,vehicle,,,,,camper,,,0.5636654661864746
+3097,vehicle,,,Kanu,canoe,canoe,,0.3,0.32183908045977005
+3098,vehicle,,,Auto,car,car,,1.0,0.9568906214171061
+3099,vehicle,,,Kutsche,carriage,carriage,,0.5416666666666666,0.3646744412050534
+3100,vehicle,,,,,cart,,,0.2819689673622257
+3101,vehicle,,,,,chariot,,,0.2297162767546042
+3102,vehicle,,,,,cruise ship,,,0.4608070500927643
+3103,vehicle,,,,,dirt bike,,,0.6260560037968677
+3104,vehicle,,,Fähre,ferry,ferry,,0.6583333333333333,0.45153061224489793
+3105,vehicle,,,,,firetruck,,,0.7304521808723489
+3106,vehicle,,,,,forklift,,,0.3977177967961377
+3107,vehicle,,,,,garbage truck,,,0.6620787850023729
+3108,vehicle,,,,,go-kart,,,0.5447779111644657
+3109,vehicle,,,,,golf cart,,,0.5653285490020183
+3110,vehicle,,,,,gondola,,,0.17828106852497086
+3111,vehicle,,,,,hearse,,,0.5074010327022375
+3112,vehicle,,,Hubschrauber,helicopter,helicopter,,0.7833333333333333,0.5507803121248499
+3113,vehicle,,,,,hot-air balloon,,,0.21943634596695816
+3114,vehicle,,,,,hovercraft,,,0.27249757045675405
+3115,vehicle,,,,,humvee,,,0.6099773242630385
+3116,vehicle,,,,,jeep,,,0.8532627865961199
+3117,vehicle,,,,,jet,,,0.5709183673469388
+3118,vehicle,,,,,jetski,,,0.3690555291884194
+3119,vehicle,,,Kajak,kayak,kayak,,0.325,0.23469387755102034
+3120,vehicle,,,,,limousine,,,0.6988095238095239
+3121,vehicle,,,,,minivan,,,0.8954703832752614
+3122,vehicle,,,Motorrad,motorcycle  ,motorcycle,,0.7999999999999999,0.8380952380952381
+3123,vehicle,,,,,police car,,,0.8259227095093357
+3124,vehicle,,,,,quad,,,0.3905067645035543
+3125,vehicle,,,Floß,raft,raft,,0.3083333333333333,0.24201680672268905
+3126,vehicle,,,,,rickshaw,,,0.20891514500537053
+3127,vehicle,,,,,roadsweeper,,,0.39862286377965805
+3128,vehicle,,,,,rocket,,,0.22797025787059016
+3129,vehicle,,,,,sailboat,,,0.46289077428724296
+3130,vehicle,,,,,school bus,,,0.7846078190312269
+3131,vehicle,,,Laufroller,scooter,scooter,,0.16666666666666666,0.6235062699778705
+3132,vehicle,,,,,seaplane,,,0.3412061453795001
+3133,vehicle,,,Schiff,ship,ship,,0.9666666666666667,0.543398082124416
+3134,vehicle,,,Skateboard,skateboard,skateboard,,0.2549019607843137,0.3120448179271708
+3135,vehicle,,,,,sled,,,0.18539463978362422
+3136,vehicle,,,,,snowmobile,,,0.516453092865053
+3137,vehicle,,,,,snowplow,,,0.40769944341372916
+3138,vehicle,,,,,space shuttle,,,0.2862120457939273
+3139,vehicle,,,,,speedboat,,,0.5066481137909709
+3140,vehicle,,,,,station wagon,,,0.8050420168067227
+3141,vehicle,,,,,steamroller,,,0.2999536178107607
+3142,vehicle,,,,,stroller,,,0.23152442795299932
+3143,vehicle,,,U-Boot,submarine,submarine,,0.21052631578947376,0.35280319024161383
+3144,vehicle,,,,,subway,,,0.4927113702623906
+3145,vehicle,,,Taxi,taxi,taxi,,0.9500000000000001,0.8455179540170498
+3146,vehicle,,,Traktor,tractor,tractor,,0.5263157894736842,0.6496598639455782
+3147,vehicle,,,Zug,train,train,,0.9833333333333334,0.6905162064825932
+3148,vehicle,,,Dreirad,tricycle,tricycle,,0.31578947368421045,0.39807923169267706
+3149,vehicle,,,,,trolley,,,0.4811587556370863
+3150,vehicle,,,,,truck,,,0.9307130259511212
+3151,vehicle,,,,,tugboat,,,0.3122772918691286
+3152,vehicle,,,,,unicycle,,,0.23540579022306596
+3153,vehicle,,,,,van,,,0.8798449612403102
+3154,vehicle,,,,,wagon,,,0.43163639082006433
+3155,vehicle,,,,,wheelchair,,,0.19970845481049565
+3156,vehicle,,,Yacht,yacht,yacht,,0.4833333333333334,0.42778041449137794
+3157,vehicle,,,Flugzeug,aeroplane,,,1.0,
+3158,vehicle,,,Luftschiff,airship,,,0.41228070175438597,
+3159,vehicle,,,Fahrrad,bicycle  ,,,0.9,
+3160,vehicle,,,Seilbahn,cable car,,,0.5666666666666667,
+3161,vehicle,,,Wohnmobil,camper van,,,0.5333333333333333,
+3162,vehicle,,,Katamaran,catamaran,,,0.3083333333333333,
+3163,vehicle,,,Sessellift,chairlift,,,0.3416666666666666,
+3164,vehicle,,,S-Bahn,city train,,,0.9833333333333334,
+3165,vehicle,,,Kran,crane,,,0.21875,
+3166,vehicle,,,Kutter,cutter,,,0.4083333333333334,
+3167,vehicle,,,Gabelstapler,forklift truck,,,0.34259259259259256,
+3168,vehicle,,,Kabinenlift,gondola lift,,,0.3833333333333333,
+3169,vehicle,,,Leiterwagen,handcart,,,0.4166666666666667,
+3170,vehicle,,,LKW,lorry,,,0.9416666666666668,
+3171,vehicle,,,Moped,moped,,,0.7833333333333333,
+3172,vehicle,,,Omnibus,motor coach,,,0.9083333333333333,
+3173,vehicle,,,Motorboot,motorboat,,,0.6749999999999999,
+3174,vehicle,,,Tretboot,pedal boat,,,0.34259259259259256,
+3175,vehicle,,,Draisine,rail trolley,,,0.2333333333333334,
+3176,vehicle,,,Rollschuh,roller blade,,,0.25,
+3177,vehicle,,,Kahn,rowing boat,,,0.4333333333333333,
+3178,vehicle,,,Segelschiff,sailing ship,,,0.5583333333333333,
+3179,vehicle,,,Schlitten,sleigh,,,0.3666666666666667,
+3180,vehicle,,,Straßenbahn,tram,,,0.9416666666666668,
+3181,vehicle,,,U-Bahn,underground railway,,,0.9583333333333334,
+3182,watercraft,,,,,airboat,,,0.38372513562386984
+3183,watercraft,,,,,aircraft carrier,,,0.2494387755102041
+3184,watercraft,,,,,boat,,,0.8818419675562532
+3185,watercraft,,,,,canoe,,,0.5769944341372913
+3186,watercraft,,,,,cruise ship,,,0.6500971817298347
+3187,watercraft,,,,,ferry,,,0.4764739229024943
+3188,watercraft,,,,,gondola,,,0.19793459552495693
+3189,watercraft,,,,,hovercraft,,,0.23260073260073258
+3190,watercraft,,,,,jetski,,,0.5980143408714838
+3191,watercraft,,,,,kayak,,,0.540699038235984
+3192,watercraft,,,,,raft,,,0.5438696408796077
+3193,watercraft,,,,,sailboat,,,0.768126762900282
+3194,watercraft,,,,,seaplane,,,0.24691358024691348
+3195,watercraft,,,,,ship,,,0.7783433373349339
+3196,watercraft,,,,,speedboat,,,0.7120448179271709
+3197,watercraft,,,,,submarine,,,0.41281862142447345
+3198,watercraft,,,,,torpedo,,,0.12548262548262548
+3199,watercraft,,,,,tugboat,,,0.4216867469879518
+3200,watercraft,,,,,yacht,,,0.6414795918367346
+3201,weapon,,,,,arrow,,,0.5984101505770848
+3202,weapon,,,,,axe,,,0.6171787396277192
+3203,weapon,,,,,baseball bat,,,0.5243328100470956
+3204,weapon,,,,,bat,,,0.5104333868378811
+3205,weapon,,,,,baton,,,0.4809833024118739
+3206,weapon,,,,,bazooka,,,0.525974025974026
+3207,weapon,,,,,blowgun,,,0.28814382896015545
+3208,weapon,,,,,blowtorch,,,0.20587575689616505
+3209,weapon,,,,,bomb,,,0.6621588394393904
+3210,weapon,,,,,boomerang,,,0.1707717569786535
+3211,weapon,,,,,bow,,,0.6098991320666197
+3212,weapon,,,,,brass knuckles,,,0.5448504983388703
+3213,weapon,,,,,bullet,,,0.701233460417134
+3214,weapon,,,,,cannon,,,0.5652173913043478
+3215,weapon,,,,,cannonball,,,0.35082604470359563
+3216,weapon,,,,,catapult,,,0.250061470371281
+3217,weapon,,,,,chainsaw,,,0.39705215419501133
+3218,weapon,,,,,cleaver,,,0.42457482993197276
+3219,weapon,,,,,crossbow,,,0.6077361177028952
+3220,weapon,,,,,crowbar,,,0.4320825104235243
+3221,weapon,,,,,dagger,,,0.6959412978674616
+3222,weapon,,,,,dart,,,0.297773654916512
+3223,weapon,,,,,dynamite,,,0.3370148059223689
+3224,weapon,,,,,flamethrower,,,0.43780369290573357
+3225,weapon,,,,,grenade,,,0.6574977817213842
+3226,weapon,,,,,gun,,,0.9539218096877304
+3227,weapon,,,,,hammer,,,0.43235071806500364
+3228,weapon,,,,,icepick,,,0.3163265306122448
+3229,weapon,,,,,knife,,,0.8653504880212954
+3230,weapon,,,,,landmine,,,0.34625085989451954
+3231,weapon,,,,,machete,,,0.6189760114572145
+3232,weapon,,,,,machine gun,,,0.8453514739229027
+3233,weapon,,,,,missile,,,0.5442949907235622
+3234,weapon,,,,,pickax,,,0.3573210236475542
+3235,weapon,,,,,pitchfork,,,0.31323091034166467
+3236,weapon,,,,,pocketknife,,,0.6818727490996397
+3237,weapon,,,,,razor blade,,,0.4752889107450208
+3238,weapon,,,,,revolver,,,0.8374304267161411
+3239,weapon,,,,,rifle,,,0.8895297249334515
+3240,weapon,,,,,scalpel,,,0.23493118177503552
+3241,weapon,,,,,scissors,,,0.2590266875981161
+3242,weapon,,,,,slingshot,,,0.4068783068783069
+3243,weapon,,,,,spear,,,0.5828896776101745
+3244,weapon,,,,,sword,,,0.8144057623049219
+3245,weapon,,,,,tank,,,0.42632877326754864
+3246,weapon,,,,,torpedo,,,0.3717532467532467
+3247,weapon,,,,,trident,,,0.18780096308186195
+3248,weapon,,,,,whip,,,0.27567071772529234
+3249,women's clothing,,,,,bikini,,,0.6546140195208519
+3250,women's clothing,,,,,blouse,,,0.7892588614393127
+3251,women's clothing,,,,,boa,,,0.12956810631229235
+3252,women's clothing,,,,,bra,,,0.8369639990827792
+3253,women's clothing,,,,,corset,,,0.36417233560090706
+3254,women's clothing,,,,,dress,,,0.9224341910677314
+3255,women's clothing,,,,,fishnet stockings,,,0.38080287059878887
+3256,women's clothing,,,,,garter,,,0.27860582435221265
+3257,women's clothing,,,,,headscarf,,,0.33762200532386866
+3258,women's clothing,,,,,kimono,,,0.29436557231588284
+3259,women's clothing,,,,,leggings,,,0.7051398337112624
+3260,women's clothing,,,,,lingerie,,,0.6265818155219076
+3261,women's clothing,,,,,pantsuit,,,0.5101230968577907
+3262,women's clothing,,,,,pantyhose,,,0.5556122448979591
+3263,women's clothing,,,,,skirt,,,0.8427370948379351
+3264,women's clothing,,,,,stiletto,,,0.39070294784580495
+3265,women's clothing,,,,,stockings,,,0.506079027355623
+3266,women's clothing,,,,,tiara,,,0.17416512059369202
+3267,women's clothing,,,,,tube top,,,0.49198250728862974
+3268,women's clothing,,,,,veil,,,0.19322622666087702
