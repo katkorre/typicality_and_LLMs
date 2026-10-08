@@ -1,4 +1,5 @@
-
+# The prompts are experimental material, kept verbatim.
+# ruff: noqa: E501
 PROMPTS = {
     "English": """
 You are an agent playing Scattergories.
@@ -29,7 +30,7 @@ home decor: Blanket
 plant: Bamboo
 
 The category is {0}
-Word starting with {1} for {0}: 
+Word starting with {1} for {0}:
 """.strip(),
 
     "German": """Du bist ein Agent, der Scattergories spielt.
@@ -94,7 +95,9 @@ Palabra que empieza por {1} para {0}:"""
 }
 
 
-def build_prompt(slot: str, letter: str, strategy_instructions: str, language: str) -> str:
+def build_prompt(
+    slot: str, letter: str, strategy_instructions: str, language: str
+) -> str:
     return PROMPTS[language.capitalize()].format(slot, letter, strategy_instructions)
 
 
