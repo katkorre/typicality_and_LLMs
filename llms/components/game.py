@@ -1,120 +1,164 @@
-import random
-import string
-from dataclasses import dataclass
+"""Scattergories games between agents that share one model.
+
+A game gives every agent the same categories and one letter per round. Each
+agent answers every category with one word starting with that letter. The
+dataset lists the members of each category with their typicality, per
+language. A language plays only the categories that hold members in it.
+"""
+
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
-from lightning import seed_everything
 
-from components.agent import STRATEGIES, LLMGeneratorAgent
-from utility import score_answers
+from components.agent import STRATEGIES, Agent
+from components.models import BACKENDS
+from components.scoring import score_answers, score_answers_with_typicality
 
-
-@dataclass
-class GameRound:
-    """
-    Represents one round of the game.
-
-    A round constrains agents by:
-    - letter: the first letter required for every category answer
-    """
-
-    letter: str
+LANGUAGE_CODES = {"english": "en", "german": "de", "spanish": "es"}
 
 
-class Game:
-    def __init__(
-            self,
-            llm,
-            slots: list[str],
-            instances: list[str],
-            rounds: int = 1,
-            use_strategies: bool = False,
-            num_agents: int = 1,
-            language: str = 'English',
-            letters: list[str] | None = None
-    ):
-        self.llm = llm
-        self.slots = slots
-        self.instances = instances
-        self.language = language
-        self.letters = letters or [random.choice(string.ascii_uppercase) for _ in range(rounds)]
+def load_gold(dataset_path: str, language: str) -> pd.DataFrame:
+    """Return the members of every category in ``language``, with typicality."""
+    df = pd.read_csv(dataset_path, index_col=0)
+    gold = df[["concept", language, f"typ_{LANGUAGE_CODES[language]}"]].dropna(
+        subset=[language]
+    )
+    gold.columns = ["category", "member", "typicality"]
+    return gold.reset_index(drop=True)
 
-        self.rounds = len(self.letters)
-        self.use_strategies = use_strategies
-        self.num_agents = num_agents
 
-    def initialize_agents(self) -> list[LLMGeneratorAgent]:
-        if not self.use_strategies:
-            return [
-                LLMGeneratorAgent(name=f"agent_{idx}",
-                                  llm=self.llm,
-                                  slots=self.slots,
-                                  language=self.language)
-                for idx in range(self.num_agents)
-            ]
-
+def build_agents(
+    llm, slots: list[str], language: str, use_strategies: bool, num_agents: int
+):
+    if use_strategies:
         return [
-            LLMGeneratorAgent(
-                name=f"{strategy}_agent",
-                strategy=strategy,
-                llm=self.llm,
-                slots=self.slots,
-                language=self.language
-            )
+            Agent(f"{strategy}_agent", llm, slots, language, strategy=strategy)
             for strategy in STRATEGIES
         ]
+    return [Agent(f"agent_{idx}", llm, slots, language) for idx in range(num_agents)]
 
-    def play(self, df: pd.DataFrame, save_path: Path):
-        agents = self.initialize_agents()
-        agent_seed = int(np.random.randint(low=1, high=2 ** 31 - 1))
-        seed_everything(agent_seed)
 
-        game_info = f"""Game starts!
-                Rounds: {self.rounds}
-                Language: {self.language}
-                Agents: {len(agents)}
-                Strategies enabled: {self.use_strategies}
-                Categories: {len(self.slots)}
-                Valid words: {len(self.instances)}
-        """
-        print(game_info)
+def play_game(
+    llm,
+    gold: pd.DataFrame,
+    slots: list[str],
+    language: str,
+    use_strategies: bool,
+    num_agents: int,
+    letters: str,
+    save_path: Path,
+):
+    """Play one round per letter, and write each round under ``save_path``.
 
-        for round_idx, letter in enumerate(self.letters):
-            print(f"Round #{round_idx + 1} - Letter {letter}")
+    ``game_info.txt`` is written last, so its presence marks a finished game.
+    """
+    agents = build_agents(llm, slots, language, use_strategies, num_agents)
+    instances = set(gold["member"].str.strip().str.lower())
 
-            game_round = GameRound(letter=letter)
+    game_info = (
+        f"Rounds: {len(letters)}\n"
+        f"Language: {language}\n"
+        f"Agents: {len(agents)}\n"
+        f"Strategies enabled: {use_strategies}\n"
+        f"Categories: {len(slots)}\n"
+        f"Valid words: {len(instances)}\n"
+    )
+    print(game_info, flush=True)
 
-            answers = []
-            for agent in agents:
-                agent_answer = agent.play(game_round=game_round)
-                print(agent_answer)
-                answers.append(agent_answer)
+    for round_idx, letter in enumerate(letters, start=1):
+        print(f"Round #{round_idx} - Letter {letter}", flush=True)
+        answers, outputs = [], []
+        for agent in agents:
+            answer, raw = agent.play(letter)
+            answers.append(answer)
+            outputs += [
+                {"agent": agent.name, "category": slot, "output": out}
+                for slot, out in zip(slots, raw)
+            ]
 
-            scores = score_answers(answers,
-                                   slots=self.slots,
-                                   instances=self.instances,
-                                   round_letter=letter)
-            # typicality_scores, summary_df = score_answers_with_typicality(
-            #     agent_answers=answers,
-            #     slots=self.slots,
-            #     game_round=game_round,
-            #     gold_df=df,
-            # )
+        round_path = save_path / f"round_{round_idx}"
+        round_path.mkdir(parents=True, exist_ok=True)
+        round_path.joinpath("round_info.txt").write_text(
+            f"Round #{round_idx} - Letter {letter}"
+        )
+        pd.DataFrame(outputs).to_csv(round_path / "outputs.csv", index=False)
+        score_answers(
+            answers, slots=slots, instances=instances, round_letter=letter.lower()
+        ).to_csv(round_path / "scores.csv", index=False)
+        typicality, summary = score_answers_with_typicality(
+            answers, gold=gold, letter=letter, slots=slots
+        )
+        typicality.to_csv(round_path / "typicality_scores.csv", index=False)
+        summary.to_csv(round_path / "summary.csv", index=False)
 
-            round_path = save_path / f"round_{round_idx + 1}"
-            if not round_path.exists():
-                round_path.mkdir(parents=True, exist_ok=True)
+    save_path.joinpath("game_info.txt").write_text(game_info)
 
-            with round_path.joinpath('round_info.txt').open('w') as f:
-                f.writelines(f"Round #{round_idx + 1} - Letter {letter}")
 
-            scores.to_csv(round_path / "scores.csv", index=None)
-            # typicality_scores.to_csv(round_path / "typicality_scores.csv", index=None)
-            # summary_df.to_csv(round_path / "summary_df.csv", index=None)
+class Scattergories:
+    """Play every language in every strategy arm with one model.
 
-        with save_path.joinpath("game_info.txt").open("w") as f:
-            f.writelines(game_info)
+    The model loads once. A finished game is skipped, so a run that stops
+    continues where it stopped when started again. Each game reseeds the model
+    first, so its outcome does not depend on the games before it.
+    """
 
-        print(f'Game ended! Check {save_path} for results.')
+    def __init__(
+        self,
+        dataset_path: str,
+        results_dir: str,
+        languages: list[str],
+        strategy_arms: list[bool],
+        num_agents: int,
+        letters: str,
+        seed: int,
+        limit: int | None,
+        backend: str,
+        model_tag: str,
+        **model_args,
+    ):
+        self.dataset_path = dataset_path
+        self.results_dir = Path(results_dir)
+        self.languages = languages
+        self.strategy_arms = strategy_arms
+        self.num_agents = num_agents
+        self.letters = letters
+        self.seed = seed
+        self.limit = limit
+        self.backend = backend
+        self.model_tag = model_tag
+        self.model_args = model_args
+
+    def run(self):
+        games = [
+            (language, use_strategies, self.results_dir.joinpath(
+                self.model_tag,
+                language,
+                "strategies" if use_strategies else "no_strategies",
+            ))
+            for language in self.languages
+            for use_strategies in self.strategy_arms
+        ]
+        pending = [game for game in games if not (game[2] / "game_info.txt").exists()]
+        done = len(games) - len(pending)
+        print(f"{len(games)} games, {done} already played", flush=True)
+        if not pending:
+            return
+
+        llm = BACKENDS[self.backend](**self.model_args)
+        print(f"Model loaded: {self.model_args['model_name']}", flush=True)
+
+        for language, use_strategies, save_path in pending:
+            gold = load_gold(self.dataset_path, language)
+            slots = gold["category"].unique().tolist()[: self.limit]
+            llm.reseed(self.seed)
+            play_game(
+                llm,
+                gold=gold,
+                slots=slots,
+                language=language,
+                use_strategies=use_strategies,
+                num_agents=self.num_agents,
+                letters=self.letters,
+                save_path=save_path,
+            )
+            print(f"Game written to {save_path}", flush=True)

@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typicality-llms"
+version = "0.1.0"
+description = "Scattergories games that probe category typicality in LLMs."
+readme = "README.md"
+authors = [
+    { name = "Federico Ruggeri", email = "federico.ruggeri6@unibo.it" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "cinnamon-core>=2.2.0,<3",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+# What the Hugging Face models need. The container supplies torch itself.
+gpu = [
+    "torch>=2.5",
+    "transformers>=5,<6",
+    "accelerate>=1.1.0",
+]
+# What the API models need.
+api = [
+    "anthropic>=1.9,<2",
+    "openai>=3,<4",
+]
+dev = [
+    "pytest>=7.0.0",
+    "ruff>=0.15.20",
+]
+
+[tool.setuptools.packages.find]
+include = ["components*", "configurations*"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+lint.select = ["E", "F", "I", "W"]

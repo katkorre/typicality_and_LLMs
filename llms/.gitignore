@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+.venv
+.ruff_cache/
+.pytest_cache/
+uv.lock
+
+# Smoke output, and the Apptainer image with its Slurm logs.
+results/smoke/
+logs/
+*.sif
