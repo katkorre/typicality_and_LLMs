@@ -3,14 +3,14 @@
 ## run.py
 
 `main` builds the registry over the project root, then calls
-`Registry.from_key(scattergories(model)).run()`. It depends on
+`Registry.from_key(GAMES[model]).run()`. It depends on
 `configurations.keys`.
 
 ## configurations
 
-`keys.scattergories` returns the registration key of one model tag in
-`keys.MODELS`. `scattergories.LlamaConfig`, `GemmaConfig`, `GPTConfig` and
-`ClaudeConfig` register one key each and bind it to
+`keys` declares one key per model through `cinnamon.registry.Namespace`, and
+`keys.GAMES` maps each model tag to its key. `scattergories.LlamaConfig`,
+`GemmaConfig`, `GPTConfig` and `ClaudeConfig` register one key each and bind it to
 `components.game.Scattergories`. They share the parameters of
 `ScattergoriesConfig`.
 

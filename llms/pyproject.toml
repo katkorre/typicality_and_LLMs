@@ -12,7 +12,7 @@ authors = [
 ]
 requires-python = ">=3.11"
 dependencies = [
-    "cinnamon-core>=2.2.0,<3",
+    "cinnamon-core>=2.3.0,<3",
     "pandas>=2.0",
 ]
 

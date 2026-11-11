@@ -12,14 +12,14 @@ from pathlib import Path
 
 from cinnamon.registry import Registry
 
-from configurations.keys import MODELS, scattergories
+from configurations.keys import GAMES
 
 
 def main():
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
-    parser.add_argument("model", choices=MODELS)
+    parser.add_argument("model", choices=GAMES)
     parser.add_argument("--language", choices=["english", "german", "spanish"])
     parser.add_argument("--smoke", action="store_true")
     args = parser.parse_args()
@@ -32,7 +32,7 @@ def main():
         overrides["languages"] = [args.language]
     if args.smoke:
         overrides |= {"limit": 3, "results_dir": "results/smoke"}
-    Registry.from_key(scattergories(args.model), **overrides).run()
+    Registry.from_key(GAMES[args.model], **overrides).run()
 
 
 if __name__ == "__main__":

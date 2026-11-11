@@ -1,10 +1,11 @@
-from cinnamon.registry import RegistrationKey
+from cinnamon.registry import Namespace
 
-NAMESPACE = "typicality"
+NAMESPACE = Namespace("typicality")
 
-#: The models a game runs, by the tag that registers each of them.
-MODELS = ("llama", "gemma", "gpt", "claude")
+LLAMA = NAMESPACE.key("scattergories", "llama")
+GEMMA = NAMESPACE.key("scattergories", "gemma")
+GPT = NAMESPACE.key("scattergories", "gpt")
+CLAUDE = NAMESPACE.key("scattergories", "claude")
 
-
-def scattergories(model: str) -> RegistrationKey:
-    return RegistrationKey(name="scattergories", tags={model}, namespace=NAMESPACE)
+#: The game key of each model, by the tag that registers it.
+GAMES = {"llama": LLAMA, "gemma": GEMMA, "gpt": GPT, "claude": CLAUDE}
