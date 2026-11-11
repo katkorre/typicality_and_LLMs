@@ -3,7 +3,7 @@ from typing import List, Literal
 from cinnamon.configuration import Configuration, Param
 from cinnamon.registry import register_class
 
-from configurations.keys import NAMESPACE
+from configurations.keys import CLAUDE, GEMMA, GPT, LLAMA
 
 Language = Literal["english", "german", "spanish"]
 
@@ -19,7 +19,7 @@ class ScattergoriesConfig(Configuration):
     #: strategy.
     num_agents: int = Param(4, ge=1)
     #: One round per letter.
-    letters: str = Param("c", min_length=1)
+    letters: str = Param("abcdefghijklmnopqrstuvwxyz", min_length=1)
     seed: int = Param(42)
     #: Play only the first ``limit`` categories, for a smoke run.
     limit: int | None = Param(None, ge=1)
@@ -42,12 +42,7 @@ class ScattergoriesConfig(Configuration):
     effort: str | None = Param(None)
 
 
-@register_class(
-    name="scattergories",
-    tags={"llama"},
-    namespace=NAMESPACE,
-    component="components.game.Scattergories",
-)
+@register_class(key=LLAMA, component="components.game.Scattergories")
 class LlamaConfig(ScattergoriesConfig):
     backend: str = Param("hf")
     model_tag: str = Param("llama")
@@ -55,12 +50,7 @@ class LlamaConfig(ScattergoriesConfig):
     temperature: float | None = Param(0.8, gt=0)
 
 
-@register_class(
-    name="scattergories",
-    tags={"gemma"},
-    namespace=NAMESPACE,
-    component="components.game.Scattergories",
-)
+@register_class(key=GEMMA, component="components.game.Scattergories")
 class GemmaConfig(ScattergoriesConfig):
     backend: str = Param("hf")
     model_tag: str = Param("gemma")
@@ -68,12 +58,7 @@ class GemmaConfig(ScattergoriesConfig):
     temperature: float | None = Param(0.8, gt=0)
 
 
-@register_class(
-    name="scattergories",
-    tags={"gpt"},
-    namespace=NAMESPACE,
-    component="components.game.Scattergories",
-)
+@register_class(key=GPT, component="components.game.Scattergories")
 class GPTConfig(ScattergoriesConfig):
     backend: str = Param("openai")
     model_tag: str = Param("gpt")
@@ -81,12 +66,7 @@ class GPTConfig(ScattergoriesConfig):
     temperature: float | None = Param(0.9, gt=0)
 
 
-@register_class(
-    name="scattergories",
-    tags={"claude"},
-    namespace=NAMESPACE,
-    component="components.game.Scattergories",
-)
+@register_class(key=CLAUDE, component="components.game.Scattergories")
 class ClaudeConfig(ScattergoriesConfig):
     backend: str = Param("anthropic")
     model_tag: str = Param("claude")

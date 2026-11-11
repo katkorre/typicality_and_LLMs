@@ -127,10 +127,10 @@ def test_a_finished_game_is_skipped(tmp_path, monkeypatch, capsys):
 def test_every_model_is_registered():
     from cinnamon.registry import Registry
 
-    from configurations.keys import MODELS, scattergories
+    from configurations.keys import GAMES
 
     valid, invalid = Registry.build(directory=Path.cwd())
     assert not invalid, sorted(str(key) for key in invalid)
-    for model in MODELS:
-        game = Registry.from_key(scattergories(model))
+    for model, key in GAMES.items():
+        game = Registry.from_key(key)
         assert isinstance(game, Scattergories) and game.model_tag == model
