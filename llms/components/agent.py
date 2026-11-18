@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from components.prompts import build_prompt
+from components.prompts import SCORES, USED_WORDS, build_prompt
 
 STRATEGIES = {
     "prototypical": (
@@ -56,21 +56,50 @@ class Agent:
         self.language = language
         self.strategy = strategy
 
-    def build_prompt(self, letter: str, slot: str) -> str:
-        strategy_instruction = ""
+    def build_prompt(
+        self,
+        letter: str,
+        slot: str,
+        scores: tuple[int, list[int]] | None = None,
+        used_words: tuple[str, ...] = (),
+    ) -> str:
+        """Fill the prompt of one category.
+
+        ``scores`` holds the points of this agent and of the other agents after
+        the previous rounds. ``used_words`` lists the words that previous rounds
+        with this letter used for this category.
+        """
+        language = self.language.capitalize()
+        blocks = []
         if self.strategy is not None:
-            strategy_instruction = f"Your strategy is:\n {STRATEGIES[self.strategy]}"
+            blocks.append(f"Your strategy is:\n {STRATEGIES[self.strategy]}")
+        if scores is not None:
+            own, others = scores
+            blocks.append(SCORES[language].format(own, ", ".join(map(str, others))))
+        if used_words:
+            blocks.append(
+                USED_WORDS[language].format(slot, letter, ", ".join(used_words))
+            )
         return build_prompt(
             slot=slot,
             letter=letter,
-            strategy_instructions=strategy_instruction,
+            instructions="\n\n".join(blocks),
             language=self.language,
         ).strip()
 
-    def play(self, letter: str) -> tuple[AgentAnswer, list[str]]:
+    def play(
+        self,
+        letter: str,
+        scores: tuple[int, list[int]] | None = None,
+        used_words: dict[str, tuple[str, ...]] | None = None,
+    ) -> tuple[AgentAnswer, list[str]]:
         """Answer every category, and return the raw outputs alongside."""
+        used_words = used_words or {}
         outputs = self.llm.generate(
-            [self.build_prompt(letter=letter, slot=slot) for slot in self.slots]
+            [
+                self.build_prompt(letter, slot, scores, used_words.get(slot, ()))
+                for slot in self.slots
+            ]
         )
         answer = AgentAnswer(
             agent_name=self.name,

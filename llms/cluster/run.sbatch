@@ -9,12 +9,13 @@
 #SBATCH --time=24:00:00
 #SBATCH --output=logs/%x_%j.log
 
-# Plays every game of one Hugging Face model into results/scattergories.
+# Plays the games of one Hugging Face model into results/scattergories.
 # Submit from the directory that holds this project, after
 # cluster/build.sbatch:
 #
 #   sbatch cluster/run.sbatch llama --smoke   # 3 categories into results/smoke
-#   sbatch cluster/run.sbatch llama           # every game
+#   sbatch cluster/run.sbatch llama           # the games without strategies
+#   sbatch cluster/run.sbatch llama --use-strategies
 #   sbatch cluster/run.sbatch gemma --language german
 #
 # A finished game is skipped, so a job that hits its time limit continues

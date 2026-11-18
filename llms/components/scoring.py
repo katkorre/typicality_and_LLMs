@@ -20,15 +20,26 @@ def score_answers(
     slots: list[str],
     instances: set[str],
     round_letter: str,
+    used_words: dict[str, set[str]] | None = None,
 ) -> pd.DataFrame:
     """Score a round according to the rules of the game.
 
-    For each category, a blank answer or an answer with another initial scores
-    0 points. An answer shared with another agent scores 5 points. The only
-    filled answer scores 20 points, and any other unique answer scores 10
-    points. The valid points repeat the points of an answer found among
-    ``instances``, the members of any category, and are 0 otherwise.
+    For each category, a blank answer, an answer with another initial, or an
+    answer in ``used_words`` of the category scores 0 points. The remaining
+    answers score points and are compared only with each other. An answer
+    shared with another agent scores 5 points. The only answer that scores
+    points gets 20 points, and any other unique answer gets 10 points. The
+    valid points
+    repeat the points of an answer found among ``instances``, the members of
+    any category, and are 0 otherwise.
     """
+    used_words = used_words or {}
+
+    def scores_points(value: str, slot: str) -> bool:
+        return (
+            value.startswith(round_letter) and value not in used_words.get(slot, set())
+        )
+
     rows = []
 
     for answer in agent_answers:
@@ -40,17 +51,17 @@ def score_answers(
             raw_value = answer.answers.get(slot, "")
             value = raw_value.strip().lower()
 
-            filled_values = [
+            scoring_values = [
                 v
                 for a in agent_answers
-                if (v := a.answers.get(slot, "").strip().lower())
+                if scores_points(v := a.answers.get(slot, "").strip().lower(), slot)
             ]
 
-            if not value or not value.startswith(round_letter):
+            if not scores_points(value, slot):
                 points = 0
-            elif filled_values.count(value) > 1:
+            elif scoring_values.count(value) > 1:
                 points = 5
-            elif len(filled_values) == 1:
+            elif len(scoring_values) == 1:
                 points = 20
             else:
                 points = 10

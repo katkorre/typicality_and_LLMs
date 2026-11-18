@@ -1,45 +1,102 @@
-from typing import List, Literal
+from typing import Annotated, List, Literal, Set
 
 from cinnamon.configuration import Configuration, Param
 from cinnamon.registry import register_class
+from pydantic import Field
 
 from configurations.keys import CLAUDE, GEMMA, GPT, LLAMA
 
 Language = Literal["english", "german", "spanish"]
+Letter = Annotated[str, Field(pattern=r"^[a-z]$")]
+Rounds = Literal["without_history", "with_history", "with_history_sampling"]
 
 
 class ScattergoriesConfig(Configuration):
-    dataset_path: str = Param("data/typicalities_dataset.csv")
-    #: A game writes under ``results_dir/<model tag>/<language>/<strategy arm>``.
-    results_dir: str = Param("results/scattergories")
-    #: Every language is played in both arms, with and without strategies.
-    languages: List[Language] = Param(["english", "german", "spanish"])
-    strategy_arms: List[bool] = Param([False, True])
-    #: Agents in the arm without strategies. The strategy arm has one agent per
-    #: strategy.
-    num_agents: int = Param(4, ge=1)
-    #: One round per letter.
-    letters: str = Param("abcdefghijklmnopqrstuvwxyz", min_length=1)
-    seed: int = Param(42)
-    #: Play only the first ``limit`` categories, for a smoke run.
-    limit: int | None = Param(None, ge=1)
+    dataset_path: str = Param(
+        "data/typicalities_dataset.csv",
+        description="CSV file with the category members and their gold typicality.",
+    )
+    results_dir: str = Param(
+        "results/scattergories",
+        description="A game writes under "
+        "results_dir/<model tag>/<language>/<strategies or no_strategies>/"
+        "<rounds>/seed_<seed>.",
+    )
+    languages: List[Language] = Param(
+        ["english", "german", "spanish"],
+        description="Languages to play.",
+    )
+    use_strategies: bool = Param(
+        False,
+        description="Give each agent its own strategy, one agent per strategy.",
+        variants=[True],
+    )
+    rounds: Rounds = Param(
+        "without_history",
+        variants=["with_history", "with_history_sampling"],
+        description="Round setting. without_history plays independent rounds, one "
+        "per letter in alphabetical order. with_history also gives each agent "
+        "the cumulative points of every agent, one round per letter in a seeded "
+        "order. with_history_sampling draws the letter of each round at random, "
+        "and a word already used with the same letter and category scores 0.",
+    )
+    num_rounds: int = Param(
+        26,
+        ge=1,
+        description="Rounds of a with_history_sampling game. "
+        "The other settings play one round per letter.",
+    )
+    num_agents: int = Param(
+        4,
+        ge=2,
+        description="Agents in a game without strategies. "
+        "A game with strategies has one agent per strategy.",
+    )
+    letters: Set[Letter] = Param(
+        set("abcdefghijklmnopqrstuvwxyz"),
+        min_length=1,
+        description="Lowercase letters to play. "
+        "A game without sampling plays one round per letter.",
+    )
+    seeds: List[int] = Param(
+        [42],
+        min_length=1,
+        description="Seeds to play, one game per seed and language. A seed sets the "
+        "letter order and the sampling of Hugging Face models. API models take no "
+        "seed.",
+    )
+    limit: int | None = Param(
+        None,
+        ge=1,
+        description="Play only the first limit categories, for a smoke run. "
+        "None plays every category.",
+    )
 
-    #: One of ``components.models.BACKENDS``.
-    backend: str
-    #: Names the results directory of the model.
-    model_tag: str
-    model_name: str
-    #: ``None`` sends no temperature, which some API models require.
-    temperature: float | None = Param(None, gt=0)
-    max_new_tokens: int = Param(30, ge=1)
-    #: Prompts generated together by a Hugging Face model.
-    batch_size: int = Param(32, ge=1)
-    #: A custom OpenAI-compatible endpoint. ``None`` reads ``OPENAI_BASE_URL``,
-    #: or falls back to the OpenAI API.
-    base_url: str | None = Param(None)
-    #: Claude's effort level. Claude Opus 5.5 always thinks, so effort is its
-    #: only control over reasoning depth.
-    effort: str | None = Param(None)
+    backend: str = Param(description="One of components.models.BACKENDS.")
+    model_tag: str = Param(description="Names the results directory of the model.")
+    model_name: str = Param(description="Model identifier passed to the backend.")
+    temperature: float | None = Param(
+        None,
+        gt=0,
+        description="Sampling temperature. "
+        "None sends no temperature, which some API models require.",
+    )
+    max_new_tokens: int = Param(30, ge=1, description="Token budget of each answer.")
+    batch_size: int = Param(
+        32,
+        ge=1,
+        description="Prompts generated together by a Hugging Face model.",
+    )
+    base_url: str | None = Param(
+        None,
+        description="A custom OpenAI-compatible endpoint. "
+        "None reads OPENAI_BASE_URL, or falls back to the OpenAI API.",
+    )
+    effort: str | None = Param(
+        None,
+        description="Claude's effort level. Claude Opus 5.5 always thinks, "
+        "so effort is its only control over reasoning depth.",
+    )
 
 
 @register_class(key=LLAMA, component="components.game.Scattergories")
@@ -71,6 +128,10 @@ class ClaudeConfig(ScattergoriesConfig):
     backend: str = Param("anthropic")
     model_tag: str = Param("claude")
     model_name: str = Param("claude-opus-5-5")
-    #: Covers the adaptive thinking that precedes the answer.
-    max_new_tokens: int = Param(4000, ge=1)
+    max_new_tokens: int = Param(
+        4000,
+        ge=1,
+        description="Token budget of each answer, "
+        "including the adaptive thinking that precedes it.",
+    )
     effort: str | None = Param("low")

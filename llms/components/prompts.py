@@ -95,9 +95,22 @@ Palabra que empieza por {1} para {0}:"""
 }
 
 
-def build_prompt(
-    slot: str, letter: str, strategy_instructions: str, language: str
-) -> str:
-    return PROMPTS[language.capitalize()].format(slot, letter, strategy_instructions)
+# Shown from the second round of a game with history.
+SCORES = {
+    "English": "Your score after the previous rounds: {0} points.\nScores of the other agents: {1} points.",
+    "German": "Deine Punktzahl nach den vorherigen Runden: {0} Punkte.\nPunktzahlen der anderen Agenten: {1} Punkte.",
+    "Spanish": "Tu puntuación tras las rondas anteriores: {0} puntos.\nPuntuaciones de los otros agentes: {1} puntos.",
+}
+
+# Shown when the letter of the round appeared in a previous round.
+USED_WORDS = {
+    "English": 'Words already used for {0} with the letter "{1}" in previous rounds: {2}.\nYou get 0 points if you use one of these words again.',
+    "German": 'Bereits in vorherigen Runden für {0} mit dem Buchstaben "{1}" verwendete Wörter: {2}.\nDu bekommst 0 Punkte, wenn du eines dieser Wörter erneut verwendest.',
+    "Spanish": 'Palabras ya usadas para {0} con la letra "{1}" en rondas anteriores: {2}.\nObtienes 0 puntos si vuelves a usar una de estas palabras.',
+}
+
+
+def build_prompt(slot: str, letter: str, instructions: str, language: str) -> str:
+    return PROMPTS[language.capitalize()].format(slot, letter, instructions)
 
 
