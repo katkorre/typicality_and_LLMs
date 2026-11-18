@@ -17,18 +17,52 @@ the category in English in every language.
 
 ## Games
 
-A model plays every language in two arms. The arm without strategies has four
-agents with the same prompt, so their answers differ only through sampling.
-The strategy arm has one agent per strategy: prototypical, peripheral,
-frequency based and random. All agents of a game share one model.
+A model plays every language either without or with strategies. A game
+without strategies has four agents with the same prompt, so their answers
+differ only through sampling. A game with strategies has one agent per
+strategy: prototypical, peripheral, frequency based and random. All agents of
+a game share one model. Each model registers a variant with the tag
+`use_strategies=True`, which the option `--use-strategies` of `run.py` selects.
+
+A game plays its rounds in one of three settings, which the option `--rounds`
+of `run.py` selects. Each model registers a variant per setting.
+
+1. In `without_history`, the rounds are independent. An agent receives no
+   information about previous rounds. A game plays one round per letter, in
+   alphabetical order.
+2. In `with_history`, each agent receives its cumulative game points and the
+   points of the other agents from the second round on. A game plays one round
+   per letter, in an order that the seed permutes.
+3. In `with_history_sampling`, each agent receives the same points, and each
+   round draws its letter at random. The number of rounds is the parameter
+   `num_rounds`, so a letter can return. A word that any agent used in an
+   earlier round with the same letter and category scores 0 points. The
+   prompt lists these words for its category.
+
+A blank answer, an answer with another initial, and a used word score 0
+points. The other answers are compared only with each other. An answer shared
+with another agent scores 5 points. The only answer of a category that scores
+points gets 20 points, and any other unique answer gets 10 points. A shared
+used word therefore scores 0 points for every agent that gives it. Games played
+before this rule counted every filled answer, so their `scores.csv` can give
+10 points where the current rule gives 20.
+
+The prompt of a game without history equals the prompt of earlier versions.
+
+The command `uv run python -m components.analysis` reports the points of every
+agent over the finished games. A row is a model, a strategy setting, a round
+setting and an agent, and a column is a language. A game scores the sum of its
+rounds. A cell holds the mean and the standard deviation over seeds, followed
+by the number of seeds. The option `--points valid`
+reports the valid points instead.
 
 The first word of an output is the answer. The parser skips tokens without a
 letter, keeps only letters, and lowercases the word. An answer of two words,
 such as `ice cream`, therefore reads as `ice` and matches no member.
 
-A run writes one directory per game. The directory is
-`results/scattergories/<model>/<language>/<arm>`, with one subdirectory per
-round.
+A run plays one game per language and seed. The directory of a game is
+`results/scattergories/<model>/<language>/<strategies or no_strategies>/<setting>/seed_<seed>`,
+with one subdirectory per round.
 
 Each round directory holds four tables. The file `outputs.csv` holds
 the raw output of every agent and category. The file `scores.csv` holds the
@@ -39,8 +73,9 @@ percentile. The file `summary.csv` aggregates these values per agent.
 
 The file `game_info.txt` is written when a game ends. A run skips every game
 that has this file, so a run that stops continues with the unfinished game.
-Each game reseeds the Hugging Face models first. The API models take no seed, so their
-games do not repeat exactly.
+Each game reseeds the Hugging Face models first. The seed also fixes the
+letters of a game, so every model plays the same letters for a given seed. The
+API models take no seed, so their answers do not repeat exactly.
 
 ## Running on the cluster
 
@@ -52,7 +87,8 @@ the `llms` directory:
 mkdir -p logs
 sbatch cluster/build.sbatch                # image, registry check, model download
 sbatch cluster/run.sbatch llama --smoke    # 3 categories into results/smoke
-sbatch cluster/run.sbatch llama            # every game
+sbatch cluster/run.sbatch llama            # the games without strategies
+sbatch cluster/run.sbatch llama --use-strategies
 sbatch cluster/run.sbatch gemma
 ```
 
@@ -71,6 +107,7 @@ GPT and Claude need no GPU and run outside the cluster, through
 uv sync --extra api
 uv run python run.py claude --smoke
 uv run python run.py claude
+uv run python run.py claude --use-strategies
 uv run python run.py gpt
 ```
 
@@ -97,7 +134,7 @@ The models are registered with
 [cinnamon](https://github.com/nlp-unibo/cinnamon). Each key has the name
 `scattergories`, the namespace `typicality`, and the model as its only tag.
 The file `configurations/scattergories.py` sets the dataset, the languages,
-the arms, the number of agents, the letters and the seed. It also sets each
-model's name and decoding. The Hugging Face models sample with temperature 0.8
+the use of strategies, the round setting, the number of agents, the letters
+and the seeds. It also sets each model's name and decoding. The Hugging Face models sample with temperature 0.8
 and top-p 0.9, and GPT samples with temperature 0.9. Every model receives the
 prompt as one user message through its chat template.

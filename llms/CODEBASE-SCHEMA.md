@@ -2,9 +2,9 @@
 
 ## run.py
 
-`main` builds the registry over the project root, then calls
-`Registry.from_key(GAMES[model]).run()`. It depends on
-`configurations.keys`.
+`main` builds the registry over the project root, selects the variant of
+`GAMES[model]` through `RegistrationKey.from_variant`, then calls
+`Registry.from_key(key).run()`. It depends on `configurations.keys`.
 
 ## configurations
 
@@ -17,7 +17,8 @@
 ## components.game
 
 `Scattergories.run` instantiates one class of `components.models.BACKENDS`,
-then calls `load_gold` and `play_game` for every unfinished game.
+then calls `load_gold`, `Scattergories.letter_sequence` and `play_game` for
+every unfinished game.
 `play_game` calls `build_agents`, `components.agent.Agent.play`,
 `components.scoring.score_answers` and
 `components.scoring.score_answers_with_typicality`. The module depends on
@@ -26,8 +27,13 @@ pandas.
 ## components.agent
 
 `Agent.play` calls `Agent.build_prompt`, the `generate` method of its model,
-and `parse_output`. `Agent.build_prompt` calls
-`components.prompts.build_prompt`.
+and `parse_output`. `Agent.build_prompt` reads `components.prompts.SCORES` and
+`components.prompts.USED_WORDS`, then calls `components.prompts.build_prompt`.
+
+## components.analysis
+
+`main` calls `summarize`, which reads the `scores.csv` files of every finished
+game. The module depends on pandas.
 
 ## components.models
 
@@ -43,5 +49,5 @@ inside their methods.
 ## tests
 
 `tests/test_game.py` calls `parse_output`, `load_gold`, `score_answers`,
-`score_answers_with_typicality`, `play_game` and `Scattergories.run` with a
-scripted model. It also builds the registry and every registered key.
+`score_answers_with_typicality`, `play_game`, `Scattergories.run` and
+`components.analysis.summarize`, with a scripted model where a game is played. It also builds the registry and every registered key.

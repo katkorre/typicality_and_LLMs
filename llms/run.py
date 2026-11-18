@@ -1,8 +1,10 @@
-"""Play Scattergories with one model, in every language and strategy arm.
+"""Play Scattergories with one model, in every language.
 
-    python run.py llama                       # every game, resuming a previous run
-    python run.py claude --language german    # the German games only
-    python run.py gemma --smoke               # 3 categories, into results/smoke
+    python run.py llama                         # the games without strategies, resuming
+    python run.py llama --use-strategies        # the games with strategies
+    python run.py llama --rounds with_history   # the games with history
+    python run.py claude --language german      # the German games only
+    python run.py gemma --smoke                 # 3 categories, into results/smoke
 
 Run from the repository root, since the registry scans it.
 """
@@ -21,6 +23,12 @@ def main():
     )
     parser.add_argument("model", choices=GAMES)
     parser.add_argument("--language", choices=["english", "german", "spanish"])
+    parser.add_argument("--use-strategies", action="store_true")
+    parser.add_argument(
+        "--rounds",
+        choices=["without_history", "with_history", "with_history_sampling"],
+        default="without_history",
+    )
     parser.add_argument("--smoke", action="store_true")
     args = parser.parse_args()
 
@@ -32,7 +40,15 @@ def main():
         overrides["languages"] = [args.language]
     if args.smoke:
         overrides |= {"limit": 3, "results_dir": "results/smoke"}
-    Registry.from_key(GAMES[args.model], **overrides).run()
+    variant = {}
+    if args.use_strategies:
+        variant["use_strategies"] = True
+    if args.rounds != "without_history":
+        variant["rounds"] = args.rounds
+    key = GAMES[args.model]
+    if variant:
+        key = key.from_variant(variant)
+    Registry.from_key(key, **overrides).run()
 
 
 if __name__ == "__main__":
