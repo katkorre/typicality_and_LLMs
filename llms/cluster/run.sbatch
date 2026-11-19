@@ -13,10 +13,13 @@
 # Submit from the directory that holds this project, after
 # cluster/build.sbatch:
 #
-#   sbatch cluster/run.sbatch llama --smoke   # 3 categories into results/smoke
-#   sbatch cluster/run.sbatch llama           # the games without strategies
-#   sbatch cluster/run.sbatch llama --use-strategies
+#   sbatch cluster/run.sbatch llama --sanity-check  # 3 categories into results/sanity_check
+#   sbatch cluster/run.sbatch llama                 # every Llama game
+#   sbatch cluster/run.sbatch llama --use-strategies true --rounds with_history
 #   sbatch cluster/run.sbatch gemma --language german
+#
+# The first argument names the model. The other arguments are the filters of
+# run.py, which plays every matching game.
 #
 # A finished game is skipped, so a job that hits its time limit continues
 # from the unfinished game when it is submitted again. The API models, gpt
@@ -50,6 +53,6 @@ apptainer exec --nv --bind "$SCRATCH" \
   --env PYTHONUNBUFFERED=1 \
   --env HF_HOME="$SCRATCH/hf_home" \
   --env HF_HUB_OFFLINE=1 \
-  env.sif python run.py "$@"
+  env.sif python run.py --model "$MODEL" "${@:2}"
 
 echo "$(date -Is) done"

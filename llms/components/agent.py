@@ -1,22 +1,14 @@
 from dataclasses import dataclass
 
-from components.prompts import SCORES, USED_WORDS, build_prompt
-
-STRATEGIES = {
-    "prototypical": (
-        "Choose the most typical, central, and obvious valid answer for the given "
-        "category."
-    ),
-    "peripheral": (
-        "Choose valid but less typical or more marginal category members. "
-        "Avoid the most obvious answers."
-    ),
-    "frequency_based": (
-        "Choose valid answers that are common, familiar, and frequently encountered "
-        "in everyday language and experience."
-    ),
-    "random": "Choose randomly among valid candidates.",
-}
+from components.models import ScattergoriesModel
+from components.prompts import (
+    CATEGORY_NAMES,
+    SCORES,
+    STRATEGIES,
+    STRATEGY_HEADER,
+    USED_WORDS,
+    build_prompt,
+)
 
 
 @dataclass
@@ -45,21 +37,21 @@ class Agent:
     def __init__(
         self,
         name: str,
-        llm,
-        slots: list[str],
+        llm: ScattergoriesModel,
+        categories: list[str],
         language: str,
         strategy: str | None = None,
     ):
         self.name = name
         self.llm = llm
-        self.slots = slots
+        self.categories = categories
         self.language = language
         self.strategy = strategy
 
     def build_prompt(
         self,
         letter: str,
-        slot: str,
+        category: str,
         scores: tuple[int, list[int]] | None = None,
         used_words: tuple[str, ...] = (),
     ) -> str:
@@ -70,18 +62,25 @@ class Agent:
         with this letter used for this category.
         """
         language = self.language.capitalize()
+        name = CATEGORY_NAMES.get(language, {}).get(category, category)
         blocks = []
         if self.strategy is not None:
-            blocks.append(f"Your strategy is:\n {STRATEGIES[self.strategy]}")
+            blocks.append(
+                f"{STRATEGY_HEADER[language]}\n{STRATEGIES[self.strategy][language]}"
+            )
         if scores is not None:
             own, others = scores
-            blocks.append(SCORES[language].format(own, ", ".join(map(str, others))))
+            blocks.append(
+                SCORES[language].format(own=own, others=", ".join(map(str, others)))
+            )
         if used_words:
             blocks.append(
-                USED_WORDS[language].format(slot, letter, ", ".join(used_words))
+                USED_WORDS[language].format(
+                    category=name, letter=letter, words=", ".join(used_words)
+                )
             )
         return build_prompt(
-            slot=slot,
+            category=name,
             letter=letter,
             instructions="\n\n".join(blocks),
             language=self.language,
@@ -97,13 +96,18 @@ class Agent:
         used_words = used_words or {}
         outputs = self.llm.generate(
             [
-                self.build_prompt(letter, slot, scores, used_words.get(slot, ()))
-                for slot in self.slots
+                self.build_prompt(
+                    letter, category, scores, used_words.get(category, ())
+                )
+                for category in self.categories
             ]
         )
         answer = AgentAnswer(
             agent_name=self.name,
-            answers={slot: parse_output(out) for slot, out in zip(self.slots, outputs)},
+            answers={
+                category: parse_output(out)
+                for category, out in zip(self.categories, outputs)
+            },
             strategy=self.strategy or "",
         )
         return answer, outputs

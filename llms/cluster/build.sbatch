@@ -64,8 +64,8 @@ apptainer exec --bind "$SCRATCH" --env PYTHONPATH="$PWD" env.sif python -c "
 from pathlib import Path
 from cinnamon.registry import Registry
 valid, invalid = Registry.build(directory=Path('.').resolve())
-print(len(valid), 'valid,', len(invalid), 'invalid')
-assert not invalid, sorted(str(key) for key in invalid)"
+print(len(valid), 'valid,', len(invalid), 'excluded by conditions')
+assert valid, 'no valid configuration'"
 
 # Frees the local disk for the models.
 rm -rf "$LOCAL/apptainer_cache" "$LOCAL/apptainer_tmp"
