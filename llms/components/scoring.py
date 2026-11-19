@@ -17,7 +17,7 @@ def normalize_text(value: str) -> str:
 
 def score_answers(
     agent_answers: list[AgentAnswer],
-    slots: list[str],
+    categories: list[str],
     instances: set[str],
     round_letter: str,
     used_words: dict[str, set[str]] | None = None,
@@ -35,9 +35,9 @@ def score_answers(
     """
     used_words = used_words or {}
 
-    def scores_points(value: str, slot: str) -> bool:
-        return (
-            value.startswith(round_letter) and value not in used_words.get(slot, set())
+    def scores_points(value: str, category: str) -> bool:
+        return value.startswith(round_letter) and value not in used_words.get(
+            category, set()
         )
 
     rows = []
@@ -47,17 +47,19 @@ def score_answers(
         total = 0
         total_valid = 0
 
-        for slot in slots:
-            raw_value = answer.answers.get(slot, "")
+        for category in categories:
+            raw_value = answer.answers.get(category, "")
             value = raw_value.strip().lower()
 
             scoring_values = [
                 v
                 for a in agent_answers
-                if scores_points(v := a.answers.get(slot, "").strip().lower(), slot)
+                if scores_points(
+                    v := a.answers.get(category, "").strip().lower(), category
+                )
             ]
 
-            if not scores_points(value, slot):
+            if not scores_points(value, category):
                 points = 0
             elif scoring_values.count(value) > 1:
                 points = 5
@@ -68,9 +70,9 @@ def score_answers(
 
             valid_points = points if value in instances else 0
 
-            row[slot] = raw_value
-            row[f"{slot}_points"] = points
-            row[f"{slot}_valid_points"] = valid_points
+            row[category] = raw_value
+            row[f"{category}_points"] = points
+            row[f"{category}_valid_points"] = valid_points
             total += points
             total_valid += valid_points
 
@@ -102,7 +104,7 @@ def score_answers_with_typicality(
     agent_answers: list[AgentAnswer],
     gold: pd.DataFrame,
     letter: str,
-    slots: list[str],
+    categories: list[str],
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Score answers against the gold typicality of their category.
 
@@ -116,14 +118,12 @@ def score_answers_with_typicality(
     rows = []
 
     for agent_answer in agent_answers:
-        for category in slots:
+        for category in categories:
             raw_answer = agent_answer.answers.get(category, "")
             answer_norm = normalize_text(raw_answer)
 
             is_blank = answer_norm == ""
-            starts_with_letter = not is_blank and answer_norm.startswith(
-                letter.lower()
-            )
+            starts_with_letter = not is_blank and answer_norm.startswith(letter.lower())
             match = gold[
                 (gold["category_norm"] == normalize_text(category))
                 & (gold["member_norm"] == answer_norm)

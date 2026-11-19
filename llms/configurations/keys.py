@@ -6,6 +6,13 @@ LLAMA = NAMESPACE.key("scattergories", "llama")
 GEMMA = NAMESPACE.key("scattergories", "gemma")
 GPT = NAMESPACE.key("scattergories", "gpt")
 CLAUDE = NAMESPACE.key("scattergories", "claude")
+RANDOM = NAMESPACE.key("scattergories", "random")
 
 #: The game key of each model, by the tag that registers it.
-GAMES = {"llama": LLAMA, "gemma": GEMMA, "gpt": GPT, "claude": CLAUDE}
+GAMES = {
+    "llama": LLAMA,
+    "gemma": GEMMA,
+    "gpt": GPT,
+    "claude": CLAUDE,
+    "random": RANDOM,
+}
