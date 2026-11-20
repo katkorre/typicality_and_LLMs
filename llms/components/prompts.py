@@ -6,7 +6,7 @@ You are an agent playing Scattergories.
 Given category {category}, you have to generate one word that fits {category} and starts with letter {letter}.
 Other agents are playing with you.
 You get 0 points if you do not know a word.
-You get 5 points if your generated word is shared with another agent.
+You get 5 points if another agent generates the same word.
 You get 20 points if you are the only one generating a word for {category}.
 In all the remaining cases, you get 10 points.
 
@@ -32,13 +32,12 @@ plant: Bamboo
 The category is {category}
 Word starting with {letter} for {category}:
 """.strip(),
-
-    "German": """Du bist ein Agent, der Scattergories spielt.
-Gegeben die Kategorie {category}, musst du ein Wort generieren, das zu {category} passt und mit dem Buchstaben {letter} beginnt.
+    "German": """Du bist ein Agent, der „Stadt, Land, Fluss“ spielt.
+Für die Kategorie {category} musst du ein Wort generieren, das zu {category} passt und mit dem Buchstaben {letter} beginnt.
 Andere Agenten spielen mit dir.
 Du bekommst 0 Punkte, wenn du kein Wort kennst.
-Du bekommst 5 Punkte, wenn dein generiertes Wort mit einem anderen Agenten geteilt wird.
-Du bekommst 20 Punkte, wenn du der einzige bist, der ein Wort für {category} generiert.
+Du bekommst 5 Punkte, wenn ein anderer Agent dasselbe Wort generiert.
+Du bekommst 20 Punkte, wenn du der Einzige bist, der ein Wort für {category} generiert.
 In allen übrigen Fällen bekommst du 10 Punkte.
 
 {instructions}
@@ -56,18 +55,17 @@ Regeln:
 
 Beispiele für den Buchstaben B:
 Säugetier: Bär
-Verschluss: Bolzen
-Wohndekoration: Bettdecke
+Befestigungselement: Bolzen
+Dekoration: Bild
 Pflanze: Bambus
 
 Die Kategorie ist {category}
 Wort beginnend mit {letter} für {category}:""",
-
-    "Spanish": """Eres un agente que juega a Scattergories.
+    "Spanish": """Eres un agente que juega al «Stop».
 Dada la categoría {category}, debes generar una palabra que encaje con {category} y que empiece por la letra {letter}.
 Otros agentes están jugando contigo.
 Obtienes 0 puntos si no conoces ninguna palabra.
-Obtienes 5 puntos si tu palabra generada es compartida con otro agente.
+Obtienes 5 puntos si otro agente genera la misma palabra.
 Obtienes 20 puntos si eres el único que genera una palabra para {category}.
 En todos los demás casos, obtienes 10 puntos.
 
@@ -87,11 +85,11 @@ Reglas:
 Ejemplos para la letra B:
 mamífero: Búfalo
 cierre: Broche
-decoración del hogar: Butaca
+decoración del hogar: Bandeja
 planta: Bambú
 
 La categoría es {category}
-Palabra que empieza por {letter} para {category}:"""
+Palabra que empieza por {letter} para {category}:""",
 }
 
 
@@ -114,7 +112,7 @@ STRATEGIES = {
     },
     "peripheral": {
         "English": "Generate a word that is a member of the category but a poorly representative one, one that shares few attributes with the other members of the category.",
-        "German": "Generiere ein Wort, das zwar ein Exemplar der Kategorie ist, aber ein kaum repräsentatives, also eines, das nur wenige Merkmale mit den anderen Exemplaren der Kategorie teilt.",
+        "German": "Generiere ein Wort, das zwar ein Exemplar der Kategorie ist, aber ein nur wenig repräsentatives, also eines, das nur wenige Merkmale mit den anderen Exemplaren der Kategorie teilt.",
         "Spanish": "Genera una palabra que sea un miembro de la categoría, pero poco representativo, es decir, uno que comparta pocos atributos con los demás miembros de la categoría.",
     },
     "frequency_based": {
@@ -173,5 +171,3 @@ def build_prompt(category: str, letter: str, instructions: str, language: str) -
     return PROMPTS[language.capitalize()].format(
         category=category, letter=letter, instructions=instructions
     )
-
-
