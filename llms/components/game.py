@@ -127,7 +127,10 @@ class Scattergories:
         agents = build_agents(
             llm, categories, self.language, self.use_strategies, self.num_agents
         )
-        instances = set(gold["member"].str.strip().str.lower())
+        members = {
+            category: set(words.str.strip().str.lower())
+            for category, words in gold.groupby("category")["member"]
+        }
 
         game_info = (
             f"Model: {self.model_args['model_name']}\n"
@@ -140,7 +143,7 @@ class Scattergories:
             f"History: {history}\n"
             f"Letters: {letters}\n"
             f"Categories: {len(categories)}\n"
-            f"Valid words: {len(instances)}\n"
+            f"Valid words: {sum(len(words) for words in members.values())}\n"
         )
         print(game_info, flush=True)
 
@@ -202,7 +205,7 @@ class Scattergories:
             scores_df = score_answers(
                 answers,
                 categories=categories,
-                instances=instances,
+                members=members,
                 round_letter=letter.lower(),
                 used_words=used_words,
             )

@@ -76,8 +76,9 @@ def test_score_answers_follows_the_rules():
         AgentAnswer("a", {"animal": "cat", "tool": "", "fruit": "cherry"}),
         AgentAnswer("b", {"animal": "cat", "tool": "chisel", "fruit": "dog"}),
     ]
+    members = {"animal": {"cat"}, "tool": {"chisel"}}
     scores = score_answers(
-        answers, ["animal", "tool", "fruit"], {"cat", "chisel"}, "c"
+        answers, ["animal", "tool", "fruit"], members, "c"
     ).set_index("agent")
     assert scores.loc["a", "animal_points"] == 5
     assert scores.loc["b", "tool_points"] == 20
@@ -87,6 +88,14 @@ def test_score_answers_follows_the_rules():
     assert scores.loc["b", "total_valid"] == 25
 
 
+def test_a_word_is_valid_only_in_its_own_category():
+    answers = [AgentAnswer("a", {"animal": "chair", "furniture": "chair"})]
+    members = {"animal": {"cat"}, "furniture": {"chair"}}
+    scores = score_answers(answers, ["animal", "furniture"], members, "c").iloc[0]
+    assert scores["animal_points"] == 20 and scores["animal_valid_points"] == 0
+    assert scores["furniture_valid_points"] == 20
+
+
 def test_a_used_word_scores_zero_even_when_shared():
     answers = [
         AgentAnswer("a", {"animal": "cat"}),
@@ -94,7 +103,11 @@ def test_a_used_word_scores_zero_even_when_shared():
         AgentAnswer("c", {"animal": "cow"}),
     ]
     scores = score_answers(
-        answers, ["animal"], {"cat", "cow"}, "c", used_words={"animal": {"cat"}}
+        answers,
+        ["animal"],
+        {"animal": {"cat", "cow"}},
+        "c",
+        used_words={"animal": {"cat"}},
     ).set_index("agent")
     assert scores.loc["a", "animal_points"] == 0
     assert scores.loc["b", "animal_points"] == 0
