@@ -62,11 +62,13 @@ by the number of seeds. The option `--points valid`
 reports the valid points instead.
 
 When the first line of an output holds one to three words and nothing else,
-the whole line is the answer, so `Ice cream` reads as `ice cream`. A label
-before a colon is dropped, so `fruit: Fuji` reads as `fuji`. Otherwise
+the whole line is the answer. For example, `Ice cream` reads as `ice cream`.
+A label before a colon is dropped, so `fruit: Fuji` reads as `fuji`. Otherwise
 the first word of the output is the answer, and the parser skips tokens
-without a letter. In both cases the parser keeps only letters inside each word
-and lowercases the answer. An output that explains its choice, such as
+without a letter or digit. In both cases each word keeps its letters, digits
+and inner hyphens, and the answer is lowercased. For example, `Queen Mary 2`
+reads as `queen mary 2`, and `T-shirt.` reads as `t-shirt`, like the gold
+member. An output that explains its choice, such as
 `Ivory soap is used, so I choose Irrigator`, therefore reads as `ivory`.
 
 A configuration plays one game per seed, and the seeds are 42, 2026 and 1337.

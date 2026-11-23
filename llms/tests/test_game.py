@@ -49,7 +49,7 @@ def make_game(**overrides) -> Scattergories:
 def test_parse_output_reads_the_first_word():
     assert parse_output("Cat.") == "cat"
     assert parse_output('"Bär" ist ein Tier') == "bär"
-    assert parse_output("t-shirt") == "tshirt"
+    assert parse_output("t-shirt") == "t-shirt"
     assert parse_output("  ") == ""
     assert parse_output('" cat') == "cat"
 
@@ -64,6 +64,17 @@ def test_parse_output_keeps_a_compound_on_the_first_line():
     assert parse_output("fruit: Fuji") == "fuji"
     assert parse_output("Werkzeug: Wasserwaage") == "wasserwaage"
     assert parse_output("Comb\n\nScore: 10 points") == "comb"
+
+
+def test_parse_output_keeps_digits_hyphens_and_trailing_periods():
+    assert parse_output("Queen Mary 2") == "queen mary 2"
+    assert parse_output("MP3 player") == "mp3 player"
+    assert parse_output("Board game.") == "board game"
+    assert parse_output("No. 2 pencil") == "no 2 pencil"
+    assert parse_output("Peanut M&M's") == "peanut mms"
+    assert parse_output("U-Boot") == "u-boot"
+    assert parse_output("X-ray machine") == "x-ray machine"
+    assert parse_output("Yo-yo is a toy I like a lot.") == "yo-yo"
 
 
 def test_prompts_name_the_category_in_their_language():

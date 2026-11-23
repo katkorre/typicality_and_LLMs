@@ -21,36 +21,39 @@ class AgentAnswer:
     strategy: str = ""
 
 
-# One to three words of letters, with hyphens or apostrophes inside a word.
-WORD = r"[^\W\d_]+(?:[-'][^\W\d_]+)*"
+# One to three words. A word starts with a letter or digit and may hold
+# hyphens, apostrophes, ampersands and periods, as in ``No. 2`` or ``M&M's``.
+WORD = r"[^\W_](?:[^\W_]|['&.-])*"
 COMPOUND = rf"{WORD}(?: {WORD}){{0,2}}"
 # A compound, optionally after a label such as the category name and a colon.
 LABELLED_COMPOUND = re.compile(rf"(?:{COMPOUND}: *)?({COMPOUND})")
 
 
+def normalize_word(token: str) -> str:
+    """Keep the letters, digits and inner hyphens of a word, lowercased."""
+    return "".join(ch for ch in token if ch.isalnum() or ch == "-").strip("-").lower()
+
+
 def parse_output(text: str) -> str:
-    """Return the answer in a model output, lowercased and letters only.
+    """Return the answer in a model output.
 
     When the first line of the output holds one to three words and nothing
     else, the answer is that whole line, so ``Ice cream`` reads as
-    ``ice cream``. A label before a colon is dropped, so ``fruit: Fuji`` reads
-    as ``fuji``. Otherwise the answer is the first word of the output, and
-    tokens without a letter, such as an opening quote, are skipped. Non-letter
-    characters are dropped inside each word, so ``t-shirt`` reads as ``tshirt``.
+    ``ice cream`` and ``Queen Mary 2`` as ``queen mary 2``. A label before a
+    colon is dropped, so ``fruit: Fuji`` reads as ``fuji``. Otherwise the
+    answer is the first word of the output, and tokens without a letter or
+    digit, such as an opening quote, are skipped. Each word keeps its
+    letters, digits and inner hyphens, so ``T-shirt.`` reads as ``t-shirt``,
+    as in the gold members.
     """
     lines = text.strip().splitlines() or [""]
     line = " ".join(lines[0].strip().strip("\"'").split())
     match = LABELLED_COMPOUND.fullmatch(line)
     if match:
-        return " ".join(
-            "".join(ch for ch in word if ch.isalpha())
-            for word in match.group(1).split()
-        ).lower()
-    for token in text.split():
-        word = "".join(ch for ch in token if ch.isalpha())
-        if word:
-            return word.lower()
-    return ""
+        tokens = match.group(1).split()
+    else:
+        tokens = [next((t for t in text.split() if normalize_word(t)), "")]
+    return " ".join(w for w in map(normalize_word, tokens) if w)
 
 
 class Agent:
