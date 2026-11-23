@@ -54,6 +54,18 @@ def test_parse_output_reads_the_first_word():
     assert parse_output('" cat') == "cat"
 
 
+def test_parse_output_keeps_a_compound_on_the_first_line():
+    assert parse_output("Ice cream") == "ice cream"
+    assert parse_output("Ice cream scoop") == "ice cream scoop"
+    assert parse_output('"Toaster oven"') == "toaster oven"
+    assert parse_output("Zig Zag\n\nI am at 1545 points.") == "zig zag"
+    assert parse_output("Xenopus is an insect.") == "xenopus"
+    assert parse_output("Ivory soap is used, so I choose Irrigator") == "ivory"
+    assert parse_output("fruit: Fuji") == "fuji"
+    assert parse_output("Werkzeug: Wasserwaage") == "wasserwaage"
+    assert parse_output("Comb\n\nScore: 10 points") == "comb"
+
+
 def test_prompts_name_the_category_in_their_language():
     german = Agent("a", None, ["furniture"], "german").build_prompt("t", "furniture")
     assert "Kategorie Möbel" in german and "furniture" not in german

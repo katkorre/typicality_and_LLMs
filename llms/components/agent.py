@@ -1,3 +1,4 @@
+import re
 from dataclasses import dataclass
 
 from components.models import ScattergoriesModel
@@ -20,12 +21,31 @@ class AgentAnswer:
     strategy: str = ""
 
 
-def parse_output(text: str) -> str:
-    """Return the first word of a model output, lowercased and letters only.
+# One to three words of letters, with hyphens or apostrophes inside a word.
+WORD = r"[^\W\d_]+(?:[-'][^\W\d_]+)*"
+COMPOUND = rf"{WORD}(?: {WORD}){{0,2}}"
+# A compound, optionally after a label such as the category name and a colon.
+LABELLED_COMPOUND = re.compile(rf"(?:{COMPOUND}: *)?({COMPOUND})")
 
-    Tokens without a letter, such as an opening quote, are skipped. A word is
-    split on whitespace, so ``ice cream`` reads as ``ice``.
+
+def parse_output(text: str) -> str:
+    """Return the answer in a model output, lowercased and letters only.
+
+    When the first line of the output holds one to three words and nothing
+    else, the answer is that whole line, so ``Ice cream`` reads as
+    ``ice cream``. A label before a colon is dropped, so ``fruit: Fuji`` reads
+    as ``fuji``. Otherwise the answer is the first word of the output, and
+    tokens without a letter, such as an opening quote, are skipped. Non-letter
+    characters are dropped inside each word, so ``t-shirt`` reads as ``tshirt``.
     """
+    lines = text.strip().splitlines() or [""]
+    line = " ".join(lines[0].strip().strip("\"'").split())
+    match = LABELLED_COMPOUND.fullmatch(line)
+    if match:
+        return " ".join(
+            "".join(ch for ch in word if ch.isalpha())
+            for word in match.group(1).split()
+        ).lower()
     for token in text.split():
         word = "".join(ch for ch in token if ch.isalpha())
         if word:
