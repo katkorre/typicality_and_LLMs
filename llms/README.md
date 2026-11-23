@@ -74,7 +74,7 @@ with one subdirectory per round. A game with sampling names its setting
 Each round directory holds four tables. The file `outputs.csv` holds
 the raw output of every agent and category. The file `scores.csv` holds the
 game points, together with the valid points of the answers that are members of
-any category. The file `typicality_scores.csv` checks each answer against the
+their own category. The file `typicality_scores.csv` checks each answer against the
 members of its own category. It reports their typicality, rank and
 percentile. The file `summary.csv` aggregates these values per agent.
 

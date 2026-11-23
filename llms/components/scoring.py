@@ -18,7 +18,7 @@ def normalize_text(value: str) -> str:
 def score_answers(
     agent_answers: list[AgentAnswer],
     categories: list[str],
-    instances: set[str],
+    members: dict[str, set[str]],
     round_letter: str,
     used_words: dict[str, set[str]] | None = None,
 ) -> pd.DataFrame:
@@ -29,9 +29,9 @@ def score_answers(
     answers score points and are compared only with each other. An answer
     shared with another agent scores 5 points. The only answer that scores
     points gets 20 points, and any other unique answer gets 10 points. The
-    valid points
-    repeat the points of an answer found among ``instances``, the members of
-    any category, and are 0 otherwise.
+    valid points repeat the points of an answer found among ``members`` of its
+    own category, the gold words that the dataset lists for it, and are 0
+    otherwise.
     """
     used_words = used_words or {}
 
@@ -68,7 +68,7 @@ def score_answers(
             else:
                 points = 10
 
-            valid_points = points if value in instances else 0
+            valid_points = points if value in members.get(category, set()) else 0
 
             row[category] = raw_value
             row[f"{category}_points"] = points
