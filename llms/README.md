@@ -61,9 +61,13 @@ rounds. A cell holds the mean and the standard deviation over seeds, followed
 by the number of seeds. The option `--points valid`
 reports the valid points instead.
 
-The first word of an output is the answer. The parser skips tokens without a
-letter, keeps only letters, and lowercases the word. An answer of two words,
-such as `ice cream`, therefore reads as `ice` and matches no member.
+When the first line of an output holds one to three words and nothing else,
+the whole line is the answer, so `Ice cream` reads as `ice cream`. A label
+before a colon is dropped, so `fruit: Fuji` reads as `fuji`. Otherwise
+the first word of the output is the answer, and the parser skips tokens
+without a letter. In both cases the parser keeps only letters inside each word
+and lowercases the answer. An output that explains its choice, such as
+`Ivory soap is used, so I choose Irrigator`, therefore reads as `ivory`.
 
 A configuration plays one game per seed, and the seeds are 42, 2026 and 1337.
 The directory of a game is
