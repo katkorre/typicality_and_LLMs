@@ -1,0 +1,500 @@
+Unnamed: 0,concept,spanish,spanish_to_eng,german,german_to_eng,english,typ_es,typ_de,typ_en,llama_typicality
+9,animal,Oso,bear,Bär,bear,bear,0.9466666666666668,0.9666666666666668,0.8383045525902668,0.95
+11,animal,Abeja,bee,Biene,bee,bee,0.5466666666666667,0.7719298245614036,0.3409768401742719,0.85
+13,animal,Pájaro,bird,,,bird,0.8533333333333334,,0.8089887640449438,0.95
+18,animal,Toro,bull,Stier,bull,bull,0.9133333333333334,0.7583333333333333,0.6854480922803905,0.95
+19,animal,Mariposa,butterfly,Schmetterling,butterfly,butterfly,0.5333333333333333,0.7999999999999999,0.3308523409363745,0.85
+21,animal,Camello,camel,Kamel,camel,camel,0.5333333333333333,0.85,0.631083202511774,0.8
+23,animal,Gato,cat,Katze,cat,cat,0.9533333333333333,0.9833333333333334,0.915282392026578,0.95
+26,animal,Guepardo,cheetah,Gepard,cheetah,cheetah,0.3866666666666666,0.7000000000000001,0.7098106712564544,0.95
+28,animal,Pollo,chicken,Huhn,chicken,chicken,0.7933333333333333,0.8666666666666667,0.8223816999327205,0.85
+35,animal,Cucaracha,cockroach,,,cockroach,0.3,,0.2440008970621215,0.8
+38,animal,Vaca,cow,Kuh,cow,cow,0.9533333333333333,0.9916666666666668,0.9067717996289424,0.85
+40,animal,Cangrejo,crab,Krebs,crab,crab,0.3799999999999999,0.6166666666666667,0.4120614537950011,0.85
+42,animal,Cuervo,crow,,,crow,0.4266666666666667,,0.5118738404452688,0.85
+44,animal,Ciervo,deer,,,deer,0.6533333333333333,,0.8310383494056964,0.95
+45,animal,Perro,dog,Hund,dog,dog,0.9866666666666668,0.9666666666666668,0.9624903125807284,0.95
+46,animal,Delfín,dolphin,Delphin,dolphin,dolphin,0.7400000000000001,0.8833333333333333,0.6320251177394035,0.95
+47,animal,Burro,donkey,,,donkey,0.7599999999999999,,0.7529411764705882,0.8
+49,animal,Pato,duck,Ente,duck,duck,0.84,0.95,0.7578397212543554,0.6
+51,animal,Águila,eagle,,,eagle,0.64,,0.6423524248409039,0.95
+54,animal,Elefante,elephant,Elefant,elephant,elephant,0.8866666666666667,0.975,0.8433179723502304,0.95
+56,animal,Pez,fish,Fisch,fish,fish,0.7533333333333333,0.9298245614035088,0.5542168674698794,0.67
+58,animal,Mosca,fly,,,fly,0.44,,0.3250188964474678,0.8
+59,animal,Zorro,fox,Fuchs,fox,fox,0.92,0.875,0.7647840531561461,0.8
+60,animal,Rana,frog,Frosch,frog,frog,0.6333333333333333,0.8083333333333332,0.6421282798833818,0.85
+62,animal,Jirafa,giraffe,Giraffe,giraffe,giraffe,0.7333333333333334,0.9,0.7720779220779221,0.85
+63,animal,Cabra,goat,Ziege,goat,goat,0.7200000000000001,0.8583333333333334,0.7802363050483352,0.85
+67,animal,Gorila,gorilla,,,gorilla,0.6066666666666666,,0.7382534409112482,0.95
+68,animal,Saltamontes,grasshopper,,,grasshopper,0.4133333333333333,,0.2908163265306122,0.95
+71,animal,Hamster,hamster,Hamster,hamster,hamster,0.4866666666666666,0.85,0.6785714285714286,0.85
+74,animal,Hipopótamo,hippopotamus,Nilpferd,hippopotamus,hippopotamus,0.5733333333333334,0.7166666666666667,0.6129568106312293,0.85
+75,animal,Caballo,horse,Pferd,horse,horse,0.9133333333333334,0.9916666666666668,0.877451468392235,0.95
+76,animal,Colibrí,hummingbird,,,hummingbird,0.2199999999999999,,0.4228387984407246,0.85
+77,animal,Hiena,hyena,,,hyena,0.3466666666666667,,0.5029478458049886,0.85
+78,animal,Iguana,iguana,Leguan,iguana,iguana,0.4533333333333333,0.5740740740740741,0.4247835497835497,0.85
+80,animal,Canguro,kangaroo,Känguru,kangaroo,kangaroo,0.4866666666666666,0.75,0.7007567071772529,0.85
+82,animal,Koala,koala,,,koala,0.5866666666666666,,0.543778801843318,0.85
+84,animal,Cordero,lamb,,,lamb,0.7933333333333333,,0.6398705823792932,0.85
+86,animal,Leopardo,leopard,Leopard,leopard,leopard,0.88,0.7999999999999999,0.674080868302377,0.8
+88,animal,León,lion,Löwe,lion,lion,0.9666666666666668,0.9666666666666668,0.858114674441205,0.95
+89,animal,Lagartija,lizard,Eidechse,lizard,lizard,0.5066666666666667,0.6333333333333333,0.5495798319327732,0.85
+97,animal,mono/s,monkey,Affe,monkey,monkey,0.8266666666666667,0.9666666666666668,0.8407029478458049,0.8
+99,animal,Mosquito,mosquito,,,mosquito,0.3999999999999999,,0.1851140456182473,0.8
+101,animal,Ratón,mouse,Maus,mouse,mouse,0.7866666666666666,0.8416666666666667,0.7607216799763383,0.2
+104,animal,Orangután,orangutan,,,orangutan,0.7533333333333333,,0.5458269329237071,0.95
+105,animal,Avestruz,ostrich,,,ostrich,0.4466666666666667,,0.4788657035848047,0.85
+107,animal,Lechuza,owl,,,owl,0.6133333333333333,,0.625,0.8
+110,animal,Pantera,panther,,,panther,0.8266666666666667,,0.6406817672123795,0.95
+111,animal,Loro,parrot,Papagei,parrot,parrot,0.7066666666666667,0.7916666666666666,0.5897959183673469,0.95
+116,animal,Cerdo,pig,Schwein,pig,pig,0.9133333333333334,0.9666666666666668,0.8491570541259982,0.85
+117,animal,Paloma,pigeon,,,pigeon,0.7733333333333333,,0.5620929222752931,0.95
+129,animal,Conejo,rabbit,,,rabbit,0.8533333333333334,,0.8070097604259094,0.67
+132,animal,Rata,rat,Ratte,rat,rat,0.7666666666666666,0.7416666666666667,0.6816326530612244,0.85
+135,animal,Rinoceronte,rhinoceros,Nashorn,rhinoceros,rhinoceros,0.7000000000000001,0.7999999999999999,0.5993197278911565,0.85
+136,animal,Gallo,rooster,,,rooster,0.7599999999999999,,0.6599378881987578,0.85
+137,animal,Sardina,sardine,,,sardine,0.4866666666666666,,0.1814605360216374,0.95
+141,animal,Gaviota,seagull,,,seagull,0.5533333333333333,,0.4250221827861579,0.95
+143,animal,Foca,seal,Seehund,seal,seal,0.64,0.6833333333333332,0.5200642054574639,0.8
+144,animal,Tiburón,shark,,,shark,0.6666666666666666,,0.5723562152133581,0.95
+145,animal,Oveja,sheep,Schaf,sheep,sheep,0.94,0.9583333333333334,0.7841614906832298,0.85
+151,animal,Serpiente,snake,Schlange,snake,snake,0.6266666666666666,0.7833333333333333,0.584126984126984,0.85
+152,animal,Araña,spider,Spinne,spider,spider,0.4933333333333333,0.75,0.3685823754789272,0.8
+153,animal,Calamar,squid,,,squid,0.2466666666666666,,0.2873563218390805,0.85
+154,animal,Ardilla,squirrel,Eichhörnchen,squirrel,squirrel,0.5466666666666667,0.8666666666666667,0.7528891074502091,0.95
+162,animal,Tigre,tiger,Tiger,tiger,tiger,0.92,0.8916666666666666,0.8354352977145917,0.95
+163,animal,Sapo,toad,,,toad,0.52,,0.4620248099239696,0.6
+166,animal,Tortuga,turtle,,,turtle,0.7599999999999999,,0.692713529856387,0.85
+167,animal,Buitre,vulture,,,vulture,0.4333333333333333,,0.3814058956916099,0.8
+170,animal,Avispa,wasp,Wespe,wasp,wasp,0.4333333333333333,0.631578947368421,0.2409638554216867,0.8
+172,animal,Ballena,whale,Wal,whale,whale,0.6666666666666666,0.725,0.5532630634671452,0.8
+173,animal,Lobo,wolf,Wolf,wolf,wolf,0.96,0.9,0.8287590898428336,0.95
+174,animal,Gusano,worm,Wurm,worm,worm,0.3533333333333333,0.5789473684210527,0.2842105263157893,0.2
+176,animal,Cebra,zebra,Zebra,zebra,zebra,0.5533333333333333,0.8166666666666668,0.7435149884129476,0.85
+177,animal,Hormiga,aunt,,,,0.5466666666666667,,,0.95
+178,animal,Periquito,budgerigar,,,,0.6533333333333333,,,0.85
+179,animal,Canario,canary,,,,0.54,,,0.85
+180,animal,Potro,colt,,,,0.7733333333333333,,,0.8
+181,animal,Cocodrilo,crocodile,Krokodil,crocodile,,0.5333333333333333,0.7583333333333333,,0.85
+182,animal,Halcón,falcon,,,,0.4599999999999999,,,0.85
+183,animal,Gamo,fallow deer,,,,0.3466666666666667,,,0.2
+184,animal,Colorín,goldfinch,,,,0.1466666666666666,,,0.2
+185,animal,Liebre,hare,Hase,hare,,0.9,0.9416666666666668,,0.85
+186,animal,Gallina,hen,,,,0.8133333333333334,,,0.85
+187,animal,Lagarto,lizard,,,,0.4666666666666666,,,0.85
+188,animal,Lince,lynx,Luchs,lynx,,0.7999999999999999,0.6583333333333333,,0.85
+189,animal,Yegua,mare,,,,0.8333333333333334,,,0.95
+190,animal,Búho,owl,,,,0.4866666666666666,,,0.85
+191,animal,Buey,ox,,,,0.5666666666666668,,,0.85
+192,animal,Perdiz,partridge,,,,0.7000000000000001,,,0.85
+193,animal,Gorrino,pig,,,,0.44,,,0.8
+194,animal,Langostino,prawn,,,,0.36,,,0.2
+195,animal,Gamba,prawn,,,,0.26,,,0.67
+196,animal,Puma,puma,,,,0.7333333333333334,,,0.95
+197,animal,Codorniz,quail,,,,0.3533333333333333,,,0.8
+198,animal,Salmón,salmon,Lachs,salmon,,0.52,0.6578947368421052,,0.85
+199,animal,Culebra,snake,,,,0.4733333333333333,,,0.8
+200,animal,Gorrión,sparrow,,,,0.4866666666666666,,,0.85
+201,animal,Cigüeña,stork,,,,0.6,,,0.85
+202,animal,Golondrina,swallow,,,,0.5533333333333333,,,0.95
+203,animal,Trucha,trout,,,,0.5,,,0.85
+204,animal,Jabalí,wild boar,Wildschwein,wild boar,,0.7133333333333334,0.8666666666666667,,0.85
+358,body part,Tobillo,ankle,,,ankle,0.7266666666666667,,0.4593066142119497,0.95
+359,body part,Brazo,arm,,,arm,1.0,,0.8504201680672269,0.95
+360,body part,Barba,beard,,,beard,0.42,,0.098352594049668,0.85
+361,body part,Hueso,bone,,,bone,0.66,,0.306359753203607,0.85
+362,body part,Pantorrilla,calf,,,calf,0.6133333333333333,,0.4269167126309983,0.95
+364,body part,Barbilla,chin,,,chin,0.6733333333333333,,0.456437389770723,0.95
+365,body part,Oreja,ear,,,ear,0.9266666666666666,,0.6779263429509735,0.95
+366,body part,Codo,elbow,,,elbow,0.7133333333333334,,0.5238095238095238,0.85
+367,body part,Ojo,eye,,,eye,0.94,,0.6944444444444444,0.95
+368,body part,Cara,face,,,face,0.95,,0.6210281580986824,0.95
+369,body part,Dedo,finger,,,finger,0.8933333333333334,,0.7333180463196516,0.95
+370,body part,Pie,foot,,,foot,0.9333333333333332,,0.7186588921282799,0.95
+371,body part,Cabello,hair,,,hair,0.7333333333333334,,0.3017656500802568,0.95
+372,body part,Mano,hand,,,hand,0.9866666666666668,,0.8519793459552496,0.95
+373,body part,Cadera,hip,,,hip,0.7933333333333333,,0.4694826767916467,0.95
+374,body part,Rodilla,knee,,,knee,0.82,,0.6060714285714285,0.95
+375,body part,Pierna,leg,,,leg,0.9466666666666668,,0.8426020408163265,0.95
+376,body part,Boca,mouth,,,mouth,0.9733333333333332,,0.6366408632418484,0.95
+379,body part,Cuello,neck,,,neck,0.8133333333333334,,0.6359371334740792,0.95
+380,body part,Nariz,nose,,,nose,0.9133333333333334,,0.7171333649738966,0.95
+381,body part,Hombro,shoulder,,,shoulder,0.7866666666666666,,0.5984048791930565,0.95
+382,body part,Esqueleto,skeleton,,,skeleton,0.5,,0.1377551020408162,0.95
+383,body part,Piel,skin,,,skin,0.5866666666666666,,0.3475071041074657,0.95
+385,body part,Estómago,stomach,,,stomach,0.64,,0.4444444444444445,0.8
+388,body part,Lengua,tongue,,,tongue,0.7400000000000001,,0.3977103036336485,0.2
+389,body part,Diente,tooth,,,tooth,0.7599999999999999,,0.3066202090592335,0.95
+391,body part,muñeca/s,wrist,,,wrist,0.7733333333333333,,0.4824892920131015,0.85
+392,body part,Esternocleidomastoideo,a neck muscle,,,,0.24,,,0.95
+393,body part,Abdomen,abdomen,,,,0.6533333333333333,,,0.95
+394,body part,Ano,anus,,,,0.3933333333333333,,,0.2
+395,body part,Axila,armpit,,,,0.54,,,0.95
+396,body part,arteria,artery,,,,0.3133333333333333,,,0.8
+397,body part,Espalda,back,,,,0.9133333333333334,,,0.95
+398,body part,Tripa,belly,,,,0.7066666666666667,,,0.8
+399,body part,Ombligo,bellybutton,,,,0.6133333333333333,,,0.8
+400,body part,Biceps,biceps,,,,0.5800000000000001,,,0.95
+401,body part,Vejiga,bladder,,,,0.4533333333333333,,,0.85
+402,body part,Culo,bottom,,,,0.84,,,0.8
+403,body part,Trasero,bottom,,,,0.7666666666666666,,,0.95
+404,body part,Cerebro,brain,,,,0.5466666666666667,,,0.8
+405,body part,Pecho,breast,,,,0.8533333333333334,,,0.95
+406,body part,Pechos,breasts,,,,0.8266666666666667,,,0.95
+407,body part,Gemelo,calf muscle,,,,0.5133333333333333,,,0.8
+408,body part,Cerebelo,cerebellum,,,,0.24,,,0.8
+409,body part,Mejilla,cheek,,,,0.7533333333333333,,,0.95
+410,body part,Moflete,chubby cheek,,,,0.6933333333333334,,,0.8
+411,body part,Clavícula,collarbone,,,,0.5800000000000001,,,0.95
+412,body part,Colon,colon,,,,0.2466666666666666,,,0.0
+413,body part,Oído,ear,,,,0.7466666666666667,,,0.85
+414,body part,Extremidades,extremities,,,,0.6266666666666666,,,0.95
+415,body part,Ceja,eyebrow,,,,0.5333333333333333,,,0.95
+416,body part,Pestaña,eyelash,,,,0.4866666666666666,,,0.2
+417,body part,Párpado,eyelid,,,,0.5266666666666667,,,0.85
+418,body part,Femur,femur,,,,0.3933333333333333,,,0.95
+419,body part,Peroné,fibula,,,,0.3999999999999999,,,0.95
+420,body part,Cubito,fibula,,,,0.2199999999999999,,,0.8
+421,body part,Antebrazo,forearm,,,,0.52,,,0.95
+422,body part,Frente,forehead,,,,0.7599999999999999,,,0.85
+423,body part,Glúteo,gluteus,,,,0.54,,,0.95
+424,body part,Ingle,groin,,,,0.5,,,0.0
+425,body part,Pelo,hair,,,,0.7266666666666667,,,0.95
+426,body part,Cabeza,head,,,,1.0,,,0.95
+427,body part,Corazón,heart,,,,0.7266666666666667,,,0.8
+428,body part,Talón,heel,,,,0.6,,,0.8
+429,body part,Húmero,humerus,,,,0.3266666666666666,,,0.95
+430,body part,Incisivo,incisor,,,,0.3,,,0.8
+431,body part,Intestino,intestine,,,,0.44,,,0.8
+432,body part,Articulaciones,joints,,,,0.3999999999999999,,,0.8
+433,body part,Riñón,kidney,,,,0.54,,,0.85
+434,body part,Rótula,kneecap,,,,0.4133333333333333,,,0.95
+435,body part,Laringe,larynx,,,,0.3933333333333333,,,0.95
+436,body part,Labio,lip,,,,0.8466666666666667,,,0.95
+437,body part,Hígado,liver,,,,0.5266666666666667,,,0.85
+438,body part,Pulmón,lung,,,,0.56,,,0.95
+439,body part,Muela,molar,,,,0.4866666666666666,,,0.85
+440,body part,Bigote,moustache,,,,0.4533333333333333,,,0.8
+441,body part,Músculo,muscle,,,,0.6,,,0.95
+442,body part,Uña,nail,,,,0.6333333333333333,,,0.85
+443,body part,Nuca,nape,,,,0.6866666666666666,,,0.95
+444,body part,Esófago,oesophagus,,,,0.3066666666666666,,,0.95
+445,body part,Ovario,ovary,,,,0.3866666666666666,,,0.85
+446,body part,Pancreas,pancreas,,,,0.3533333333333333,,,0.95
+447,body part,Pelvis,pelvis,,,,0.5,,,0.95
+448,body part,Pene,penis,,,,0.7266666666666667,,,0.85
+449,body part,Falange,phalange,,,,0.2733333333333334,,,0.0
+450,body part,Faringe,pharynx,,,,0.34,,,0.85
+451,body part,Radio,radius,,,,0.3133333333333333,,,0.0
+452,body part,Costilla,rib,,,,0.6533333333333333,,,0.95
+453,body part,Omóplato,shoulder blade,,,,0.4133333333333333,,,0.95
+454,body part,Tendón,tendon,,,,0.3933333333333333,,,0.85
+455,body part,Testículo,testicle,,,,0.5466666666666667,,,0.85
+456,body part,Muslo,thigh,,,,0.7333333333333334,,,0.95
+457,body part,Tórax,thorax,,,,0.5866666666666666,,,0.95
+458,body part,Tibia,tibia,,,,0.4266666666666667,,,0.95
+459,body part,Triceps,triceps,,,,0.3933333333333333,,,0.95
+460,body part,Tronco,trunk,,,,0.7066666666666667,,,0.95
+461,body part,Vagina,vagina,,,,0.5266666666666667,,,0.95
+462,body part,Vena,vein,,,,0.4133333333333333,,,0.8
+463,body part,Cintura,waist,,,,0.7000000000000001,,,0.95
+518,clothing,Albornoz,bathrobe,,,bathrobe,0.3333333333333333,,0.5888991960420533,0.8
+520,clothing,Cinturón,belt,,,belt,0.36,,0.5910457206138269,0.85
+521,clothing,Biquini,bikini,Bikini,bikini,bikini,0.4066666666666667,0.7166666666666667,0.5043731778425656,0.85
+523,clothing,Blusa,blouse,Bluse,blouse,blouse,0.7933333333333333,0.9166666666666666,0.8165784832451498,0.95
+527,clothing,Bota,boot,,,boot,0.4066666666666667,,0.5338225177711534,0.8
+532,clothing,Sujetado,bra,BH,bra,bra,0.5666666666666668,0.7416666666666667,0.703844328429046,0.8
+533,clothing,Pulsera,bracelet,,,bracelet,0.0533333333333333,,0.289985761746559,0.2
+536,clothing,Rebeca,cardigan,Strickjacke,cardigan,cardigan,0.7000000000000001,0.7916666666666666,0.6822157434402333,0.0
+538,clothing,Capa,cloak,Umhang,cloak,cloak,0.2666666666666666,0.2982456140350877,0.3410869724233779,0.95
+540,clothing,Abrigo,coat,Mantel,coat,coat,0.8333333333333334,0.9333333333333332,0.8526575465350975,0.95
+541,clothing,Corsé,corset,Korsett,corset,corset,0.2199999999999999,0.375,0.3418157386411354,0.8
+547,clothing,Vestido,dress,Kleid,dress,dress,0.9533333333333333,0.9333333333333332,0.8880715076728365,0.95
+550,clothing,Chancla,flip-flop,,,flip-flop,0.2266666666666666,,0.4509571270368611,0.05
+552,clothing,Liga,garter,,,garter,0.1266666666666666,,0.2647828362114076,0.8
+553,clothing,Guante,glove,Handschuh,glove,glove,0.3799999999999999,0.6833333333333332,0.4888016745159602,0.85
+554,clothing,Gorro,hat,,,hat,0.4333333333333333,,0.596684650871843,0.85
+559,clothing,Chaqueta,jacket,Jacke,jacket,jacket,0.86,0.95,0.8272567453947871,0.95
+560,clothing,Tejano,jeans,Jeans,jeans,jeans,0.8733333333333334,0.9333333333333332,0.928631897203326,0.8
+567,clothing,Mallas,leotard,,,leotard,0.3799999999999999,,0.4269662921348314,0.95
+571,clothing,Manoplas,mitten,Fäustlinge,mittens,mitten,0.28,0.5,0.4428247489471979,0.2
+579,clothing,Calzoncillos,pants,,,pants,0.6066666666666666,,0.9315797430083144,0.85
+582,clothing,Polo,polo shirt,Polo-Shirt,polo shirt,polo shirt,0.8533333333333334,0.7000000000000001,0.7895158063225288,0.8
+583,clothing,Gabardina,raincoat,Regenjacke,raincoat,raincoat,0.6666666666666666,0.7833333333333333,0.5118047218887555,0.85
+584,clothing,Bata,robe,,,robe,0.3999999999999999,,0.5747469719595156,0.8
+585,clothing,Sandalia,sandals,,,sandal,0.32,,0.4761113747824711,0.85
+586,clothing,Bufanda,scarf,Tuch,scarf,scarf,0.5266666666666667,0.5166666666666667,0.6496289424860855,0.85
+587,clothing,Chal,shawl,Schal,shawl,shawl,0.355,0.7833333333333333,0.4677080708826739,0.05
+588,clothing,Camisa,shirt,Hemd,shirt,shirt,0.9133333333333334,0.9333333333333332,0.937446242864962,0.95
+589,clothing,Zapato,shoes,,,shoe,0.4599999999999999,,0.6056794810947635,0.85
+590,clothing,Shorts,shorts,Shorts,shorts,shorts,0.6333333333333333,0.7416666666666667,0.8419110172804753,0.85
+592,clothing,Falda,skirt,Rock,skirt,skirt,0.9066666666666668,0.9083333333333332,0.8178552319804326,0.95
+596,clothing,Calcetines,socks,Socke,sock,sock,0.6533333333333333,0.9416666666666668,0.6980469607197718,0.85
+602,clothing,Traje,suit,Anzug,suit,suit,0.9333333333333332,0.9333333333333332,0.7550280981958001,0.95
+604,clothing,Sudadera,sweater,Pullover,sweater,sweater,0.9,0.9916666666666668,0.8818868206623308,0.95
+606,clothing,Bañador,swimsuit,Badeanzug,swimsuit,swimsuit,0.4599999999999999,0.6416666666666667,0.5824536711236219,0.85
+607,clothing,Camiseta,T-shirt,,,t-shirt,0.94,,0.8996134817563387,0.95
+609,clothing,Corbata,tie,Krawatte,tie,tie,0.4333333333333333,0.5833333333333334,0.5488721804511277,0.85
+620,clothing,Chaleco,vest,Unterhemd,vest,vest,0.5333333333333333,0.8250000000000001,0.6891488302638129,0.95
+623,clothing,Palestina/o,Palestinian scarf,,,,0.12,,,0.0
+624,clothing,Botines,ankle boot,,,,0.2466666666666666,,,0.85
+625,clothing,Tobillera,ankleband,,,,0.0333333333333333,,,0.8
+626,clothing,Anorak,anorak,Anorak,anorak,,0.48,0.8666666666666667,,0.8
+627,clothing,Bolso,bag,,,,0.26,,,0.6
+628,clothing,Bolsa,bag,,,,0.0666666666666666,,,0.2
+629,clothing,Pareo,beach wrap,,,,0.3066666666666666,,,0.8
+630,clothing,Correa,belt,,,,0.16,,,0.8
+631,clothing,Boina,beret,,,,0.1933333333333333,,,0.85
+632,clothing,Bermudas,bermuda shorts,,,,0.42,,,0.85
+633,clothing,Body,body stocking,,,,0.2933333333333333,,,0.95
+634,clothing,Peúcos,bootees,,,,0.1533333333333333,,,0.0
+635,clothing,Pajarita,bow tie,,,,0.1066666666666666,,,0.05
+636,clothing,Tirantes,braces,Hosenträger,braces ,,0.2066666666666667,0.2916666666666667,,0.8
+637,clothing,Botón,button,,,,0.1,,,0.0
+638,clothing,Gorra,cap,Mütze,cap,,0.44,0.8416666666666667,,0.85
+639,clothing,Mono,dungarees,Latzhose,dungarees,,0.4599999999999999,0.7083333333333334,,0.0
+640,clothing,Peto,dungrarees,,,,0.6133333333333333,,,0.0
+641,clothing,Orejeras,earflaps,,,,0.12,,,0.6
+642,clothing,Polar,fleece,,,,0.7466666666666667,,,0.05
+643,clothing,Fular,foulard scarf,,,,0.34,,,0.8
+644,clothing,Tanga,g-string,,,,0.4333333333333333,,,0.8
+645,clothing,Faja,girdle,,,,0.2666666666666666,,,0.95
+646,clothing,Diadema,hairband,Haarband,hairband,,0.14,0.196078431372549,,0.8
+647,clothing,Pañuelo,handkerchief,,,,0.24,,,0.8
+648,clothing,Sombrero,hat,,,,0.2933333333333333,,,0.8
+649,clothing,Cazadora,jacket,,,,0.8333333333333334,,,0.8
+650,clothing,Americana,jacket,,,,0.5266666666666667,,,0.85
+651,clothing,Jeans,jeans,,,,0.82,,,0.95
+652,clothing,Suéter,jumper,,,,0.9266666666666666,,,0.95
+653,clothing,Rodillera,kneeband,,,,0.0466666666666666,,,0.85
+654,clothing,Chupa,leather jacket,Lederjacke,leather jacket,,0.4866666666666666,0.7083333333333334,,0.2
+655,clothing,Minifalda,miniskirt,Minirock,miniskirt,,0.7466666666666667,0.6833333333333332,,0.85
+656,clothing,Collares,necklaces,,,,0.12,,,0.8
+657,clothing,Camisón,night-dress,,,,0.4666666666666666,,,0.95
+658,clothing,Bragas,pants,,,,0.5733333333333334,,,0.95
+659,clothing,Pichi,pinafore dress,,,,0.5,,,0.0
+660,clothing,Poncho,poncho,,,,0.4599999999999999,,,0.85
+661,clothing,Jersey,pullover,,,,0.9266666666666666,,,0.95
+662,clothing,Pijama,pyjama,Schlafanzug,pyjamas,,0.6933333333333334,0.775,,0.6
+663,clothing,Plumas,quilted anorak,,,,0.6933333333333334,,,0.8
+664,clothing,plumífero,quilted anorak,,,,0.5866666666666666,,,0.8
+665,clothing,Chubasquero,raincoat,,,,0.56,,,0.85
+666,clothing,Impermeable,raincoat,,,,0.4466666666666667,,,0.8
+667,clothing,Anillo,ring,,,,0.2,,,0.2
+668,clothing,Rokys,rokys,,,,0.1666666666666666,,,0.0
+669,clothing,Chaquetón,short coat,,,,0.6466666666666666,,,0.95
+670,clothing,Slips,slips,,,,0.54,,,0.0
+671,clothing,Ejecutivos,sock,,,,0.2,,,0.0
+672,clothing,Chándal,sportsuit,,,,0.7733333333333333,,,0.8
+673,clothing,Niqui,t-shirt,,,,0.8066666666666666,,,0.0
+674,clothing,Frac,tailcoat,,,,0.3533333333333333,,,0.0
+675,clothing,Medias,tights,Strumpfhose,tights,,0.4066666666666667,0.7666666666666666,,0.95
+676,clothing,Panty,tights,,,,0.3933333333333333,,,0.8
+677,clothing,Top,top,Top,top,,0.6466666666666666,0.5333333333333333,,0.8
+678,clothing,Deportivas,trainers,,,,0.4666666666666666,,,0.6
+679,clothing,Zapatilla,trainers,,,,0.4333333333333333,,,0.85
+680,clothing,Pantaloon,trousers,Hose,trousers,,0.9533333333333333,1.0,,0.8
+681,clothing,Calzones,underpants,Unterhose,underpants,,0.48,0.7916666666666666,,0.8
+682,clothing,Reloj,watch,,,,0.08,,,0.0
+683,clothing,Leotardo,woolen tights,,,,0.36,,,0.8
+684,clothing,Muñequera,wristband,,,,0.0466666666666666,,,0.8
+1448,furniture,Cama,bed,Bett,bed,bed,0.9866666666666668,0.9666666666666668,0.827791790873653,0.95
+1449,furniture,Banco,bench,Bank,bench,bench,0.6533333333333333,0.6140350877192983,0.5129836880988955,0.95
+1453,furniture,Silla,chair,Stuhl,chair,chair,0.9666666666666668,0.975,0.8478088909982597,0.95
+1454,furniture,Arcón,chest,Truhe,chest,chest,0.3999999999999999,0.6749999999999999,0.4743351886209028,0.2
+1462,furniture,Escritor,desk,Schreibtisch,desk,desk,0.8133333333333334,0.9,0.7591362126245846,0.0
+1466,furniture,Hamaca,hammock,,,hammock,0.4066666666666667,,0.240082549873882,0.85
+1476,furniture,Mecedora,rocking chair,Schaukelstuhl,rocking chair,rocking chair,0.6933333333333334,0.7083333333333334,0.580395794681509,0.2
+1477,furniture,Estante,shelf,Regal,shelf,shelf,0.7533333333333333,0.8421052631578947,0.4803944049529923,0.95
+1480,furniture,Taburete,stool,Hocker,stool,stool,0.7866666666666666,0.7999999999999999,0.5293524817334341,0.85
+1481,furniture,Mesa,table,Tisch,table,table,0.9866666666666668,0.925,0.8757693553611922,0.95
+1484,furniture,Sillón,armchair,Sessel,armchair,,0.96,0.9583333333333334,,0.95
+1485,furniture,Butaca,armchair,,,,0.7666666666666666,,,0.95
+1486,furniture,Barra,bar,,,,0.1466666666666666,,,0.67
+1487,furniture,Bañera,bath,,,,0.4333333333333333,,,0.8
+1488,furniture,Mesita,bedside table,Nachttisch,bedside table,,0.8933333333333334,0.775,,0.95
+1489,furniture,Bide,bidet,,,,0.4066666666666667,,,0.0
+1490,furniture,Portalibros,book shelf,,,,0.3066666666666666,,,0.2
+1491,furniture,Librería,book shelves,,,,0.7333333333333334,,,0.8
+1492,furniture,Litera,bunk bed,,,,0.68,,,0.85
+1493,furniture,Buró,bureau,,,,0.36,,,0.95
+1494,furniture,Arca,chest,,,,0.3999999999999999,,,0.6
+1495,furniture,Cajonera,chest of drawers,Kommode,chest of drawers,,0.6866666666666666,0.8916666666666666,,0.85
+1496,furniture,Sinfonier,chest of drawers,,,,0.5333333333333333,,,0.05
+1497,furniture,Comodín,chest of drawers,,,,0.42,,,0.0
+1498,furniture,Reloj,clock,,,,0.2533333333333333,,,0.2
+1499,furniture,Perchero,clothes stand,,,,0.4733333333333333,,,0.8
+1500,furniture,Ordenador,computer,,,,0.2066666666666667,,,0.05
+1501,furniture,Consola,console table,,,,0.4066666666666667,,,0.2
+1502,furniture,Rinconera,cornerboard,,,,0.64,,,0.6
+1503,furniture,Alacena,cupboard,Schrank,cupboard,,0.3933333333333333,0.975,,0.85
+1504,furniture,Cortina,curtain,,,,0.4466666666666667,,,0.2
+1505,furniture,Tumbona,deck chair,,,,0.5533333333333333,,,0.85
+1506,furniture,Lavaplatos,dishwasher,,,,0.3133333333333333,,,0.8
+1507,furniture,Lavavajillas,dishwasher,,,,0.26,,,0.2
+1508,furniture,Diván,divan,,,,0.4866666666666666,,,0.8
+1509,furniture,Puerta,door,,,,0.4133333333333333,,,0.85
+1510,furniture,Cajón,drawer,,,,0.7933333333333333,,,0.85
+1511,furniture,Tocador,dressing table,Schminktisch,dressing table,,0.7066666666666667,0.4833333333333334,,0.95
+1512,furniture,Coqueta,dressing table,,,,0.3933333333333333,,,0.0
+1513,furniture,Entradita,entrance hall,,,,0.28,,,0.2
+1514,furniture,Tiestos,flowerpot,,,,0.0933333333333333,,,0.05
+1515,furniture,Escabel,footstool,,,,0.1666666666666666,,,0.8
+1516,furniture,Frigorífico,fridge,,,,0.5866666666666666,,,0.2
+1517,furniture,Nevera,fridge,,,,0.2866666666666667,,,0.6
+1518,furniture,Vitrina,glass cabinet,,,,0.52,,,0.8
+1519,furniture,Recibidor,hall,,,,0.48,,,0.8
+1520,furniture,Percha,hanger,,,,0.2933333333333333,,,0.2
+1521,furniture,Cocina,kitchen,,,,0.56,,,0.2
+1522,furniture,Lámpara,lamp,,,,0.4666666666666666,,,0.8
+1523,furniture,Papelera,litter,,,,0.3066666666666666,,,0.2
+1524,furniture,Retrete,loo,,,,0.1333333333333333,,,0.2
+1525,furniture,Revistero,magazine rack,,,,0.4066666666666667,,,0.8
+1526,furniture,Microondas,microwaves,,,,0.2733333333333334,,,0.0
+1527,furniture,Minicadena,mini hi-fi,,,,0.2133333333333333,,,0.0
+1528,furniture,Espejo,mirror,,,,0.5933333333333333,,,0.05
+1529,furniture,Mural,mural,,,,0.1666666666666666,,,0.6
+1530,furniture,Horno,oven,,,,0.3933333333333333,,,0.2
+1531,furniture,Piano,piano,,,,0.2,,,0.8
+1532,furniture,Cuadro,picture,,,,0.4666666666666666,,,0.95
+1533,furniture,Posaplatos,place mat,,,,0.1733333333333333,,,0.8
+1534,furniture,Escurreplatos,plate rack,,,,0.3733333333333333,,,0.0
+1535,furniture,Puf,pouffe,,,,0.3333333333333333,,,0.0
+1536,furniture,Radio,radio,,,,0.2066666666666667,,,0.0
+1537,furniture,Barandilla,railing,,,,0.2733333333333334,,,0.8
+1538,furniture,Flexo,reading lamp,,,,0.42,,,0.2
+1539,furniture,Fogón,ring,,,,0.2733333333333334,,,0.2
+1540,furniture,Alfombra,rug,,,,0.3999999999999999,,,0.85
+1541,furniture,Pupitre,school desk,,,,0.7400000000000001,,,0.95
+1542,furniture,Balancin,seesaw,,,,0.3133333333333333,,,0.8
+1543,furniture,Repisa,shelf,,,,0.4333333333333333,,,0.85
+1544,furniture,Estantería,shelves,,,,0.88,,,0.95
+1545,furniture,Descalzadora,shoe horn,,,,0.14,,,0.2
+1546,furniture,Zapatero,shoe rack,,,,0.5933333333333333,,,0.2
+1547,furniture,Ducha,shower,,,,0.3733333333333333,,,0.2
+1548,furniture,Cómoda,sideboard,Anrichte,sideboard,,0.7799999999999999,0.7166666666666667,,0.85
+1549,furniture,Aparador,sideboard,,,,0.4466666666666667,,,0.95
+1550,furniture,Fregadero,sink,,,,0.5133333333333333,,,0.85
+1551,furniture,Fregador,sink,,,,0.18,,,0.8
+1552,furniture,Sofá,sofa,Sofa,sofa,,0.9666666666666668,0.9666666666666668,,0.95
+1553,furniture,Tresillo,sofa,,,,0.84,,,0.05
+1554,furniture,Vidriera,stained-glass window,,,,0.12,,,0.2
+1555,furniture,Banqueta,stool,,,,0.6533333333333333,,,0.85
+1556,furniture,Televisión,television,,,,0.5,,,0.0
+1557,furniture,Televisor,television,,,,0.3133333333333333,,,0.2
+1558,furniture,WC,toilet,,,,0.1466666666666666,,,0.2
+1559,furniture,Váter,toilet,,,,0.1133333333333333,,,0.2
+1560,furniture,Taquillón,traditional Spanish table,,,,0.64,,,0.2
+1561,furniture,Nido,truckle bed,,,,0.3799999999999999,,,0.8
+1562,furniture,Baúl,trunk,,,,0.6733333333333333,,,0.85
+1563,furniture,Paragüero,umbrella stand,,,,0.34,,,0.8
+1564,furniture,Jarrón,vase,,,,0.3133333333333333,,,0.2
+1565,furniture,Video,video,,,,0.14,,,0.0
+1566,furniture,Armario,wardrobe,,,,1.0,,,0.95
+1567,furniture,Ropero,wardrobe,,,,0.8466666666666667,,,0.95
+1568,furniture,Guardarropa,wardrobe,,,,0.66,,,0.8
+1569,furniture,Lavabo,washbasin,,,,0.4666666666666666,,,0.85
+1570,furniture,Lavadora,washing machine,,,,0.3,,,0.2
+1571,furniture,Ventana,window,,,,0.2,,,0.8
+1572,furniture,Encimera,worktop,,,,0.5800000000000001,,,0.85
+1573,furniture,Secreter,writing desk,,,,0.5733333333333334,,,0.8
+1840,intelligence,Historia,History,,,,0.3333333333333333,,,0.6
+1841,intelligence,Yo,I,,,,0.3999999999999999,,,0.8
+1842,intelligence,NASA,NASA,,,,0.4133333333333333,,,0.85
+1843,intelligence,Filosofía,Philosophy,,,,0.6133333333333333,,,0.6
+1844,intelligence,Abundante,abundant,,,,0.2933333333333333,,,0.6
+1845,intelligence,Respuesta,answer,,,,0.6,,,0.8
+1846,intelligence,Atención,attention,,,,0.7333333333333334,,,0.8
+1847,intelligence,Atento,attentive,,,,0.7266666666666667,,,0.85
+1848,intelligence,Libro,book,,,,0.4866666666666666,,,0.2
+1849,intelligence,Cerebro,brain,,,,0.8533333333333334,,,0.95
+1850,intelligence,Capacidad,capacity,,,,0.82,,,0.85
+1851,intelligence,Estudios,career,,,,0.5800000000000001,,,0.85
+1852,intelligence,Carrera,career,,,,0.5800000000000001,,,0.4
+1853,intelligence,Carisma,charisma,,,,0.4599999999999999,,,0.4
+1854,intelligence,Ordenador,computer,,,,0.3999999999999999,,,0.05
+1855,intelligence,Concentración,concentration,,,,0.7000000000000001,,,0.85
+1856,intelligence,Aplicado,conscientious,,,,0.6733333333333333,,,0.85
+1857,intelligence,Conocimiento,consciousness,,,,0.8466666666666667,,,0.85
+1858,intelligence,Culto,cult,,,,0.66,,,0.2
+1859,intelligence,Cultura,culture,,,,0.7266666666666667,,,0.6
+1860,intelligence,Exámen,examination,,,,0.4599999999999999,,,0.85
+1861,intelligence,Estudioso,expert,,,,0.6333333333333333,,,0.85
+1862,intelligence,Superdotado,extremely gifted,,,,0.8266666666666667,,,0.6
+1863,intelligence,Familia,family,,,,0.28,,,0.2
+1864,intelligence,Sobresaliente,first class,,,,0.6533333333333333,,,0.85
+1865,intelligence,Tonto,fool,,,,0.3133333333333333,,,0.05
+1866,intelligence,Amistad,friendship,,,,0.4133333333333333,,,0.3
+1867,intelligence,Futuro,future,,,,0.4066666666666667,,,0.85
+1868,intelligence,Genio,genius,,,,0.8733333333333334,,,0.6
+1869,intelligence,Notas,grades,,,,0.5,,,0.2
+1870,intelligence,Felicidad,happiness,,,,0.4066666666666667,,,0.2
+1871,intelligence,Cabeza,head,,,,0.8066666666666666,,,0.85
+1872,intelligence,Idea,idea,,,,0.7933333333333333,,,0.85
+1873,intelligence,Imaginación,imagination,,,,0.7133333333333334,,,0.85
+1874,intelligence,Inteligencia,intelligence,,,,1.0,,,0.85
+1875,intelligence,Inteligente,intelligent,,,,0.9533333333333333,,,0.85
+1876,intelligence,Conocimientos,knowledge,,,,0.7000000000000001,,,0.85
+1877,intelligence,Aprendiz,learner,,,,0.7866666666666666,,,0.85
+1878,intelligence,Letras,letters,,,,0.3666666666666667,,,0.2
+1879,intelligence,Vida,life,,,,0.36,,,0.2
+1880,intelligence,Lógica,logic,,,,0.86,,,0.85
+1881,intelligence,Amor,love,,,,0.4666666666666666,,,0.2
+1882,intelligence,Hombre,man,,,,0.5133333333333333,,,0.05
+1883,intelligence,Matemáticas,maths,,,,0.5733333333333334,,,0.85
+1884,intelligence,Memoria,memory,,,,0.66,,,0.85
+1885,intelligence,Recuerdo,memory,,,,0.42,,,0.8
+1886,intelligence,Mente,mind,,,,0.8733333333333334,,,0.85
+1887,intelligence,Dinero,money,,,,0.2866666666666667,,,0.2
+1888,intelligence,Nervio,nerve,,,,0.24,,,0.05
+1889,intelligence,Neurona,neurone,,,,0.6733333333333333,,,0.85
+1890,intelligence,Números,numbers,,,,0.4599999999999999,,,0.85
+1891,intelligence,Aprobado,pass,,,,0.6,,,0.2
+1892,intelligence,Representación,play,,,,0.4133333333333333,,,0.85
+1893,intelligence,Poder,power,,,,0.3866666666666666,,,0.3
+1894,intelligence,Rapidez,rapidity,,,,0.7066666666666667,,,0.6
+1895,intelligence,Lectura,reading,,,,0.7200000000000001,,,0.85
+1896,intelligence,Razón,reason,,,,0.7933333333333333,,,0.85
+1897,intelligence,Razonamiento,reasoning,,,,0.9333333333333332,,,0.85
+1898,intelligence,Reflexión,reflection,,,,0.82,,,0.85
+1899,intelligence,Recordarto,remember,,,,0.6066666666666666,,,0.2
+1900,intelligence,Responsabilidad,responsibility,,,,0.4133333333333333,,,0.6
+1901,intelligence,Ciencia,science,,,,0.6933333333333334,,,0.85
+1902,intelligence,Científico,scientist,,,,0.6866666666666666,,,0.85
+1903,intelligence,Instituto,secondary school,,,,0.36,,,0.32
+1904,intelligence,Espabilado,sharp,,,,0.64,,,0.85
+1905,intelligence,Escasa,slim/limited,,,,0.24,,,0.32
+1906,intelligence,Listo,smart,,,,0.8666666666666667,,,0.6
+1907,intelligence,Alma,soul,,,,0.3266666666666666,,,0.0
+1908,intelligence,Estímulo,stimuli,,,,0.4133333333333333,,,0.2
+1909,intelligence,Estudiante,student,,,,0.5866666666666666,,,0.85
+1910,intelligence,Studio,study,,,,0.64,,,0.05
+1911,intelligence,Empollón,swot,,,,0.4866666666666666,,,0.3
+1912,intelligence,Profesor,teacher,,,,0.3733333333333333,,,0.85
+1913,intelligence,Diez,ten,,,,0.5533333333333333,,,0.05
+1914,intelligence,Test,test,,,,0.5066666666666667,,,0.85
+1915,intelligence,Pensamieto,thought,,,,0.7866666666666666,,,0.85
+1916,intelligence,Analizar,to analyse,,,,0.7533333333333333,,,0.8
+1917,intelligence,Copier,to cheat,,,,0.2666666666666666,,,0.2
+1918,intelligence,Descubrir,to discover,,,,0.7000000000000001,,,0.85
+1919,intelligence,Soñar,to dream,,,,0.34,,,0.3
+1920,intelligence,Conocer,to know,,,,0.7599999999999999,,,0.85
+1921,intelligence,saber,to know,,,,0.7533333333333333,,,0.85
+1922,intelligence,Aprender,to learn,,,,0.84,,,0.85
+1923,intelligence,Memorizar,to memorize,,,,0.6,,,0.85
+1924,intelligence,Aprobar,to pass,,,,0.68,,,0.2
+1925,intelligence,Leer,to read,,,,0.6266666666666666,,,0.85
+1926,intelligence,Razonar,to reason,,,,0.94,,,0.85
+1927,intelligence,Resolver,to solve,,,,0.84,,,0.85
+1928,intelligence,Estudiar,to study,,,,0.7333333333333334,,,0.85
+1929,intelligence,Pensar,to think,,,,0.8733333333333334,,,0.85
+1930,intelligence,Comprender,to understand,,,,0.8333333333333334,,,0.85
+1931,intelligence,Trabajar,to work,,,,0.32,,,0.6
+1932,intelligence,Escribir,to write,,,,0.52,,,0.85
+1933,intelligence,Universidad,university,,,,0.48,,,0.85
+1934,intelligence,Voluntad,will,,,,0.36,,,0.3
+1935,intelligence,Sabiduría,wisdom,,,,0.7933333333333333,,,0.8
+1936,intelligence,Sabio,wise,,,,0.82,,,0.85
+1937,intelligence,Mujer,woman,,,,0.32,,,0.0
+1938,intelligence,Palabras,words,,,,0.5466666666666667,,,0.85
+1939,intelligence,Trabajo,work,,,,0.3466666666666667,,,0.6
